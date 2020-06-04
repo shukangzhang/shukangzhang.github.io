@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>about</title>
+    <url>/2020/06/03/about/</url>
+    <content><![CDATA[<p>测试<br>文心雕龙</p>
+]]></content>
+  </entry>
+  <entry>
     <title>GitHub Hexo报错汇总</title>
-    <url>/2020/06/03/GitHub%20Hexo%E6%8A%A5%E9%94%99%E6%B1%87%E6%80%BB/</url>
+    <url>/2020/06/04/GitHub%20Hexo%E6%8A%A5%E9%94%99%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[<h1 id="GitHub-Hexo"><a href="#GitHub-Hexo" class="headerlink" title="GitHub+Hexo"></a>GitHub+Hexo</h1><ol>
 <li><p><code>$ hexo init</code></p>
 <p> 网络问题初始化失败，删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
@@ -46,12 +52,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>about</title>
-    <url>/2020/06/03/about/</url>
-    <content><![CDATA[<p>测试<br>文心雕龙</p>
 ]]></content>
   </entry>
 </search>
