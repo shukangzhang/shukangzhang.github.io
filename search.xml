@@ -27,7 +27,7 @@
   <entry>
     <title>GitHub Hexo报错汇总</title>
     <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
-    <content><![CDATA[<h1 id="GitHub-Hexo"><a href="#GitHub-Hexo" class="headerlink" title="GitHub+Hexo"></a>GitHub+Hexo</h1><ol>
+    <content><![CDATA[<ol>
 <li><p><code>$ hexo init</code></p>
 <p> 网络问题初始化失败，删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
 <p> 尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
@@ -85,6 +85,7 @@
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <a id="more"></a>
+
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
