@@ -94,19 +94,20 @@
   <entry>
     <title>NexT Optimize</title>
     <url>/2020/06/05/next-optimize/</url>
-    <content><![CDATA[<p>Darunten werde ich über die Optimierung von NexT reden</p>
+    <content><![CDATA[<p>Darunten werde ich über die Optimierung von NexT reden<br>Below I will talk about the optimization of NexT<br>下面将讨论关于NexT主题的优化</p>
+<a id="more"></a>
+
 <ol>
 <li>设置文章末尾”本文结束”标记</li>
 </ol>
-<p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p>
-<p><code>&lt;div&gt;
+<p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：<br><code>&lt;div&gt;
     
         </code></p><div style="text-align:center;color: #ccc;font-size:24px;"><code>-End-</code></div><code>
     
-    &lt;/div&gt;</code><p></p>
-<ol start="2">
-<li></li>
-</ol>
+    &lt;/div&gt;</code><br>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：<br>`<p></p>
+
+<p> <code>然后打开主题配置文件（\_config.yml)，在末尾添加：</code># 文章末尾添加“本文结束”标记<br>passage_end_tag:<br>  enabled: true`</p>
+<p>2.</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
