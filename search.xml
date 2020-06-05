@@ -26,12 +26,17 @@
   </entry>
   <entry>
     <title>GitHub Hexo报错汇总</title>
-    <url>/2020/06/04/github-hexo-bao-cuo-hui-zong/</url>
+    <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
     <content><![CDATA[<h1 id="GitHub-Hexo"><a href="#GitHub-Hexo" class="headerlink" title="GitHub+Hexo"></a>GitHub+Hexo</h1><ol>
 <li><p><code>$ hexo init</code></p>
 <p> 网络问题初始化失败，删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
 <p> 尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
+<p> 其实<code>$ hexo init</code>不需要重装hexo-cli服务</p>
 </li>
+</ol>
+<a id="more"></a>
+
+<ol start="2">
 <li><p><code>npm set registry[http://registry.npmjs.org/](http://registry.npmjs.org/)</code></p>
 <p> 可以重置链接</p>
 </li>
