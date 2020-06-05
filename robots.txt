@@ -1,0 +1,24 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: https://shukangzhang.com/2020/06/05/hexo-bi-ji/
+Sitemap: https://shukangzhang.com/2020/06/05/po-shi-er-2020/
+Sitemap: https://shukangzhang.com/2020/06/03/github-hexo-bao-cuo-hui-zong/
+Sitemap: https://shukangzhang.com/2020/06/05/next-optimize/
+Sitemap: https://shukangzhang.com/Harz%20Wandernadel/index.html
+Sitemap: https://shukangzhang.com/2020/06/05/creo-xue-xi-bi-ji/
+Sitemap: https://shukangzhang.com/2020/06/03/hello-world/
+Sitemap: https://shukangzhang.com/friends/index.html
+Sitemap: https://shukangzhang.com/contact/index.html
+Sitemap: https://shukangzhang.com/about/index.html
+Sitemap: https://shukangzhang.com/tags/index.html
+Sitemap: https://shukangzhang.com/categories/index.html
