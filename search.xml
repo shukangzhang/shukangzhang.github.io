@@ -98,10 +98,15 @@
 <ol>
 <li>设置文章末尾”本文结束”标记</li>
 </ol>
-<p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：<br>    </p><div><br>    
-        <div style="text-align:center;color: #ccc;font-size:24px;">-End-</div>
-    <br>    </div><p></p>
-<p>2.</p>
+<p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p>
+<p><code>&lt;div&gt;
+    
+        </code></p><div style="text-align:center;color: #ccc;font-size:24px;"><code>-End-</code></div><code>
+    
+    &lt;/div&gt;</code><p></p>
+<ol start="2">
+<li></li>
+</ol>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
