@@ -22,3 +22,4 @@ Sitemap: https://shukangzhang.com/contact/index.html
 Sitemap: https://shukangzhang.com/about/index.html
 Sitemap: https://shukangzhang.com/tags/index.html
 Sitemap: https://shukangzhang.com/categories/index.html
+Sitemap: shukangzhang.com
