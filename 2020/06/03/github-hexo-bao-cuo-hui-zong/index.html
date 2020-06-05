@@ -29,7 +29,7 @@
 <meta property="og:description" content="$ hexo init  网络问题初始化失败，删除所有hexo安装包以后重新输入$ npm intall -g hexo-cli失败  尝试$ npm intall -g --foece hexo-cli成功, --force 可以暴力覆盖  其实$ hexo init不需要重装hexo-cli服务">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-06-03T00:59:48.501Z">
-<meta property="article:modified_time" content="2020-06-05T00:35:57.686Z">
+<meta property="article:modified_time" content="2020-06-05T18:37:08.008Z">
 <meta property="article:author" content="Shukang Zhang">
 <meta name="twitter:card" content="summary">
 
@@ -196,7 +196,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-06-05 02:35:57" itemprop="dateModified" datetime="2020-06-05T02:35:57+02:00">2020-06-05</time>
+                <time title="Modified: 2020-06-05 20:37:08" itemprop="dateModified" datetime="2020-06-05T20:37:08+02:00">2020-06-05</time>
               </span>
 
           
@@ -227,13 +227,13 @@
 <a id="more"></a>
 
 <ol start="2">
-<li><p><code>npm set registry[http://registry.npmjs.org/](http://registry.npmjs.org/)</code></p>
+<li><p><code>npm set registry http://registry.npmjs.org/</code></p>
 <p> 可以重置链接</p>
 </li>
 <li><p><a href="https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3" target="_blank" rel="noopener">https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3</a></p>
 </li>
-<li><p>Hi, sorry, i must hv done something wrong.<br>i tried to point, which i hv just bought from you, to But now when i type, the browser shows a</p>
-<p>结果应该是Domain提供商反应比较慢，现在好了</p>
+<li><p>Hi, sorry, i must hv done something wrong.<br>i tried to point <a href="http://shukangzhang.com/" target="_blank" rel="noopener">shukangzhang.com</a>, which i hv just bought from you, to<a href="http://shukangzhang.github.io/">shukangzhang.github.io</a>. But now when i type <a href="http://shukangzhang.com/" target="_blank" rel="noopener">shukangzhang.com</a>, the browser shows a</p>
+<p>邮件写到一半，结果网页自动刷新，一切正常了。。。应该是Domain提供商反应比较慢，现在好了</p>
 </li>
 <li><p>hexo deploy not found git<br>是因为没有装<code>$ npm install hexo-deployer-git --save</code></p>
 </li>
@@ -243,10 +243,19 @@
 </li>
 <li><p>hexo-更改本地路径<br>a. config.yml文件中配置如下：<br>b. hexo s -p 5000</p>
 </li>
+<li><p>添加gitalk<br>我原来看的教程推荐的是gitment，结果gitment已经停止服务了，<code>NexT</code>也已经不再集成gitment服务，于是转为安装gitalk评论系统，基于github issues，这里就不过多介绍了，总之，每篇文章都会在你事先建好的Repository里添加一条issues用于保存与这篇文章有关的评论。</p>
+<p>真可谓一波三折，因为很多gitalk安装教程都已经是很旧的了，各种index.md文件找不到啦，comments.swig打开跟教程里不一样啦，comments.ejs语法略有不同啦，折腾来折腾去不知道怎么办。</p>
+<p>还好我有点html基础，发现主题配置文件里_config.yml里直接就有gitalk的相关配置，那我又已经<code>npm i --save gitalk</code>，建好OAuth apps以后，填好各项配置如下:</p>
+<figure class="highlight"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  github_id: shukangzhang # GitHub repo owner</span><br><span class="line">  repo: pinglun # Repository name to store issues</span><br><span class="line">  client_id: 59xxxxxx # GitHub Application Client ID</span><br><span class="line">  client_secret: 81xxxxx # GitHub Application Client Secret</span><br><span class="line">  admin_user: shukangzhang # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br></pre></td></tr></tbody></table></figure>
+<p>模块就添加成功啦</p>
+<p>这里必须得提一下我也遇到了老生常谈的<code>Error: Not found</code>的问题，但我的问题比较轻，是因为对别人教程的理解问题，我通过api.github.com查询了我的github_ID，我以为是要填写ID一栏显示的000000那串数字，结果一直Error: Not found，按F12审查元素:</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="comment">//api.github.com/repos/45145936/pinglun/issues?labels=Gitalk,cf1b9bedf8abfdc34802bcf9d9cde839&amp;t=1591326997341</span></span><br></pre></td></tr></tbody></table></figure>
+<p>这个网址始终返回404 not found. 也就是说，程序找不到相应的Repostory来创建issues，仓库地址错误！那么我于此得来灵感，我建的新仓库<code>pinglun</code>不可能出错，只可能是前面的那串数字错了，但是api.github.com返回的ID也没有错，那我看了别人的设置，把自己的github_ID也换成名称串，跟owner一样，再试就成了</p>
+</li>
+<li><p>xxx</p>
+</li>
 </ol>
-<ol start="9">
-<li>未完待续</li>
-</ol>
+<p>xxx. 未完待续</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -276,7 +285,7 @@
        <div>
          <div>
     
-        <div style="text-align:center;color: #ccc;font-size:24px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+        <div style="text-align:center;color: #ccc;font-size:24px;">-End-</div>
     
 </div>
 
@@ -389,7 +398,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -411,7 +420,7 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="https://zh.wikipedia.org/wiki/%E6%95%A3%E5%BA%A6#cite_note-fluid-4" title="https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;%E6%95%A3%E5%BA%A6#cite_note-fluid-4" rel="noopener" target="_blank">散度Wiki解释</a>
+          <a href="http://www.fontawesome.com.cn/faicons/#web-application" title="http:&#x2F;&#x2F;www.fontawesome.com.cn&#x2F;faicons&#x2F;#web-application" rel="noopener" target="_blank">Font_Awesome</a>
         </li>
     </ul>
   </div>

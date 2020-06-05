@@ -1,46 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>NexT Optimize</title>
-      <link href="/2020/06/05/next-optimize/"/>
-      <url>/2020/06/05/next-optimize/</url>
-      
-        <content type="html"><![CDATA[<p>Darunten werde ich über die Optimierung von NexT reden<br>Below I will talk about the optimization of NexT<br>下面将讨论关于NexT主题的优化</p><a id="more"></a><ol><li>设置文章末尾”本文结束”标记</li></ol><p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">{% <span class="keyword">if</span> not is_index %}</span><br><span class="line">    &lt;div style=<span class="string">"text-align:center;color: #ccc;font-size:24px;"</span>&gt;-End-&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">{% endif %}</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></tbody></table></figure><p>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：</p><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">{% <span class="keyword">if</span> not is_index and theme.passage_end_tag.enabled %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include <span class="string">'passage-end-tag.swig'</span> %}</span><br><span class="line">   &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp"> {% endif %}</span></span><br></pre></td></tr></tbody></table></figure><p>然后打开主题配置文件（_config.yml)，在末尾添加：</p><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: <span class="literal">true</span><span class="string">`</span></span><br></pre></td></tr></tbody></table></figure><ol start="2"><li>dd</li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>GitHub Hexo报错汇总</title>
-      <link href="/2020/06/03/github-hexo-bao-cuo-hui-zong/"/>
-      <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
-      
-        <content type="html"><![CDATA[<ol><li><p><code>$ hexo init</code></p><p> 网络问题初始化失败，删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p><p> 尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p><p> 其实<code>$ hexo init</code>不需要重装hexo-cli服务</p></li></ol><a id="more"></a><ol start="2"><li><p><code>npm set registry[http://registry.npmjs.org/](http://registry.npmjs.org/)</code></p><p> 可以重置链接</p></li><li><p><a href="https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3" target="_blank" rel="noopener">https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3</a></p></li><li><p>Hi, sorry, i must hv done something wrong.<br>i tried to point, which i hv just bought from you, to But now when i type, the browser shows a</p><p>结果应该是Domain提供商反应比较慢，现在好了</p></li><li><p>hexo deploy not found git<br>是因为没有装<code>$ npm install hexo-deployer-git --save</code></p></li><li><p>优化过程中出现TypeError Cannot read property ‘replace’ of null<br>实在是悲剧，找不到原因，只好$ hexo init 从头来过，哭哭<br>切记每步操作完一定要$ hexo g&amp;d</p></li><li><p>FATAL Cannot read property ‘replace’ of null<br>是因为config文件里的url: 后面被删掉了</p></li><li><p>hexo-更改本地路径<br>a. config.yml文件中配置如下：<br>b. hexo s -p 5000</p></li></ol><ol start="9"><li>未完待续</li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/06/03/hello-world/"/>
-      <url>/2020/06/03/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><a id="more"></a><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>hexo笔记</title>
+    <url>/2020/06/05/hexo-bi-ji/</url>
+    <content><![CDATA[<p>本文对用Hexo进行创作过程中遇到的问题进行汇总，纯新手向</p>
+<h1 id="添加整段代码块"><a href="#添加整段代码块" class="headerlink" title="添加整段代码块"></a>添加整段代码块</h1><p>目前看到的有三种方式</p>
+<ol>
+<li>单行代码，可以在文章任意位置插入，用``两个单引号包含语句，像这样：<br><code>$ npm install</code></li>
+<li></li>
+</ol>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>Creo学习笔记</title>
+    <url>/2020/06/05/creo-xue-xi-bi-ji/</url>
+    <content><![CDATA[<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>NexT Optimize</title>
+    <url>/2020/06/05/next-optimize/</url>
+    <content><![CDATA[<h1 id="Darunten-werde-ich-uber-die-Optimierung-von-NexT-reden"><a href="#Darunten-werde-ich-uber-die-Optimierung-von-NexT-reden" class="headerlink" title="Darunten werde ich über die Optimierung von NexT reden"></a>Darunten werde ich über die Optimierung von NexT reden</h1><h1 id="Below-I-will-talk-about-the-optimization-of-NexT"><a href="#Below-I-will-talk-about-the-optimization-of-NexT" class="headerlink" title="Below I will talk about the optimization of NexT"></a>Below I will talk about the optimization of NexT</h1><h1 id="下面将讨论关于NexT主题的优化"><a href="#下面将讨论关于NexT主题的优化" class="headerlink" title="下面将讨论关于NexT主题的优化"></a>下面将讨论关于NexT主题的优化</h1><a id="more"></a>
+
+<ol>
+<li>设置文章末尾”本文结束”标记</li>
+</ol>
+<p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">{% <span class="keyword">if</span> not is_index %}</span><br><span class="line">    &lt;div style=<span class="string">"text-align:center;color: #ccc;font-size:24px;"</span>&gt;-End-&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">{% endif %}</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></tbody></table></figure>
+<p>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% <span class="keyword">if</span> not is_index and theme.passage_end_tag.enabled %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include <span class="string">'passage-end-tag.swig'</span> %}</span><br><span class="line">   &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp"> {% endif %}</span></span><br></pre></td></tr></tbody></table></figure>
+<p>然后打开主题配置文件（_config.yml)，在末尾添加：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: <span class="literal">true</span><span class="string">`</span></span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="2">
+<li>dd</li>
+</ol>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>GitHub Hexo报错汇总</title>
+    <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
+    <content><![CDATA[<ol>
+<li><p><code>$ hexo init</code></p>
+<p> 网络问题初始化失败，删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
+<p> 尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
+<p> 其实<code>$ hexo init</code>不需要重装hexo-cli服务</p>
+</li>
+</ol>
+<a id="more"></a>
+
+<ol start="2">
+<li><p><code>npm set registry http://registry.npmjs.org/</code></p>
+<p> 可以重置链接</p>
+</li>
+<li><p><a href="https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3" target="_blank" rel="noopener">https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3</a></p>
+</li>
+<li><p>Hi, sorry, i must hv done something wrong.<br>i tried to point <a href="http://shukangzhang.com/" target="_blank" rel="noopener">shukangzhang.com</a>, which i hv just bought from you, to<a href="http://shukangzhang.github.io/">shukangzhang.github.io</a>. But now when i type <a href="http://shukangzhang.com/" target="_blank" rel="noopener">shukangzhang.com</a>, the browser shows a</p>
+<p>邮件写到一半，结果网页自动刷新，一切正常了。。。应该是Domain提供商反应比较慢，现在好了</p>
+</li>
+<li><p>hexo deploy not found git<br>是因为没有装<code>$ npm install hexo-deployer-git --save</code></p>
+</li>
+<li><p>优化过程中出现TypeError Cannot read property ‘replace’ of null<br>实在是悲剧，找不到原因，只好$ hexo init 从头来过，哭哭<br>切记每步操作完一定要$ hexo g&amp;d</p>
+</li>
+<li><p>FATAL Cannot read property ‘replace’ of null<br>是因为config文件里的url: 后面被删掉了</p>
+</li>
+<li><p>hexo-更改本地路径<br>a. config.yml文件中配置如下：<br>b. hexo s -p 5000</p>
+</li>
+<li><p>添加gitalk<br>我原来看的教程推荐的是gitment，结果gitment已经停止服务了，<code>NexT</code>也已经不再集成gitment服务，于是转为安装gitalk评论系统，基于github issues，这里就不过多介绍了，总之，每篇文章都会在你事先建好的Repository里添加一条issues用于保存与这篇文章有关的评论。</p>
+<p>真可谓一波三折，因为很多gitalk安装教程都已经是很旧的了，各种index.md文件找不到啦，comments.swig打开跟教程里不一样啦，comments.ejs语法略有不同啦，折腾来折腾去不知道怎么办。</p>
+<p>还好我有点html基础，发现主题配置文件里_config.yml里直接就有gitalk的相关配置，那我又已经<code>npm i --save gitalk</code>，建好OAuth apps以后，填好各项配置如下:</p>
+<figure class="highlight"><table><tbody><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  github_id: shukangzhang # GitHub repo owner</span><br><span class="line">  repo: pinglun # Repository name to store issues</span><br><span class="line">  client_id: 59xxxxxx # GitHub Application Client ID</span><br><span class="line">  client_secret: 81xxxxx # GitHub Application Client Secret</span><br><span class="line">  admin_user: shukangzhang # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br></pre></td></tr></tbody></table></figure>
+<p>模块就添加成功啦</p>
+<p>这里必须得提一下我也遇到了老生常谈的<code>Error: Not found</code>的问题，但我的问题比较轻，是因为对别人教程的理解问题，我通过api.github.com查询了我的github_ID，我以为是要填写ID一栏显示的000000那串数字，结果一直Error: Not found，按F12审查元素:</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">https:<span class="comment">//api.github.com/repos/45145936/pinglun/issues?labels=Gitalk,cf1b9bedf8abfdc34802bcf9d9cde839&amp;t=1591326997341</span></span><br></pre></td></tr></tbody></table></figure>
+<p>这个网址始终返回404 not found. 也就是说，程序找不到相应的Repostory来创建issues，仓库地址错误！那么我于此得来灵感，我建的新仓库<code>pinglun</code>不可能出错，只可能是前面的那串数字错了，但是api.github.com返回的ID也没有错，那我看了别人的设置，把自己的github_ID也换成名称串，跟owner一样，再试就成了</p>
+</li>
+<li><p>xxx</p>
+</li>
+</ol>
+<p>xxx. 未完待续</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/03/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<a id="more"></a>
+
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
 </search>
