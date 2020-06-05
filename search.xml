@@ -6,7 +6,7 @@
     <content><![CDATA[<p>本文对用Hexo进行创作过程中遇到的问题进行汇总，纯新手向</p>
 <h1 id="添加整段代码块"><a href="#添加整段代码块" class="headerlink" title="添加整段代码块"></a>添加整段代码块</h1><p>目前看到的有三种方式</p>
 <ol>
-<li>单行代码，可以在文章任意位置插入，用``两个单引号包含语句，像这样：<br><code>$ npm install</code></li>
+<li>单行代码，可以在文章任意位置插入，用``两个斜单引号包含语句，像这样：<br><code>$ npm install</code></li>
 <li></li>
 </ol>
 <script>
@@ -55,7 +55,10 @@
   <entry>
     <title>NexT Optimize</title>
     <url>/2020/06/05/next-optimize/</url>
-    <content><![CDATA[<h1 id="Darunten-werde-ich-uber-die-Optimierung-von-NexT-reden"><a href="#Darunten-werde-ich-uber-die-Optimierung-von-NexT-reden" class="headerlink" title="Darunten werde ich über die Optimierung von NexT reden"></a>Darunten werde ich über die Optimierung von NexT reden</h1><h1 id="Below-I-will-talk-about-the-optimization-of-NexT"><a href="#Below-I-will-talk-about-the-optimization-of-NexT" class="headerlink" title="Below I will talk about the optimization of NexT"></a>Below I will talk about the optimization of NexT</h1><h1 id="下面将讨论关于NexT主题的优化"><a href="#下面将讨论关于NexT主题的优化" class="headerlink" title="下面将讨论关于NexT主题的优化"></a>下面将讨论关于NexT主题的优化</h1><a id="more"></a>
+    <content><![CDATA[<p> Darunten werde ich über die Optimierung von NexT reden</p>
+<p> Below I will talk about the optimization of NexT</p>
+<p> 下面将讨论关于NexT主题的优化</p>
+<a id="more"></a>
 
 <ol>
 <li>设置文章末尾”本文结束”标记</li>
