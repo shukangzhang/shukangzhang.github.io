@@ -9,12 +9,17 @@
 <li><p>单行代码，可以在文章任意位置插入，用``两个斜单引号包含语句，像这样：<br><code>$ npm install</code></p>
 </li>
 <li><p>整段用</p>
-<pre><code class="markdown">   
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line">xxx</span><br></pre></td></tr></tbody></table></figure>
+<pre><code class="markdown">
+\```javascript
+
+xxx
+\```
 </code></pre>
 </li>
 <li><pre><code class="markdown">    
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">xxx</span><br></pre></td></tr></tbody></table></figure>
+\```bash
+ xxx
+ \```
 </code></pre>
 
 <p> 效果如下：</p>
