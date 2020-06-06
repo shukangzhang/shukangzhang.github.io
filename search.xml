@@ -31,29 +31,6 @@
       </tags>
   </entry>
   <entry>
-    <title>post_name</title>
-    <url>/2020/06/06/post-name/</url>
-    <content><![CDATA[<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-  </entry>
-  <entry>
     <title>中国文化导论最后一题</title>
     <url>/2020/06/06/zhong-guo-wen-hua-dao-lun-zui-hou-yi-ti/</url>
     <content><![CDATA[<h1 id="中国文化导论最后一题–忠恕之道"><a href="#中国文化导论最后一题–忠恕之道" class="headerlink" title="中国文化导论最后一题–忠恕之道"></a>中国文化导论最后一题–忠恕之道</h1><p>我想，道德问题不涉及法律，但一直被拿来作为大家处世与相处的行为准则，所以社会中的各种行为限制该是自古以来大家慢慢达成的一种“共识”。这种共识的形成很原始，很本质。一群生物在同一区域生活，由于所处环境不同会造成思想上的差异，进而形成行为上的差异，不同的行为很难互不干扰，于是这群生物从维护自身利益出发希望在这些干扰中找到一个平衡点，大家同时遵守这一准则，才能让个体获得最多的资源，最少的冲突。</p>
