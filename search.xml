@@ -3,7 +3,7 @@
   <entry>
     <title>all tests here</title>
     <url>/2020/06/06/test/</url>
-    <content><![CDATA[<h1 id="insert-image-test"><a href="#insert-image-test" class="headerlink" title="insert image test"></a>insert image test</h1><p><img src="2.jpg" alt=""></p>
+    <content><![CDATA[<h1 id="insert-image-test"><a href="#insert-image-test" class="headerlink" title="insert image test"></a>insert image test</h1><p><img src="2.jpg" alt=""><br><img src="1.gif" alt=""></p>
 <h1 id="insert-PDF-test"><a href="#insert-PDF-test" class="headerlink" title="insert PDF test"></a>insert PDF test</h1><div class="pdfobject-container" data-target="https://1drv.ms/b/s!AmP7xGWVYpUthbYaFNUBAGhXwwt9zw?e=BzIk78" data-height="500px"></div>
 
 <div class="pdfobject-container" data-target="https://drive.google.com/file/d/1hwhKspuT6TZPu0ELZiEAjvWfy6_n9LvI/view?usp=sharing" data-height="500px"></div>
