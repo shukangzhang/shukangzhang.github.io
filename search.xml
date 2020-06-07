@@ -3,7 +3,8 @@
   <entry>
     <title>all tests here</title>
     <url>/2020/06/06/test/</url>
-    <content><![CDATA[<h1 id="插入图片测试"><a href="#插入图片测试" class="headerlink" title="插入图片测试"></a>插入图片测试</h1><p><img src="1.gif" alt=""></p>
+    <content><![CDATA[<h1 id="insert-image-test"><a href="#insert-image-test" class="headerlink" title="insert image test"></a>insert image test</h1><p><img src="1.gif" alt=""></p>
+<h1 id="insert-PDF-test"><a href="#insert-PDF-test" class="headerlink" title="insert PDF test"></a>insert PDF test</h1><div class="pdfobject-container" data-target="./IFA.pdf" data-height="500px"></div>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
