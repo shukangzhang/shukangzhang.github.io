@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://shukangzhang.com/2020/06/06/test/</loc>
+    <loc>https://shukangzhang.com/2020/06/08/hexo-tian-jia-pdf/</loc>
     
-    <lastmod>2020-06-08T02:38:10.114Z</lastmod>
+    <lastmod>2020-06-08T02:50:59.262Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shukangzhang.com/2020/06/08/hexo-tian-jia-pdf/</loc>
+    <loc>https://shukangzhang.com/lib/pdf/web/viewer.html</loc>
     
-    <lastmod>2020-06-08T02:36:23.631Z</lastmod>
+    <lastmod>2020-06-08T02:49:21.223Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shukangzhang.com/lib/pdf/README.html</loc>
+    
+    <lastmod>2020-06-08T02:49:21.005Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shukangzhang.com/2020/06/06/test/</loc>
+    
+    <lastmod>2020-06-08T02:38:10.114Z</lastmod>
     
   </url>
   

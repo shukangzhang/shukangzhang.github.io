@@ -24,7 +24,7 @@
   line-height: 1.0;
 }
 
-.textLayer > span {
+.textLayer &gt; span {
   color: transparent;
   position: absolute;
   white-space: pre;
@@ -84,8 +84,8 @@
   position: absolute;
 }
 
-.annotationLayer .linkAnnotation > a,
-.annotationLayer .buttonWidgetAnnotation.pushButton > a {
+.annotationLayer .linkAnnotation &gt; a,
+.annotationLayer .buttonWidgetAnnotation.pushButton &gt; a {
   position: absolute;
   font-size: 1em;
   top: 0;
@@ -94,8 +94,8 @@
   height: 100%;
 }
 
-.annotationLayer .linkAnnotation > a:hover,
-.annotationLayer .buttonWidgetAnnotation.pushButton > a:hover {
+.annotationLayer .linkAnnotation &gt; a:hover,
+.annotationLayer .buttonWidgetAnnotation.pushButton &gt; a:hover {
   opacity: 0.2;
   background: #ff0;
   box-shadow: 0px 2px 10px #ff0;
@@ -237,7 +237,7 @@
   word-wrap: break-word;
 }
 
-.annotationLayer .popup > * {
+.annotationLayer .popup &gt; * {
   font-size: 9px;
 }
 
@@ -512,24 +512,24 @@ select {
   display: none;
 }
 
-.pdfPresentationMode:-webkit-full-screen .textLayer > span {
+.pdfPresentationMode:-webkit-full-screen .textLayer &gt; span {
   cursor: none;
 }
 
-.pdfPresentationMode:-moz-full-screen .textLayer > span {
+.pdfPresentationMode:-moz-full-screen .textLayer &gt; span {
   cursor: none;
 }
 
-.pdfPresentationMode:-ms-fullscreen .textLayer > span {
+.pdfPresentationMode:-ms-fullscreen .textLayer &gt; span {
   cursor: none;
 }
 
-.pdfPresentationMode:fullscreen .textLayer > span {
+.pdfPresentationMode:fullscreen .textLayer &gt; span {
   cursor: none;
 }
 
-.pdfPresentationMode.pdfPresentationModeControls > *,
-.pdfPresentationMode.pdfPresentationModeControls .textLayer > span {
+.pdfPresentationMode.pdfPresentationModeControls &gt; *,
+.pdfPresentationMode.pdfPresentationModeControls .textLayer &gt; span {
   cursor: default;
 }
 
@@ -793,13 +793,13 @@ html[dir='rtl'] #toolbarContainer, .findbar, .secondaryToolbar {
 .findbar {
   min-width: 300px;
 }
-.findbar > div {
+.findbar &gt; div {
   height: 32px;
 }
-.findbar.wrapContainers > div {
+.findbar.wrapContainers &gt; div {
   clear: both;
 }
-.findbar.wrapContainers > div#findbarMessageContainer {
+.findbar.wrapContainers &gt; div#findbarMessageContainer {
   height: auto;
 }
 html[dir='ltr'] .findbar {
@@ -863,8 +863,8 @@ html[dir='rtl'] .secondaryToolbar {
   margin-bottom: -4px;
 }
 
-#secondaryToolbarButtonContainer.hiddenScrollModeButtons > .scrollModeButtons,
-#secondaryToolbarButtonContainer.hiddenSpreadModeButtons > .spreadModeButtons {
+#secondaryToolbarButtonContainer.hiddenScrollModeButtons &gt; .scrollModeButtons,
+#secondaryToolbarButtonContainer.hiddenSpreadModeButtons &gt; .spreadModeButtons {
   display: none !important;
 }
 
@@ -952,16 +952,16 @@ html[dir='ltr'] #toolbarViewerRight,
 html[dir='rtl'] #toolbarViewerLeft {
   float: right;
 }
-html[dir='ltr'] #toolbarViewerLeft > *,
-html[dir='ltr'] #toolbarViewerMiddle > *,
-html[dir='ltr'] #toolbarViewerRight > *,
+html[dir='ltr'] #toolbarViewerLeft &gt; *,
+html[dir='ltr'] #toolbarViewerMiddle &gt; *,
+html[dir='ltr'] #toolbarViewerRight &gt; *,
 html[dir='ltr'] .findbar * {
   position: relative;
   float: left;
 }
-html[dir='rtl'] #toolbarViewerLeft > *,
-html[dir='rtl'] #toolbarViewerMiddle > *,
-html[dir='rtl'] #toolbarViewerRight > *,
+html[dir='rtl'] #toolbarViewerLeft &gt; *,
+html[dir='rtl'] #toolbarViewerMiddle &gt; *,
+html[dir='rtl'] #toolbarViewerRight &gt; *,
 html[dir='rtl'] .findbar * {
   position: relative;
   float: right;
@@ -975,11 +975,11 @@ html[dir='rtl'] .splitToolbarButton {
   margin: 3px 0 4px 2px;
   display: inline-block;
 }
-html[dir='ltr'] .splitToolbarButton > .toolbarButton {
+html[dir='ltr'] .splitToolbarButton &gt; .toolbarButton {
   border-radius: 0;
   float: left;
 }
-html[dir='rtl'] .splitToolbarButton > .toolbarButton {
+html[dir='rtl'] .splitToolbarButton &gt; .toolbarButton {
   border-radius: 0;
   float: right;
 }
@@ -993,7 +993,7 @@ html[dir='rtl'] .splitToolbarButton > .toolbarButton {
   height: 25px;
 }
 
-.toolbarButton > span {
+.toolbarButton &gt; span {
   display: inline-block;
   width: 0;
   height: 0;
@@ -1010,9 +1010,9 @@ html[dir='rtl'] .splitToolbarButton > .toolbarButton {
   margin: 0;
 }
 
-.splitToolbarButton:hover > .toolbarButton,
-.splitToolbarButton:focus > .toolbarButton,
-.splitToolbarButton.toggled > .toolbarButton,
+.splitToolbarButton:hover &gt; .toolbarButton,
+.splitToolbarButton:focus &gt; .toolbarButton,
+.splitToolbarButton.toggled &gt; .toolbarButton,
 .toolbarButton.textButton {
   background-color: hsla(0,0%,0%,.12);
   background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
@@ -1027,8 +1027,8 @@ html[dir='rtl'] .splitToolbarButton > .toolbarButton {
   transition-timing-function: ease;
 
 }
-.splitToolbarButton > .toolbarButton:hover,
-.splitToolbarButton > .toolbarButton:focus,
+.splitToolbarButton &gt; .toolbarButton:hover,
+.splitToolbarButton &gt; .toolbarButton:focus,
 .dropdownToolbarButton:hover,
 .overlayButton:hover,
 .overlayButton:focus,
@@ -1040,11 +1040,11 @@ html[dir='rtl'] .splitToolbarButton > .toolbarButton {
               0 0 1px hsla(0,0%,0%,.05);
   z-index: 199;
 }
-.splitToolbarButton > .toolbarButton {
+.splitToolbarButton &gt; .toolbarButton {
   position: relative;
 }
-html[dir='ltr'] .splitToolbarButton > .toolbarButton:first-child,
-html[dir='rtl'] .splitToolbarButton > .toolbarButton:last-child {
+html[dir='ltr'] .splitToolbarButton &gt; .toolbarButton:first-child,
+html[dir='rtl'] .splitToolbarButton &gt; .toolbarButton:last-child {
   position: relative;
   margin: 0;
   margin-right: -1px;
@@ -1052,8 +1052,8 @@ html[dir='rtl'] .splitToolbarButton > .toolbarButton:last-child {
   border-bottom-left-radius: 2px;
   border-right-color: transparent;
 }
-html[dir='ltr'] .splitToolbarButton > .toolbarButton:last-child,
-html[dir='rtl'] .splitToolbarButton > .toolbarButton:first-child {
+html[dir='ltr'] .splitToolbarButton &gt; .toolbarButton:last-child,
+html[dir='rtl'] .splitToolbarButton &gt; .toolbarButton:first-child {
   position: relative;
   margin: 0;
   margin-left: -1px;
@@ -1076,8 +1076,8 @@ html[dir='ltr'] .splitToolbarButtonSeparator {
 html[dir='rtl'] .splitToolbarButtonSeparator {
   float: right;
 }
-.splitToolbarButton:hover > .splitToolbarButtonSeparator,
-.splitToolbarButton.toggled > .splitToolbarButtonSeparator {
+.splitToolbarButton:hover &gt; .splitToolbarButtonSeparator,
+.splitToolbarButton.toggled &gt; .splitToolbarButtonSeparator {
   padding: 12px 0;
   margin: 1px 0;
   box-shadow: 0 0 0 1px hsla(0,0%,100%,.03);
@@ -1101,7 +1101,7 @@ html[dir='rtl'] .splitToolbarButtonSeparator {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  /* Opera does not support user-select, use <... unselectable="on"> instead */
+  /* Opera does not support user-select, use &lt;... unselectable="on"&gt; instead */
   cursor: default;
   transition-property: background-color, border-color, box-shadow;
   transition-duration: 150ms;
@@ -1151,7 +1151,7 @@ html[dir='rtl'] .dropdownToolbarButton {
 }
 
 .toolbarButton.toggled,
-.splitToolbarButton.toggled > .toolbarButton.toggled,
+.splitToolbarButton.toggled &gt; .toolbarButton.toggled,
 .secondaryToolbarButton.toggled {
   background-color: hsla(0,0%,0%,.3);
   background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
@@ -1165,7 +1165,7 @@ html[dir='rtl'] .dropdownToolbarButton {
 }
 
 .toolbarButton.toggled:hover:active,
-.splitToolbarButton.toggled > .toolbarButton.toggled:hover:active,
+.splitToolbarButton.toggled &gt; .toolbarButton.toggled:hover:active,
 .secondaryToolbarButton.toggled:hover:active {
   background-color: hsla(0,0%,0%,.4);
   border-color: hsla(0,0%,0%,.4) hsla(0,0%,0%,.5) hsla(0,0%,0%,.55);
@@ -1188,7 +1188,7 @@ html[dir='rtl'] .dropdownToolbarButton {
   background-position: 5%;
 }
 
-.dropdownToolbarButton > select {
+.dropdownToolbarButton &gt; select {
   min-width: 140px;
   font-size: 12px;
   color: hsl(0,0%,95%);
@@ -1198,7 +1198,7 @@ html[dir='rtl'] .dropdownToolbarButton {
   background: rgba(0,0,0,0); /* Opera does not support 'transparent' <select> background */
 }
 
-.dropdownToolbarButton > select > option {
+.dropdownToolbarButton &gt; select &gt; option {
   background: hsl(0,0%,24%);
 }
 
@@ -1413,10 +1413,10 @@ html[dir="rtl"] .secondaryToolbarButton.bookmark {
   padding-right: 27px;
 }
 
-html[dir="ltr"] .secondaryToolbarButton > span {
+html[dir="ltr"] .secondaryToolbarButton &gt; span {
   padding-right: 4px;
 }
-html[dir="rtl"] .secondaryToolbarButton > span {
+html[dir="rtl"] .secondaryToolbarButton &gt; span {
   padding-left: 4px;
 }
 
@@ -1578,8 +1578,8 @@ html[dir='rtl'] .verticalToolbarSeparator {
   -webkit-overflow-scrolling: touch;
 }
 
-#thumbnailView > a:active,
-#thumbnailView > a:focus {
+#thumbnailView &gt; a:active,
+#thumbnailView &gt; a:focus {
   outline: 0;
 }
 
@@ -1593,11 +1593,11 @@ html[dir='rtl'] .thumbnail {
   float: right;
 }
 
-#thumbnailView > a:last-of-type > .thumbnail {
+#thumbnailView &gt; a:last-of-type &gt; .thumbnail {
   margin-bottom: 10px;
 }
 
-#thumbnailView > a:last-of-type > .thumbnail:not([data-loaded]) {
+#thumbnailView &gt; a:last-of-type &gt; .thumbnail:not([data-loaded]) {
   margin-bottom: 9px;
 }
 
@@ -1620,13 +1620,13 @@ html[dir='rtl'] .thumbnail {
   padding: 7px;
 }
 
-a:focus > .thumbnail > .thumbnailSelectionRing > .thumbnailImage,
-.thumbnail:hover > .thumbnailSelectionRing > .thumbnailImage {
+a:focus &gt; .thumbnail &gt; .thumbnailSelectionRing &gt; .thumbnailImage,
+.thumbnail:hover &gt; .thumbnailSelectionRing &gt; .thumbnailImage {
   opacity: .9;
 }
 
-a:focus > .thumbnail > .thumbnailSelectionRing,
-.thumbnail:hover > .thumbnailSelectionRing {
+a:focus &gt; .thumbnail &gt; .thumbnailSelectionRing,
+.thumbnail:hover &gt; .thumbnailSelectionRing {
   background-color: hsla(0,0%,100%,.15);
   background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
   background-clip: padding-box;
@@ -1636,12 +1636,12 @@ a:focus > .thumbnail > .thumbnailSelectionRing,
   color: hsla(0,0%,100%,.9);
 }
 
-.thumbnail.selected > .thumbnailSelectionRing > .thumbnailImage {
+.thumbnail.selected &gt; .thumbnailSelectionRing &gt; .thumbnailImage {
   box-shadow: 0 0 0 1px hsla(0,0%,0%,.5);
   opacity: 1;
 }
 
-.thumbnail.selected > .thumbnailSelectionRing {
+.thumbnail.selected &gt; .thumbnailSelectionRing {
   background-color: hsla(0,0%,100%,.3);
   background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
   background-clip: padding-box;
@@ -1672,18 +1672,18 @@ a:focus > .thumbnail > .thumbnailSelectionRing,
   padding: 3px 4px 0;
 }
 
-html[dir='ltr'] .outlineWithDeepNesting > .outlineItem,
-html[dir='ltr'] .outlineItem > .outlineItems {
+html[dir='ltr'] .outlineWithDeepNesting &gt; .outlineItem,
+html[dir='ltr'] .outlineItem &gt; .outlineItems {
   margin-left: 20px;
 }
 
-html[dir='rtl'] .outlineWithDeepNesting > .outlineItem,
-html[dir='rtl'] .outlineItem > .outlineItems {
+html[dir='rtl'] .outlineWithDeepNesting &gt; .outlineItem,
+html[dir='rtl'] .outlineItem &gt; .outlineItems {
   margin-right: 20px;
 }
 
-.outlineItem > a,
-.attachmentsItem > button {
+.outlineItem &gt; a,
+.attachmentsItem &gt; button {
   text-decoration: none;
   display: inline-block;
   min-width: 95%;
@@ -1702,25 +1702,25 @@ html[dir='rtl'] .outlineItem > .outlineItems {
   white-space: normal;
 }
 
-.attachmentsItem > button {
+.attachmentsItem &gt; button {
   border: 0 none;
   background: none;
   cursor: pointer;
   width: 100%;
 }
 
-html[dir='ltr'] .outlineItem > a {
+html[dir='ltr'] .outlineItem &gt; a {
   padding: 2px 0 5px 4px;
 }
-html[dir='ltr'] .attachmentsItem > button {
+html[dir='ltr'] .attachmentsItem &gt; button {
   padding: 2px 0 3px 7px;
   text-align: left;
 }
 
-html[dir='rtl'] .outlineItem > a {
+html[dir='rtl'] .outlineItem &gt; a {
   padding: 2px 4px 5px 0;
 }
-html[dir='rtl'] .attachmentsItem > button {
+html[dir='rtl'] .attachmentsItem &gt; button {
   padding: 2px 7px 3px 0;
   text-align: right;
 }
@@ -1761,8 +1761,8 @@ html[dir='rtl'] .outlineItemToggler::before {
 .outlineItemToggler:hover,
 .outlineItemToggler:hover + a,
 .outlineItemToggler:hover ~ .outlineItems,
-.outlineItem > a:hover,
-.attachmentsItem > button:hover {
+.outlineItem &gt; a:hover,
+.attachmentsItem &gt; button:hover {
   background-color: hsla(0,0%,100%,.02);
   background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,100%,0));
   background-clip: padding-box;
@@ -1840,18 +1840,18 @@ html[dir='rtl'] .outlineItemToggler::before {
   background-color: hsla(0,0%,0%,.2);
   z-index: 40000;
 }
-#overlayContainer > * {
+#overlayContainer &gt; * {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-#overlayContainer > .container {
+#overlayContainer &gt; .container {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-#overlayContainer > .container > .dialog {
+#overlayContainer &gt; .container &gt; .dialog {
   display: inline-block;
   padding: 15px;
   border-spacing: 4px;
@@ -1871,11 +1871,11 @@ html[dir='rtl'] .outlineItemToggler::before {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-.dialog > .row {
+.dialog &gt; .row {
   display: table-row;
 }
 
-.dialog > .row > * {
+.dialog &gt; .row &gt; * {
   display: table-cell;
 }
 
@@ -1901,30 +1901,30 @@ html[dir='rtl'] .outlineItemToggler::before {
   color: white;
 }
 
-#passwordOverlay > .dialog {
+#passwordOverlay &gt; .dialog {
   text-align: center;
 }
 #passwordOverlay .toolbarField {
   width: 200px;
 }
 
-#documentPropertiesOverlay > .dialog {
+#documentPropertiesOverlay &gt; .dialog {
   text-align: left;
 }
-#documentPropertiesOverlay .row > * {
+#documentPropertiesOverlay .row &gt; * {
   min-width: 100px;
 }
-html[dir='ltr'] #documentPropertiesOverlay .row > * {
+html[dir='ltr'] #documentPropertiesOverlay .row &gt; * {
   text-align: left;
 }
-html[dir='rtl'] #documentPropertiesOverlay .row > * {
+html[dir='rtl'] #documentPropertiesOverlay .row &gt; * {
   text-align: right;
 }
-#documentPropertiesOverlay .row > span {
+#documentPropertiesOverlay .row &gt; span {
   width: 125px;
   word-wrap: break-word;
 }
-#documentPropertiesOverlay .row > p {
+#documentPropertiesOverlay .row &gt; p {
   max-width: 225px;
   word-wrap: break-word;
 }
@@ -2005,19 +2005,19 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   mix-blend-mode: screen;
 }
 
-#viewer.textLayer-visible .textLayer > span {
+#viewer.textLayer-visible .textLayer &gt; span {
   background-color: rgba(255, 255, 0, 0.1);
   color: black;
   border: solid 1px rgba(255, 0, 0, 0.5);
   box-sizing: border-box;
 }
 
-#viewer.textLayer-hover .textLayer > span:hover {
+#viewer.textLayer-hover .textLayer &gt; span:hover {
   background-color: white;
   color: black;
 }
 
-#viewer.textLayer-shadow .textLayer > span {
+#viewer.textLayer-shadow .textLayer &gt; span {
   background-color: rgba(255,255,255, .6);
   color: black;
 }
@@ -2303,7 +2303,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     height: 100%;
   }
   /* wrapper around (scaled) print canvas elements */
-  #printContainer > div {
+  #printContainer &gt; div {
     position: relative;
     top: 0;
     left: 0;
@@ -2398,3 +2398,22 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     display: none;
   }
 }
+</select><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>

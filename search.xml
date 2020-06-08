@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>GitHub Hexo报错汇总</title>
-    <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
-    <content><![CDATA[<h1 id="hexo-init-网络问题初始化失败"><a href="#hexo-init-网络问题初始化失败" class="headerlink" title="$ hexo init 网络问题初始化失败"></a><code>$ hexo init</code> 网络问题初始化失败</h1><p>删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
-<p>尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
-<p>其实<code>$ hexo init</code>不需要重装hexo-cli服务</p>
+    <title>hexo添加pdf预览-纠正现有教程遗漏的地方</title>
+    <url>/2020/06/08/hexo-tian-jia-pdf/</url>
+    <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf" target="_blank" rel="noopener">Github官方教程superalsrk/hexo-pdf</a></p>
+<h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
+<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/\_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
+<p>然后键入:<br><code></code></p><div class="pdfobject-container" data-target="./xxx.pdf" data-height="1000px"></div><p></p>
+<p>咦，怎么不行！？</p>
 <a id="more"></a>
 
-<h1 id="重置链接"><a href="#重置链接" class="headerlink" title="重置链接"></a>重置链接</h1><p><code>npm set registry http://registry.npmjs.org/</code></p>
-<h1 id="Porkbun域名提供商DNS设置备份"><a href="#Porkbun域名提供商DNS设置备份" class="headerlink" title="Porkbun域名提供商DNS设置备份"></a>Porkbun域名提供商DNS设置备份</h1><p><a href="https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3" target="_blank" rel="noopener">https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3</a></p>
-<h1 id="一段插曲"><a href="#一段插曲" class="headerlink" title="一段插曲"></a>一段插曲</h1><p>Hi, sorry, i must hv done something wrong.<br>i tried to point <a href="http://shukangzhang.com/">shukangzhang.com</a>, which i hv just bought from you, to<a href="http://shukangzhang.github.io/" target="_blank" rel="noopener">shukangzhang.github.io</a>. But now when i type <a href="http://shukangzhang.com/">shukangzhang.com</a>, the browser shows a</p>
-<p>邮件写到一半，结果网页自动刷新，一切正常了。。。应该是Domain提供商反应比较慢，现在好了</p>
-<h1 id="hexo-deploy-not-found-git"><a href="#hexo-deploy-not-found-git" class="headerlink" title="hexo deploy not found git"></a>hexo deploy not found git</h1><p>是因为没有装<code>$ npm install hexo-deployer-git --save</code></p>
-<h1 id="TypeError-Cannot-read-property-‘replace’-of-null"><a href="#TypeError-Cannot-read-property-‘replace’-of-null" class="headerlink" title="TypeError Cannot read property ‘replace’ of null"></a>TypeError Cannot read property ‘replace’ of null</h1><p>实在是悲剧，找不到原因，只好$ hexo init 从头来过，哭哭<br>切记每步操作完一定要$ hexo g&amp;d</p>
-<h1 id="FATAL-Cannot-read-property-‘replace’-of-null"><a href="#FATAL-Cannot-read-property-‘replace’-of-null" class="headerlink" title="FATAL Cannot read property ‘replace’ of null"></a>FATAL Cannot read property ‘replace’ of null</h1><p>是因为config文件里的url: 后面被删掉了</p>
-<h1 id="hexo-更改本地路径"><a href="#hexo-更改本地路径" class="headerlink" title="hexo-更改本地路径"></a>hexo-更改本地路径</h1><p>a. config.yml文件中配置如下：<br>b. hexo s -p 5000</p>
-<h1 id="添加gitalk"><a href="#添加gitalk" class="headerlink" title="添加gitalk"></a>添加gitalk</h1><p>我原来看的教程推荐的是gitment，结果gitment已经停止服务了，<code>NexT</code>也已经不再集成gitment服务，于是转为安装gitalk评论系统，基于github issues，这里就不过多介绍了，总之，每篇文章都会在你事先建好的Repository里添加一条issues用于保存与这篇文章有关的评论。</p>
-<p>真可谓一波三折，因为很多gitalk安装教程都已经是很旧的了，各种index.md文件找不到啦，comments.swig打开跟教程里不一样啦，comments.ejs语法略有不同啦，折腾来折腾去不知道怎么办。</p>
-<p>还好我有点html基础，发现主题配置文件里_config.yml里直接就有gitalk的相关配置，那我又已经<code>npm i --save gitalk</code>，建好OAuth apps以后，填好各项配置如下:</p>
-<figure class="highlight"><table><tbody><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  github_id: shukangzhang # GitHub repo owner</span><br><span class="line">  repo: pinglun # Repository name to store issues</span><br><span class="line">  client_id: 59xxxxxx # GitHub Application Client ID</span><br><span class="line">  client_secret: 81xxxxx # GitHub Application Client Secret</span><br><span class="line">  admin_user: shukangzhang # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br></pre></td></tr></tbody></table></figure>
-<p>模块就添加成功啦</p>
-<p>这里必须得提一下我也遇到了老生常谈的<code>Error: Not found</code>的问题，但我的问题比较轻，是因为对别人教程的理解问题，我通过api.github.com查询了我的github_ID，我以为是要填写ID一栏显示的000000那串数字，结果一直Error: Not found，按F12审查元素:</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">https:<span class="comment">//api.github.com/repos/45145936/pinglun/issues?labels=Gitalk,cf1b9bedf8abfdc34802bcf9d9cde839&amp;t=1591326997341</span></span><br></pre></td></tr></tbody></table></figure>
-<p>这个网址始终返回404 not found. 也就是说，程序找不到相应的Repostory来创建issues，仓库地址错误！那么我于此得来灵感，我建的新仓库<code>pinglun</code>不可能出错，只可能是前面的那串数字错了，但是api.github.com返回的ID也没有错，那我看了别人的设置，把自己的github_ID也换成名称串，跟owner一样，再试就成了</p>
-<h1 id="本地预览与线上结果不一样问题"><a href="#本地预览与线上结果不一样问题" class="headerlink" title="本地预览与线上结果不一样问题"></a>本地预览与线上结果不一样问题</h1><p>已解决，参考<a href="https://github.com/hexojs/hexo/issues/806" target="_blank" rel="noopener">Github hexo issues #806</a></p>
-<p>#xxx<br>xxx. 未完待续</p>
+<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用<code></code></p><div class="pdfobject-container" data-target="./file/xxx.pdf" data-height="1000px"></div>。结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。<p></p>
+<p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del> </p>
+<p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
+<ul>
+<li>域名是https的话http开头的图床是会被block掉的</li>
+<li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
+</ul>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -45,88 +36,21 @@
             document.body.appendChild(img);
           });
       </script>]]></content>
-  </entry>
-  <entry>
-    <title>Creo学习笔记</title>
-    <url>/2020/06/05/creo-xue-xi-bi-ji/</url>
-    <content><![CDATA[<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-  </entry>
-  <entry>
-    <title>hexo笔记</title>
-    <url>/2020/06/05/hexo-bi-ji/</url>
-    <content><![CDATA[<p>本文对用Hexo进行创作过程中遇到的问题进行汇总，纯新手向</p>
-<a id="more"></a>
-
-<h1 id="添加整段代码块"><a href="#添加整段代码块" class="headerlink" title="添加整段代码块"></a>添加整段代码块</h1><ol>
-<li><p>单行代码，可以在文章任意位置插入，用``两个斜单引号包含语句，像这样：<br><code>$ npm install</code></p>
-</li>
-<li><p>整段用</p>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">```[相应的语言][title][url][url text]</span><br><span class="line">xxx</span><br></pre></td></tr></tbody></table></figure>
-<pre><code></code></pre></li>
-</ol>
-<p>包裹住，去掉反斜杠，我实在不会输出连续的三个反引号，只好这样打出来。。。TaT</p>
-<p>参考<a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">代码块进阶用法</a></p>
-<h1 id="插入图片测试"><a href="#插入图片测试" class="headerlink" title="插入图片测试"></a>插入图片测试</h1><p><img src="/images/1.jpg" alt=""></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
       <tags>
-        <tag>Hexo</tag>
-        <tag>md</tag>
+        <tag>pdf</tag>
       </tags>
   </entry>
   <entry>
-    <title>NexT Optimize</title>
-    <url>/2020/06/05/next-optimize/</url>
-    <content><![CDATA[<p> Darunten werde ich über die Optimierung von NexT reden</p>
-<p> Below I will talk about the optimization of NexT</p>
-<p> 下面将讨论关于NexT主题的优化</p>
+    <title>all tests here</title>
+    <url>/2020/06/06/test/</url>
+    <content><![CDATA[<h1 id="insert-image-test"><a href="#insert-image-test" class="headerlink" title="insert image test"></a>insert image test</h1><img src="/2020/06/06/test/2.jpg" class="" title="云之彼端 约定的地方">
+<p><img src="1.gif" alt=""></p>
+<h1 id="insert-PDF-test"><a href="#insert-PDF-test" class="headerlink" title="insert PDF test"></a>insert PDF test</h1><div class="pdfobject-container" data-target="./1.pdf" data-height="1000px"></div>
 <a id="more"></a>
-
-<h1 id="设置文章末尾”本文结束”标记"><a href="#设置文章末尾”本文结束”标记" class="headerlink" title="设置文章末尾”本文结束”标记"></a>设置文章末尾”本文结束”标记</h1><p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">{% <span class="keyword">if</span> not is_index %}</span><br><span class="line">    &lt;div style=<span class="string">"text-align:center;color: #ccc;font-size:24px;"</span>&gt;-End-&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">{% endif %}</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></tbody></table></figure>
-<p>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% <span class="keyword">if</span> not is_index and theme.passage_end_tag.enabled %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include <span class="string">'passage-end-tag.swig'</span> %}</span><br><span class="line">   &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp"> {% endif %}</span></span><br></pre></td></tr></tbody></table></figure>
-<p>然后打开主题配置文件（_config.yml)，在末尾添加：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: <span class="literal">true</span><span class="string">`</span></span><br></pre></td></tr></tbody></table></figure>
-
-<ol start="2">
-<li>xxx</li>
-</ol>
+<div class="pdfobject-container" data-target="https://drive.google.com/file/d/1hwhKspuT6TZPu0ELZiEAjvWfy6_n9LvI/view?usp=sharing" data-height="1000px"></div>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -146,6 +70,13 @@
             document.body.appendChild(img);
           });
       </script>]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+        <tag>hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>中国文化导论最后一题</title>
@@ -256,13 +187,21 @@
       </tags>
   </entry>
   <entry>
-    <title>all tests here</title>
-    <url>/2020/06/06/test/</url>
-    <content><![CDATA[<h1 id="insert-image-test"><a href="#insert-image-test" class="headerlink" title="insert image test"></a>insert image test</h1><img src="/2020/06/06/test/2.jpg" class="" title="云之彼端 约定的地方">
-<p><img src="1.gif" alt=""></p>
-<h1 id="insert-PDF-test"><a href="#insert-PDF-test" class="headerlink" title="insert PDF test"></a>insert PDF test</h1><div class="pdfobject-container" data-target="./1.pdf" data-height="1000px"></div>
+    <title>hexo笔记</title>
+    <url>/2020/06/05/hexo-bi-ji/</url>
+    <content><![CDATA[<p>本文对用Hexo进行创作过程中遇到的问题进行汇总，纯新手向</p>
 <a id="more"></a>
-<div class="pdfobject-container" data-target="https://drive.google.com/file/d/1hwhKspuT6TZPu0ELZiEAjvWfy6_n9LvI/view?usp=sharing" data-height="1000px"></div>
+
+<h1 id="添加整段代码块"><a href="#添加整段代码块" class="headerlink" title="添加整段代码块"></a>添加整段代码块</h1><ol>
+<li><p>单行代码，可以在文章任意位置插入，用``两个斜单引号包含语句，像这样：<br><code>$ npm install</code></p>
+</li>
+<li><p>整段用</p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">```[相应的语言][title][url][url text]</span><br><span class="line">xxx</span><br></pre></td></tr></tbody></table></figure>
+<pre><code></code></pre></li>
+</ol>
+<p>包裹住，去掉反斜杠，我实在不会输出连续的三个反引号，只好这样打出来。。。TaT</p>
+<p>参考<a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">代码块进阶用法</a></p>
+<h1 id="插入图片测试"><a href="#插入图片测试" class="headerlink" title="插入图片测试"></a>插入图片测试</h1><p><img src="/images/1.jpg" alt=""></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -282,31 +221,52 @@
             document.body.appendChild(img);
           });
       </script>]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
       <tags>
-        <tag>test</tag>
-        <tag>hexo</tag>
+        <tag>Hexo</tag>
+        <tag>md</tag>
       </tags>
   </entry>
   <entry>
-    <title>hexo添加pdf预览-纠正现有教程遗漏的地方</title>
-    <url>/2020/06/08/hexo-tian-jia-pdf/</url>
-    <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf" target="_blank" rel="noopener">Github官方教程superalsrk/hexo-pdf</a></p>
-<h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
-<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/\_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
-<p>然后键入:<br><code></code></p><div class="pdfobject-container" data-target="./xxx.pdf" data-height="1000px"></div><p></p>
-<p>咦，怎么不行！？</p>
+    <title>Creo学习笔记</title>
+    <url>/2020/06/05/creo-xue-xi-bi-ji/</url>
+    <content><![CDATA[<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>NexT Optimize</title>
+    <url>/2020/06/05/next-optimize/</url>
+    <content><![CDATA[<p> Darunten werde ich über die Optimierung von NexT reden</p>
+<p> Below I will talk about the optimization of NexT</p>
+<p> 下面将讨论关于NexT主题的优化</p>
 <a id="more"></a>
 
-<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用<code></code></p><div class="pdfobject-container" data-target="./file/xxx.pdf" data-height="1000px"></div>。结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。<p></p>
-<p>默认只有height设置，width设置是我自己加上去的</p>
-<p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
-<ul>
-<li>域名是https的话http开头的图床是会被block掉的</li>
-<li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
-</ul>
+<h1 id="设置文章末尾”本文结束”标记"><a href="#设置文章末尾”本文结束”标记" class="headerlink" title="设置文章末尾”本文结束”标记"></a>设置文章末尾”本文结束”标记</h1><p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">{% <span class="keyword">if</span> not is_index %}</span><br><span class="line">    &lt;div style=<span class="string">"text-align:center;color: #ccc;font-size:24px;"</span>&gt;-End-&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">{% endif %}</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></tbody></table></figure>
+<p>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% <span class="keyword">if</span> not is_index and theme.passage_end_tag.enabled %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include <span class="string">'passage-end-tag.swig'</span> %}</span><br><span class="line">   &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp"> {% endif %}</span></span><br></pre></td></tr></tbody></table></figure>
+<p>然后打开主题配置文件（_config.yml)，在末尾添加：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: <span class="literal">true</span><span class="string">`</span></span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="2">
+<li>xxx</li>
+</ol>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -326,11 +286,51 @@
             document.body.appendChild(img);
           });
       </script>]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>pdf</tag>
-      </tags>
+  </entry>
+  <entry>
+    <title>GitHub Hexo报错汇总</title>
+    <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
+    <content><![CDATA[<h1 id="hexo-init-网络问题初始化失败"><a href="#hexo-init-网络问题初始化失败" class="headerlink" title="$ hexo init 网络问题初始化失败"></a><code>$ hexo init</code> 网络问题初始化失败</h1><p>删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
+<p>尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
+<p>其实<code>$ hexo init</code>不需要重装hexo-cli服务</p>
+<a id="more"></a>
+
+<h1 id="重置链接"><a href="#重置链接" class="headerlink" title="重置链接"></a>重置链接</h1><p><code>npm set registry http://registry.npmjs.org/</code></p>
+<h1 id="Porkbun域名提供商DNS设置备份"><a href="#Porkbun域名提供商DNS设置备份" class="headerlink" title="Porkbun域名提供商DNS设置备份"></a>Porkbun域名提供商DNS设置备份</h1><p><a href="https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3" target="_blank" rel="noopener">https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3</a></p>
+<h1 id="一段插曲"><a href="#一段插曲" class="headerlink" title="一段插曲"></a>一段插曲</h1><p>Hi, sorry, i must hv done something wrong.<br>i tried to point <a href="http://shukangzhang.com/">shukangzhang.com</a>, which i hv just bought from you, to<a href="http://shukangzhang.github.io/" target="_blank" rel="noopener">shukangzhang.github.io</a>. But now when i type <a href="http://shukangzhang.com/">shukangzhang.com</a>, the browser shows a</p>
+<p>邮件写到一半，结果网页自动刷新，一切正常了。。。应该是Domain提供商反应比较慢，现在好了</p>
+<h1 id="hexo-deploy-not-found-git"><a href="#hexo-deploy-not-found-git" class="headerlink" title="hexo deploy not found git"></a>hexo deploy not found git</h1><p>是因为没有装<code>$ npm install hexo-deployer-git --save</code></p>
+<h1 id="TypeError-Cannot-read-property-‘replace’-of-null"><a href="#TypeError-Cannot-read-property-‘replace’-of-null" class="headerlink" title="TypeError Cannot read property ‘replace’ of null"></a>TypeError Cannot read property ‘replace’ of null</h1><p>实在是悲剧，找不到原因，只好$ hexo init 从头来过，哭哭<br>切记每步操作完一定要$ hexo g&amp;d</p>
+<h1 id="FATAL-Cannot-read-property-‘replace’-of-null"><a href="#FATAL-Cannot-read-property-‘replace’-of-null" class="headerlink" title="FATAL Cannot read property ‘replace’ of null"></a>FATAL Cannot read property ‘replace’ of null</h1><p>是因为config文件里的url: 后面被删掉了</p>
+<h1 id="hexo-更改本地路径"><a href="#hexo-更改本地路径" class="headerlink" title="hexo-更改本地路径"></a>hexo-更改本地路径</h1><p>a. config.yml文件中配置如下：<br>b. hexo s -p 5000</p>
+<h1 id="添加gitalk"><a href="#添加gitalk" class="headerlink" title="添加gitalk"></a>添加gitalk</h1><p>我原来看的教程推荐的是gitment，结果gitment已经停止服务了，<code>NexT</code>也已经不再集成gitment服务，于是转为安装gitalk评论系统，基于github issues，这里就不过多介绍了，总之，每篇文章都会在你事先建好的Repository里添加一条issues用于保存与这篇文章有关的评论。</p>
+<p>真可谓一波三折，因为很多gitalk安装教程都已经是很旧的了，各种index.md文件找不到啦，comments.swig打开跟教程里不一样啦，comments.ejs语法略有不同啦，折腾来折腾去不知道怎么办。</p>
+<p>还好我有点html基础，发现主题配置文件里_config.yml里直接就有gitalk的相关配置，那我又已经<code>npm i --save gitalk</code>，建好OAuth apps以后，填好各项配置如下:</p>
+<figure class="highlight"><table><tbody><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  github_id: shukangzhang # GitHub repo owner</span><br><span class="line">  repo: pinglun # Repository name to store issues</span><br><span class="line">  client_id: 59xxxxxx # GitHub Application Client ID</span><br><span class="line">  client_secret: 81xxxxx # GitHub Application Client Secret</span><br><span class="line">  admin_user: shukangzhang # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br></pre></td></tr></tbody></table></figure>
+<p>模块就添加成功啦</p>
+<p>这里必须得提一下我也遇到了老生常谈的<code>Error: Not found</code>的问题，但我的问题比较轻，是因为对别人教程的理解问题，我通过api.github.com查询了我的github_ID，我以为是要填写ID一栏显示的000000那串数字，结果一直Error: Not found，按F12审查元素:</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">https:<span class="comment">//api.github.com/repos/45145936/pinglun/issues?labels=Gitalk,cf1b9bedf8abfdc34802bcf9d9cde839&amp;t=1591326997341</span></span><br></pre></td></tr></tbody></table></figure>
+<p>这个网址始终返回404 not found. 也就是说，程序找不到相应的Repostory来创建issues，仓库地址错误！那么我于此得来灵感，我建的新仓库<code>pinglun</code>不可能出错，只可能是前面的那串数字错了，但是api.github.com返回的ID也没有错，那我看了别人的设置，把自己的github_ID也换成名称串，跟owner一样，再试就成了</p>
+<h1 id="本地预览与线上结果不一样问题"><a href="#本地预览与线上结果不一样问题" class="headerlink" title="本地预览与线上结果不一样问题"></a>本地预览与线上结果不一样问题</h1><p>已解决，参考<a href="https://github.com/hexojs/hexo/issues/806" target="_blank" rel="noopener">Github hexo issues #806</a></p>
+<p>#xxx<br>xxx. 未完待续</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
   </entry>
 </search>
