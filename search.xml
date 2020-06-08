@@ -1,11 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hexo添加pdf预览-纠正现有教程遗漏的地方</title>
+    <url>/2020/06/08/hexo-tian-jia-pdf/</url>
+    <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf" target="_blank" rel="noopener">Github官方教程superalsrk/hexo-pdf</a></p>
+<h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
+<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/\_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
+<p>然后键入:<br><code></code></p><div class="pdfobject-container" data-target="./xxx.pdf" data-height="1000px"></div><p></p>
+<p>咦，怎么不行！？</p>
+<a id="more"></a>
+
+<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用<code></code></p><div class="pdfobject-container" data-target="./file/xxx.pdf" data-height="1000px"></div>。结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。<p></p>
+<p>默认只有height设置，width设置是我自己加上去的</p>
+<p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
+<ul>
+<li>域名是https的话http开头的图床是会被block掉的</li>
+<li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
+</ul>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>pdf</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>all tests here</title>
     <url>/2020/06/06/test/</url>
     <content><![CDATA[<h1 id="insert-image-test"><a href="#insert-image-test" class="headerlink" title="insert image test"></a>insert image test</h1><img src="/2020/06/06/test/2.jpg" class="" title="云之彼端 约定的地方">
 <p><img src="1.gif" alt=""></p>
 <h1 id="insert-PDF-test"><a href="#insert-PDF-test" class="headerlink" title="insert PDF test"></a>insert PDF test</h1><div class="pdfobject-container" data-target="./1.pdf" data-height="1000px"></div>
+<a id="more"></a>
+<div class="pdfobject-container" data-target="https://drive.google.com/file/d/1hwhKspuT6TZPu0ELZiEAjvWfy6_n9LvI/view?usp=sharing" data-height="1000px"></div>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -30,6 +75,7 @@
       </categories>
       <tags>
         <tag>test</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
