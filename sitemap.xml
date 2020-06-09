@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shukangzhang.com/about/index.html</loc>
+    
+    <lastmod>2020-06-09T01:40:40.114Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shukangzhang.com/2020/06/06/test/</loc>
     
     <lastmod>2020-06-08T03:05:15.638Z</lastmod>
@@ -89,13 +96,6 @@
     <loc>https://shukangzhang.com/contact/index.html</loc>
     
     <lastmod>2020-06-04T00:57:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shukangzhang.com/about/index.html</loc>
-    
-    <lastmod>2020-06-04T00:56:31.000Z</lastmod>
     
   </url>
   
