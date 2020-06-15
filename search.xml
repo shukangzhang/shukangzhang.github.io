@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>玄学背后的一点点剖析</title>
+    <url>/2020/06/15/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi/</url>
+    <content><![CDATA[<p>和室友讨论得来的一点点启发<br>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。<br>我是挺无语的。<br>我觉得这是对现在科学的侮辱。<br>因为他说的这种首先取样就不严谨:<br><em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
+<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算99.999%的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
+<p>我不理解为什么会有这么大的思维差异！</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>privat</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Brennstoffzelle 2 Notizen</title>
     <url>/2020/06/14/brennstoffzelle-2-notizen/</url>
     <content><![CDATA[<p>Damit dieser Polymerelektrolytmembran hier ein gute Ionnenleitfähigkeit haben ein gute Protonleitfähigkeit aufweisen müssen dieser Membran <strong>feucht</strong> gehalt werden. Sie brauchen bestimmter Wassergehalt um ein hohe Ionenleitfähigkeit zu erreichen. Und das impliziert dann eben, dass man bei diesem PEMFC relativ aufwändiges Wassermanagement benötigt, wo man typische Weise eben die Brenngase sowohl auf die Anodeseite aber auch dei Kathodeluft voeher aktiv befeuchtet um eben sicher zu stellen dass hier das Wassergehalt in der Membran ausreichen genug ist um diese gute Ionenleitfähigkeit sicher zu stellen.</p>
@@ -11,7 +40,7 @@
 <li>CO (Kohlenmonoxid) in geringen Mengen (ppm) sehr giftig für die Pt, irreversible!</li>
 </ul>
 <p><strong>poröse Gasdiffusionsschicht</strong> aus Kohlenstoffpartikel, Ruße, Rußmaterialien bilden poröse Schicht. Keine besondere Funktionen für die elektrochemische Umsetzung. Aber dient dazu, die Eduktgase möglichst gleichmäßig hier über die Elektrodenflächen zu verteilen. Mehr oder wenig als ein Stofftransportschicht. Reaktionswasser auf die Kathodeseite H<del>2</del>O ableiten.</p>
-<p><strong>Nafion&amp;reg, sulfoniertes Tetrafluorethylen-Polymer (PTFE Teflon&amp;reg)</strong> erlaubt gute Ionenleitfähigkeit und gleichzeitig geringe Elektronen-Leitfähigkeit. Besser ein Dicke unter 100\mu m für Protonleitung</p>
+<p><strong>Nafion®, sulfoniertes Tetrafluorethylen-Polymer (PTFE Teflon®)</strong> erlaubt gute Ionenleitfähigkeit und gleichzeitig geringe Elektronen-Leitfähigkeit. Besser ein Dicke unter 100$\mu$m für Protonleitung</p>
 <blockquote>
 <p>Vorlesung, Brennstoffzelle 2, <strong>Prof. Dr. Andreas Lindermeir</strong>, CUTEC@teschnische Universität Clausthal<br>Zusammengefasst durch <strong>Shukang Zhang</strong>, Master@teschnische Universität Clausthal</p>
 </blockquote>
@@ -116,7 +145,12 @@
 </tbody></table>
 <h1 id="Math-Formulas"><a href="#Math-Formulas" class="headerlink" title="Math Formulas"></a>Math Formulas</h1><p>$$E = mc^2$$</p>
 <h1 id="insert-PDF-test"><a href="#insert-PDF-test" class="headerlink" title="insert PDF test"></a>insert PDF test</h1><object data="./1.pdf" type="application/pdf" width="100%" height="1000px">
-*[HTML]:一种超文本标记语言.
+
+
+
+
+
+<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><p>*[HTML]:一种超文本标记语言.</p>
 </object><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
