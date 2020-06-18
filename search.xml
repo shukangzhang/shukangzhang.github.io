@@ -29,7 +29,7 @@
     <content><![CDATA[<h1 id="修改语言出现的问题"><a href="#修改语言出现的问题" class="headerlink" title="修改语言出现的问题"></a>修改语言出现的问题</h1><p>我按网上的教程，通过改环境变量的方式添加中文操作界面，结果搞成了四不像，新开的文件一概英文界面，打开我保存关闭后的prt文件，一概显示中文界面。。。但是这个中文界面缺斤少两，模型里很多模块没了，得通过自定义的方式手动添加出来，<code>新建组</code><br>这一点上我真的要吹爆Comsol，安装界面第一项就让你选择语言，选好之后，后面从安装到软件实操界面一概是你选择好的语言，非常方便</p>
 <h1 id="在此插入的用法"><a href="#在此插入的用法" class="headerlink" title="在此插入的用法"></a>在此插入的用法</h1><img src="/2020/06/17/creo-xue-xi-bi-ji/%E5%9C%A8%E6%AD%A4%E6%8F%92%E5%85%A5%E7%9A%84%E7%94%A8%E6%B3%95.png" class="" title="在此插入的用法">
 <p>通过拖拽此选项到任意步骤下方，可以查看该步骤具体做了那些东西，非常实用</p>
-<h1 id="底部消息区是你最好的老师"><a href="#底部消息区是你最好的老师" class="headerlink" title="底部消息区是你最好的老师"></a>底部消息区是你最好的老师</h1><h1 id="键鼠操作汇总"><a href="#键鼠操作汇总" class="headerlink" title="键鼠操作汇总"></a>键鼠操作汇总</h1><figure class="highlight plain"><figcaption><span>test</span><a href="https://shukangzhang.com">link</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">按住中键可以旋转</span><br><span class="line">按住Ctrl + 中键沿固定轴旋转</span><br><span class="line">按住Shift + 中键实现平移</span><br><span class="line">滚轮可以缩放</span><br><span class="line">所有正在执行操作的取消都可以通过ESC键</span><br><span class="line">界面上的缩小按钮可以直接缩小，单击放大按钮后需要选择想放大的区域</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="底部消息区是你最好的老师"><a href="#底部消息区是你最好的老师" class="headerlink" title="底部消息区是你最好的老师"></a>底部消息区是你最好的老师</h1><h1 id="键鼠操作汇总"><a href="#键鼠操作汇总" class="headerlink" title="键鼠操作汇总"></a>键鼠操作汇总</h1><figure class="highlight plain"><figcaption><span>Text代码块</span><a href="https://shukangzhang.com">测试链接勿点</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">按住中键可以旋转</span><br><span class="line">按住Ctrl + 中键沿固定轴旋转</span><br><span class="line">按住Shift + 中键实现平移</span><br><span class="line">滚轮可以缩放</span><br><span class="line">所有正在执行操作的取消都可以通过ESC键</span><br><span class="line">界面上的缩小按钮可以直接缩小，单击放大按钮后需要选择想放大的区域</span><br></pre></td></tr></tbody></table></figure>
 
 <h1 id="常用操作汇总"><a href="#常用操作汇总" class="headerlink" title="常用操作汇总"></a>常用操作汇总</h1><ul>
 <li>设置选项卡下的草绘视图可以把定义好的面平铺到屏幕中央</li>
@@ -46,6 +46,7 @@
 <li>拉伸菜单下，详细参数部分，具体拉伸数值的右边第一个选项<br>拉伸同时可以做除料</li>
 </ul>
 <h1 id="关于草绘"><a href="#关于草绘" class="headerlink" title="关于草绘"></a>关于草绘</h1><p>样条命令在实体模型中用的不是非常多，但是做曲面一定要掌握<br>若想绘制多边形，请单击草绘选项卡里的选项板</p>
+<h1 id="Tipps汇总"><a href="#Tipps汇总" class="headerlink" title="Tipps汇总"></a>Tipps汇总</h1><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">工作目录的选择很重要</span><br></pre></td></tr></tbody></table></figure>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -220,8 +221,7 @@
 
 
 
-<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><p>*[HTML]:一种超文本标记语言.</p>
-</object><script>
+<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1></object><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -366,12 +366,17 @@
 <li><p>单行代码，可以在文章任意位置插入，用``两个斜单引号包含语句，像这样：<br><code>$ npm install</code></p>
 </li>
 <li><p>整段用</p>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">```[相应的语言][title][url][url text]</span><br><span class="line">xxx</span><br><span class="line">\\</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">- ```[相应的语言][title][url][url text]</span><br><span class="line">- xxx</span><br><span class="line">-</span><br></pre></td></tr></tbody></table></figure>
 <pre><code></code></pre></li>
 </ol>
 <p>包裹住，去掉反斜杠，我实在不会输出连续的三个反引号，只好这样打出来。。。TaT</p>
+<blockquote>
 <p>参考<a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">代码块进阶用法</a></p>
-<h1 id="插入图片测试"><a href="#插入图片测试" class="headerlink" title="插入图片测试"></a>插入图片测试</h1><p><img src="/images/1.jpg" alt=""><br>参考链接：<a href="http://yearito.cn/posts/hexo-writing-skills.html#%E4%BB%A3%E7%A0%81%E5%9D%97%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95" target="_blank" rel="noopener">Hexo文章中插入图片的方法</a></p>
+</blockquote>
+<h1 id="插入图片测试"><a href="#插入图片测试" class="headerlink" title="插入图片测试"></a>插入图片测试</h1><p><img src="/images/1.jpg" alt=""></p>
+<blockquote>
+<p>参考链接：<a href="http://yearito.cn/posts/hexo-writing-skills.html#%E4%BB%A3%E7%A0%81%E5%9D%97%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95" target="_blank" rel="noopener">Hexo文章中插入图片的方法</a></p>
+</blockquote>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
