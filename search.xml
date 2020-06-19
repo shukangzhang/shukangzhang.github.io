@@ -3,7 +3,11 @@
   <entry>
     <title>Comsol学习笔记</title>
     <url>/2020/06/18/comsol-xue-xi-bi-ji/</url>
-    <content><![CDATA[<script>
+    <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><p>![网格](wg0.png 网格划分示例)<br>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格</p>
+<blockquote>
+<p>参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn" target="_blank" rel="noopener">建模流程概述</a></p>
+</blockquote>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -22,6 +26,10 @@
             document.body.appendChild(img);
           });
       </script>]]></content>
+      <tags>
+        <tag>工程制图</tag>
+        <tag>Comsol</tag>
+      </tags>
   </entry>
   <entry>
     <title>Creo学习笔记</title>
