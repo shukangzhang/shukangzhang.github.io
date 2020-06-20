@@ -3,11 +3,14 @@
   <entry>
     <title>Comsol学习笔记</title>
     <url>/2020/06/18/comsol-xue-xi-bi-ji/</url>
-    <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><p><img src="wg0.png" alt="网格划分示例"><br>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格</p>
+    <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><img src="/2020/06/18/comsol-xue-xi-bi-ji/wg0.png" class="" title="网格划分示例">
+<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格</p>
 <blockquote>
 <p>参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn" target="_blank" rel="noopener">建模流程概述</a></p>
 </blockquote>
-<script>
+<h1 id="浅谈Comsol建模对比Creo建模"><a href="#浅谈Comsol建模对比Creo建模" class="headerlink" title="浅谈Comsol建模对比Creo建模"></a>浅谈Comsol建模对比Creo建模</h1><figure class="highlight plain"><figcaption><span>经验尚浅，只能浅谈</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></tbody></table></figure>
+
+<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -375,15 +378,12 @@
 </li>
 <li><p>整段用</p>
 <figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">- ```[相应的语言][title][url][url text]</span><br><span class="line">- xxx</span><br><span class="line">-</span><br></pre></td></tr></tbody></table></figure>
-<pre><code></code></pre></li>
+<figure class="highlight markdown"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line">包裹住，去掉反斜杠，我实在不会输出连续的三个反引号，只好这样打出来。。。TaT</span><br><span class="line"></span><br><span class="line">&gt;参考[<span class="string">代码块进阶用法</span>](<span class="link">http://yearito.cn/posts/hexo-writing-skills.html</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="section"># 插入图片测试</span></span><br><span class="line">![](/images/1.jpg)</span><br><span class="line"></span><br><span class="line">如果希望图片在文章和首页中同时显示，可以使用标签插件语法。</span><br><span class="line"><span class="code">```</span>html <span class="emphasis">_posts/post_</span>name/image.jpg</span><br><span class="line">{% asset_img 1.jpg This is an image %}</span><br></pre></td></tr></tbody></table></figure>
+
+</li>
 </ol>
-<p>包裹住，去掉反斜杠，我实在不会输出连续的三个反引号，只好这样打出来。。。TaT</p>
 <blockquote>
-<p>参考<a href="http://yearito.cn/posts/hexo-writing-skills.html" target="_blank" rel="noopener">代码块进阶用法</a></p>
-</blockquote>
-<h1 id="插入图片测试"><a href="#插入图片测试" class="headerlink" title="插入图片测试"></a>插入图片测试</h1><p><img src="/images/1.jpg" alt=""></p>
-<blockquote>
-<p>参考链接：<a href="http://yearito.cn/posts/hexo-writing-skills.html#%E4%BB%A3%E7%A0%81%E5%9D%97%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95" target="_blank" rel="noopener">Hexo文章中插入图片的方法</a></p>
+<p>参考：<a href="https://yanyinhong.github.io/2017/05/02/How-to-insert-image-in-hexo-post/" target="_blank" rel="noopener">Hexo博客搭建之在文章中插入图片</a><br>参考：<a href="http://yearito.cn/posts/hexo-writing-skills.html#%E4%BB%A3%E7%A0%81%E5%9D%97%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95" target="_blank" rel="noopener">Hexo文章中插入图片的方法</a></p>
 </blockquote>
 <script>
         document.querySelectorAll('.github-emoji')
