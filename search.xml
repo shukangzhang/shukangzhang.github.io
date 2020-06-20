@@ -180,12 +180,14 @@
 <li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
 </ul>
 <hr>
-<p>06.15 Upgrade<br>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
+<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
 <figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
 <p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
 <blockquote>
 <p><a href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
 </blockquote>
+<h1 id="06-20-Upgrade"><a href="#06-20-Upgrade" class="headerlink" title="06.20 Upgrade"></a>06.20 Upgrade</h1><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>此方法在我的浏览器上现在可以正常显示了，不知道是不是因为更新浏览器清除了浏览器缓存</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -241,10 +243,25 @@
     B--&gt;D;
     C--&gt;D;</pre>
 
-<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><h1 id="insert-PDF-test"><a href="#insert-PDF-test" class="headerlink" title="insert PDF test"></a>insert PDF test</h1><iframe data="./1.pdf" type="application/pdf" width="100%" height="100%">
+<div id="flowchart-0" class="flow-chart"></div>
 
+<h1 id="insert-PDF-test"><a href="#insert-PDF-test" class="headerlink" title="insert PDF test"></a>insert PDF test</h1><div class="pdfobject-container" data-target="./1.pdf" data-height="1000px"></div>
 
-<h1 id="xxx-1"><a href="#xxx-1" class="headerlink" title="xxx"></a>xxx</h1></iframe><script>
+<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: Start|past:&gt;http://www.google.com[blank]
+e=&gt;end: End:&gt;http://www.google.com
+op1=&gt;operation: My Operation|past
+op2=&gt;operation: Stuff|current
+sub1=&gt;subroutine: My Subroutine|invalid
+cond=&gt;condition: Yes
+or No?|approved:&gt;http://www.google.com
+c2=&gt;condition: Good idea|rejected
+io=&gt;inputoutput: catch something...|request
+
+st-&gt;op1(right)-&gt;cond
+cond(yes, right)-&gt;c2
+cond(no)-&gt;sub1(left)-&gt;op1
+c2(yes)-&gt;io-&gt;e
+c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
