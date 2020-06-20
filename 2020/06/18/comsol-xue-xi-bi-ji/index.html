@@ -30,7 +30,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shukangzhang.com/2020/06/18/comsol-xue-xi-bi-ji/wg0.png">
 <meta property="article:published_time" content="2020-06-18T12:09:22.000Z">
-<meta property="article:modified_time" content="2020-06-20T10:17:36.090Z">
+<meta property="article:modified_time" content="2020-06-20T10:58:31.358Z">
 <meta property="article:author" content="Shukang Zhang">
 <meta property="article:tag" content="Comsol">
 <meta property="article:tag" content="工程制图">
@@ -243,7 +243,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-06-20 12:17:36" itemprop="dateModified" datetime="2020-06-20T12:17:36+02:00">2020-06-20</time>
+                <time title="Modified: 2020-06-20 12:58:31" itemprop="dateModified" datetime="2020-06-20T12:58:31+02:00">2020-06-20</time>
               </span>
 
           
@@ -259,7 +259,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>282</span>
+              <span>627</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
@@ -286,12 +286,17 @@
 <a id="more"></a>
 
 <h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><p>切除，并集等操作在布尔运算选项下</p>
-<pre class="mermaid">graph TD;
-构建体素对象--&gt;参数化编辑--&gt;完成设置后执行几何操作--&gt;例如布尔运算;</pre>
+<div id="flowchart-0" class="flow-chart"></div>
+
 
 <h1 id="浅谈Comsol建模对比Creo建模"><a href="#浅谈Comsol建模对比Creo建模" class="headerlink" title="浅谈Comsol建模对比Creo建模"></a>浅谈Comsol建模对比Creo建模</h1><figure class="highlight plain"><figcaption><span>经验尚浅，只能浅谈</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></tbody></table></figure>
 
-<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><script>
+<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: 构建体素对象
+e=&gt;end: 例如布尔运算
+op1=&gt;operation: 参数化编辑
+op2=&gt;operation: 完成设置后执行几何操作
+
+st-&gt;op1-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -535,12 +540,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="Symbols count total">14k</span>
+    <span title="Symbols count total">15k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">24 mins.</span>
+    <span title="Reading time total">25 mins.</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
   </div>
