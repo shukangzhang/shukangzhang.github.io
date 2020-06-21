@@ -65,91 +65,6 @@ st(left)-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: no
       </tags>
   </entry>
   <entry>
-    <title>Brennstoffzelle 2 Notizen</title>
-    <url>/2020/06/14/brennstoffzelle-2-notizen/</url>
-    <content><![CDATA[<p>Damit dieser Polymerelektrolytmembran hier ein gute Ionnenleitfähigkeit haben ein gute Protonleitfähigkeit aufweisen müssen dieser Membran <strong>feucht</strong> gehalt werden. Sie brauchen bestimmter Wassergehalt um ein hohe Ionenleitfähigkeit zu erreichen. Und das impliziert dann eben, dass man bei diesem PEMFC relativ aufwändiges Wassermanagement benötigt, wo man typische Weise eben die Brenngase sowohl auf die Anodeseite aber auch dei Kathodeluft voeher aktiv befeuchtet um eben sicher zu stellen dass hier das Wassergehalt in der Membran ausreichen genug ist um diese gute Ionenleitfähigkeit sicher zu stellen.</p>
-<p>Kaltstart</p>
-<p>Ein entscheidenes Charateristikum, gilt auch für die andere niedrige T Brennstoffzelle, ist eben, dass sie auf beider Elektroden in diesem Fall als Katalysator eben hier <strong>Pt</strong> typische Weise einsetzen. Pt ist jetzt nicht gerade die günstige Rohstoff. Ein groß Teil der Kosten wird nach wie vor durch die Kosten für die Pt-Katalysator versursacht. 2 Nachteile:</p>
-<ul>
-<li>teure Matrial</li>
-<li>CO (Kohlenmonoxid) in geringen Mengen (ppm) sehr giftig für die Pt, irreversible!</li>
-</ul>
-<p><strong>poröse Gasdiffusionsschicht</strong> aus Kohlenstoffpartikel, Ruße, Rußmaterialien bilden poröse Schicht. Keine besondere Funktionen für die elektrochemische Umsetzung. Aber dient dazu, die Eduktgase möglichst gleichmäßig hier über die Elektrodenflächen zu verteilen. Mehr oder wenig als ein Stofftransportschicht. Reaktionswasser auf die Kathodeseite H<del>2</del>O ableiten.</p>
-<p><strong>Nafion®, sulfoniertes Tetrafluorethylen-Polymer (PTFE Teflon®)</strong> erlaubt gute Ionenleitfähigkeit und gleichzeitig geringe Elektronen-Leitfähigkeit. Besser ein Dicke unter 100$\mu$m für Protonleitung</p>
-<blockquote>
-<p>Vorlesung, Brennstoffzelle 2, <strong>Prof. Dr. Andreas Lindermeir</strong>, CUTEC@teschnische Universität Clausthal<br>Zusammengefasst durch <strong>Shukang Zhang</strong>, Master@teschnische Universität Clausthal</p>
-</blockquote>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <tags>
-        <tag>Fuel Cell</tag>
-        <tag>Brennstoffzelle</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GitHub Hexo报错汇总</title>
-    <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
-    <content><![CDATA[<h1 id="hexo-init-网络问题初始化失败"><a href="#hexo-init-网络问题初始化失败" class="headerlink" title="$ hexo init 网络问题初始化失败"></a><code>$ hexo init</code> 网络问题初始化失败</h1><p>删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
-<p>尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
-<p>其实<code>$ hexo init</code>不需要重装hexo-cli服务</p>
-<a id="more"></a>
-
-<h1 id="重置链接"><a href="#重置链接" class="headerlink" title="重置链接"></a>重置链接</h1><p><code>npm set registry http://registry.npmjs.org/</code></p>
-<h1 id="Porkbun域名提供商DNS设置备份"><a href="#Porkbun域名提供商DNS设置备份" class="headerlink" title="Porkbun域名提供商DNS设置备份"></a>Porkbun域名提供商DNS设置备份</h1><p><a href="https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3">https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3</a></p>
-<h1 id="一段插曲"><a href="#一段插曲" class="headerlink" title="一段插曲"></a>一段插曲</h1><p>Hi, sorry, i must hv done something wrong.<br>i tried to point <a href="http://shukangzhang.com/">shukangzhang.com</a>, which i hv just bought from you, to<a href="http://shukangzhang.github.io/">shukangzhang.github.io</a>. But now when i type <a href="http://shukangzhang.com/">shukangzhang.com</a>, the browser shows a</p>
-<p>邮件写到一半，结果网页自动刷新，一切正常了。。。应该是Domain提供商反应比较慢，现在好了</p>
-<h1 id="hexo-deploy-not-found-git"><a href="#hexo-deploy-not-found-git" class="headerlink" title="hexo deploy not found git"></a>hexo deploy not found git</h1><p>是因为没有装<code>$ npm install hexo-deployer-git --save</code></p>
-<h1 id="TypeError-Cannot-read-property-‘replace’-of-null"><a href="#TypeError-Cannot-read-property-‘replace’-of-null" class="headerlink" title="TypeError Cannot read property ‘replace’ of null"></a>TypeError Cannot read property ‘replace’ of null</h1><p>实在是悲剧，找不到原因，只好$ hexo init 从头来过，哭哭<br>切记每步操作完一定要$ hexo g&amp;d</p>
-<h1 id="FATAL-Cannot-read-property-‘replace’-of-null"><a href="#FATAL-Cannot-read-property-‘replace’-of-null" class="headerlink" title="FATAL Cannot read property ‘replace’ of null"></a>FATAL Cannot read property ‘replace’ of null</h1><p>是因为config文件里的url: 后面被删掉了</p>
-<h1 id="hexo-更改本地路径"><a href="#hexo-更改本地路径" class="headerlink" title="hexo-更改本地路径"></a>hexo-更改本地路径</h1><p>a. config.yml文件中配置如下：<br>b. hexo s -p 5000</p>
-<h1 id="添加gitalk"><a href="#添加gitalk" class="headerlink" title="添加gitalk"></a>添加gitalk</h1><p>我原来看的教程推荐的是gitment，结果gitment已经停止服务了，<code>NexT</code>也已经不再集成gitment服务，于是转为安装gitalk评论系统，基于github issues，这里就不过多介绍了，总之，每篇文章都会在你事先建好的Repository里添加一条issues用于保存与这篇文章有关的评论。</p>
-<p>真可谓一波三折，因为很多gitalk安装教程都已经是很旧的了，各种index.md文件找不到啦，comments.swig打开跟教程里不一样啦，comments.ejs语法略有不同啦，折腾来折腾去不知道怎么办。</p>
-<p>还好我有点html基础，发现主题配置文件里_config.yml里直接就有gitalk的相关配置，那我又已经<code>npm i --save gitalk</code>，建好OAuth apps以后，填好各项配置如下:</p>
-<figure class="highlight"><table><tbody><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  github_id: shukangzhang # GitHub repo owner</span><br><span class="line">  repo: pinglun # Repository name to store issues</span><br><span class="line">  client_id: 59xxxxxx # GitHub Application Client ID</span><br><span class="line">  client_secret: 81xxxxx # GitHub Application Client Secret</span><br><span class="line">  admin_user: shukangzhang # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br></pre></td></tr></tbody></table></figure>
-<p>模块就添加成功啦</p>
-<p>这里必须得提一下我也遇到了老生常谈的<code>Error: Not found</code>的问题，但我的问题比较轻，是因为对别人教程的理解问题，我通过api.github.com查询了我的github_ID，我以为是要填写ID一栏显示的000000那串数字，结果一直Error: Not found，按F12审查元素:</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">https:<span class="comment">//api.github.com/repos/45145936/pinglun/issues?labels=Gitalk,cf1b9bedf8abfdc34802bcf9d9cde839&amp;t=1591326997341</span></span><br></pre></td></tr></tbody></table></figure>
-<p>这个网址始终返回404 not found. 也就是说，程序找不到相应的Repostory来创建issues，仓库地址错误！那么我于此得来灵感，我建的新仓库<code>pinglun</code>不可能出错，只可能是前面的那串数字错了，但是api.github.com返回的ID也没有错，那我看了别人的设置，把自己的github_ID也换成名称串，跟owner一样，再试就成了</p>
-<h1 id="本地预览与线上结果不一样问题"><a href="#本地预览与线上结果不一样问题" class="headerlink" title="本地预览与线上结果不一样问题"></a>本地预览与线上结果不一样问题</h1><p>已解决，参考<a href="https://github.com/hexojs/hexo/issues/806">Github hexo issues #806</a></p>
-<p>#xxx<br>xxx. 未完待续</p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-  </entry>
-  <entry>
     <title>Creo学习笔记</title>
     <url>/2020/06/17/creo-xue-xi-bi-ji/</url>
     <content><![CDATA[<h1 id="修改语言出现的问题"><a href="#修改语言出现的问题" class="headerlink" title="修改语言出现的问题"></a>修改语言出现的问题</h1><p>我按网上的教程，通过改环境变量的方式添加中文操作界面，结果搞成了四不像，新开的文件一概英文界面，打开我保存关闭后的prt文件，一概显示中文界面。。。但是这个中文界面缺斤少两，模型里很多模块没了，得通过自定义的方式手动添加出来，<code>新建组</code><br>这一点上我真的要吹爆Comsol，安装界面第一项就让你选择语言，选好之后，后面从安装到软件实操界面一概是你选择好的语言，非常方便</p>
@@ -198,42 +113,15 @@ st(left)-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: no
       </tags>
   </entry>
   <entry>
-    <title>hexo笔记</title>
-    <url>/2020/06/05/hexo-bi-ji/</url>
-    <content><![CDATA[<p>本文对用Hexo进行创作过程中遇到的问题进行汇总，纯新手向</p>
+    <title>玄学背后的一点点剖析</title>
+    <url>/2020/06/15/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi/</url>
+    <content><![CDATA[<p>和室友讨论得来的一点点启发</p>
 <a id="more"></a>
 
-<h1 id="添加整段代码块"><a href="#添加整段代码块" class="headerlink" title="添加整段代码块"></a>添加整段代码块</h1><ol>
-<li><p>单行代码，可以在文章任意位置插入，用``两个斜单引号包含语句，像这样：<br><code>$ npm install</code></p>
-</li>
-<li><p>整段用</p>
-<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">···[相应的语言][title][url][url text]</span><br><span class="line">xxx</span><br><span class="line">···</span><br></pre></td></tr></tbody></table></figure>
-
-</li>
-</ol>
-<p>包裹住，我实在不会输出连续的三个反引号，只好这样打出来。。。TaT</p>
-<blockquote>
-<p>参考<a href="http://yearito.cn/posts/hexo-writing-skills.html">代码块进阶用法</a></p>
-</blockquote>
-<h1 id="插入图片测试"><a href="#插入图片测试" class="headerlink" title="插入图片测试"></a>插入图片测试</h1><p><img src="/images/1.jpg" alt=""></p>
-<p>如果希望图片在文章和首页中同时显示，可以使用标签插件语法。</p>
-<figure class="highlight html"><figcaption><span>_posts/post_name/image.jpg</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">{% asset_img 1.jpg This is an image %}</span><br></pre></td></tr></tbody></table></figure>
-
-<p>HTML语法引用</p>
-<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">&lt;img src="xxx.png" width="50%" height="50%" title="xxx" alt="xxx"/&gt;</span><br></pre></td></tr></tbody></table></figure>
-
-<blockquote>
-<p>参考：</p>
-</blockquote>
-<ol>
-<li><a href="https://yanyinhong.github.io/2017/05/02/How-to-insert-image-in-hexo-post/">Hexo博客搭建之在文章中插入图片</a></li>
-<li><a href="http://yearito.cn/posts/hexo-writing-skills.html#%E4%BB%A3%E7%A0%81%E5%9D%97%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95">Hexo文章中插入图片的方法</a></li>
-<li><a href="https://fuhailin.github.io/Hexo-images/">在Hexo博客中插入图片的各种方式</a></li>
-</ol>
-<h1 id="更新core-js"><a href="#更新core-js" class="headerlink" title="更新core-js"></a>更新core-js</h1><p>您可以通过运行以下命令来更新core-js：</p>
-<figure class="highlight bash"><figcaption><span>core-js@3</span><a href="https://mlog.club/article/2240076">引用</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">npm install --save core-js@3</span><br></pre></td></tr></tbody></table></figure>
-
-<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><script>
+<p>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。<br>我是挺无语的。<br>我觉得这是对现在科学的侮辱。<br>因为他说的这种首先取样就不严谨:<br><em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
+<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算99.999%的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
+<p>我不理解为什么会有这么大的思维差异！</p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -253,8 +141,101 @@ st(left)-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: no
           });
       </script>]]></content>
       <tags>
-        <tag>Hexo</tag>
-        <tag>md</tag>
+        <tag>privat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Brennstoffzelle 2 Notizen</title>
+    <url>/2020/06/14/brennstoffzelle-2-notizen/</url>
+    <content><![CDATA[<p>Damit dieser Polymerelektrolytmembran hier ein gute Ionnenleitfähigkeit haben ein gute Protonleitfähigkeit aufweisen müssen dieser Membran <strong>feucht</strong> gehalt werden. Sie brauchen bestimmter Wassergehalt um ein hohe Ionenleitfähigkeit zu erreichen. Und das impliziert dann eben, dass man bei diesem PEMFC relativ aufwändiges Wassermanagement benötigt, wo man typische Weise eben die Brenngase sowohl auf die Anodeseite aber auch dei Kathodeluft voeher aktiv befeuchtet um eben sicher zu stellen dass hier das Wassergehalt in der Membran ausreichen genug ist um diese gute Ionenleitfähigkeit sicher zu stellen.</p>
+<p>Kaltstart</p>
+<p>Ein entscheidenes Charateristikum, gilt auch für die andere niedrige T Brennstoffzelle, ist eben, dass sie auf beider Elektroden in diesem Fall als Katalysator eben hier <strong>Pt</strong> typische Weise einsetzen. Pt ist jetzt nicht gerade die günstige Rohstoff. Ein groß Teil der Kosten wird nach wie vor durch die Kosten für die Pt-Katalysator versursacht. 2 Nachteile:</p>
+<ul>
+<li>teure Matrial</li>
+<li>CO (Kohlenmonoxid) in geringen Mengen (ppm) sehr giftig für die Pt, irreversible!</li>
+</ul>
+<p><strong>poröse Gasdiffusionsschicht</strong> aus Kohlenstoffpartikel, Ruße, Rußmaterialien bilden poröse Schicht. Keine besondere Funktionen für die elektrochemische Umsetzung. Aber dient dazu, die Eduktgase möglichst gleichmäßig hier über die Elektrodenflächen zu verteilen. Mehr oder wenig als ein Stofftransportschicht. Reaktionswasser auf die Kathodeseite H<del>2</del>O ableiten.</p>
+<p><strong>Nafion®, sulfoniertes Tetrafluorethylen-Polymer (PTFE Teflon®)</strong> erlaubt gute Ionenleitfähigkeit und gleichzeitig geringe Elektronen-Leitfähigkeit. Besser ein Dicke unter 100$\mu$m für Protonleitung</p>
+<blockquote>
+<p>Vorlesung, Brennstoffzelle 2, <strong>Prof. Dr. Andreas Lindermeir</strong>, CUTEC@teschnische Universität Clausthal<br>Zusammengefasst durch <strong>Shukang Zhang</strong>, Master@teschnische Universität Clausthal</p>
+</blockquote>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>Fuel Cell</tag>
+        <tag>Brennstoffzelle</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo添加pdf预览-纠正现有教程遗漏的地方</title>
+    <url>/2020/06/08/hexo-tian-jia-pdf/</url>
+    <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf">Github官方教程superalsrk/hexo-pdf</a></p>
+<h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
+<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
+<p>然后键入:</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>咦，怎么不行！？</p>
+<a id="more"></a>
+
+<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。</p>
+<p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del></p>
+<p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
+<ul>
+<li>域名是https的话http开头的图床是会被block掉的</li>
+<li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
+</ul>
+<hr>
+<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
+<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+<p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
+<blockquote>
+<p><a href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
+</blockquote>
+<h1 id="06-20-Upgrade"><a href="#06-20-Upgrade" class="headerlink" title="06.20 Upgrade"></a>06.20 Upgrade</h1><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>此方法在我的浏览器上现在可以正常显示了，不知道是不是因为更新浏览器清除了浏览器缓存</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>pdf</tag>
       </tags>
   </entry>
   <entry>
@@ -329,131 +310,6 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
       <tags>
         <tag>test</tag>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NexT Optimize</title>
-    <url>/2020/06/05/next-optimize/</url>
-    <content><![CDATA[<p> Darunten werde ich über die Optimierung von NexT reden</p>
-<p> Below I will talk about the optimization of NexT</p>
-<p> 下面将讨论关于NexT主题的优化</p>
-<a id="more"></a>
-
-<h1 id="设置文章末尾”本文结束”标记"><a href="#设置文章末尾”本文结束”标记" class="headerlink" title="设置文章末尾”本文结束”标记"></a>设置文章末尾”本文结束”标记</h1><p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">{% <span class="keyword">if</span> not is_index %}</span><br><span class="line">    &lt;div style=<span class="string">"text-align:center;color: #ccc;font-size:24px;"</span>&gt;-End-&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">{% endif %}</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></tbody></table></figure>
-<p>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% <span class="keyword">if</span> not is_index and theme.passage_end_tag.enabled %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include <span class="string">'passage-end-tag.swig'</span> %}</span><br><span class="line">   &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp"> {% endif %}</span></span><br></pre></td></tr></tbody></table></figure>
-<p>然后打开主题配置文件（_config.yml)，在末尾添加：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: <span class="literal">true</span><span class="string">`</span></span><br></pre></td></tr></tbody></table></figure>
-
-<ol start="2">
-<li>xxx</li>
-</ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-  </entry>
-  <entry>
-    <title>hexo添加pdf预览-纠正现有教程遗漏的地方</title>
-    <url>/2020/06/08/hexo-tian-jia-pdf/</url>
-    <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf">Github官方教程superalsrk/hexo-pdf</a></p>
-<h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
-<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
-<p>然后键入:</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>咦，怎么不行！？</p>
-<a id="more"></a>
-
-<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。</p>
-<p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del></p>
-<p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
-<ul>
-<li>域名是https的话http开头的图床是会被block掉的</li>
-<li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
-</ul>
-<hr>
-<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
-<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-<p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
-<blockquote>
-<p><a href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
-</blockquote>
-<h1 id="06-20-Upgrade"><a href="#06-20-Upgrade" class="headerlink" title="06.20 Upgrade"></a>06.20 Upgrade</h1><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>此方法在我的浏览器上现在可以正常显示了，不知道是不是因为更新浏览器清除了浏览器缓存</p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>pdf</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玄学背后的一点点剖析</title>
-    <url>/2020/06/15/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi/</url>
-    <content><![CDATA[<p>和室友讨论得来的一点点启发</p>
-<a id="more"></a>
-
-<p>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。<br>我是挺无语的。<br>我觉得这是对现在科学的侮辱。<br>因为他说的这种首先取样就不严谨:<br><em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
-<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算99.999%的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
-<p>我不理解为什么会有这么大的思维差异！</p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <tags>
-        <tag>privat</tag>
       </tags>
   </entry>
   <entry>
@@ -563,5 +419,149 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
       <tags>
         <tag>privat</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>hexo笔记</title>
+    <url>/2020/06/05/hexo-bi-ji/</url>
+    <content><![CDATA[<p>本文对用Hexo进行创作过程中遇到的问题进行汇总，纯新手向</p>
+<a id="more"></a>
+
+<h1 id="添加整段代码块"><a href="#添加整段代码块" class="headerlink" title="添加整段代码块"></a>添加整段代码块</h1><ol>
+<li><p>单行代码，可以在文章任意位置插入，用``两个斜单引号包含语句，像这样：<br><code>$ npm install</code></p>
+</li>
+<li><p>整段用</p>
+<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">···[相应的语言][title][url][url text]</span><br><span class="line">xxx</span><br><span class="line">···</span><br></pre></td></tr></tbody></table></figure>
+
+</li>
+</ol>
+<p>包裹住，我实在不会输出连续的三个反引号，只好这样打出来。。。TaT</p>
+<blockquote>
+<p>参考<a href="http://yearito.cn/posts/hexo-writing-skills.html">代码块进阶用法</a></p>
+</blockquote>
+<h1 id="插入图片测试"><a href="#插入图片测试" class="headerlink" title="插入图片测试"></a>插入图片测试</h1><p><img src="/images/1.jpg" alt=""></p>
+<p>如果希望图片在文章和首页中同时显示，可以使用标签插件语法。</p>
+<figure class="highlight html"><figcaption><span>_posts/post_name/image.jpg</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">{% asset_img 1.jpg This is an image %}</span><br></pre></td></tr></tbody></table></figure>
+
+<p>HTML语法引用</p>
+<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">&lt;img src="xxx.png" width="50%" height="50%" title="xxx" alt="xxx"/&gt;</span><br></pre></td></tr></tbody></table></figure>
+
+<blockquote>
+<p>参考：</p>
+</blockquote>
+<ol>
+<li><a href="https://yanyinhong.github.io/2017/05/02/How-to-insert-image-in-hexo-post/">Hexo博客搭建之在文章中插入图片</a></li>
+<li><a href="http://yearito.cn/posts/hexo-writing-skills.html#%E4%BB%A3%E7%A0%81%E5%9D%97%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95">Hexo文章中插入图片的方法</a></li>
+<li><a href="https://fuhailin.github.io/Hexo-images/">在Hexo博客中插入图片的各种方式</a></li>
+</ol>
+<h1 id="更新core-js"><a href="#更新core-js" class="headerlink" title="更新core-js"></a>更新core-js</h1><p>您可以通过运行以下命令来更新core-js：</p>
+<figure class="highlight bash"><figcaption><span>core-js@3</span><a href="https://mlog.club/article/2240076">引用</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">npm install --save core-js@3</span><br></pre></td></tr></tbody></table></figure>
+
+<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>md</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT Optimize</title>
+    <url>/2020/06/05/next-optimize/</url>
+    <content><![CDATA[<p> Darunten werde ich über die Optimierung von NexT reden</p>
+<p> Below I will talk about the optimization of NexT</p>
+<p> 下面将讨论关于NexT主题的优化</p>
+<a id="more"></a>
+
+<h1 id="设置文章末尾”本文结束”标记"><a href="#设置文章末尾”本文结束”标记" class="headerlink" title="设置文章末尾”本文结束”标记"></a>设置文章末尾”本文结束”标记</h1><p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">{% <span class="keyword">if</span> not is_index %}</span><br><span class="line">    &lt;div style=<span class="string">"text-align:center;color: #ccc;font-size:24px;"</span>&gt;-End-&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">{% endif %}</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></tbody></table></figure>
+<p>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% <span class="keyword">if</span> not is_index and theme.passage_end_tag.enabled %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include <span class="string">'passage-end-tag.swig'</span> %}</span><br><span class="line">   &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp"> {% endif %}</span></span><br></pre></td></tr></tbody></table></figure>
+<p>然后打开主题配置文件（_config.yml)，在末尾添加：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: <span class="literal">true</span><span class="string">`</span></span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="2">
+<li>xxx</li>
+</ol>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>GitHub Hexo报错汇总</title>
+    <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
+    <content><![CDATA[<h1 id="hexo-init-网络问题初始化失败"><a href="#hexo-init-网络问题初始化失败" class="headerlink" title="$ hexo init 网络问题初始化失败"></a><code>$ hexo init</code> 网络问题初始化失败</h1><p>删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
+<p>尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
+<p>其实<code>$ hexo init</code>不需要重装hexo-cli服务</p>
+<a id="more"></a>
+
+<h1 id="重置链接"><a href="#重置链接" class="headerlink" title="重置链接"></a>重置链接</h1><p><code>npm set registry http://registry.npmjs.org/</code></p>
+<h1 id="Porkbun域名提供商DNS设置备份"><a href="#Porkbun域名提供商DNS设置备份" class="headerlink" title="Porkbun域名提供商DNS设置备份"></a>Porkbun域名提供商DNS设置备份</h1><p><a href="https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3">https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3</a></p>
+<h1 id="一段插曲"><a href="#一段插曲" class="headerlink" title="一段插曲"></a>一段插曲</h1><p>Hi, sorry, i must hv done something wrong.<br>i tried to point <a href="http://shukangzhang.com/">shukangzhang.com</a>, which i hv just bought from you, to<a href="http://shukangzhang.github.io/">shukangzhang.github.io</a>. But now when i type <a href="http://shukangzhang.com/">shukangzhang.com</a>, the browser shows a</p>
+<p>邮件写到一半，结果网页自动刷新，一切正常了。。。应该是Domain提供商反应比较慢，现在好了</p>
+<h1 id="hexo-deploy-not-found-git"><a href="#hexo-deploy-not-found-git" class="headerlink" title="hexo deploy not found git"></a>hexo deploy not found git</h1><p>是因为没有装<code>$ npm install hexo-deployer-git --save</code></p>
+<h1 id="TypeError-Cannot-read-property-‘replace’-of-null"><a href="#TypeError-Cannot-read-property-‘replace’-of-null" class="headerlink" title="TypeError Cannot read property ‘replace’ of null"></a>TypeError Cannot read property ‘replace’ of null</h1><p>实在是悲剧，找不到原因，只好$ hexo init 从头来过，哭哭<br>切记每步操作完一定要$ hexo g&amp;d</p>
+<h1 id="FATAL-Cannot-read-property-‘replace’-of-null"><a href="#FATAL-Cannot-read-property-‘replace’-of-null" class="headerlink" title="FATAL Cannot read property ‘replace’ of null"></a>FATAL Cannot read property ‘replace’ of null</h1><p>是因为config文件里的url: 后面被删掉了</p>
+<h1 id="hexo-更改本地路径"><a href="#hexo-更改本地路径" class="headerlink" title="hexo-更改本地路径"></a>hexo-更改本地路径</h1><p>a. config.yml文件中配置如下：<br>b. hexo s -p 5000</p>
+<h1 id="添加gitalk"><a href="#添加gitalk" class="headerlink" title="添加gitalk"></a>添加gitalk</h1><p>我原来看的教程推荐的是gitment，结果gitment已经停止服务了，<code>NexT</code>也已经不再集成gitment服务，于是转为安装gitalk评论系统，基于github issues，这里就不过多介绍了，总之，每篇文章都会在你事先建好的Repository里添加一条issues用于保存与这篇文章有关的评论。</p>
+<p>真可谓一波三折，因为很多gitalk安装教程都已经是很旧的了，各种index.md文件找不到啦，comments.swig打开跟教程里不一样啦，comments.ejs语法略有不同啦，折腾来折腾去不知道怎么办。</p>
+<p>还好我有点html基础，发现主题配置文件里_config.yml里直接就有gitalk的相关配置，那我又已经<code>npm i --save gitalk</code>，建好OAuth apps以后，填好各项配置如下:</p>
+<figure class="highlight"><table><tbody><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  github_id: shukangzhang # GitHub repo owner</span><br><span class="line">  repo: pinglun # Repository name to store issues</span><br><span class="line">  client_id: 59xxxxxx # GitHub Application Client ID</span><br><span class="line">  client_secret: 81xxxxx # GitHub Application Client Secret</span><br><span class="line">  admin_user: shukangzhang # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br></pre></td></tr></tbody></table></figure>
+<p>模块就添加成功啦</p>
+<p>这里必须得提一下我也遇到了老生常谈的<code>Error: Not found</code>的问题，但我的问题比较轻，是因为对别人教程的理解问题，我通过api.github.com查询了我的github_ID，我以为是要填写ID一栏显示的000000那串数字，结果一直Error: Not found，按F12审查元素:</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">https:<span class="comment">//api.github.com/repos/45145936/pinglun/issues?labels=Gitalk,cf1b9bedf8abfdc34802bcf9d9cde839&amp;t=1591326997341</span></span><br></pre></td></tr></tbody></table></figure>
+<p>这个网址始终返回404 not found. 也就是说，程序找不到相应的Repostory来创建issues，仓库地址错误！那么我于此得来灵感，我建的新仓库<code>pinglun</code>不可能出错，只可能是前面的那串数字错了，但是api.github.com返回的ID也没有错，那我看了别人的设置，把自己的github_ID也换成名称串，跟owner一样，再试就成了</p>
+<h1 id="本地预览与线上结果不一样问题"><a href="#本地预览与线上结果不一样问题" class="headerlink" title="本地预览与线上结果不一样问题"></a>本地预览与线上结果不一样问题</h1><p>已解决，参考<a href="https://github.com/hexojs/hexo/issues/806">Github hexo issues #806</a></p>
+<p>#xxx<br>xxx. 未完待续</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
   </entry>
 </search>
