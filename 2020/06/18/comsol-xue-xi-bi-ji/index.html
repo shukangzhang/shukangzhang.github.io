@@ -30,7 +30,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shukangzhang.com/2020/06/18/comsol-xue-xi-bi-ji/wg0.png">
 <meta property="article:published_time" content="2020-06-18T12:09:22.000Z">
-<meta property="article:modified_time" content="2020-06-20T21:23:56.540Z">
+<meta property="article:modified_time" content="2020-06-21T15:26:55.136Z">
 <meta property="article:author" content="Shukang Zhang">
 <meta property="article:tag" content="Comsol">
 <meta property="article:tag" content="工程制图">
@@ -243,7 +243,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-06-20 23:23:56" itemprop="dateModified" datetime="2020-06-20T23:23:56+02:00">2020-06-20</time>
+                <time title="Modified: 2020-06-21 17:26:55" itemprop="dateModified" datetime="2020-06-21T17:26:55+02:00">2020-06-21</time>
               </span>
 
           
@@ -259,14 +259,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>837</span>
+              <span>1.8k</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>1 mins.</span>
+              <span>3 mins.</span>
             </span>
 
         </div>
@@ -295,12 +295,27 @@
 <h1 id="CFD流体模拟总结"><a href="#CFD流体模拟总结" class="headerlink" title="CFD流体模拟总结"></a>CFD流体模拟总结</h1><figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></tbody></table></figure>
 
 <h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><p>曲率因子：边界单元尺寸和几何边界曲率之比<br>非结构化网格：一个点可以被任意数量的网格共用</p>
+<h1 id="Funtionsmodell"><a href="#Funtionsmodell" class="headerlink" title="Funtionsmodell"></a>Funtionsmodell</h1><p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im Rohr als laminare Strömung betrachtet werden. Dann ist die Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial homogene Tempeaturverteilung ist nämlich unmöglich.</p>
+<ol>
+<li>Um ein radial homogene Tempeaturverteilung zu bekommen, braucht eine turbulente Strömung<div id="flowchart-1" class="flow-chart"></div>
+
+</li>
+</ol>
+<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht. Dann ist ohne innere Struktur ein</p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: 构建体素对象
 e=&gt;end: 例如布尔运算
 op1=&gt;operation: 参数化编辑
 op2=&gt;operation: 完成设置后执行几何操作
 
-st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><script>
+st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=&gt;start: Elektromagnetische Induktion
+op1=&gt;operation: nur metalisch äußere Hülle
+op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur
+op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur
+op4=&gt;operation:
+
+st(right)-&gt;op1
+st(right)-&gt;op2
+st(right)-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -453,7 +468,7 @@ st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</textarea><textarea id="flowchart-
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#网格划分"><span class="nav-number">1.</span> <span class="nav-text">网格划分</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#基本操作"><span class="nav-number">2.</span> <span class="nav-text">基本操作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#浅谈Comsol建模对比Creo建模"><span class="nav-number">3.</span> <span class="nav-text">浅谈Comsol建模对比Creo建模</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CFD流体模拟总结"><span class="nav-number">4.</span> <span class="nav-text">CFD流体模拟总结</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Tipps"><span class="nav-number">5.</span> <span class="nav-text">Tipps</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#网格划分"><span class="nav-number">1.</span> <span class="nav-text">网格划分</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#基本操作"><span class="nav-number">2.</span> <span class="nav-text">基本操作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#浅谈Comsol建模对比Creo建模"><span class="nav-number">3.</span> <span class="nav-text">浅谈Comsol建模对比Creo建模</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CFD流体模拟总结"><span class="nav-number">4.</span> <span class="nav-text">CFD流体模拟总结</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Tipps"><span class="nav-number">5.</span> <span class="nav-text">Tipps</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Funtionsmodell"><span class="nav-number">6.</span> <span class="nav-text">Funtionsmodell</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -544,12 +559,12 @@ st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</textarea><textarea id="flowchart-
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="Symbols count total">15k</span>
+    <span title="Symbols count total">16k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">25 mins.</span>
+    <span title="Reading time total">27 mins.</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
   </div>
