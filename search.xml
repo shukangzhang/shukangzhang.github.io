@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>lol冷知识</title>
+    <url>/2020/06/22/lol-leng-zhi-shi/</url>
+    <content><![CDATA[<h1 id="Jax"><a href="#Jax" class="headerlink" title="Jax"></a>Jax</h1><p><img src="Jax.jpg" alt="Jax最爱吃鸡蛋，而且只吃恕瑞玛城市乌泽里斯流动市场的卖的那一种"></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>lol</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Comsol学习笔记</title>
     <url>/2020/06/18/comsol-xue-xi-bi-ji/</url>
     <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><img src="/2020/06/18/comsol-xue-xi-bi-ji/wg0.png" class="" title="网格划分示例">
