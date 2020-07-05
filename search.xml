@@ -9,9 +9,9 @@
 </ul>
 <h1 id="Mesh"><a href="#Mesh" class="headerlink" title="Mesh"></a>Mesh</h1><div id="flowchart-0" class="flow-chart"></div>
 
+<h1 id="Base-Sice"><a href="#Base-Sice" class="headerlink" title="Base Sice"></a>Base Sice</h1><p><code>Base Sice</code> is a very specific size in meshing operation<br><code>minimal size</code>设置的procent是基于<code>Base Sice</code>的<br><code>Prism layer number</code>设置的是界面附近网格的细密程度，比如3，在流体和Pellet接触的地方就就会额外生成三层</p>
 <a id="more"></a>
 
-<h1 id="Base-Sice"><a href="#Base-Sice" class="headerlink" title="Base Sice"></a>Base Sice</h1><p><code>Base Sice</code> is a very specific size in meshing operation<br><code>minimal size</code>设置的procent是基于<code>Base Sice</code>的<br><code>Prism layer number</code>设置的是界面附近网格的细密程度，比如3，在流体和Pellet接触的地方就就会额外生成三层</p>
 <h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><ul>
 <li>Apply Radius Dimension(右键单击草绘)，然后勾选<code>Expose Parameter</code>可以在图上显示出Dimension信息</li>
 <li>Duplicate Sketch Primitive(右键单击草绘)，然后设置圆心坐标，即可复制草绘</li>
