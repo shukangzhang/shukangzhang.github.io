@@ -1,10 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Brennstoffzelle 2 Notizen</title>
+    <url>/brennstoffzelle-2-notizen/</url>
+    <content><![CDATA[<p>Damit dieser Polymerelektrolytmembran hier ein gute Ionnenleitfähigkeit haben ein gute Protonleitfähigkeit aufweisen müssen dieser Membran <strong>feucht</strong> gehalt werden. Sie brauchen bestimmter Wassergehalt um ein hohe Ionenleitfähigkeit zu erreichen. Und das impliziert dann eben, dass man bei diesem PEMFC relativ aufwändiges Wassermanagement benötigt, wo man typische Weise eben die Brenngase sowohl auf die Anodeseite aber auch dei Kathodeluft voeher aktiv befeuchtet um eben sicher zu stellen dass hier das Wassergehalt in der Membran ausreichen genug ist um diese gute Ionenleitfähigkeit sicher zu stellen.</p>
+<p>Kaltstart</p>
+<p>Ein entscheidenes Charateristikum, gilt auch für die andere niedrige T Brennstoffzelle, ist eben, dass sie auf beider Elektroden in diesem Fall als Katalysator eben hier <strong>Pt</strong> typische Weise einsetzen. Pt ist jetzt nicht gerade die günstige Rohstoff. Ein groß Teil der Kosten wird nach wie vor durch die Kosten für die Pt-Katalysator versursacht. 2 Nachteile:</p>
+<ul>
+<li>teure Matrial</li>
+<li>CO (Kohlenmonoxid) in geringen Mengen (ppm) sehr giftig für die Pt, irreversible!</li>
+</ul>
+<p><strong>poröse Gasdiffusionsschicht</strong> aus Kohlenstoffpartikel, Ruße, Rußmaterialien bilden poröse Schicht. Keine besondere Funktionen für die elektrochemische Umsetzung. Aber dient dazu, die Eduktgase möglichst gleichmäßig hier über die Elektrodenflächen zu verteilen. Mehr oder wenig als ein Stofftransportschicht. Reaktionswasser auf die Kathodeseite H<del>2</del>O ableiten.</p>
+<p><strong>Nafion®, sulfoniertes Tetrafluorethylen-Polymer (PTFE Teflon®)</strong> erlaubt gute Ionenleitfähigkeit und gleichzeitig geringe Elektronen-Leitfähigkeit. Besser ein Dicke unter 100$\mu$m für Protonleitung</p>
+<blockquote>
+<p>Vorlesung, Brennstoffzelle 2, <strong>Prof. Dr. Andreas Lindermeir</strong>, CUTEC@teschnische Universität Clausthal<br>Zusammengefasst durch <strong>Shukang Zhang</strong>, Master@teschnische Universität Clausthal</p>
+</blockquote>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>Fuel Cell</tag>
+        <tag>Brennstoffzelle</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Comsol学习笔记</title>
+    <url>/comsol-xue-xi-bi-ji/</url>
+    <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><img src="/comsol-xue-xi-bi-ji/wg0.png" class="" title="网格划分示例">
+<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格</p>
+<blockquote>
+<p>参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn">建模流程概述</a></p>
+</blockquote>
+<a id="more"></a>
+
+<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><p>切除，并集等操作在布尔运算选项下</p>
+<div id="flowchart-0" class="flow-chart"></div>
+<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">Copy操作可以复制二维图形</span><br><span class="line">Move操作可以复制几何体</span><br><span class="line">工作平面（Work plane)用以几何分割操作，可以简化模型，改进网格剖分</span><br></pre></td></tr></tbody></table></figure>
+
+
+<h1 id="浅谈Comsol建模对比Creo建模"><a href="#浅谈Comsol建模对比Creo建模" class="headerlink" title="浅谈Comsol建模对比Creo建模"></a>浅谈Comsol建模对比Creo建模</h1><figure class="highlight plain"><figcaption><span>经验尚浅，只能浅谈</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></tbody></table></figure>
+
+<h1 id="CFD流体模拟总结"><a href="#CFD流体模拟总结" class="headerlink" title="CFD流体模拟总结"></a>CFD流体模拟总结</h1><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></tbody></table></figure>
+
+<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><p>曲率因子：边界单元尺寸和几何边界曲率之比<br>非结构化网格：一个点可以被任意数量的网格共用</p>
+<h1 id="Funtionsmodell"><a href="#Funtionsmodell" class="headerlink" title="Funtionsmodell"></a>Funtionsmodell</h1><p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im Rohr als laminare Strömung betrachtet werden. Dann ist die Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial homogene Tempeaturverteilung ist nämlich unmöglich.</p>
+<ol>
+<li>Um ein radial homogene Tempeaturverteilung zu bekommen, braucht eine turbulente Strömung<br>Dann haben wir 2 Auswahl:</li>
+</ol>
+<ul>
+<li>nicht-metalisch äußere Hülle + metalisch innere Struktur</li>
+<li>metalisch äußere Hülle + metalisch innere Struktur<br>Metalisch äußere Hülle hat hier zu gut Wärmeleitfähigkeit, führt durch natürliche Konvektion zu Kühlung.<br>Deswegen empfehle ich nicht-metalisch äußere Hülle + metalisch innere Struktur<br>Äußere Hülle soll ein schlechte Wärmeleitfähigkeit haben.</li>
+</ul>
+<p>Die Messung von Tempertaur –&gt; Berührungslos messende Thermometer?</p>
+<div id="flowchart-1" class="flow-chart"></div>
+
+<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht. Dann ist ohne innere Struktur ein</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: 构建体素对象
+e=&gt;end: 例如布尔运算
+op1=&gt;operation: 参数化编辑
+op2=&gt;operation: 完成设置后执行几何操作
+
+st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=&gt;start: Elektromagnetische Induktion
+op1=&gt;operation: nur metalisch äußere Hülle
+op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur
+op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur
+op4=&gt;operation:
+
+st-&gt;op1
+st-&gt;op2
+st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>Comsol</tag>
+        <tag>工程制图</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Creo学习笔记</title>
-    <url>/2020/06/17/creo-xue-xi-bi-ji/</url>
+    <url>/creo-xue-xi-bi-ji/</url>
     <content><![CDATA[<h1 id="修改语言出现的问题"><a href="#修改语言出现的问题" class="headerlink" title="修改语言出现的问题"></a>修改语言出现的问题</h1><p>我按网上的教程，通过改环境变量的方式添加中文操作界面，结果搞成了四不像，新开的文件一概英文界面，打开我保存关闭后的prt文件，一概显示中文界面。。。但是这个中文界面缺斤少两，模型里很多模块没了，得通过自定义的方式手动添加出来，<code>新建组</code><br>这一点上我真的要吹爆Comsol，安装界面第一项就让你选择语言，选好之后，后面从安装到软件实操界面一概是你选择好的语言，非常方便</p>
-<h1 id="在此插入的用法"><a href="#在此插入的用法" class="headerlink" title="在此插入的用法"></a>在此插入的用法</h1><img src="/2020/06/17/creo-xue-xi-bi-ji/%E5%9C%A8%E6%AD%A4%E6%8F%92%E5%85%A5%E7%9A%84%E7%94%A8%E6%B3%95.png" class="" title="在此插入的用法">
+<h1 id="在此插入的用法"><a href="#在此插入的用法" class="headerlink" title="在此插入的用法"></a>在此插入的用法</h1><img src="/creo-xue-xi-bi-ji/%E5%9C%A8%E6%AD%A4%E6%8F%92%E5%85%A5%E7%9A%84%E7%94%A8%E6%B3%95.png" class="" title="在此插入的用法">
 <p>通过拖拽此选项到任意步骤下方，可以查看该步骤具体做了那些东西，非常实用</p>
 <h1 id="底部消息区是你最好的老师"><a href="#底部消息区是你最好的老师" class="headerlink" title="底部消息区是你最好的老师"></a>底部消息区是你最好的老师</h1><h1 id="键鼠操作汇总"><a href="#键鼠操作汇总" class="headerlink" title="键鼠操作汇总"></a>键鼠操作汇总</h1><figure class="highlight plain"><figcaption><span>Text代码块</span><a href="https://shukangzhang.com">测试链接勿点</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">按住中键可以旋转</span><br><span class="line">按住Ctrl + 中键沿固定轴旋转</span><br><span class="line">按住Shift + 中键实现平移</span><br><span class="line">滚轮可以缩放</span><br><span class="line">所有正在执行操作的取消都可以通过ESC键</span><br><span class="line">界面上的缩小按钮可以直接缩小，单击放大按钮后需要选择想放大的区域</span><br></pre></td></tr></tbody></table></figure>
 
@@ -44,13 +152,51 @@
           });
       </script>]]></content>
       <tags>
-        <tag>Creo</tag>
         <tag>工程制图</tag>
+        <tag>Creo</tag>
       </tags>
   </entry>
   <entry>
+    <title>NexT Optimize</title>
+    <url>/next-optimize/</url>
+    <content><![CDATA[<p> Darunten werde ich über die Optimierung von NexT reden</p>
+<p> Below I will talk about the optimization of NexT</p>
+<p> 下面将讨论关于NexT主题的优化</p>
+<a id="more"></a>
+
+<h1 id="设置文章末尾”本文结束”标记"><a href="#设置文章末尾”本文结束”标记" class="headerlink" title="设置文章末尾”本文结束”标记"></a>设置文章末尾”本文结束”标记</h1><p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">{% <span class="keyword">if</span> not is_index %}</span><br><span class="line">    &lt;div style=<span class="string">"text-align:center;color: #ccc;font-size:24px;"</span>&gt;-End-&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">{% endif %}</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></tbody></table></figure>
+<p>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% <span class="keyword">if</span> not is_index and theme.passage_end_tag.enabled %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include <span class="string">'passage-end-tag.swig'</span> %}</span><br><span class="line">   &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp"> {% endif %}</span></span><br></pre></td></tr></tbody></table></figure>
+<p>然后打开主题配置文件（_config.yml)，在末尾添加：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: <span class="literal">true</span><span class="string">`</span></span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="2">
+<li>xxx</li>
+</ol>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
     <title>GitHub Hexo报错汇总</title>
-    <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
+    <url>/github-hexo-bao-cuo-hui-zong/</url>
     <content><![CDATA[<h1 id="hexo-init-网络问题初始化失败"><a href="#hexo-init-网络问题初始化失败" class="headerlink" title="$ hexo init 网络问题初始化失败"></a><code>$ hexo init</code> 网络问题初始化失败</h1><p>删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
 <p>尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
 <p>其实<code>$ hexo init</code>不需要重装hexo-cli服务</p>
@@ -96,7 +242,7 @@
   </entry>
   <entry>
     <title>lol冷知识</title>
-    <url>/2020/06/22/lol-leng-zhi-shi/</url>
+    <url>/lol-leng-zhi-shi/</url>
     <content><![CDATA[<h1 id="Jax"><a href="#Jax" class="headerlink" title="Jax"></a>Jax</h1><p><img src="Jax.jpg" alt="Jax最爱吃鸡蛋，而且只吃恕瑞玛城市乌泽里斯流动市场的卖的那一种"></p>
 <h1 id="我参与举报被处理的账号数"><a href="#我参与举报被处理的账号数" class="headerlink" title="我参与举报被处理的账号数"></a>我参与举报被处理的账号数</h1><p>具体数量不记得了，从8开始算起吧<br><code>8</code></p>
 <script>
@@ -123,9 +269,59 @@
       </tags>
   </entry>
   <entry>
+    <title>star ccm+学习笔记</title>
+    <url>/starccm/</url>
+    <content><![CDATA[<h1 id="Split功能汇总"><a href="#Split功能汇总" class="headerlink" title="Split功能汇总"></a>Split功能汇总</h1><ul>
+<li><code>Split Non-Contigous (分离非接触面)</code><br>导入的Geometry里的surface可能是一个整体，需要用此命令制作不同的Boundary</li>
+<li>Split by Patch</li>
+</ul>
+<h1 id="Mesh"><a href="#Mesh" class="headerlink" title="Mesh"></a>Mesh</h1><div id="flowchart-0" class="flow-chart"></div>
+
+
+<h1 id="Base-Sice"><a href="#Base-Sice" class="headerlink" title="Base Sice"></a>Base Sice</h1><p><code>Base Sice</code> is a very specific size in meshing operation<br><code>minimal size</code>设置的procent是基于<code>Base Sice</code>的<br><code>Prism layer number</code>设置的是界面附近网格的细密程度，比如3，在流体和Pellet接触的地方就就会额外生成三层</p>
+<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><ul>
+<li>Apply Radius Dimension(右键单击草绘)，然后勾选<code>Expose Parameter</code>可以在图上显示出Dimension信息</li>
+<li>Duplicate Sketch Primitive(右键单击草绘)，然后设置圆心坐标，即可复制草绘</li>
+<li>3D-CAD Models里面建好的模型可以Export到Parts里，然后拖拽到右边视图框，选择<code>Add to Geometry1</code>，想到移动模型的位置，右键<code>Parts</code>下已经exported模型，选择<code>Transform</code>–&gt;<code>Translate</code></li>
+<li>Boolean运算subtract时，没有保留原Model选项，所以是所有操作默认保留原几何？</li>
+<li>Boolean后的整体需要<code>Assign Parts to Regions</code>–&gt;<code>Create a Boundary for Each Part Surface</code></li>
+<li>continua下分Mesh Continuum和Physics Continuum</li>
+<li></li>
+</ul>
+<h1 id="单词汇总"><a href="#单词汇总" class="headerlink" title="单词汇总"></a>单词汇总</h1><p>polyhedral多面体<br>segregated(分开，隔离) flow<br>continua连续体</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: Operations
+op1=&gt;operation: New
+op2=&gt;operation: Mesh
+op3=&gt;operation: Automated Mesh or others
+
+st-&gt;op1-&gt;op2-&gt;op3</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>engineer software</tag>
+        <tag>star ccm+</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>all tests here</title>
-    <url>/2020/06/06/test/</url>
-    <content><![CDATA[<h1 id="insert-image-test"><a href="#insert-image-test" class="headerlink" title="insert image test"></a>insert image test</h1><img src="/2020/06/06/test/2.jpg" class="" title="云之彼端 约定的地方">
+    <url>/test/</url>
+    <content><![CDATA[<h1 id="insert-image-test"><a href="#insert-image-test" class="headerlink" title="insert image test"></a>insert image test</h1><img src="/test/2.jpg" class="" title="云之彼端 约定的地方">
 <p><img src="nmbd.gif" alt=""></p>
 <h1 id="自动注释功能测试"><a href="#自动注释功能测试" class="headerlink" title="自动注释功能测试"></a>自动注释功能测试</h1><p>Markdown兼容标准的 HTML 语法。</p>
 <h1 id="table"><a href="#table" class="headerlink" title="table"></a>table</h1><table>
@@ -197,8 +393,63 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
       </tags>
   </entry>
   <entry>
+    <title>hexo添加pdf预览-纠正现有教程遗漏的地方</title>
+    <url>/hexo-tian-jia-pdf/</url>
+    <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf">Github官方教程superalsrk/hexo-pdf</a></p>
+<h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
+<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
+<p>然后键入:</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>咦，怎么不行！？</p>
+<a id="more"></a>
+
+<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。</p>
+<p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del></p>
+<p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
+<ul>
+<li>域名是https的话http开头的图床是会被block掉的</li>
+<li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
+</ul>
+<hr>
+<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
+<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+<p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
+<blockquote>
+<p><a href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
+</blockquote>
+<h1 id="06-20-Upgrade"><a href="#06-20-Upgrade" class="headerlink" title="06.20 Upgrade"></a>06.20 Upgrade</h1><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>此方法在我的浏览器上现在可以正常显示了，不知道是不是因为更新浏览器清除了浏览器缓存</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>pdf</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo笔记</title>
-    <url>/2020/06/05/hexo-bi-ji/</url>
+    <url>/hexo-bi-ji/</url>
     <content><![CDATA[<p>本文对用Hexo进行创作过程中遇到的问题进行汇总，纯新手向</p>
 <a id="more"></a>
 
@@ -257,101 +508,8 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
       </tags>
   </entry>
   <entry>
-    <title>NexT Optimize</title>
-    <url>/2020/06/05/next-optimize/</url>
-    <content><![CDATA[<p> Darunten werde ich über die Optimierung von NexT reden</p>
-<p> Below I will talk about the optimization of NexT</p>
-<p> 下面将讨论关于NexT主题的优化</p>
-<a id="more"></a>
-
-<h1 id="设置文章末尾”本文结束”标记"><a href="#设置文章末尾”本文结束”标记" class="headerlink" title="设置文章末尾”本文结束”标记"></a>设置文章末尾”本文结束”标记</h1><p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">{% <span class="keyword">if</span> not is_index %}</span><br><span class="line">    &lt;div style=<span class="string">"text-align:center;color: #ccc;font-size:24px;"</span>&gt;-End-&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">{% endif %}</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></tbody></table></figure>
-<p>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% <span class="keyword">if</span> not is_index and theme.passage_end_tag.enabled %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include <span class="string">'passage-end-tag.swig'</span> %}</span><br><span class="line">   &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp"> {% endif %}</span></span><br></pre></td></tr></tbody></table></figure>
-<p>然后打开主题配置文件（_config.yml)，在末尾添加：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: <span class="literal">true</span><span class="string">`</span></span><br></pre></td></tr></tbody></table></figure>
-
-<ol start="2">
-<li>xxx</li>
-</ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-  </entry>
-  <entry>
-    <title>hexo添加pdf预览-纠正现有教程遗漏的地方</title>
-    <url>/2020/06/08/hexo-tian-jia-pdf/</url>
-    <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf">Github官方教程superalsrk/hexo-pdf</a></p>
-<h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
-<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
-<p>然后键入:</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>咦，怎么不行！？</p>
-<a id="more"></a>
-
-<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。</p>
-<p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del></p>
-<p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
-<ul>
-<li>域名是https的话http开头的图床是会被block掉的</li>
-<li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
-</ul>
-<hr>
-<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
-<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-<p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
-<blockquote>
-<p><a href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
-</blockquote>
-<h1 id="06-20-Upgrade"><a href="#06-20-Upgrade" class="headerlink" title="06.20 Upgrade"></a>06.20 Upgrade</h1><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>此方法在我的浏览器上现在可以正常显示了，不知道是不是因为更新浏览器清除了浏览器缓存</p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>pdf</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>中国文化导论最后一题</title>
-    <url>/2020/06/06/zhong-guo-wen-hua-dao-lun-zui-hou-yi-ti/</url>
+    <url>/zhong-guo-wen-hua-dao-lun-zui-hou-yi-ti/</url>
     <content><![CDATA[<h1 id="中国文化导论最后一题–忠恕之道"><a href="#中国文化导论最后一题–忠恕之道" class="headerlink" title="中国文化导论最后一题–忠恕之道"></a>中国文化导论最后一题–忠恕之道</h1><p>我想，道德问题不涉及法律，但一直被拿来作为大家处世与相处的行为准则，所以社会中的各种行为限制该是自古以来大家慢慢达成的一种“共识”。这种共识的形成很原始，很本质。一群生物在同一区域生活，由于所处环境不同会造成思想上的差异，进而形成行为上的差异，不同的行为很难互不干扰，于是这群生物从维护自身利益出发希望在这些干扰中找到一个平衡点，大家同时遵守这一准则，才能让个体获得最多的资源，最少的冲突。</p>
 <a id="more"></a>
 
@@ -386,7 +544,7 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
   </entry>
   <entry>
     <title>玄学背后的一点点剖析</title>
-    <url>/2020/06/15/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi/</url>
+    <url>/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi/</url>
     <content><![CDATA[<p>和室友讨论得来的一点点启发</p>
 <a id="more"></a>
 
@@ -418,7 +576,7 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
   </entry>
   <entry>
     <title>破事儿2020</title>
-    <url>/2020/06/05/po-shi-er-2020/</url>
+    <url>/po-shi-er-2020/</url>
     <content><![CDATA[<p>想了一下想po到blog的第一篇文章，马上就想到以前我在qq空间的这篇置顶，看了下抬头，发现我11年就想要个个人主页啦，哈哈，时至今日，我还是很喜欢这篇文章，语言是温柔的，我已经不记得当时花了几个小时把这篇文章打进去的了，只记得因为网络问题和页面刷新问题，中途有过大篇幅的丢失，很气，至少有重新打，现在有了自己的网站，各种网络基础设施又这么好，基本不会再出现这种情况了，当初的挫败反而成了回味时的情趣。</p>
 <p>高二时去了实验班，班级组织了一次去中科大的参观活动，在校内书店买了两本书，一本<code>电影画刊</code>，一本<code>禅宗</code>,禅宗自然是佛学书籍，被仇日保守的老爷子大骂，他骂任他骂，我自看我的，所以不提也罢。另一本<code>电影画刊</code>不知道还能不能找到了，毕竟留德7年了，通篇内容已然忘却，只有这篇文章我是花了心血的。想来当年真是幼稚，不管是男性朋友还是女性朋友，我都统统推荐，然后感慨说，哎呀，这真是我理想中的女性形象啊，真是tm傻子，跟男性朋友说还好，跟女生说却是几个意思？别人会怎么想？&gt;_&lt;</p>
 <p>当然时至今日我还是有点想见见这位姑娘，看看到底怎么样一个人，当初就那么成熟，那现在是在过什么样的生活。</p>
@@ -487,164 +645,6 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
       </script>]]></content>
       <tags>
         <tag>privat</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Brennstoffzelle 2 Notizen</title>
-    <url>/2020/06/14/brennstoffzelle-2-notizen/</url>
-    <content><![CDATA[<p>Damit dieser Polymerelektrolytmembran hier ein gute Ionnenleitfähigkeit haben ein gute Protonleitfähigkeit aufweisen müssen dieser Membran <strong>feucht</strong> gehalt werden. Sie brauchen bestimmter Wassergehalt um ein hohe Ionenleitfähigkeit zu erreichen. Und das impliziert dann eben, dass man bei diesem PEMFC relativ aufwändiges Wassermanagement benötigt, wo man typische Weise eben die Brenngase sowohl auf die Anodeseite aber auch dei Kathodeluft voeher aktiv befeuchtet um eben sicher zu stellen dass hier das Wassergehalt in der Membran ausreichen genug ist um diese gute Ionenleitfähigkeit sicher zu stellen.</p>
-<p>Kaltstart</p>
-<p>Ein entscheidenes Charateristikum, gilt auch für die andere niedrige T Brennstoffzelle, ist eben, dass sie auf beider Elektroden in diesem Fall als Katalysator eben hier <strong>Pt</strong> typische Weise einsetzen. Pt ist jetzt nicht gerade die günstige Rohstoff. Ein groß Teil der Kosten wird nach wie vor durch die Kosten für die Pt-Katalysator versursacht. 2 Nachteile:</p>
-<ul>
-<li>teure Matrial</li>
-<li>CO (Kohlenmonoxid) in geringen Mengen (ppm) sehr giftig für die Pt, irreversible!</li>
-</ul>
-<p><strong>poröse Gasdiffusionsschicht</strong> aus Kohlenstoffpartikel, Ruße, Rußmaterialien bilden poröse Schicht. Keine besondere Funktionen für die elektrochemische Umsetzung. Aber dient dazu, die Eduktgase möglichst gleichmäßig hier über die Elektrodenflächen zu verteilen. Mehr oder wenig als ein Stofftransportschicht. Reaktionswasser auf die Kathodeseite H<del>2</del>O ableiten.</p>
-<p><strong>Nafion®, sulfoniertes Tetrafluorethylen-Polymer (PTFE Teflon®)</strong> erlaubt gute Ionenleitfähigkeit und gleichzeitig geringe Elektronen-Leitfähigkeit. Besser ein Dicke unter 100$\mu$m für Protonleitung</p>
-<blockquote>
-<p>Vorlesung, Brennstoffzelle 2, <strong>Prof. Dr. Andreas Lindermeir</strong>, CUTEC@teschnische Universität Clausthal<br>Zusammengefasst durch <strong>Shukang Zhang</strong>, Master@teschnische Universität Clausthal</p>
-</blockquote>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <tags>
-        <tag>Fuel Cell</tag>
-        <tag>Brennstoffzelle</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Comsol学习笔记</title>
-    <url>/2020/06/18/comsol-xue-xi-bi-ji/</url>
-    <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><img src="/2020/06/18/comsol-xue-xi-bi-ji/wg0.png" class="" title="网格划分示例">
-<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格</p>
-<blockquote>
-<p>参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn">建模流程概述</a></p>
-</blockquote>
-<a id="more"></a>
-
-<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><p>切除，并集等操作在布尔运算选项下</p>
-<div id="flowchart-0" class="flow-chart"></div>
-<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">Copy操作可以复制二维图形</span><br><span class="line">Move操作可以复制几何体</span><br><span class="line">工作平面（Work plane)用以几何分割操作，可以简化模型，改进网格剖分</span><br></pre></td></tr></tbody></table></figure>
-
-
-<h1 id="浅谈Comsol建模对比Creo建模"><a href="#浅谈Comsol建模对比Creo建模" class="headerlink" title="浅谈Comsol建模对比Creo建模"></a>浅谈Comsol建模对比Creo建模</h1><figure class="highlight plain"><figcaption><span>经验尚浅，只能浅谈</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></tbody></table></figure>
-
-<h1 id="CFD流体模拟总结"><a href="#CFD流体模拟总结" class="headerlink" title="CFD流体模拟总结"></a>CFD流体模拟总结</h1><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></tbody></table></figure>
-
-<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><p>曲率因子：边界单元尺寸和几何边界曲率之比<br>非结构化网格：一个点可以被任意数量的网格共用</p>
-<h1 id="Funtionsmodell"><a href="#Funtionsmodell" class="headerlink" title="Funtionsmodell"></a>Funtionsmodell</h1><p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im Rohr als laminare Strömung betrachtet werden. Dann ist die Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial homogene Tempeaturverteilung ist nämlich unmöglich.</p>
-<ol>
-<li>Um ein radial homogene Tempeaturverteilung zu bekommen, braucht eine turbulente Strömung<br>Dann haben wir 2 Auswahl:</li>
-</ol>
-<ul>
-<li>nicht-metalisch äußere Hülle + metalisch innere Struktur</li>
-<li>metalisch äußere Hülle + metalisch innere Struktur<br>Metalisch äußere Hülle hat hier zu gut Wärmeleitfähigkeit, führt durch natürliche Konvektion zu Kühlung.<br>Deswegen empfehle ich nicht-metalisch äußere Hülle + metalisch innere Struktur<br>Äußere Hülle soll ein schlechte Wärmeleitfähigkeit haben.</li>
-</ul>
-<p>Die Messung von Tempertaur –&gt; Berührungslos messende Thermometer?</p>
-<div id="flowchart-1" class="flow-chart"></div>
-
-<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht. Dann ist ohne innere Struktur ein</p>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: 构建体素对象
-e=&gt;end: 例如布尔运算
-op1=&gt;operation: 参数化编辑
-op2=&gt;operation: 完成设置后执行几何操作
-
-st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=&gt;start: Elektromagnetische Induktion
-op1=&gt;operation: nur metalisch äußere Hülle
-op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur
-op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur
-op4=&gt;operation:
-
-st-&gt;op1
-st-&gt;op2
-st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script><script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <tags>
-        <tag>工程制图</tag>
-        <tag>Comsol</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>star ccm+学习笔记</title>
-    <url>/2020/05/07/starccm/</url>
-    <content><![CDATA[<h1 id="Split功能汇总"><a href="#Split功能汇总" class="headerlink" title="Split功能汇总"></a>Split功能汇总</h1><ul>
-<li><code>Split Non-Contigous (分离非接触面)</code><br>导入的Geometry里的surface可能是一个整体，需要用此命令制作不同的Boundary</li>
-<li>Split by Patch</li>
-</ul>
-<h1 id="Mesh"><a href="#Mesh" class="headerlink" title="Mesh"></a>Mesh</h1><div id="flowchart-0" class="flow-chart"></div>
-
-
-<h1 id="Base-Sice"><a href="#Base-Sice" class="headerlink" title="Base Sice"></a>Base Sice</h1><p><code>Base Sice</code> is a very specific size in meshing operation<br><code>minimal size</code>设置的procent是基于<code>Base Sice</code>的<br><code>Prism layer number</code>设置的是界面附近网格的细密程度，比如3，在流体和Pellet接触的地方就就会额外生成三层</p>
-<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><ul>
-<li>Apply Radius Dimension(右键单击草绘)，然后勾选<code>Expose Parameter</code>可以在图上显示出Dimension信息</li>
-<li>Duplicate Sketch Primitive(右键单击草绘)，然后设置圆心坐标，即可复制草绘</li>
-<li>3D-CAD Models里面建好的模型可以Export到Parts里，然后拖拽到右边视图框，选择<code>Add to Geometry1</code>，想到移动模型的位置，右键<code>Parts</code>下已经exported模型，选择<code>Transform</code>–&gt;<code>Translate</code></li>
-<li>Boolean运算subtract时，没有保留原Model选项，所以是所有操作默认保留原几何？</li>
-<li>Boolean后的整体需要<code>Assign Parts to Regions</code>–&gt;<code>Create a Boundary for Each Part Surface</code></li>
-<li>continua下分Mesh Continuum和Physics Continuum</li>
-<li></li>
-</ul>
-<h1 id="单词汇总"><a href="#单词汇总" class="headerlink" title="单词汇总"></a>单词汇总</h1><p>polyhedral多面体<br>segregated(分开，隔离) flow<br>continua连续体</p>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: Operations
-op1=&gt;operation: New
-op2=&gt;operation: Mesh
-op3=&gt;operation: Automated Mesh or others
-
-st-&gt;op1-&gt;op2-&gt;op3</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <tags>
-        <tag>engineer software</tag>
-        <tag>star ccm+</tag>
       </tags>
   </entry>
 </search>
