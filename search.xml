@@ -1,103 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>lol冷知识</title>
-    <url>/2020/06/22/lol-leng-zhi-shi/</url>
-    <content><![CDATA[<h1 id="Jax"><a href="#Jax" class="headerlink" title="Jax"></a>Jax</h1><p><img src="Jax.jpg" alt="Jax最爱吃鸡蛋，而且只吃恕瑞玛城市乌泽里斯流动市场的卖的那一种"></p>
-<h1 id="我参与举报被处理的账号数"><a href="#我参与举报被处理的账号数" class="headerlink" title="我参与举报被处理的账号数"></a>我参与举报被处理的账号数</h1><p>具体数量不记得了，从8开始算起吧<br><code>8</code></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <tags>
-        <tag>lol</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Comsol学习笔记</title>
-    <url>/2020/06/18/comsol-xue-xi-bi-ji/</url>
-    <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><img src="/2020/06/18/comsol-xue-xi-bi-ji/wg0.png" class="" title="网格划分示例">
-<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格</p>
-<blockquote>
-<p>参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn">建模流程概述</a></p>
-</blockquote>
-<a id="more"></a>
-
-<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><p>切除，并集等操作在布尔运算选项下</p>
-<div id="flowchart-0" class="flow-chart"></div>
-<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">Copy操作可以复制二维图形</span><br><span class="line">Move操作可以复制几何体</span><br><span class="line">工作平面（Work plane)用以几何分割操作，可以简化模型，改进网格剖分</span><br></pre></td></tr></tbody></table></figure>
-
-
-<h1 id="浅谈Comsol建模对比Creo建模"><a href="#浅谈Comsol建模对比Creo建模" class="headerlink" title="浅谈Comsol建模对比Creo建模"></a>浅谈Comsol建模对比Creo建模</h1><figure class="highlight plain"><figcaption><span>经验尚浅，只能浅谈</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></tbody></table></figure>
-
-<h1 id="CFD流体模拟总结"><a href="#CFD流体模拟总结" class="headerlink" title="CFD流体模拟总结"></a>CFD流体模拟总结</h1><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></tbody></table></figure>
-
-<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><p>曲率因子：边界单元尺寸和几何边界曲率之比<br>非结构化网格：一个点可以被任意数量的网格共用</p>
-<h1 id="Funtionsmodell"><a href="#Funtionsmodell" class="headerlink" title="Funtionsmodell"></a>Funtionsmodell</h1><p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im Rohr als laminare Strömung betrachtet werden. Dann ist die Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial homogene Tempeaturverteilung ist nämlich unmöglich.</p>
-<ol>
-<li>Um ein radial homogene Tempeaturverteilung zu bekommen, braucht eine turbulente Strömung<br>Dann haben wir 2 Auswahl:</li>
-</ol>
-<ul>
-<li>nicht-metalisch äußere Hülle + metalisch innere Struktur</li>
-<li>metalisch äußere Hülle + metalisch innere Struktur<br>Metalisch äußere Hülle hat hier zu gut Wärmeleitfähigkeit, führt durch natürliche Konvektion zu Kühlung.<br>Deswegen empfehle ich nicht-metalisch äußere Hülle + metalisch innere Struktur<br>Äußere Hülle soll ein schlechte Wärmeleitfähigkeit haben.</li>
-</ul>
-<p>Die Messung von Tempertaur –&gt; Berührungslos messende Thermometer?</p>
-<div id="flowchart-1" class="flow-chart"></div>
-
-<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht. Dann ist ohne innere Struktur ein</p>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: 构建体素对象
-e=&gt;end: 例如布尔运算
-op1=&gt;operation: 参数化编辑
-op2=&gt;operation: 完成设置后执行几何操作
-
-st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=&gt;start: Elektromagnetische Induktion
-op1=&gt;operation: nur metalisch äußere Hülle
-op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur
-op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur
-op4=&gt;operation:
-
-st-&gt;op1
-st-&gt;op2
-st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script><script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <tags>
-        <tag>工程制图</tag>
-        <tag>Comsol</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Creo学习笔记</title>
     <url>/2020/06/17/creo-xue-xi-bi-ji/</url>
     <content><![CDATA[<h1 id="修改语言出现的问题"><a href="#修改语言出现的问题" class="headerlink" title="修改语言出现的问题"></a>修改语言出现的问题</h1><p>我按网上的教程，通过改环境变量的方式添加中文操作界面，结果搞成了四不像，新开的文件一概英文界面，打开我保存关闭后的prt文件，一概显示中文界面。。。但是这个中文界面缺斤少两，模型里很多模块没了，得通过自定义的方式手动添加出来，<code>新建组</code><br>这一点上我真的要吹爆Comsol，安装界面第一项就让你选择语言，选好之后，后面从安装到软件实操界面一概是你选择好的语言，非常方便</p>
@@ -146,14 +49,31 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
       </tags>
   </entry>
   <entry>
-    <title>玄学背后的一点点剖析</title>
-    <url>/2020/06/15/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi/</url>
-    <content><![CDATA[<p>和室友讨论得来的一点点启发</p>
+    <title>GitHub Hexo报错汇总</title>
+    <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
+    <content><![CDATA[<h1 id="hexo-init-网络问题初始化失败"><a href="#hexo-init-网络问题初始化失败" class="headerlink" title="$ hexo init 网络问题初始化失败"></a><code>$ hexo init</code> 网络问题初始化失败</h1><p>删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
+<p>尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
+<p>其实<code>$ hexo init</code>不需要重装hexo-cli服务</p>
 <a id="more"></a>
 
-<p>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。<br>我是挺无语的。<br>我觉得这是对现在科学的侮辱。<br>因为他说的这种首先取样就不严谨:<br><em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
-<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算99.999%的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
-<p>我不理解为什么会有这么大的思维差异！</p>
+<h1 id="重置链接"><a href="#重置链接" class="headerlink" title="重置链接"></a>重置链接</h1><p><code>npm set registry http://registry.npmjs.org/</code></p>
+<h1 id="Porkbun域名提供商DNS设置备份"><a href="#Porkbun域名提供商DNS设置备份" class="headerlink" title="Porkbun域名提供商DNS设置备份"></a>Porkbun域名提供商DNS设置备份</h1><p><a href="https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3">https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3</a></p>
+<h1 id="一段插曲"><a href="#一段插曲" class="headerlink" title="一段插曲"></a>一段插曲</h1><p>Hi, sorry, i must hv done something wrong.<br>i tried to point <a href="http://shukangzhang.com/">shukangzhang.com</a>, which i hv just bought from you, to<a href="http://shukangzhang.github.io/">shukangzhang.github.io</a>. But now when i type <a href="http://shukangzhang.com/">shukangzhang.com</a>, the browser shows a</p>
+<p>邮件写到一半，结果网页自动刷新，一切正常了。。。应该是Domain提供商反应比较慢，现在好了</p>
+<h1 id="hexo-deploy-not-found-git"><a href="#hexo-deploy-not-found-git" class="headerlink" title="hexo deploy not found git"></a>hexo deploy not found git</h1><p>是因为没有装<code>$ npm install hexo-deployer-git --save</code></p>
+<h1 id="TypeError-Cannot-read-property-‘replace’-of-null"><a href="#TypeError-Cannot-read-property-‘replace’-of-null" class="headerlink" title="TypeError Cannot read property ‘replace’ of null"></a>TypeError Cannot read property ‘replace’ of null</h1><p>实在是悲剧，找不到原因，只好$ hexo init 从头来过，哭哭<br>切记每步操作完一定要$ hexo g&amp;d</p>
+<h1 id="FATAL-Cannot-read-property-‘replace’-of-null"><a href="#FATAL-Cannot-read-property-‘replace’-of-null" class="headerlink" title="FATAL Cannot read property ‘replace’ of null"></a>FATAL Cannot read property ‘replace’ of null</h1><p>是因为config文件里的url: 后面被删掉了</p>
+<h1 id="hexo-更改本地路径"><a href="#hexo-更改本地路径" class="headerlink" title="hexo-更改本地路径"></a>hexo-更改本地路径</h1><p>a. config.yml文件中配置如下：<br>b. hexo s -p 5000</p>
+<h1 id="添加gitalk"><a href="#添加gitalk" class="headerlink" title="添加gitalk"></a>添加gitalk</h1><p>我原来看的教程推荐的是gitment，结果gitment已经停止服务了，<code>NexT</code>也已经不再集成gitment服务，于是转为安装gitalk评论系统，基于github issues，这里就不过多介绍了，总之，每篇文章都会在你事先建好的Repository里添加一条issues用于保存与这篇文章有关的评论。</p>
+<p>真可谓一波三折，因为很多gitalk安装教程都已经是很旧的了，各种index.md文件找不到啦，comments.swig打开跟教程里不一样啦，comments.ejs语法略有不同啦，折腾来折腾去不知道怎么办。</p>
+<p>还好我有点html基础，发现主题配置文件里_config.yml里直接就有gitalk的相关配置，那我又已经<code>npm i --save gitalk</code>，建好OAuth apps以后，填好各项配置如下:</p>
+<figure class="highlight"><table><tbody><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  github_id: shukangzhang # GitHub repo owner</span><br><span class="line">  repo: pinglun # Repository name to store issues</span><br><span class="line">  client_id: 59xxxxxx # GitHub Application Client ID</span><br><span class="line">  client_secret: 81xxxxx # GitHub Application Client Secret</span><br><span class="line">  admin_user: shukangzhang # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br></pre></td></tr></tbody></table></figure>
+<p>模块就添加成功啦</p>
+<p>这里必须得提一下我也遇到了老生常谈的<code>Error: Not found</code>的问题，但我的问题比较轻，是因为对别人教程的理解问题，我通过api.github.com查询了我的github_ID，我以为是要填写ID一栏显示的000000那串数字，结果一直Error: Not found，按F12审查元素:</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">https:<span class="comment">//api.github.com/repos/45145936/pinglun/issues?labels=Gitalk,cf1b9bedf8abfdc34802bcf9d9cde839&amp;t=1591326997341</span></span><br></pre></td></tr></tbody></table></figure>
+<p>这个网址始终返回404 not found. 也就是说，程序找不到相应的Repostory来创建issues，仓库地址错误！那么我于此得来灵感，我建的新仓库<code>pinglun</code>不可能出错，只可能是前面的那串数字错了，但是api.github.com返回的ID也没有错，那我看了别人的设置，把自己的github_ID也换成名称串，跟owner一样，再试就成了</p>
+<h1 id="本地预览与线上结果不一样问题"><a href="#本地预览与线上结果不一样问题" class="headerlink" title="本地预览与线上结果不一样问题"></a>本地预览与线上结果不一样问题</h1><p>已解决，参考<a href="https://github.com/hexojs/hexo/issues/806">Github hexo issues #806</a></p>
+<p>#xxx<br>xxx. 未完待续</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -173,25 +93,12 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
             document.body.appendChild(img);
           });
       </script>]]></content>
-      <tags>
-        <tag>privat</tag>
-      </tags>
   </entry>
   <entry>
-    <title>Brennstoffzelle 2 Notizen</title>
-    <url>/2020/06/14/brennstoffzelle-2-notizen/</url>
-    <content><![CDATA[<p>Damit dieser Polymerelektrolytmembran hier ein gute Ionnenleitfähigkeit haben ein gute Protonleitfähigkeit aufweisen müssen dieser Membran <strong>feucht</strong> gehalt werden. Sie brauchen bestimmter Wassergehalt um ein hohe Ionenleitfähigkeit zu erreichen. Und das impliziert dann eben, dass man bei diesem PEMFC relativ aufwändiges Wassermanagement benötigt, wo man typische Weise eben die Brenngase sowohl auf die Anodeseite aber auch dei Kathodeluft voeher aktiv befeuchtet um eben sicher zu stellen dass hier das Wassergehalt in der Membran ausreichen genug ist um diese gute Ionenleitfähigkeit sicher zu stellen.</p>
-<p>Kaltstart</p>
-<p>Ein entscheidenes Charateristikum, gilt auch für die andere niedrige T Brennstoffzelle, ist eben, dass sie auf beider Elektroden in diesem Fall als Katalysator eben hier <strong>Pt</strong> typische Weise einsetzen. Pt ist jetzt nicht gerade die günstige Rohstoff. Ein groß Teil der Kosten wird nach wie vor durch die Kosten für die Pt-Katalysator versursacht. 2 Nachteile:</p>
-<ul>
-<li>teure Matrial</li>
-<li>CO (Kohlenmonoxid) in geringen Mengen (ppm) sehr giftig für die Pt, irreversible!</li>
-</ul>
-<p><strong>poröse Gasdiffusionsschicht</strong> aus Kohlenstoffpartikel, Ruße, Rußmaterialien bilden poröse Schicht. Keine besondere Funktionen für die elektrochemische Umsetzung. Aber dient dazu, die Eduktgase möglichst gleichmäßig hier über die Elektrodenflächen zu verteilen. Mehr oder wenig als ein Stofftransportschicht. Reaktionswasser auf die Kathodeseite H<del>2</del>O ableiten.</p>
-<p><strong>Nafion®, sulfoniertes Tetrafluorethylen-Polymer (PTFE Teflon®)</strong> erlaubt gute Ionenleitfähigkeit und gleichzeitig geringe Elektronen-Leitfähigkeit. Besser ein Dicke unter 100$\mu$m für Protonleitung</p>
-<blockquote>
-<p>Vorlesung, Brennstoffzelle 2, <strong>Prof. Dr. Andreas Lindermeir</strong>, CUTEC@teschnische Universität Clausthal<br>Zusammengefasst durch <strong>Shukang Zhang</strong>, Master@teschnische Universität Clausthal</p>
-</blockquote>
+    <title>lol冷知识</title>
+    <url>/2020/06/22/lol-leng-zhi-shi/</url>
+    <content><![CDATA[<h1 id="Jax"><a href="#Jax" class="headerlink" title="Jax"></a>Jax</h1><p><img src="Jax.jpg" alt="Jax最爱吃鸡蛋，而且只吃恕瑞玛城市乌泽里斯流动市场的卖的那一种"></p>
+<h1 id="我参与举报被处理的账号数"><a href="#我参与举报被处理的账号数" class="headerlink" title="我参与举报被处理的账号数"></a>我参与举报被处理的账号数</h1><p>具体数量不记得了，从8开始算起吧<br><code>8</code></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -212,63 +119,7 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
           });
       </script>]]></content>
       <tags>
-        <tag>Fuel Cell</tag>
-        <tag>Brennstoffzelle</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo添加pdf预览-纠正现有教程遗漏的地方</title>
-    <url>/2020/06/08/hexo-tian-jia-pdf/</url>
-    <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf">Github官方教程superalsrk/hexo-pdf</a></p>
-<h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
-<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
-<p>然后键入:</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>咦，怎么不行！？</p>
-<a id="more"></a>
-
-<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。</p>
-<p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del></p>
-<p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
-<ul>
-<li>域名是https的话http开头的图床是会被block掉的</li>
-<li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
-</ul>
-<hr>
-<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
-<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-<p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
-<blockquote>
-<p><a href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
-</blockquote>
-<h1 id="06-20-Upgrade"><a href="#06-20-Upgrade" class="headerlink" title="06.20 Upgrade"></a>06.20 Upgrade</h1><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>此方法在我的浏览器上现在可以正常显示了，不知道是不是因为更新浏览器清除了浏览器缓存</p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>pdf</tag>
+        <tag>lol</tag>
       </tags>
   </entry>
   <entry>
@@ -343,114 +194,6 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
       <tags>
         <tag>test</tag>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中国文化导论最后一题</title>
-    <url>/2020/06/06/zhong-guo-wen-hua-dao-lun-zui-hou-yi-ti/</url>
-    <content><![CDATA[<h1 id="中国文化导论最后一题–忠恕之道"><a href="#中国文化导论最后一题–忠恕之道" class="headerlink" title="中国文化导论最后一题–忠恕之道"></a>中国文化导论最后一题–忠恕之道</h1><p>我想，道德问题不涉及法律，但一直被拿来作为大家处世与相处的行为准则，所以社会中的各种行为限制该是自古以来大家慢慢达成的一种“共识”。这种共识的形成很原始，很本质。一群生物在同一区域生活，由于所处环境不同会造成思想上的差异，进而形成行为上的差异，不同的行为很难互不干扰，于是这群生物从维护自身利益出发希望在这些干扰中找到一个平衡点，大家同时遵守这一准则，才能让个体获得最多的资源，最少的冲突。</p>
-<a id="more"></a>
-
-<p>我觉得这是社会制度形成的源头，孔子的“礼”也是如此，但是我注意到孔子的“忠恕之道”中说到“己欲立而力人，己欲达而达人”，自己要存在、发展，推己及人，也要承认并帮助他人的存在、发展。这种超出个体发展的目标，显然是更高层次一点的东西，它反映了人性中不一样的一些地方，我只能说是爱吧！或许这种爱并不是环境、教育这些因素让人后天习得的，而是固化在我们的基因里的东西，我觉得这种东西才一定会让人类走到最后。</p>
-<p>我会有这种想法本身就是一件理由不清晰的事，我的想法、我说的话、我写的字，都是受了过去经历的影响，形成了我独立的人格，但那是同一环境下，人格会有共通。大家同受中华文化的洗礼，孔子的忠恕之道明明正在维系着现世人际关系和谐，让大家的行为变得有理有据，还需要谈什么有没有现代价值吗！？根本没有资格，说没有价值你丢的掉么！？</p>
-<p>只可惜我身在体系内，我的潜意识本身就会去维护体系的存在，体系内的生物很难在体系内做出什么本质上触动体系的行为，但是我不否认触动的可能性，所以一定要多元发展、共同繁荣，让不同的人、不同的意见、不同的需要、不同的利益、不同的信仰共同存在，这样才有可能找到未来文明发展的出路。</p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <categories>
-        <category>原创</category>
-      </categories>
-      <tags>
-        <tag>privat</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>破事儿2020</title>
-    <url>/2020/06/05/po-shi-er-2020/</url>
-    <content><![CDATA[<p>想了一下想po到blog的第一篇文章，马上就想到以前我在qq空间的这篇置顶，看了下抬头，发现我11年就想要个个人主页啦，哈哈，时至今日，我还是很喜欢这篇文章，语言是温柔的，我已经不记得当时花了几个小时把这篇文章打进去的了，只记得因为网络问题和页面刷新问题，中途有过大篇幅的丢失，很气，至少有重新打，现在有了自己的网站，各种网络基础设施又这么好，基本不会再出现这种情况了，当初的挫败反而成了回味时的情趣。</p>
-<p>高二时去了实验班，班级组织了一次去中科大的参观活动，在校内书店买了两本书，一本<code>电影画刊</code>，一本<code>禅宗</code>,禅宗自然是佛学书籍，被仇日保守的老爷子大骂，他骂任他骂，我自看我的，所以不提也罢。另一本<code>电影画刊</code>不知道还能不能找到了，毕竟留德7年了，通篇内容已然忘却，只有这篇文章我是花了心血的。想来当年真是幼稚，不管是男性朋友还是女性朋友，我都统统推荐，然后感慨说，哎呀，这真是我理想中的女性形象啊，真是tm傻子，跟男性朋友说还好，跟女生说却是几个意思？别人会怎么想？&gt;_&lt;</p>
-<p>当然时至今日我还是有点想见见这位姑娘，看看到底怎么样一个人，当初就那么成熟，那现在是在过什么样的生活。</p>
-<p>上文章吧</p>
-<a id="more"></a>
-
-<h1 id="lt-破事儿-gt-文-付玲（来自《电影画刊》2009-11）"><a href="#lt-破事儿-gt-文-付玲（来自《电影画刊》2009-11）" class="headerlink" title="<破事儿>文=付玲（来自《电影画刊》2009-11）"></a>&lt;破事儿&gt;文=付玲（来自《电影画刊》2009-11）</h1><p>有天学校停电了，没有办法继续做电学实验。我背好包从实验楼里走出来去对面楼的图书馆自习室准备考试，前天还放了满满一桌英语资料占着位置。自习室很热，坐下来却还不想看书，在桌子对面趴着睡觉的女孩不一会缓缓醒过来问我停电多久了。我笑笑摇了摇头表示自己也是刚到。她睡眼惺松的拿起本子扇风，过了会说：“唉，注意你很久了。”</p>
-<p>我愣愣的不知道如何回答她。她到是很大方的样子，说趁我不在的时候翻过桌上的资料，上面勾勾画画的都是记号，觉得算是性格认真的人。也观察过，发现我常常自己来这边学习，倒是有个年纪小一点的室友偶尔陪着。</p>
-<p>我拧开瓶盖开始喝水，微笑着看着她。这样的小艳遇太像村上春树小说的剧情了，如果我是个男的话。</p>
-<p>“只是因为彼此长得像，不过现在做了挑染和卷发不大看得出来了。”她捋了捋头发，声音清淡的说，“所以今天特地选了你对面的位置，想看能不能遇上，然后随便聊点什么都好。”</p>
-<p>她的气质非常平和，声音也是温柔的。我当时甚至没有觉得不自在。反而当真聊了很多，想起什么说什么，都是有一搭没一搭的闲话。比如学校课程安排的不合理或者太多无聊透顶的活动。直到我不小心看到她手指上的戒指，然后随口问：“是章子怡代言的那一款吗，应该很贵吧？”她侧了侧左手，然后用右手手指轻轻地抚摸过去。“是其中一个男朋友送的，送过三次，前两次洗衣服的时候不小心掉了。”见我没有说话便接着说，“你会不会觉得奇怪，其实也没有很多，只有两个而已，彼此也都知道对方，但也还是继续对我好，像是竞争的意思。也奇怪，自从这样的三角关系以来，再也没有和送戒指的男朋友吵过架。因为心里总像是对不起他，一般他有什么做的不妥当的，也都没往心里去。况且就算一旦吵起来，和另一个出去逛街散心基本也就淡忘了。”见我脸上诧异的表情，她忽然笑起来。那种笑容是倦怠的，并没有掺杂任何炫耀货鄙夷的成分，是清清淡淡的倦怠表情。顿了顿看着窗外逐渐暗淡的天空，“总有一天你会明白的，这就是生活，和小说或者电影里描述的完美爱情都是不一样的。”随即她低下了头，长长的头发垂下来挡住了那张和我颇为相似的脸。</p>
-<p>之后过了不久就来电了，大约是修好了电线。一盏盏日光灯闪了闪都亮了起来，电扇也开始发出呼啦呼啦的声响。自习室倏忽安静了，我们随即停止了话题低头做起各自的复习资料。临走的时候她邀请我下周三去看他们的专业汇报演出，我说有时间的话回去的。几天以后我当真看到了宣传的海报，上面也贴有她的照片，和众多同学站在一起。那张脸与我是相似的，我看了会，心里是莫名的感觉。她汇报演出的那天我刚好有事情，没有去。之后也没有再见过这个人，任何地方都没有。就好像凭空消失了一样。</p>
-<p>其实在这期间我也做了笔糊涂事,才经常不在学校，而是辗转坐车见缝插针的住在家里。当时宿舍里同住的另一个女生经常与男友吵架，吵到后来双方动手的地步，她挨揍的样子，我着实看不过去，劝了几句。结果反而惹祸上身，弄了个挑拨离间的罪名，室友游说男友，扬言要收拾我。才没有办法，打不起躲得起。近期末那一周多时间，根本不在学校。</p>
-<p>然后才空余出很多时间，看了彭浩祥的那部《破事儿》。</p>
-<p>香港有几个比较喜欢的导演，刚开始是王家卫和关锦鹏。再后来人慢慢性情有了些改变，开始喜欢比较怪诞的韦家辉和彭浩翔。第一次接触彭浩翔导演的电影就是那部风格较为接近王家卫的《伊莎贝拉》。电影里墨绿色笼罩的的澳门像是永远大雨滂沱的城市，湿漉漉的街道和人们的眼睛。那时候的梁洛施好看的如同嘹亮的风声，穿梭在永远看不到尽头的回忆里。</p>
-<p>倒是有一场戏，她坐在桌前和马振成一起吃饭。他说起年轻时候和她母亲的往事。还是学生的马振成在知道女朋友怀孕以后手足无措，去翻那些吸毒者藏在花棚里的毒品，找到拿去卖，还是穷。他说，在澳门没有金表不行的，不是别人看不起你，而是别人看不到你。</p>
-<p>我才恍恍惚惚觉出了点怅然所失的滋味。然而片中更为沉重的生活压力却是那个时候的我所没有办法理解的透彻的。当然或许现在也还是。</p>
-<p>再之后陆陆续续的看了《公主复仇记》，《青春梦工场》，还有处女作《买凶拍人》。我是更喜欢《出埃及记》的，那么淡然的气氛，从未见过如此落寞的任达华，在影影绰绰的餐桌上尽享一个人的沉默。后来他在电影里对他的情人说，原来有些事情离奇到一定程度就没有人相信，但是不代表那不是真的。说的是警察局里的警察假扮成蛙人殴打犯人的事。他的语气确实颓废的。片子播到末尾，他也毋庸置疑的成了自己所厌恶生活的一部分，是毫不突兀的向生活妥协。当然还有《大丈夫》，黑色幽默版的《无间道》。一群男人想尽办法避开女友和妻子用辛苦攒下的私房钱嫖妓，中途一波三折最后败兴而归的故事。本来该是喜剧的，但彭浩翔把片名起作大丈夫，我才为这些情欲难过起来。中间陈小春饰演的角色说过一段话，他满是诚恳的交心，说如果不是这些年的偷腥所带来的愧疚感，或许和妻子的婚姻早就破裂了。</p>
-<p>语气和神态都很像我在开头提到的那位只有一面之缘的朋友。当时我看电影，只不过笑笑了事，当是喜剧荒诞的桥段。但听到身边人郑重其事的这样说，却是完全不同的感受。兴许生活得久了，见到的人也自然而然的多起来，难免遇到各式各样的人。随着年龄的增长，人也越来越有复杂的资本了。仿佛不复杂就提不起生活的趣味，也少了点矫揉造作的沧桑感。我常常觉得，人之所以为人应该有更高尚点的追求。虽然也可以说生活的真相就是虚无，但我也希望能够虚无的更加坦荡些。</p>
-<p>原来以为贫穷是能够带来朴实的。刚读大学的时候，就觉察出了和高中时候不同的风气。当然很可能是读的学校称不上重点的原因。开学刚一周，班上就出了好几件事。先是女生间的聚众斗殴，再又是男生追求不得闹出来的冲突。让刚入学的自己非常懊恼，觉得学习环境实在有些糟糕。后来军训结束开始上课，屡屡听说班上男生如何在学校同时交几个女朋友而不被发现的高超技巧。又或者是女朋友数次怀孕没有钱做手术，就骗家里说是出了水痘要住院。当然这都是些有钱的纨绔子弟，家里当然是可以花大笔钱到城市读书而不求什么成效的。如果放着大把的时间和金钱不用来玩乐，也是可疑的吧。</p>
-<p>除此之外也是有些默默无闻的人。衣着很朴素，说话的口音也大多是城郊的，班上开会或者选举往往插不上嘴。最是那么三三两两的几个人往来于宿舍和教室，看起来是有些贫寒的样子。那时候班上有个同学临时决定要去新加坡念工科，刚好和那几个男生是同寝。于是约着一起玩玩当时告别，选了学校附近的KTV。解释说没有女生同去的话，在别人面前没有面子，就约了我和另外的同学。我想这不答应可能有点伤自尊，就劝着对方一起去了。当时是晚上，他们到宿舍楼下面来接的。沿路同我打听班上还有几个女生是没有男朋友的，我当是开玩笑，但后来才发现他们是当真的。并且颇为认真的各自划分了几个作为后备选项，还嘲弄的同我说起其中一个男生追求老乡未果的事，还是一点便宜没有占到的遗憾口气。之后在KTV，气氛也没有让我觉得愉快，于是就谎称家里会打电话查寝不能太晚回去早早退出了聚会。夜里竟然还收到发来的暧昧短信，虽然后来道歉说是喝醉了之后的玩笑话，也是足足倒了我的胃口。</p>
-<p>原来一直是想错了。</p>
-<p>徐静蕾最早当导演的那部作品《我和爸爸》里，叶大鹰说，男人，不要以为家境贫寒就朴实，长得拧巴就不花。原来是这样字字珠玑。我原以为挥金如土的纨绔子弟们沉迷于声色或者分分合合的男女关系是他们太过空虚了，没有发泄的渠道，也没有静下来好好生活的心思。来自城郊苦读上来的人相反能够更加珍惜生活本身，对浮华也能够相对看得透彻。到头来也只不过是我又一次一厢情愿的想法。不接触不了解，就总能够当对方是童话。能想得多完美，就想得多完美。他们安静，他们看起来与世无争倒并不是思想能够多么高尚，想法能够怎样透彻，﻿而只是没有这个资本而已。</p>
-<p>一旦某天，他们发达了，有了这个资本。不见得没有现在他们所回避的这帮人玩得更过分，更没有章法。相反压抑的心态可能让行为更激进。</p>
-<p>我有一个同学，是从小学一直到高中同校的。读初中的时候他坐在我的后面，成绩很优异但并不常常和别人说话，是性格内向的人。我一直清楚地记得的场景是有天下了体育课，班上男生打完篮球陆陆续续的回到教室。当时是大课间，同学们闲散的坐着。他当时买了瓶饮料上来，一边喝一边坐在我后面喘气。我正在看杂志，也没和他搭腔，就这样相安无事的坐着，等着待会的晚自习。这时候班上某个财大气粗的男生上楼来，拐弯从后门走进教室。他路过附近的时候，我清清楚楚的听到了一句话。</p>
-<p>他说，就你，也配喝鲜橙多。</p>
-<p>坐在我后面的男生没有回答，我也没有抬头。我们依然维持着当时的坐姿挨过那最尴尬的几分钟。我不知道那句话会不会进到他的心里，直到今天我们都成了二十来岁的成年人，他可以接到年薪十万的工作，我们能够用调侃的语气说起读书时种种逗乐的事。但都未聊到过那一天。或许他把那天忘记了，并没有和我一般介意，只当作是孩童时期的玩笑话。如果他当时没有听到最好，又或许他已经听得太多。</p>
-<p>高三毕业的那年，他追求班上的女同学，那人恰好是我的朋友。但事情是我之后听说的，版本并不太友善。他在故事里成了笑柄，当了丑角。不过是大家茶余饭后的谈资，我也只能是转移了话题说不得别的大道理。</p>
-<p>﻿后来我劝他，爱情这事情得将缘分。网上有句话挺流行，说恋爱这事就跟做菜一样，你喜欢的人爱吃川菜，你把粤菜做得再好也没用。这也怪不得你自己。他当时木讷的回答我，说他愿意做厨子，人家爱吃什么他都能学，都能做。</p>
-<p>我也是破涕为笑了起来。</p>
-<p>他是自然没有和她在一起。就这么掉着单的过了四年﻿，说最不愿意在学校看到她和别人谈恋爱，却总是每每看见。也都没有办法。</p>
-<p>前几天我在网上又碰见他，聊起他推荐我看的美剧，说觉得没意思。﻿﻿﻿不知道问什么谈起了想要的下辈子,我还未开口,他说他下辈子要做一个专骗女人的坏男人。</p>
-<p>我当时吓了一跳，问他为什么。他只推脱说不过是另一种人格。</p>
-<p>越来越不懂。</p>
-<p>那次去武汉大学还吉他给以前的高中同学。她对我说，如果朋友不常常见面，有天突然说起话来，聊起一些看法，你会觉得根本不认识那个人，不知道他怎么就一步步走到了今天。变成了现在的模样。</p>
-<p>我却是真真切切的看着身边的人一路走来的，三年五年或许更长的时间。但是他们也真的慢慢变成了我不认识的样子。玩一夜情的玩一夜情，沉迷于劈腿的沉迷于劈腿。并不是说男人都是不好的，因为其中也不乏各种女人。我曾经热爱过的天真烂漫的女人们。</p>
-<p>彭浩翔在《破事儿》的片头说，尘世间有几许事可堪动地惊天，还不是去似微尘，所有种种，回头再看，就那么回事。</p>
-<p>这部故事我只看了五个小故事的版本。其中几个和他原先拍的电影类似，好比《买凶杀人》和《大丈夫》。我把它看做浓缩版的彭浩翔之路，而他也堂而皇之的把片名叫做《破事儿》。爱欲情仇，都不过是些破事儿。</p>
-<p>诚然每个人都可能是被伤害过的，做出再匪夷所思的反派行径的人都曾经是少年。那些同我谈起艳遇的男人们，在多年以前也是个想买大支玩具水枪的男孩。那些探讨傍大款方式穿着超短裙和高跟鞋的女人们，在学生时期也不过是想要与电视剧里女主角相仿的裙子。欲望随年龄的增长开始变得不一样了，如果你驾驭不了它，它就能把你变得复杂。那种复杂是潜移默化的。不知道我们会不会在某一天醒来，站在镜子前面，发现完全不认识那个人，那个人的相貌与神态是自己更年轻的时候所最最鄙夷的样子。那个人与现在的自己血肉相连，她变成自己。</p>
-<p>你甚至要学会不惊慌，然后去承认这就是生活。</p>
-<p>我自己也不过活到二十出头，见过的大场面也是寥寥无几，并谈不上太多的生活阅历。没有什么资格指责什么，或者教导什么。但还是很真切地觉得，生活不应该是这样的。在一边感叹电影里的爱情故事并非真实的同时，把自己的人生变成荒诞的喜剧也称不上什么明智的做法。</p>
-<p>时间总是这样短，又这样迅速，究竟可以再做些什么才能不沦为破事儿的集合，我也不得其解。</p>
-<p>但不要忘记年轻时间点亮的那盏灯，那就总不至于走得太远。</p>
-<p>就总能走向通往光明的道路。</p>
-<h1 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h1><p>因为要录入这篇文章，我顺便把qq空间里以前发表的其他文章都看了遍，真是羞耻啊，以前怎么这么暴躁，而且中二TaT，哭了，太羞耻了，这篇的后记算好的，我也就直接ctrl+c过来吧，省事。</p>
-<p>~<del>后话（录入者）</del><br>首先我想说，你们不要转载，乱传，因为不是我写的文章，喜欢看看就是了，我也喜欢，我花了很长时间才全部录入。<br>她说出了我很多想说的话，但我完全做不到像她这样娓娓道来，She expresses herself  transparently which I admire.<br>生活真的不应该是这样，但我相信时间会解决一切，但也不能坐等，就算只有自己也要推动一切！<br>耗这么长时间打这篇文章，真是暴露了我人性里的弱点，以手抚膺长谘嗟。。。<br>我突然想起梁朝伟饰演的陈永仁在无间道里说的：“没事，过了明天就好了。”<br>呵！<br>时间不早了，如果想到什么我再来补充吧。<br>High pleasure，intelligence，civilization！<br>A head for business，a head for world.<br>~<del>Liebe</del></p>
-<p>哎，还是觉得羞耻啊aaaaaaaaaaaa</p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-      <tags>
-        <tag>privat</tag>
       </tags>
   </entry>
   <entry>
@@ -552,31 +295,34 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
       </script>]]></content>
   </entry>
   <entry>
-    <title>GitHub Hexo报错汇总</title>
-    <url>/2020/06/03/github-hexo-bao-cuo-hui-zong/</url>
-    <content><![CDATA[<h1 id="hexo-init-网络问题初始化失败"><a href="#hexo-init-网络问题初始化失败" class="headerlink" title="$ hexo init 网络问题初始化失败"></a><code>$ hexo init</code> 网络问题初始化失败</h1><p>删除所有hexo安装包以后重新输入<code>$ npm intall -g hexo-cli</code>失败</p>
-<p>尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
-<p>其实<code>$ hexo init</code>不需要重装hexo-cli服务</p>
+    <title>hexo添加pdf预览-纠正现有教程遗漏的地方</title>
+    <url>/2020/06/08/hexo-tian-jia-pdf/</url>
+    <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf">Github官方教程superalsrk/hexo-pdf</a></p>
+<h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
+<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
+<p>然后键入:</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>咦，怎么不行！？</p>
 <a id="more"></a>
 
-<h1 id="重置链接"><a href="#重置链接" class="headerlink" title="重置链接"></a>重置链接</h1><p><code>npm set registry http://registry.npmjs.org/</code></p>
-<h1 id="Porkbun域名提供商DNS设置备份"><a href="#Porkbun域名提供商DNS设置备份" class="headerlink" title="Porkbun域名提供商DNS设置备份"></a>Porkbun域名提供商DNS设置备份</h1><p><a href="https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3">https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3</a></p>
-<h1 id="一段插曲"><a href="#一段插曲" class="headerlink" title="一段插曲"></a>一段插曲</h1><p>Hi, sorry, i must hv done something wrong.<br>i tried to point <a href="http://shukangzhang.com/">shukangzhang.com</a>, which i hv just bought from you, to<a href="http://shukangzhang.github.io/">shukangzhang.github.io</a>. But now when i type <a href="http://shukangzhang.com/">shukangzhang.com</a>, the browser shows a</p>
-<p>邮件写到一半，结果网页自动刷新，一切正常了。。。应该是Domain提供商反应比较慢，现在好了</p>
-<h1 id="hexo-deploy-not-found-git"><a href="#hexo-deploy-not-found-git" class="headerlink" title="hexo deploy not found git"></a>hexo deploy not found git</h1><p>是因为没有装<code>$ npm install hexo-deployer-git --save</code></p>
-<h1 id="TypeError-Cannot-read-property-‘replace’-of-null"><a href="#TypeError-Cannot-read-property-‘replace’-of-null" class="headerlink" title="TypeError Cannot read property ‘replace’ of null"></a>TypeError Cannot read property ‘replace’ of null</h1><p>实在是悲剧，找不到原因，只好$ hexo init 从头来过，哭哭<br>切记每步操作完一定要$ hexo g&amp;d</p>
-<h1 id="FATAL-Cannot-read-property-‘replace’-of-null"><a href="#FATAL-Cannot-read-property-‘replace’-of-null" class="headerlink" title="FATAL Cannot read property ‘replace’ of null"></a>FATAL Cannot read property ‘replace’ of null</h1><p>是因为config文件里的url: 后面被删掉了</p>
-<h1 id="hexo-更改本地路径"><a href="#hexo-更改本地路径" class="headerlink" title="hexo-更改本地路径"></a>hexo-更改本地路径</h1><p>a. config.yml文件中配置如下：<br>b. hexo s -p 5000</p>
-<h1 id="添加gitalk"><a href="#添加gitalk" class="headerlink" title="添加gitalk"></a>添加gitalk</h1><p>我原来看的教程推荐的是gitment，结果gitment已经停止服务了，<code>NexT</code>也已经不再集成gitment服务，于是转为安装gitalk评论系统，基于github issues，这里就不过多介绍了，总之，每篇文章都会在你事先建好的Repository里添加一条issues用于保存与这篇文章有关的评论。</p>
-<p>真可谓一波三折，因为很多gitalk安装教程都已经是很旧的了，各种index.md文件找不到啦，comments.swig打开跟教程里不一样啦，comments.ejs语法略有不同啦，折腾来折腾去不知道怎么办。</p>
-<p>还好我有点html基础，发现主题配置文件里_config.yml里直接就有gitalk的相关配置，那我又已经<code>npm i --save gitalk</code>，建好OAuth apps以后，填好各项配置如下:</p>
-<figure class="highlight"><table><tbody><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  github_id: shukangzhang # GitHub repo owner</span><br><span class="line">  repo: pinglun # Repository name to store issues</span><br><span class="line">  client_id: 59xxxxxx # GitHub Application Client ID</span><br><span class="line">  client_secret: 81xxxxx # GitHub Application Client Secret</span><br><span class="line">  admin_user: shukangzhang # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br></pre></td></tr></tbody></table></figure>
-<p>模块就添加成功啦</p>
-<p>这里必须得提一下我也遇到了老生常谈的<code>Error: Not found</code>的问题，但我的问题比较轻，是因为对别人教程的理解问题，我通过api.github.com查询了我的github_ID，我以为是要填写ID一栏显示的000000那串数字，结果一直Error: Not found，按F12审查元素:</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">https:<span class="comment">//api.github.com/repos/45145936/pinglun/issues?labels=Gitalk,cf1b9bedf8abfdc34802bcf9d9cde839&amp;t=1591326997341</span></span><br></pre></td></tr></tbody></table></figure>
-<p>这个网址始终返回404 not found. 也就是说，程序找不到相应的Repostory来创建issues，仓库地址错误！那么我于此得来灵感，我建的新仓库<code>pinglun</code>不可能出错，只可能是前面的那串数字错了，但是api.github.com返回的ID也没有错，那我看了别人的设置，把自己的github_ID也换成名称串，跟owner一样，再试就成了</p>
-<h1 id="本地预览与线上结果不一样问题"><a href="#本地预览与线上结果不一样问题" class="headerlink" title="本地预览与线上结果不一样问题"></a>本地预览与线上结果不一样问题</h1><p>已解决，参考<a href="https://github.com/hexojs/hexo/issues/806">Github hexo issues #806</a></p>
-<p>#xxx<br>xxx. 未完待续</p>
+<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。</p>
+<p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del></p>
+<p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
+<ul>
+<li>域名是https的话http开头的图床是会被block掉的</li>
+<li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
+</ul>
+<hr>
+<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
+<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+<p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
+<blockquote>
+<p><a href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
+</blockquote>
+<h1 id="06-20-Upgrade"><a href="#06-20-Upgrade" class="headerlink" title="06.20 Upgrade"></a>06.20 Upgrade</h1><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>此方法在我的浏览器上现在可以正常显示了，不知道是不是因为更新浏览器清除了浏览器缓存</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -596,5 +342,309 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
             document.body.appendChild(img);
           });
       </script>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>pdf</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中国文化导论最后一题</title>
+    <url>/2020/06/06/zhong-guo-wen-hua-dao-lun-zui-hou-yi-ti/</url>
+    <content><![CDATA[<h1 id="中国文化导论最后一题–忠恕之道"><a href="#中国文化导论最后一题–忠恕之道" class="headerlink" title="中国文化导论最后一题–忠恕之道"></a>中国文化导论最后一题–忠恕之道</h1><p>我想，道德问题不涉及法律，但一直被拿来作为大家处世与相处的行为准则，所以社会中的各种行为限制该是自古以来大家慢慢达成的一种“共识”。这种共识的形成很原始，很本质。一群生物在同一区域生活，由于所处环境不同会造成思想上的差异，进而形成行为上的差异，不同的行为很难互不干扰，于是这群生物从维护自身利益出发希望在这些干扰中找到一个平衡点，大家同时遵守这一准则，才能让个体获得最多的资源，最少的冲突。</p>
+<a id="more"></a>
+
+<p>我觉得这是社会制度形成的源头，孔子的“礼”也是如此，但是我注意到孔子的“忠恕之道”中说到“己欲立而力人，己欲达而达人”，自己要存在、发展，推己及人，也要承认并帮助他人的存在、发展。这种超出个体发展的目标，显然是更高层次一点的东西，它反映了人性中不一样的一些地方，我只能说是爱吧！或许这种爱并不是环境、教育这些因素让人后天习得的，而是固化在我们的基因里的东西，我觉得这种东西才一定会让人类走到最后。</p>
+<p>我会有这种想法本身就是一件理由不清晰的事，我的想法、我说的话、我写的字，都是受了过去经历的影响，形成了我独立的人格，但那是同一环境下，人格会有共通。大家同受中华文化的洗礼，孔子的忠恕之道明明正在维系着现世人际关系和谐，让大家的行为变得有理有据，还需要谈什么有没有现代价值吗！？根本没有资格，说没有价值你丢的掉么！？</p>
+<p>只可惜我身在体系内，我的潜意识本身就会去维护体系的存在，体系内的生物很难在体系内做出什么本质上触动体系的行为，但是我不否认触动的可能性，所以一定要多元发展、共同繁荣，让不同的人、不同的意见、不同的需要、不同的利益、不同的信仰共同存在，这样才有可能找到未来文明发展的出路。</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>原创</category>
+      </categories>
+      <tags>
+        <tag>privat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玄学背后的一点点剖析</title>
+    <url>/2020/06/15/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi/</url>
+    <content><![CDATA[<p>和室友讨论得来的一点点启发</p>
+<a id="more"></a>
+
+<p>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。<br>我是挺无语的。<br>我觉得这是对现在科学的侮辱。<br>因为他说的这种首先取样就不严谨:<br><em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
+<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算99.999%的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
+<p>我不理解为什么会有这么大的思维差异！</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>privat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>破事儿2020</title>
+    <url>/2020/06/05/po-shi-er-2020/</url>
+    <content><![CDATA[<p>想了一下想po到blog的第一篇文章，马上就想到以前我在qq空间的这篇置顶，看了下抬头，发现我11年就想要个个人主页啦，哈哈，时至今日，我还是很喜欢这篇文章，语言是温柔的，我已经不记得当时花了几个小时把这篇文章打进去的了，只记得因为网络问题和页面刷新问题，中途有过大篇幅的丢失，很气，至少有重新打，现在有了自己的网站，各种网络基础设施又这么好，基本不会再出现这种情况了，当初的挫败反而成了回味时的情趣。</p>
+<p>高二时去了实验班，班级组织了一次去中科大的参观活动，在校内书店买了两本书，一本<code>电影画刊</code>，一本<code>禅宗</code>,禅宗自然是佛学书籍，被仇日保守的老爷子大骂，他骂任他骂，我自看我的，所以不提也罢。另一本<code>电影画刊</code>不知道还能不能找到了，毕竟留德7年了，通篇内容已然忘却，只有这篇文章我是花了心血的。想来当年真是幼稚，不管是男性朋友还是女性朋友，我都统统推荐，然后感慨说，哎呀，这真是我理想中的女性形象啊，真是tm傻子，跟男性朋友说还好，跟女生说却是几个意思？别人会怎么想？&gt;_&lt;</p>
+<p>当然时至今日我还是有点想见见这位姑娘，看看到底怎么样一个人，当初就那么成熟，那现在是在过什么样的生活。</p>
+<p>上文章吧</p>
+<a id="more"></a>
+
+<h1 id="lt-破事儿-gt-文-付玲（来自《电影画刊》2009-11）"><a href="#lt-破事儿-gt-文-付玲（来自《电影画刊》2009-11）" class="headerlink" title="<破事儿>文=付玲（来自《电影画刊》2009-11）"></a>&lt;破事儿&gt;文=付玲（来自《电影画刊》2009-11）</h1><p>有天学校停电了，没有办法继续做电学实验。我背好包从实验楼里走出来去对面楼的图书馆自习室准备考试，前天还放了满满一桌英语资料占着位置。自习室很热，坐下来却还不想看书，在桌子对面趴着睡觉的女孩不一会缓缓醒过来问我停电多久了。我笑笑摇了摇头表示自己也是刚到。她睡眼惺松的拿起本子扇风，过了会说：“唉，注意你很久了。”</p>
+<p>我愣愣的不知道如何回答她。她到是很大方的样子，说趁我不在的时候翻过桌上的资料，上面勾勾画画的都是记号，觉得算是性格认真的人。也观察过，发现我常常自己来这边学习，倒是有个年纪小一点的室友偶尔陪着。</p>
+<p>我拧开瓶盖开始喝水，微笑着看着她。这样的小艳遇太像村上春树小说的剧情了，如果我是个男的话。</p>
+<p>“只是因为彼此长得像，不过现在做了挑染和卷发不大看得出来了。”她捋了捋头发，声音清淡的说，“所以今天特地选了你对面的位置，想看能不能遇上，然后随便聊点什么都好。”</p>
+<p>她的气质非常平和，声音也是温柔的。我当时甚至没有觉得不自在。反而当真聊了很多，想起什么说什么，都是有一搭没一搭的闲话。比如学校课程安排的不合理或者太多无聊透顶的活动。直到我不小心看到她手指上的戒指，然后随口问：“是章子怡代言的那一款吗，应该很贵吧？”她侧了侧左手，然后用右手手指轻轻地抚摸过去。“是其中一个男朋友送的，送过三次，前两次洗衣服的时候不小心掉了。”见我没有说话便接着说，“你会不会觉得奇怪，其实也没有很多，只有两个而已，彼此也都知道对方，但也还是继续对我好，像是竞争的意思。也奇怪，自从这样的三角关系以来，再也没有和送戒指的男朋友吵过架。因为心里总像是对不起他，一般他有什么做的不妥当的，也都没往心里去。况且就算一旦吵起来，和另一个出去逛街散心基本也就淡忘了。”见我脸上诧异的表情，她忽然笑起来。那种笑容是倦怠的，并没有掺杂任何炫耀货鄙夷的成分，是清清淡淡的倦怠表情。顿了顿看着窗外逐渐暗淡的天空，“总有一天你会明白的，这就是生活，和小说或者电影里描述的完美爱情都是不一样的。”随即她低下了头，长长的头发垂下来挡住了那张和我颇为相似的脸。</p>
+<p>之后过了不久就来电了，大约是修好了电线。一盏盏日光灯闪了闪都亮了起来，电扇也开始发出呼啦呼啦的声响。自习室倏忽安静了，我们随即停止了话题低头做起各自的复习资料。临走的时候她邀请我下周三去看他们的专业汇报演出，我说有时间的话回去的。几天以后我当真看到了宣传的海报，上面也贴有她的照片，和众多同学站在一起。那张脸与我是相似的，我看了会，心里是莫名的感觉。她汇报演出的那天我刚好有事情，没有去。之后也没有再见过这个人，任何地方都没有。就好像凭空消失了一样。</p>
+<p>其实在这期间我也做了笔糊涂事,才经常不在学校，而是辗转坐车见缝插针的住在家里。当时宿舍里同住的另一个女生经常与男友吵架，吵到后来双方动手的地步，她挨揍的样子，我着实看不过去，劝了几句。结果反而惹祸上身，弄了个挑拨离间的罪名，室友游说男友，扬言要收拾我。才没有办法，打不起躲得起。近期末那一周多时间，根本不在学校。</p>
+<p>然后才空余出很多时间，看了彭浩祥的那部《破事儿》。</p>
+<p>香港有几个比较喜欢的导演，刚开始是王家卫和关锦鹏。再后来人慢慢性情有了些改变，开始喜欢比较怪诞的韦家辉和彭浩翔。第一次接触彭浩翔导演的电影就是那部风格较为接近王家卫的《伊莎贝拉》。电影里墨绿色笼罩的的澳门像是永远大雨滂沱的城市，湿漉漉的街道和人们的眼睛。那时候的梁洛施好看的如同嘹亮的风声，穿梭在永远看不到尽头的回忆里。</p>
+<p>倒是有一场戏，她坐在桌前和马振成一起吃饭。他说起年轻时候和她母亲的往事。还是学生的马振成在知道女朋友怀孕以后手足无措，去翻那些吸毒者藏在花棚里的毒品，找到拿去卖，还是穷。他说，在澳门没有金表不行的，不是别人看不起你，而是别人看不到你。</p>
+<p>我才恍恍惚惚觉出了点怅然所失的滋味。然而片中更为沉重的生活压力却是那个时候的我所没有办法理解的透彻的。当然或许现在也还是。</p>
+<p>再之后陆陆续续的看了《公主复仇记》，《青春梦工场》，还有处女作《买凶拍人》。我是更喜欢《出埃及记》的，那么淡然的气氛，从未见过如此落寞的任达华，在影影绰绰的餐桌上尽享一个人的沉默。后来他在电影里对他的情人说，原来有些事情离奇到一定程度就没有人相信，但是不代表那不是真的。说的是警察局里的警察假扮成蛙人殴打犯人的事。他的语气确实颓废的。片子播到末尾，他也毋庸置疑的成了自己所厌恶生活的一部分，是毫不突兀的向生活妥协。当然还有《大丈夫》，黑色幽默版的《无间道》。一群男人想尽办法避开女友和妻子用辛苦攒下的私房钱嫖妓，中途一波三折最后败兴而归的故事。本来该是喜剧的，但彭浩翔把片名起作大丈夫，我才为这些情欲难过起来。中间陈小春饰演的角色说过一段话，他满是诚恳的交心，说如果不是这些年的偷腥所带来的愧疚感，或许和妻子的婚姻早就破裂了。</p>
+<p>语气和神态都很像我在开头提到的那位只有一面之缘的朋友。当时我看电影，只不过笑笑了事，当是喜剧荒诞的桥段。但听到身边人郑重其事的这样说，却是完全不同的感受。兴许生活得久了，见到的人也自然而然的多起来，难免遇到各式各样的人。随着年龄的增长，人也越来越有复杂的资本了。仿佛不复杂就提不起生活的趣味，也少了点矫揉造作的沧桑感。我常常觉得，人之所以为人应该有更高尚点的追求。虽然也可以说生活的真相就是虚无，但我也希望能够虚无的更加坦荡些。</p>
+<p>原来以为贫穷是能够带来朴实的。刚读大学的时候，就觉察出了和高中时候不同的风气。当然很可能是读的学校称不上重点的原因。开学刚一周，班上就出了好几件事。先是女生间的聚众斗殴，再又是男生追求不得闹出来的冲突。让刚入学的自己非常懊恼，觉得学习环境实在有些糟糕。后来军训结束开始上课，屡屡听说班上男生如何在学校同时交几个女朋友而不被发现的高超技巧。又或者是女朋友数次怀孕没有钱做手术，就骗家里说是出了水痘要住院。当然这都是些有钱的纨绔子弟，家里当然是可以花大笔钱到城市读书而不求什么成效的。如果放着大把的时间和金钱不用来玩乐，也是可疑的吧。</p>
+<p>除此之外也是有些默默无闻的人。衣着很朴素，说话的口音也大多是城郊的，班上开会或者选举往往插不上嘴。最是那么三三两两的几个人往来于宿舍和教室，看起来是有些贫寒的样子。那时候班上有个同学临时决定要去新加坡念工科，刚好和那几个男生是同寝。于是约着一起玩玩当时告别，选了学校附近的KTV。解释说没有女生同去的话，在别人面前没有面子，就约了我和另外的同学。我想这不答应可能有点伤自尊，就劝着对方一起去了。当时是晚上，他们到宿舍楼下面来接的。沿路同我打听班上还有几个女生是没有男朋友的，我当是开玩笑，但后来才发现他们是当真的。并且颇为认真的各自划分了几个作为后备选项，还嘲弄的同我说起其中一个男生追求老乡未果的事，还是一点便宜没有占到的遗憾口气。之后在KTV，气氛也没有让我觉得愉快，于是就谎称家里会打电话查寝不能太晚回去早早退出了聚会。夜里竟然还收到发来的暧昧短信，虽然后来道歉说是喝醉了之后的玩笑话，也是足足倒了我的胃口。</p>
+<p>原来一直是想错了。</p>
+<p>徐静蕾最早当导演的那部作品《我和爸爸》里，叶大鹰说，男人，不要以为家境贫寒就朴实，长得拧巴就不花。原来是这样字字珠玑。我原以为挥金如土的纨绔子弟们沉迷于声色或者分分合合的男女关系是他们太过空虚了，没有发泄的渠道，也没有静下来好好生活的心思。来自城郊苦读上来的人相反能够更加珍惜生活本身，对浮华也能够相对看得透彻。到头来也只不过是我又一次一厢情愿的想法。不接触不了解，就总能够当对方是童话。能想得多完美，就想得多完美。他们安静，他们看起来与世无争倒并不是思想能够多么高尚，想法能够怎样透彻，﻿而只是没有这个资本而已。</p>
+<p>一旦某天，他们发达了，有了这个资本。不见得没有现在他们所回避的这帮人玩得更过分，更没有章法。相反压抑的心态可能让行为更激进。</p>
+<p>我有一个同学，是从小学一直到高中同校的。读初中的时候他坐在我的后面，成绩很优异但并不常常和别人说话，是性格内向的人。我一直清楚地记得的场景是有天下了体育课，班上男生打完篮球陆陆续续的回到教室。当时是大课间，同学们闲散的坐着。他当时买了瓶饮料上来，一边喝一边坐在我后面喘气。我正在看杂志，也没和他搭腔，就这样相安无事的坐着，等着待会的晚自习。这时候班上某个财大气粗的男生上楼来，拐弯从后门走进教室。他路过附近的时候，我清清楚楚的听到了一句话。</p>
+<p>他说，就你，也配喝鲜橙多。</p>
+<p>坐在我后面的男生没有回答，我也没有抬头。我们依然维持着当时的坐姿挨过那最尴尬的几分钟。我不知道那句话会不会进到他的心里，直到今天我们都成了二十来岁的成年人，他可以接到年薪十万的工作，我们能够用调侃的语气说起读书时种种逗乐的事。但都未聊到过那一天。或许他把那天忘记了，并没有和我一般介意，只当作是孩童时期的玩笑话。如果他当时没有听到最好，又或许他已经听得太多。</p>
+<p>高三毕业的那年，他追求班上的女同学，那人恰好是我的朋友。但事情是我之后听说的，版本并不太友善。他在故事里成了笑柄，当了丑角。不过是大家茶余饭后的谈资，我也只能是转移了话题说不得别的大道理。</p>
+<p>﻿后来我劝他，爱情这事情得将缘分。网上有句话挺流行，说恋爱这事就跟做菜一样，你喜欢的人爱吃川菜，你把粤菜做得再好也没用。这也怪不得你自己。他当时木讷的回答我，说他愿意做厨子，人家爱吃什么他都能学，都能做。</p>
+<p>我也是破涕为笑了起来。</p>
+<p>他是自然没有和她在一起。就这么掉着单的过了四年﻿，说最不愿意在学校看到她和别人谈恋爱，却总是每每看见。也都没有办法。</p>
+<p>前几天我在网上又碰见他，聊起他推荐我看的美剧，说觉得没意思。﻿﻿﻿不知道问什么谈起了想要的下辈子,我还未开口,他说他下辈子要做一个专骗女人的坏男人。</p>
+<p>我当时吓了一跳，问他为什么。他只推脱说不过是另一种人格。</p>
+<p>越来越不懂。</p>
+<p>那次去武汉大学还吉他给以前的高中同学。她对我说，如果朋友不常常见面，有天突然说起话来，聊起一些看法，你会觉得根本不认识那个人，不知道他怎么就一步步走到了今天。变成了现在的模样。</p>
+<p>我却是真真切切的看着身边的人一路走来的，三年五年或许更长的时间。但是他们也真的慢慢变成了我不认识的样子。玩一夜情的玩一夜情，沉迷于劈腿的沉迷于劈腿。并不是说男人都是不好的，因为其中也不乏各种女人。我曾经热爱过的天真烂漫的女人们。</p>
+<p>彭浩翔在《破事儿》的片头说，尘世间有几许事可堪动地惊天，还不是去似微尘，所有种种，回头再看，就那么回事。</p>
+<p>这部故事我只看了五个小故事的版本。其中几个和他原先拍的电影类似，好比《买凶杀人》和《大丈夫》。我把它看做浓缩版的彭浩翔之路，而他也堂而皇之的把片名叫做《破事儿》。爱欲情仇，都不过是些破事儿。</p>
+<p>诚然每个人都可能是被伤害过的，做出再匪夷所思的反派行径的人都曾经是少年。那些同我谈起艳遇的男人们，在多年以前也是个想买大支玩具水枪的男孩。那些探讨傍大款方式穿着超短裙和高跟鞋的女人们，在学生时期也不过是想要与电视剧里女主角相仿的裙子。欲望随年龄的增长开始变得不一样了，如果你驾驭不了它，它就能把你变得复杂。那种复杂是潜移默化的。不知道我们会不会在某一天醒来，站在镜子前面，发现完全不认识那个人，那个人的相貌与神态是自己更年轻的时候所最最鄙夷的样子。那个人与现在的自己血肉相连，她变成自己。</p>
+<p>你甚至要学会不惊慌，然后去承认这就是生活。</p>
+<p>我自己也不过活到二十出头，见过的大场面也是寥寥无几，并谈不上太多的生活阅历。没有什么资格指责什么，或者教导什么。但还是很真切地觉得，生活不应该是这样的。在一边感叹电影里的爱情故事并非真实的同时，把自己的人生变成荒诞的喜剧也称不上什么明智的做法。</p>
+<p>时间总是这样短，又这样迅速，究竟可以再做些什么才能不沦为破事儿的集合，我也不得其解。</p>
+<p>但不要忘记年轻时间点亮的那盏灯，那就总不至于走得太远。</p>
+<p>就总能走向通往光明的道路。</p>
+<h1 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h1><p>因为要录入这篇文章，我顺便把qq空间里以前发表的其他文章都看了遍，真是羞耻啊，以前怎么这么暴躁，而且中二TaT，哭了，太羞耻了，这篇的后记算好的，我也就直接ctrl+c过来吧，省事。</p>
+<p>~<del>后话（录入者）</del><br>首先我想说，你们不要转载，乱传，因为不是我写的文章，喜欢看看就是了，我也喜欢，我花了很长时间才全部录入。<br>她说出了我很多想说的话，但我完全做不到像她这样娓娓道来，She expresses herself  transparently which I admire.<br>生活真的不应该是这样，但我相信时间会解决一切，但也不能坐等，就算只有自己也要推动一切！<br>耗这么长时间打这篇文章，真是暴露了我人性里的弱点，以手抚膺长谘嗟。。。<br>我突然想起梁朝伟饰演的陈永仁在无间道里说的：“没事，过了明天就好了。”<br>呵！<br>时间不早了，如果想到什么我再来补充吧。<br>High pleasure，intelligence，civilization！<br>A head for business，a head for world.<br>~<del>Liebe</del></p>
+<p>哎，还是觉得羞耻啊aaaaaaaaaaaa</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>privat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Brennstoffzelle 2 Notizen</title>
+    <url>/2020/06/14/brennstoffzelle-2-notizen/</url>
+    <content><![CDATA[<p>Damit dieser Polymerelektrolytmembran hier ein gute Ionnenleitfähigkeit haben ein gute Protonleitfähigkeit aufweisen müssen dieser Membran <strong>feucht</strong> gehalt werden. Sie brauchen bestimmter Wassergehalt um ein hohe Ionenleitfähigkeit zu erreichen. Und das impliziert dann eben, dass man bei diesem PEMFC relativ aufwändiges Wassermanagement benötigt, wo man typische Weise eben die Brenngase sowohl auf die Anodeseite aber auch dei Kathodeluft voeher aktiv befeuchtet um eben sicher zu stellen dass hier das Wassergehalt in der Membran ausreichen genug ist um diese gute Ionenleitfähigkeit sicher zu stellen.</p>
+<p>Kaltstart</p>
+<p>Ein entscheidenes Charateristikum, gilt auch für die andere niedrige T Brennstoffzelle, ist eben, dass sie auf beider Elektroden in diesem Fall als Katalysator eben hier <strong>Pt</strong> typische Weise einsetzen. Pt ist jetzt nicht gerade die günstige Rohstoff. Ein groß Teil der Kosten wird nach wie vor durch die Kosten für die Pt-Katalysator versursacht. 2 Nachteile:</p>
+<ul>
+<li>teure Matrial</li>
+<li>CO (Kohlenmonoxid) in geringen Mengen (ppm) sehr giftig für die Pt, irreversible!</li>
+</ul>
+<p><strong>poröse Gasdiffusionsschicht</strong> aus Kohlenstoffpartikel, Ruße, Rußmaterialien bilden poröse Schicht. Keine besondere Funktionen für die elektrochemische Umsetzung. Aber dient dazu, die Eduktgase möglichst gleichmäßig hier über die Elektrodenflächen zu verteilen. Mehr oder wenig als ein Stofftransportschicht. Reaktionswasser auf die Kathodeseite H<del>2</del>O ableiten.</p>
+<p><strong>Nafion®, sulfoniertes Tetrafluorethylen-Polymer (PTFE Teflon®)</strong> erlaubt gute Ionenleitfähigkeit und gleichzeitig geringe Elektronen-Leitfähigkeit. Besser ein Dicke unter 100$\mu$m für Protonleitung</p>
+<blockquote>
+<p>Vorlesung, Brennstoffzelle 2, <strong>Prof. Dr. Andreas Lindermeir</strong>, CUTEC@teschnische Universität Clausthal<br>Zusammengefasst durch <strong>Shukang Zhang</strong>, Master@teschnische Universität Clausthal</p>
+</blockquote>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>Fuel Cell</tag>
+        <tag>Brennstoffzelle</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Comsol学习笔记</title>
+    <url>/2020/06/18/comsol-xue-xi-bi-ji/</url>
+    <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><img src="/2020/06/18/comsol-xue-xi-bi-ji/wg0.png" class="" title="网格划分示例">
+<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格</p>
+<blockquote>
+<p>参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn">建模流程概述</a></p>
+</blockquote>
+<a id="more"></a>
+
+<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><p>切除，并集等操作在布尔运算选项下</p>
+<div id="flowchart-0" class="flow-chart"></div>
+<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">Copy操作可以复制二维图形</span><br><span class="line">Move操作可以复制几何体</span><br><span class="line">工作平面（Work plane)用以几何分割操作，可以简化模型，改进网格剖分</span><br></pre></td></tr></tbody></table></figure>
+
+
+<h1 id="浅谈Comsol建模对比Creo建模"><a href="#浅谈Comsol建模对比Creo建模" class="headerlink" title="浅谈Comsol建模对比Creo建模"></a>浅谈Comsol建模对比Creo建模</h1><figure class="highlight plain"><figcaption><span>经验尚浅，只能浅谈</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></tbody></table></figure>
+
+<h1 id="CFD流体模拟总结"><a href="#CFD流体模拟总结" class="headerlink" title="CFD流体模拟总结"></a>CFD流体模拟总结</h1><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></tbody></table></figure>
+
+<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><p>曲率因子：边界单元尺寸和几何边界曲率之比<br>非结构化网格：一个点可以被任意数量的网格共用</p>
+<h1 id="Funtionsmodell"><a href="#Funtionsmodell" class="headerlink" title="Funtionsmodell"></a>Funtionsmodell</h1><p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im Rohr als laminare Strömung betrachtet werden. Dann ist die Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial homogene Tempeaturverteilung ist nämlich unmöglich.</p>
+<ol>
+<li>Um ein radial homogene Tempeaturverteilung zu bekommen, braucht eine turbulente Strömung<br>Dann haben wir 2 Auswahl:</li>
+</ol>
+<ul>
+<li>nicht-metalisch äußere Hülle + metalisch innere Struktur</li>
+<li>metalisch äußere Hülle + metalisch innere Struktur<br>Metalisch äußere Hülle hat hier zu gut Wärmeleitfähigkeit, führt durch natürliche Konvektion zu Kühlung.<br>Deswegen empfehle ich nicht-metalisch äußere Hülle + metalisch innere Struktur<br>Äußere Hülle soll ein schlechte Wärmeleitfähigkeit haben.</li>
+</ul>
+<p>Die Messung von Tempertaur –&gt; Berührungslos messende Thermometer?</p>
+<div id="flowchart-1" class="flow-chart"></div>
+
+<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht. Dann ist ohne innere Struktur ein</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: 构建体素对象
+e=&gt;end: 例如布尔运算
+op1=&gt;operation: 参数化编辑
+op2=&gt;operation: 完成设置后执行几何操作
+
+st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=&gt;start: Elektromagnetische Induktion
+op1=&gt;operation: nur metalisch äußere Hülle
+op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur
+op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur
+op4=&gt;operation:
+
+st-&gt;op1
+st-&gt;op2
+st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>工程制图</tag>
+        <tag>Comsol</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>star ccm+学习笔记</title>
+    <url>/2020/05/07/starccm/</url>
+    <content><![CDATA[<h1 id="Split功能汇总"><a href="#Split功能汇总" class="headerlink" title="Split功能汇总"></a>Split功能汇总</h1><ul>
+<li><code>Split Non-Contigous (分离非接触面)</code><br>导入的Geometry里的surface可能是一个整体，需要用此命令制作不同的Boundary</li>
+<li>Split by Patch</li>
+</ul>
+<h1 id="Mesh"><a href="#Mesh" class="headerlink" title="Mesh"></a>Mesh</h1><div id="flowchart-0" class="flow-chart"></div>
+
+
+<h1 id="Base-Sice"><a href="#Base-Sice" class="headerlink" title="Base Sice"></a>Base Sice</h1><p><code>Base Sice</code> is a very specific size in meshing operation<br><code>minimal size</code>设置的procent是基于<code>Base Sice</code>的<br><code>Prism layer number</code>设置的是界面附近网格的细密程度，比如3，在流体和Pellet接触的地方就就会额外生成三层</p>
+<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><ul>
+<li>Apply Radius Dimension(右键单击草绘)，然后勾选<code>Expose Parameter</code>可以在图上显示出Dimension信息</li>
+<li>Duplicate Sketch Primitive(右键单击草绘)，然后设置圆心坐标，即可复制草绘</li>
+<li>3D-CAD Models里面建好的模型可以Export到Parts里，然后拖拽到右边视图框，选择<code>Add to Geometry1</code>，想到移动模型的位置，右键<code>Parts</code>下已经exported模型，选择<code>Transform</code>–&gt;<code>Translate</code></li>
+<li>Boolean运算subtract时，没有保留原Model选项，所以是所有操作默认保留原几何？</li>
+<li>Boolean后的整体需要<code>Assign Parts to Regions</code>–&gt;<code>Create a Boundary for Each Part Surface</code></li>
+<li>continua下分Mesh Continuum和Physics Continuum</li>
+<li></li>
+</ul>
+<h1 id="单词汇总"><a href="#单词汇总" class="headerlink" title="单词汇总"></a>单词汇总</h1><p>polyhedral多面体<br>segregated(分开，隔离) flow<br>continua连续体</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: Operations
+op1=&gt;operation: New
+op2=&gt;operation: Mesh
+op3=&gt;operation: Automated Mesh or others
+
+st-&gt;op1-&gt;op2-&gt;op3</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>engineer software</tag>
+        <tag>star ccm+</tag>
+      </tags>
   </entry>
 </search>
