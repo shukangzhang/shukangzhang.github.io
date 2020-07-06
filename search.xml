@@ -8,6 +8,7 @@
 <li>Split by Patch</li>
 </ul>
 <h1 id="Mesh"><a href="#Mesh" class="headerlink" title="Mesh"></a>Mesh</h1><div id="flowchart-0" class="flow-chart"></div>
+导入模型[这里](https://video.tu-clausthal.de/film/computational-fluid-dynamics-cfd-fuer-verfahrenstechnik.html)选的`Import Surface Mesh`，**后面还需要思考为什么**
 
 <h1 id="Base-Sice"><a href="#Base-Sice" class="headerlink" title="Base Sice"></a>Base Sice</h1><p><code>Base Sice</code> is a very specific size in meshing operation<br><code>minimal size</code>设置的procent是基于<code>Base Sice</code>的<br><code>Prism layer number</code>设置的是界面附近网格的细密程度，比如3，在流体和Pellet接触的地方就就会额外生成三层</p>
 <a id="more"></a>
@@ -21,6 +22,8 @@
 <li>continua下分Mesh Continuum和Physics Continuum</li>
 <li></li>
 </ul>
+<h1 id="疑问汇总"><a href="#疑问汇总" class="headerlink" title="疑问汇总"></a>疑问汇总</h1><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">导入模型[这里](https://video.tu-clausthal.de/film/computational-fluid-dynamics-cfd-fuer-verfahrenstechnik.html)选的`Import Surface Mesh`，然后自动出现在parts里，而不是3D-CAD Models, **后面还需要思考为什么**</span><br></pre></td></tr></tbody></table></figure>
+
 <h1 id="单词汇总"><a href="#单词汇总" class="headerlink" title="单词汇总"></a>单词汇总</h1><p>polyhedral多面体<br>segregated(分开，隔离) flow<br>continua连续体</p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=&gt;start: Operations
 op1=&gt;operation: New
