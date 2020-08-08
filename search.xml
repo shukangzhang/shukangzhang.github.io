@@ -3,32 +3,40 @@
   <entry>
     <title>Anwendungen nanoskaliger Pulver Zusammenfassungen</title>
     <url>/anwendung-nanoskaliger-pulver-zusammenfassungen/</url>
-    <content><![CDATA[<h1 id="Einfuhrung"><a href="#Einfuhrung" class="headerlink" title="Einführung"></a>Einführung</h1><p>mindestens eine Dimension kleiner als 100nm<br>Herstellungsverfahren: </p>
+    <content><![CDATA[<h1 id="Einfuhrung"><a href="#Einfuhrung" class="headerlink" title="Einführung"></a>Einführung</h1><ol>
+<li>mindestens eine Dimension kleiner als 100nm</li>
+<li>Herstellungsverfahren: </li>
+</ol>
 <ul>
 <li>Top-Down-Verfahren</li>
 <li>Bottom-Up-Verfahren</li>
 </ul>
-<p>Volumeneffekt, <code>Bohrsche Atommodell</code>. Die Energiezustände sind diskret und wohl definiert.<br>Halbleiter-NP–&gt;unterschidliche Fluorszenzlicht<br>Gold-NP von etwa 3nm als <em>oder eater</em> (Geruchsfresser)<br>Aerosile(SiO<sub>2</sub>) und TiO<sub>2</sub><br>bei der Herstellung von nanoskaligem TiO<sub>2</sub> der frühere Flüssigphasenprozess (“Sulfat-Prozess”) oft durch einen Gasphasenprozess (“Chlorid-Prozess”) ersetzt.<br>Im Bereich Farben und Lacke werden NP als Yinkoxid und Titandioxid seit mehr als 30 Jahren eingesetzt. </p>
+<ol start="3">
+<li>Volumeneffekt, <code>Bohrsche Atommodell</code>. Die Energiezustände sind diskret und wohl definiert. </li>
+<li>Halbleiter-NP–&gt;unterschidliche Fluorszenzlicht</li>
+<li>Gold-NP von etwa 3nm als <em>oder eater</em> (Geruchsfresser)</li>
+<li>Aerosile (SiO<sub>2</sub>) und TiO<sub>2</sub></li>
+<li>bei der Herstellung von nanoskaligem TiO<sub>2</sub> der frühere Flüssigphasenprozess (Sulfat-Prozess) oft durch einen Gasphasenprozess (Chlorid-Prozess) ersetzt.</li>
+<li>Im Bereich Farben und Lacke werden NP als Yinkoxid und Titandioxid seit mehr als 30 Jahren eingesetzt. </li>
+</ol>
 <a id="more"></a>
 
-<h1 id="Metall-NP"><a href="#Metall-NP" class="headerlink" title="Metall-NP"></a>Metall-NP</h1><p>traditionelle Methoden zur Herstellung von elektronischen Schaltungen: </p>
-<ul>
+<h1 id="Metall-NP"><a href="#Metall-NP" class="headerlink" title="Metall-NP"></a>Metall-NP</h1><ol>
+<li>traditionelle Methoden zur Herstellung von elektronischen Schaltungen: <ul>
 <li>Siebdruck</li>
 <li>Fotolithographie</li>
 <li>Galvanisieren</li>
 </ul>
+</li>
+</ol>
 <p>basieren auf selektivem Abdecken und Ätzen</p>
-<p>Tintenstrahldrucker: Ausstoß von kleinsten Tröpfchen füssiger Tinte mittels eines Piezokristalls. <code>Ag-NP-Tinten</code> sind für druckbare Elektronik geeignet. </p>
-<figure class="highlight plain"><figcaption><span>Herstellung Ag-NP-Tinten</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">durch Reduktion eines Silberdiamin(银二胺)-Komplexes durch D-Glukose(葡萄糖) in Anwesenheit eines Dispergiermittels  </span><br><span class="line">[Balantrapu et al., Clarkson University, 2008]</span><br></pre></td></tr></tbody></table></figure>
-
-
-
-
-
-
-
-
-
+<ol start="2">
+<li>Tintenstrahldrucker: Ausstoß von kleinsten Tröpfchen füssiger Tinte mittels eines Piezokristalls. <code>Ag-NP-Tinten</code> sind für druckbare Elektronik geeignet. <figure class="highlight plain"><figcaption><span>Herstellung Ag-NP-Tinten</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">durch Reduktion eines Silberdiamin(银二胺)-Komplexes durch D-Glukose(葡萄糖) in Anwesenheit eines Dispergiermittels  </span><br><span class="line">[Balantrapu et al., Clarkson University, 2008]</span><br></pre></td></tr></tbody></table></figure></li>
+<li><code>Nanoröhren</code> in Schaltungen und Displays, als Bauteil für flache und selbstleuchtende Feldemissionsbildschirme: <strong>Dabei dienen die scharfen Spitzen der Nanoröhren als Quelle für Elektronen durch <em>Feldemission(场致发射)</em> (winzige Elektronenkanone, Kaltkathode schon bei relativ geringen Spannungen)</strong></li>
+<li><code>Graphen--Nanonetze</code>, 200 Mal fester als Stahl, leitet den elektrischen Strom besser als alle bisher bekannten Materialien.<figure class="highlight plain"><figcaption><span>Herstellung</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">Isolierung kleiner Monilafenflecken durch Abziehen von Lagen von Graphit</span><br><span class="line">durch Heizen eines Silizium-Wafers im Vakuum, wobei das Silizium verdampfte und eine Kohlenstoffschicht zurückließ</span><br><span class="line">CVD-Prozess: Graphen wird über die Zersetzung von heißen Kohlenwasserstoffgasen an einer reaktiven Metalloberflächen gebildet. Darauf wird ein Kunststofffilm aufgedrückt und das Metall wid mit einer Säure weggeätzt.  </span><br><span class="line">chemische Methoden: Hraphit lässt sich leicht durch Säure oxidieren, so dass sich isolierende Grapphenoxidschichten bilden, die sich in Wasser trennen. Danach Reduktionsmittel wie Hydrazin geben. Leider führt die Methode zu eher porösen Filmen.  </span><br><span class="line">in Lösungen mittels Ultraschall</span><br><span class="line">in spezielle Lösungsmittel wie ionische Flüssigkeiten</span><br><span class="line">CNTs mittels AFM aufgeschlitzt(aufschlitzen撕开), um Graphenschichten zu erhalten</span><br></pre></td></tr></tbody></table></figure>
+<a href="https://de.wikipedia.org/wiki/Hydrazin">Hydrazin</a>: N<sub>2</sub>H<sub>4</sub>)</li>
+<li></li>
+</ol>
 <blockquote>
 <p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr. Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische Universität Clausthal</em></p>
 </blockquote>
