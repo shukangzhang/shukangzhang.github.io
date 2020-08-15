@@ -66,13 +66,13 @@
 <li>Core-Shell-Partikel</li>
 <li>Die Mechanismus für den Verlust an Pt-ECSA:<ul>
 <li>$C + H_2O \xrightarrow{} CO_2 + 4H^+ + 4e^-$</li>
-<li><a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">Ostwald-Reifung</a> <img src="Ostwaldpic.png" alt="Ostwald-Reifung"></li>
+<li><a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">Ostwald-Reifung <sub>[1]</sub></a> <img src="Ostwaldpic.png" alt="Ostwald-Reifung"></li>
 </ul>
 </li>
 <li>Gibbs-Thomson-Effekt: Die Löslichkeit nimmt mit abnehmender Partikelgröße zu!</li>
 <li>Zwei Punkte, an denen intensiv geforscht wird, sind die Reduktion der Menge an teurem Pt entweder durch höhere Effizienz der Pt-NP oder durch Ersatzmaterialien und die Degradation des Graphitträgers mit der Betriebsdauer, speziell bei den An- und Abfahrprozessen<br>(instationärer Betrieb) der BZ.</li>
-<li><img src="Struktura_chemiczna_w%C4%99gla_kamiennego.svg" alt="Example chemical structure of coal"></li>
-<li></li>
+<li><img src="Struktura_chemiczna_w%C4%99gla_kamiennego.svg" alt="Example chemical structure of coal<sub>[2]</sub>"></li>
+<li>Turn Over Frequency (TOF): Dabei wird die Anzahl der Produktmoleküle pro Zeit auf die verfügbare Katalysatoroberfläche bezogen (genauer auf die „aktiven“ Zentren).</li>
 <li></li>
 </ol>
 <h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><table>
@@ -166,6 +166,14 @@
 <td align="right">RHE</td>
 <td align="left">reversible hydrogen Electrode</td>
 </tr>
+<tr>
+<td align="right">TOF</td>
+<td align="left">Turn Over Frequency</td>
+</tr>
+<tr>
+<td align="right">BB</td>
+<td align="left">Biulding Blocks</td>
+</tr>
 </tbody></table>
 <h1 id="Chemikalien"><a href="#Chemikalien" class="headerlink" title="Chemikalien"></a>Chemikalien</h1><ol>
 <li><a href="https://en.wikipedia.org/wiki/Porphyrin">Porphyrin</a>: 卟啉(bulin) <img src="H2TPPsyn.png" alt="卟啉-Porphyrin"></li>
@@ -199,7 +207,7 @@
 </li>
 </ol>
 <blockquote>
-<p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr. Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische Universität Clausthal</em></p>
+<p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr. Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische Universität Clausthal</em><br>[1]: <a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">https://de.wikipedia.org/wiki/Ostwald-Reifung</a><br>[2]: <a href="https://en.wikipedia.org/wiki/Coal">https://en.wikipedia.org/wiki/Coal</a></p>
 </blockquote>
 <script>
         document.querySelectorAll('.github-emoji')
