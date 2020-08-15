@@ -11,7 +11,7 @@
 </ul>
 </li>
 <li>Volumeneffekt, <code>Bohrsche Atommodell</code>. Die Energiezustände sind diskret und wohl definiert. </li>
-<li>Halbleiter-NP—&gt;unterschidliche Fluorszenzlicht</li>
+<li>Halbleiter-NP–&gt;unterschidliche Fluorszenzlicht</li>
 <li>Gold-NP von etwa 3nm als <em>oder eater</em> (Geruchsfresser)</li>
 <li>Aerosile (SiO<sub>2</sub>) und TiO<sub>2</sub></li>
 <li>bei der Herstellung von nanoskaligem TiO<sub>2</sub> der frühere Flüssigphasenprozess (Sulfat-Prozess) oft durch einen Gasphasenprozess (Chlorid-Prozess) ersetzt.</li>
@@ -29,6 +29,7 @@
 </li>
 </ol>
 <a id="more"></a>
+
 <h1 id="Metall-NP"><a href="#Metall-NP" class="headerlink" title="Metall-NP"></a>Metall-NP</h1><ol>
 <li><p>traditionelle Methoden zur Herstellung von elektronischen Schaltungen: </p>
 <ul>
@@ -59,7 +60,8 @@
 </li>
 </ol>
 <h1 id="NP-in-der-Energiepproduktion"><a href="#NP-in-der-Energiepproduktion" class="headerlink" title="NP in der Energiepproduktion"></a>NP in der Energiepproduktion</h1><ol>
-<li>Titandioxid ist ein n-Halbleiter, n-Halbleiter类比掺杂了Phosphor,体系内多电子，p-Halbleiter类似掺杂了Bor，体系少电子。</li>
+<li><p>Titandioxid ist ein n-Halbleiter, n-Halbleiter类比掺杂了Phosphor,体系内多电子，p-Halbleiter类似掺杂了Bor，体系少电子。</p>
+</li>
 <li><p>影响Wirkungsgrad der Solarzellen的几个因素：</p>
 <ul>
 <li>Breite des adsorb Spektrums</li>
@@ -69,21 +71,129 @@
 </li>
 <li><p>Mesoporöse Festkörper [meso (griechisch) = dazwischen, mittig] sind nach IUPAC-Definition poröse Materialien mit Porendurchmesser zwischen <strong>2 nm und 50 nm</strong>.</p>
 </li>
-<li>Core-Shell-Partikel</li>
-<li>Die Mechanismus für den Verlust an PT-ECSA:<br>$C + H_2O \xrightarrow{} CO_2 + 4H^+ + 4e^-$</li>
+<li><p>Core-Shell-Partikel</p>
+</li>
+<li><p>Die Mechanismus für den Verlust an PT-ECSA:<br>$C + H_2O \xrightarrow{} CO_2 + 4H^+ + 4e^-$</p>
+</li>
 </ol>
-<h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><p>FE-REM: Feldemitter-Rasterelektronenmikroskop<br>CNT: Carbon Nanotube<br>MOSFET: Metal Oxide Semiconductor Field Effect Transistor<br>CNTFET: Kohlenstoff-Nanoröhren-Feldeffekttransistor<br>SRAM-Geschwindigkeit: Static Random Access Memory<br>HOPG: Highly Oriented Graphitic Carbon<br>MWCNT: Multi Wall CNT<br>SWCNT: Single Wall CNT<br>WW: Wechselwirkung<br>HNP: Halbleiter-NP<br>ITO: Indium Tin Oxide: leitend&amp;transparent<br>OPV: Organische Solarzellen<br>DSC: dye Sensitized Cell - Farbstoffzelle - Grätzel-Zellen<br>NQDs: Nanokristalline Quantum Dots<br>FTO: <em>engl</em>=Fluorine doped（掺杂的） Tin Oxide, <em>dt</em>=Fluor-dotiertes Zinndioxid, SnO<sub>2</sub><br>TCO-Glas: Transparent Conductive Oxide<br>PES: PPhotoelektrochemische Solarzellen<br>PC: Photonische Kristalle<br>PS: Photonische Schwämme<br>Pt-ECSA: Pt-Elektrochemical Surface Area<br>RHE: reversible hydrogen Electrode</p>
+<h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><table>
+<thead>
+<tr>
+<th align="right">Abkürzung</th>
+<th align="left">Völlständigen</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="right">FE-REM</td>
+<td align="left">Feldemitter-Rasterelektronenmikroskop</td>
+</tr>
+<tr>
+<td align="right">CNT</td>
+<td align="left">Carbon Nanotube</td>
+</tr>
+<tr>
+<td align="right">MOSFET</td>
+<td align="left">Metal Oxide Semiconductor Field Effect Transistor</td>
+</tr>
+<tr>
+<td align="right">CNTFET</td>
+<td align="left">Kohlenstoff-Nanoröhren-Feldeffekttransistor</td>
+</tr>
+<tr>
+<td align="right">SRAM-Geschwindigkeit</td>
+<td align="left">Static Random Access Memory</td>
+</tr>
+<tr>
+<td align="right">HOPG</td>
+<td align="left">Highly Oriented Graphitic Carbon</td>
+</tr>
+<tr>
+<td align="right">MWCNT</td>
+<td align="left">Multi Wall CNT</td>
+</tr>
+<tr>
+<td align="right">SWCNT</td>
+<td align="left">Single Wall CNT</td>
+</tr>
+<tr>
+<td align="right">WW</td>
+<td align="left">Wechselwirkung</td>
+</tr>
+<tr>
+<td align="right">HNP</td>
+<td align="left">Halbleiter-NP</td>
+</tr>
+<tr>
+<td align="right">ITO</td>
+<td align="left">Indium Tin Oxide: leitend&amp;transparent</td>
+</tr>
+<tr>
+<td align="right">OPV</td>
+<td align="left">Organische Solarzellen</td>
+</tr>
+<tr>
+<td align="right">DSC</td>
+<td align="left">dye Sensitized Cell - Farbstoffzelle - Grätzel-Zellen</td>
+</tr>
+<tr>
+<td align="right">NQDs</td>
+<td align="left">Nanokristalline Quantum Dots</td>
+</tr>
+<tr>
+<td align="right">FTO</td>
+<td align="left"><em>engl</em>=Fluorine doped（掺杂的） Tin Oxide, <em>dt</em>=Fluor-dotiertes Zinndioxid, SnO<sub>2</sub></td>
+</tr>
+<tr>
+<td align="right">TCO-Glas</td>
+<td align="left">Transparent Conductive Oxide</td>
+</tr>
+<tr>
+<td align="right">PES</td>
+<td align="left">PPhotoelektrochemische Solarzellen</td>
+</tr>
+<tr>
+<td align="right">PC</td>
+<td align="left">Photonische Kristalle</td>
+</tr>
+<tr>
+<td align="right">PS</td>
+<td align="left">Photonische Schwämme</td>
+</tr>
+<tr>
+<td align="right">Pt-ECSA</td>
+<td align="left">Pt-Elektrochemical Surface Area</td>
+</tr>
+<tr>
+<td align="right">RHE</td>
+<td align="left">reversible hydrogen Electrode</td>
+</tr>
+</tbody></table>
 <h1 id="Chemikalien"><a href="#Chemikalien" class="headerlink" title="Chemikalien"></a>Chemikalien</h1><ol>
 <li><a href="https://en.wikipedia.org/wiki/Porphyrin">Porphyrin</a>: 卟啉(bulin) <img src="H2TPPsyn.png" alt="卟啉-Porphyrin"></li>
 <li><a href="https://de.wikipedia.org/wiki/Hydrazin">Hydrazin</a>: N<sub>2</sub>H<sub>4</sub>)</li>
 </ol>
 <h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><ol>
-<li><p>|der Wafer      |die Waffel    |die Waffe<br>|:————:|:—-:|:—-:<br>|晶片；晶圆|华夫饼干|武器</p>
+<li><table>
+<thead>
+<tr>
+<th align="center">der Wafer</th>
+<th align="center">die Waffel</th>
+<th align="center">die Waffe</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">晶片；晶圆</td>
+<td align="center">华夫饼干</td>
+<td align="center">武器</td>
+</tr>
+</tbody></table>
 </li>
 <li><p>transparen||durchsichtig</p>
 </li>
-<li>das Iod 碘; der Iodid 碘化物</li>
-<li>whenever y’all break up</li>
+<li><p>das Iod 碘; der Iodid 碘化物</p>
+</li>
+<li><p>whenever y’all break up</p>
+</li>
 </ol>
 <blockquote>
 <p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr. Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische Universität Clausthal</em></p>
