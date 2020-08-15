@@ -4,34 +4,24 @@
     <title>Anwendungen nanoskaliger Pulver Zusammenfassungen</title>
     <url>/anwendung-nanoskaliger-pulver-zusammenfassungen/</url>
     <content><![CDATA[<h1 id="Einfuhrung"><a href="#Einfuhrung" class="headerlink" title="Einführung"></a>Einführung</h1><ol>
-<li><p>mindestens eine Dimension kleiner als 100nm</p>
-</li>
-<li><p>Herstellungsverfahren: </p>
-<ul>
+<li>mindestens eine Dimension kleiner als 100nm</li>
+<li>Herstellungsverfahren: <ul>
 <li>Top-Down-Verfahren</li>
 <li>Bottom-Up-Verfahren</li>
 </ul>
 </li>
-<li><p>Volumeneffekt, <code>Bohrsche Atommodell</code>. Die Energiezustände sind diskret und wohl definiert. </p>
-</li>
-<li><p>Halbleiter-NP–&gt;unterschidliche Fluorszenzlicht</p>
-</li>
-<li><p>Gold-NP von etwa 3nm als <em>oder eater</em> (Geruchsfresser)</p>
-</li>
-<li><p>Aerosile (SiO<sub>2</sub>) und TiO<sub>2</sub></p>
-</li>
-<li><p>bei der Herstellung von nanoskaligem TiO<sub>2</sub> der frühere Flüssigphasenprozess (Sulfat-Prozess) oft durch einen Gasphasenprozess (Chlorid-Prozess) ersetzt.</p>
-</li>
-<li><p>Im Bereich Farben und Lacke werden NP als Yinkoxid und Titandioxid seit mehr als 30 Jahren eingesetzt. </p>
-</li>
-<li><p>Geschicht: </p>
-<ul>
+<li>Volumeneffekt, <code>Bohrsche Atommodell</code>. Die Energiezustände sind diskret und wohl definiert. </li>
+<li>Halbleiter-NP—&gt;unterschidliche Fluorszenzlicht</li>
+<li>Gold-NP von etwa 3nm als <em>oder eater</em> (Geruchsfresser)</li>
+<li>Aerosile (SiO<sub>2</sub>) und TiO<sub>2</sub></li>
+<li>bei der Herstellung von nanoskaligem TiO<sub>2</sub> der frühere Flüssigphasenprozess (Sulfat-Prozess) oft durch einen Gasphasenprozess (Chlorid-Prozess) ersetzt.</li>
+<li>Im Bereich Farben und Lacke werden NP als Yinkoxid und Titandioxid seit mehr als 30 Jahren eingesetzt. </li>
+<li>Geschicht: <ul>
 <li>1959 Richard Feynman, amerikanisch theoretischer Physiker, Nobelpreisträger</li>
 <li>1974 Der Japaner Taniguchi</li>
 </ul>
 </li>
-<li><p>CNT: </p>
-<ul>
+<li>CNT: <ul>
 <li>Leitbeständigkeit:  1000 mal mehr Strom leiten als Kupfer</li>
 <li>wärmebeständig</li>
 <li>als Display, eine Seite Spannung anlegen, als Elektronenrühren verwenden lassen, kalte Elektronenrühren, die man sehr Punkt genau auf Oberflächen aufbringen kann. 精确识别手指触摸</li>
@@ -39,7 +29,6 @@
 </li>
 </ol>
 <a id="more"></a>
-
 <h1 id="Metall-NP"><a href="#Metall-NP" class="headerlink" title="Metall-NP"></a>Metall-NP</h1><ol>
 <li><p>traditionelle Methoden zur Herstellung von elektronischen Schaltungen: </p>
 <ul>
@@ -70,8 +59,7 @@
 </li>
 </ol>
 <h1 id="NP-in-der-Energiepproduktion"><a href="#NP-in-der-Energiepproduktion" class="headerlink" title="NP in der Energiepproduktion"></a>NP in der Energiepproduktion</h1><ol>
-<li><p>Titandioxid ist ein n-Halbleiter, n-Halbleiter类比掺杂了Phosphor,体系内多电子，p-Halbleiter类似掺杂了Bor，体系少电子。</p>
-</li>
+<li>Titandioxid ist ein n-Halbleiter, n-Halbleiter类比掺杂了Phosphor,体系内多电子，p-Halbleiter类似掺杂了Bor，体系少电子。</li>
 <li><p>影响Wirkungsgrad der Solarzellen的几个因素：</p>
 <ul>
 <li>Breite des adsorb Spektrums</li>
@@ -81,10 +69,8 @@
 </li>
 <li><p>Mesoporöse Festkörper [meso (griechisch) = dazwischen, mittig] sind nach IUPAC-Definition poröse Materialien mit Porendurchmesser zwischen <strong>2 nm und 50 nm</strong>.</p>
 </li>
-<li><p>Core-Shell-Partikel</p>
-</li>
-<li><p>Die Mechanismus für den Verlust an PT-ECSA:<br>$C + H_2O \xrightarrow{} CO_2 + 4H^+ + 4e^-</p>
-</li>
+<li>Core-Shell-Partikel</li>
+<li>Die Mechanismus für den Verlust an PT-ECSA:<br>$C + H_2O \xrightarrow{} CO_2 + 4H^+ + 4e^-$</li>
 </ol>
 <h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><p>FE-REM: Feldemitter-Rasterelektronenmikroskop<br>CNT: Carbon Nanotube<br>MOSFET: Metal Oxide Semiconductor Field Effect Transistor<br>CNTFET: Kohlenstoff-Nanoröhren-Feldeffekttransistor<br>SRAM-Geschwindigkeit: Static Random Access Memory<br>HOPG: Highly Oriented Graphitic Carbon<br>MWCNT: Multi Wall CNT<br>SWCNT: Single Wall CNT<br>WW: Wechselwirkung<br>HNP: Halbleiter-NP<br>ITO: Indium Tin Oxide: leitend&amp;transparent<br>OPV: Organische Solarzellen<br>DSC: dye Sensitized Cell - Farbstoffzelle - Grätzel-Zellen<br>NQDs: Nanokristalline Quantum Dots<br>FTO: <em>engl</em>=Fluorine doped（掺杂的） Tin Oxide, <em>dt</em>=Fluor-dotiertes Zinndioxid, SnO<sub>2</sub><br>TCO-Glas: Transparent Conductive Oxide<br>PES: PPhotoelektrochemische Solarzellen<br>PC: Photonische Kristalle<br>PS: Photonische Schwämme<br>Pt-ECSA: Pt-Elektrochemical Surface Area<br>RHE: reversible hydrogen Electrode</p>
 <h1 id="Chemikalien"><a href="#Chemikalien" class="headerlink" title="Chemikalien"></a>Chemikalien</h1><ol>
@@ -92,27 +78,12 @@
 <li><a href="https://de.wikipedia.org/wiki/Hydrazin">Hydrazin</a>: N<sub>2</sub>H<sub>4</sub>)</li>
 </ol>
 <h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><ol>
-<li><table>
-<thead>
-<tr>
-<th align="center">der Wafer</th>
-<th align="center">die Waffel</th>
-<th align="center">die Waffe</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">晶片；晶圆</td>
-<td align="center">华夫饼干</td>
-<td align="center">武器</td>
-</tr>
-</tbody></table>
+<li><p>|der Wafer      |die Waffel    |die Waffe<br>|:————:|:—-:|:—-:<br>|晶片；晶圆|华夫饼干|武器</p>
 </li>
 <li><p>transparen||durchsichtig</p>
 </li>
-<li><p>das Iod 碘; der Iodid 碘化物</p>
-</li>
-<li><p>whenever y’all break up</p>
-</li>
+<li>das Iod 碘; der Iodid 碘化物</li>
+<li>whenever y’all break up</li>
 </ol>
 <blockquote>
 <p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr. Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische Universität Clausthal</em></p>
