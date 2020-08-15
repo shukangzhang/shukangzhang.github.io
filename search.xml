@@ -11,7 +11,7 @@
 </ul>
 </li>
 <li>Volumeneffekt, <code>Bohrsche Atommodell</code>. Die Energiezustände sind diskret und wohl definiert. </li>
-<li>Halbleiter-NP—&gt;unterschidliche Fluorszenzlicht</li>
+<li>Halbleiter-NP–&gt;unterschidliche Fluorszenzlicht</li>
 <li>Gold-NP von etwa 3nm als <em>oder eater</em> (Geruchsfresser)</li>
 <li>Aerosile (SiO<sub>2</sub>) und TiO<sub>2</sub></li>
 <li>bei der Herstellung von nanoskaligem TiO<sub>2</sub> der frühere Flüssigphasenprozess (Sulfat-Prozess) oft durch einen Gasphasenprozess (Chlorid-Prozess) ersetzt.</li>
@@ -29,6 +29,7 @@
 </li>
 </ol>
 <a id="more"></a>
+
 <h1 id="Metall-NP"><a href="#Metall-NP" class="headerlink" title="Metall-NP"></a>Metall-NP</h1><ol>
 <li>traditionelle Methoden zur Herstellung von elektronischen Schaltungen: <ul>
 <li>Siebdruck</li>
@@ -63,114 +64,139 @@
 </li>
 <li>Mesoporöse Festkörper [meso (griechisch) = dazwischen, mittig] sind nach IUPAC-Definition poröse Materialien mit Porendurchmesser zwischen <strong>2 nm und 50 nm</strong>.</li>
 <li>Core-Shell-Partikel</li>
-<li>Die Mechanismus für den Verlust an PT-ECSA:<br>$C + H_2O \xrightarrow{} CO_2 + 4H^+ + 4e^-$</li>
+<li>Die Mechanismus für den Verlust an Pt-ECSA:<ul>
+<li>$C + H_2O \xrightarrow{} CO_2 + 4H^+ + 4e^-$</li>
+<li><a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">Ostwald-Reifung</a> <img src="Ostwaldpic.png" alt="Ostwald-Reifung"></li>
+</ul>
+</li>
+<li>Gibbs-Thomson-Effekt: Die Löslichkeit nimmt mit abnehmender Partikelgröße zu!</li>
+<li>Zwei Punkte, an denen intensiv geforscht wird, sind die Reduktion der Menge an teurem Pt entweder durch höhere Effizienz der Pt-NP oder durch Ersatzmaterialien und die Degradation des Graphitträgers mit der Betriebsdauer, speziell bei den An- und Abfahrprozessen<br>(instationärer Betrieb) der BZ.</li>
+<li><img src="Struktura_chemiczna_w%C4%99gla_kamiennego.svg" alt="Example chemical structure of coal"></li>
+<li></li>
 <li></li>
 </ol>
-<h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><div class="table-container">
-<table>
+<h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><table>
 <thead>
 <tr>
-<th style="text-align:right">Abkürzung</th>
-<th style="text-align:left">Völlständigen</th>
+<th align="right">Abkürzung</th>
+<th align="left">Völlständigen</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:right">FE-REM</td>
-<td style="text-align:left">Feldemitter-Rasterelektronenmikroskop</td>
+<tbody><tr>
+<td align="right">FE-REM</td>
+<td align="left">Feldemitter-Rasterelektronenmikroskop</td>
 </tr>
 <tr>
-<td style="text-align:right">CNT</td>
-<td style="text-align:left">Carbon Nanotube</td>
+<td align="right">CNT</td>
+<td align="left">Carbon Nanotube</td>
 </tr>
 <tr>
-<td style="text-align:right">MOSFET</td>
-<td style="text-align:left">Metal Oxide Semiconductor Field Effect Transistor</td>
+<td align="right">MOSFET</td>
+<td align="left">Metal Oxide Semiconductor Field Effect Transistor</td>
 </tr>
 <tr>
-<td style="text-align:right">CNTFET</td>
-<td style="text-align:left">Kohlenstoff-Nanoröhren-Feldeffekttransistor</td>
+<td align="right">CNTFET</td>
+<td align="left">Kohlenstoff-Nanoröhren-Feldeffekttransistor</td>
 </tr>
 <tr>
-<td style="text-align:right">SRAM-Geschwindigkeit</td>
-<td style="text-align:left">Static Random Access Memory</td>
+<td align="right">SRAM-Geschwindigkeit</td>
+<td align="left">Static Random Access Memory</td>
 </tr>
 <tr>
-<td style="text-align:right">HOPG</td>
-<td style="text-align:left">Highly Oriented Graphitic Carbon</td>
+<td align="right">HOPG</td>
+<td align="left">Highly Oriented Graphitic Carbon</td>
 </tr>
 <tr>
-<td style="text-align:right">MWCNT</td>
-<td style="text-align:left">Multi Wall CNT</td>
+<td align="right">MWCNT</td>
+<td align="left">Multi Wall CNT</td>
 </tr>
 <tr>
-<td style="text-align:right">SWCNT</td>
-<td style="text-align:left">Single Wall CNT</td>
+<td align="right">SWCNT</td>
+<td align="left">Single Wall CNT</td>
 </tr>
 <tr>
-<td style="text-align:right">WW</td>
-<td style="text-align:left">Wechselwirkung</td>
+<td align="right">WW</td>
+<td align="left">Wechselwirkung</td>
 </tr>
 <tr>
-<td style="text-align:right">HNP</td>
-<td style="text-align:left">Halbleiter-NP</td>
+<td align="right">HNP</td>
+<td align="left">Halbleiter-NP</td>
 </tr>
 <tr>
-<td style="text-align:right">ITO</td>
-<td style="text-align:left">Indium Tin Oxide: leitend&amp;transparent</td>
+<td align="right">ITO</td>
+<td align="left">Indium Tin Oxide: leitend&amp;transparent</td>
 </tr>
 <tr>
-<td style="text-align:right">OPV</td>
-<td style="text-align:left">Organische Solarzellen</td>
+<td align="right">OPV</td>
+<td align="left">Organische Solarzellen</td>
 </tr>
 <tr>
-<td style="text-align:right">DSC</td>
-<td style="text-align:left">dye Sensitized Cell - Farbstoffzelle - Grätzel-Zellen</td>
+<td align="right">DSC</td>
+<td align="left">dye Sensitized Cell - Farbstoffzelle - Grätzel-Zellen</td>
 </tr>
 <tr>
-<td style="text-align:right">NQDs</td>
-<td style="text-align:left">Nanokristalline Quantum Dots</td>
+<td align="right">NQDs</td>
+<td align="left">Nanokristalline Quantum Dots</td>
 </tr>
 <tr>
-<td style="text-align:right">FTO</td>
-<td style="text-align:left"><em>engl</em>=Fluorine doped（掺杂的） Tin Oxide, <em>dt</em>=Fluor-dotiertes Zinndioxid, SnO<sub>2</sub></td>
+<td align="right">FTO</td>
+<td align="left"><em>engl</em>=Fluorine doped（掺杂的） Tin Oxide, <em>dt</em>=Fluor-dotiertes Zinndioxid, SnO<sub>2</sub></td>
 </tr>
 <tr>
-<td style="text-align:right">TCO-Glas</td>
-<td style="text-align:left">Transparent Conductive Oxide</td>
+<td align="right">TCO-Glas</td>
+<td align="left">Transparent Conductive Oxide</td>
 </tr>
 <tr>
-<td style="text-align:right">PES</td>
-<td style="text-align:left">PPhotoelektrochemische Solarzellen</td>
+<td align="right">PES</td>
+<td align="left">PPhotoelektrochemische Solarzellen</td>
 </tr>
 <tr>
-<td style="text-align:right">PC</td>
-<td style="text-align:left">Photonische Kristalle</td>
+<td align="right">PC</td>
+<td align="left">Photonische Kristalle</td>
 </tr>
 <tr>
-<td style="text-align:right">PS</td>
-<td style="text-align:left">Photonische Schwämme</td>
+<td align="right">PS</td>
+<td align="left">Photonische Schwämme</td>
 </tr>
 <tr>
-<td style="text-align:right">Pt-ECSA</td>
-<td style="text-align:left">Pt-Elektrochemical Surface Area</td>
+<td align="right">Pt-ECSA</td>
+<td align="left">Pt-Elektrochemical Surface Area</td>
 </tr>
 <tr>
-<td style="text-align:right">RHE</td>
-<td style="text-align:left">reversible hydrogen Electrode</td>
+<td align="right">RHE</td>
+<td align="left">reversible hydrogen Electrode</td>
 </tr>
-</tbody>
-</table>
-</div>
+</tbody></table>
 <h1 id="Chemikalien"><a href="#Chemikalien" class="headerlink" title="Chemikalien"></a>Chemikalien</h1><ol>
 <li><a href="https://en.wikipedia.org/wiki/Porphyrin">Porphyrin</a>: 卟啉(bulin) <img src="H2TPPsyn.png" alt="卟啉-Porphyrin"></li>
 <li><a href="https://de.wikipedia.org/wiki/Hydrazin">Hydrazin</a>: N<sub>2</sub>H<sub>4</sub>)</li>
+<li>Pd: Palladium, 钯</li>
+<li>Ru: Ruthenium, 钌(liǎo)</li>
 </ol>
 <h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><ol>
-<li>|der Wafer      |die Waffel    |die Waffe<br>|:————:|:—-:|:—-:<br>|晶片；晶圆|华夫饼干|武器</li>
-<li>transparen||durchsichtig</li>
-<li>das Iod 碘; der Iodid 碘化物</li>
-<li>whenever y’all break up</li>
+<li><table>
+<thead>
+<tr>
+<th align="center">der Wafer</th>
+<th align="center">die Waffel</th>
+<th align="center">die Waffe</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">晶片；晶圆</td>
+<td align="center">华夫饼干</td>
+<td align="center">武器</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>transparen||durchsichtig</p>
+</li>
+<li><p>das Iod 碘; der Iodid 碘化物</p>
+</li>
+<li><p>Alkan, -e, 烷烃; Olefin, -e 烯烃</p>
+</li>
+<li><p>whenever y’all break up</p>
+</li>
 </ol>
 <blockquote>
 <p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr. Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische Universität Clausthal</em></p>
@@ -588,14 +614,19 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
       </tags>
   </entry>
   <entry>
-    <title>hexo添加pdf预览-纠正现有教程遗漏的地方</title>
+    <title>hexo添加pdf预览-谈谈现有教程遗漏的地方</title>
     <url>/hexo-tian-jia-pdf/</url>
     <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf">Github官方教程superalsrk/hexo-pdf</a></p>
 <h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
 <h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
-<p>然后键入:<br></p><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure><br>咦，怎么不行！？<p></p>
+<p>然后键入:</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>咦，怎么不行！？</p>
 <a id="more"></a>
-<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用<br></p><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure><br>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。<p></p>
+
+<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
+<p>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。</p>
 <p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del></p>
 <p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
 <ul>
@@ -603,7 +634,9 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
 <li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
 </ul>
 <hr>
-<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：<br></p><figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure><br>html代码解决<br>object可换成embed, iframe<br>参考链接如下：<p></p>
+<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
+<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+<p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
 <blockquote>
 <p><a href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
 </blockquote>
