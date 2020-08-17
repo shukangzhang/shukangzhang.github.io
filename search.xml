@@ -11,7 +11,7 @@
 </ul>
 </li>
 <li>Volumeneffekt, <code>Bohrsche Atommodell</code>. Die Energiezustände sind diskret und wohl definiert. </li>
-<li>Halbleiter-NP–&gt;unterschidliche Fluorszenzlicht</li>
+<li>Halbleiter-NP—&gt;unterschidliche Fluorszenzlicht</li>
 <li>Gold-NP von etwa 3nm als <em>oder eater</em> (Geruchsfresser)</li>
 <li>Aerosile (SiO<sub>2</sub>) und TiO<sub>2</sub></li>
 <li>bei der Herstellung von nanoskaligem TiO<sub>2</sub> der frühere Flüssigphasenprozess (Sulfat-Prozess) oft durch einen Gasphasenprozess (Chlorid-Prozess) ersetzt.</li>
@@ -29,7 +29,6 @@
 </li>
 </ol>
 <a id="more"></a>
-
 <h1 id="Metall-NP"><a href="#Metall-NP" class="headerlink" title="Metall-NP"></a>Metall-NP</h1><ol>
 <li>traditionelle Methoden zur Herstellung von elektronischen Schaltungen: <ul>
 <li>Siebdruck</li>
@@ -66,148 +65,160 @@
 <li>Core-Shell-Partikel</li>
 <li>Die Mechanismus für den Verlust an Pt-ECSA:<ul>
 <li>$C + H_2O \xrightarrow{} CO_2 + 4H^+ + 4e^-$</li>
-<li><a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">Ostwald-Reifung <sub>[1]</sub></a> <img src="Ostwaldpic.png" alt="Ostwald-Reifung"></li>
+<li><a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">Ostwald-Reifung </a> <img src="Ostwaldpic.png" alt="Ostwald-Reifung<sup>[1]</sup>"></li>
 </ul>
 </li>
 <li>Gibbs-Thomson-Effekt: Die Löslichkeit nimmt mit abnehmender Partikelgröße zu!</li>
-<li>Zwei Punkte, an denen intensiv geforscht wird, sind die Reduktion der Menge an teurem Pt entweder durch höhere Effizienz der Pt-NP oder durch Ersatzmaterialien und die Degradation des Graphitträgers mit der Betriebsdauer, speziell bei den An- und Abfahrprozessen<br>(instationärer Betrieb) der BZ.</li>
-<li><img src="Struktura_chemiczna_w%C4%99gla_kamiennego.svg" alt="Example chemical structure of coal<sub>[2]</sub>"></li>
+<li>Zwei Punkte, an denen intensiv geforscht wird, sind die Reduktion der Menge an teurem Pt entweder durch höhere Effizienz der Pt-NP oder durch Ersatzmaterialien und die Degradation des Graphitträgers mit der Betriebsdauer, speziell bei den An- und Abfahrprozessen (instationärer Betrieb) der BZ.</li>
+<li><img src="Struktura_chemiczna_węgla_kamiennego.svg" alt="Example chemical structure of coal<sup>[2]</sup>"></li>
 <li>Turn Over Frequency (TOF): Dabei wird die Anzahl der Produktmoleküle pro Zeit auf die verfügbare Katalysatoroberfläche bezogen (genauer auf die „aktiven“ Zentren).</li>
 <li></li>
 </ol>
-<h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><table>
+<h1 id="NP-fur-Beschichtungen"><a href="#NP-fur-Beschichtungen" class="headerlink" title="NP für Beschichtungen"></a>NP für Beschichtungen</h1><ol>
+<li>Bariumsulfat(硫酸钡) und Eisenoxid als farebgebende Pigmente oder pyrogene(火成的，焦化の，热解的) Kieselsäuren(硅酸，$H_2SiO_3$, <em>silicic acid</em>) zur Beeinflussung der Fließfähigkeit</li>
+<li>Holzlasuren 木釉</li>
+<li>Petal-Effekt &amp; Lotus-Effekt</li>
+<li>Diese hierarchische Mikrometer-Nanometer-Rauigkeit ist die typische Struktur für superhydrophobe Oberflächen.</li>
+<li>NP + 4.5ml Ethanol + 0.5ml Trimethylsiloxysilicat(<em>TMSS</em>)/Cyclopentasiloxan</li>
+</ol>
+<h1 id="Nanodrahte"><a href="#Nanodrahte" class="headerlink" title="Nanodrähte"></a>Nanodrähte</h1><h1 id="Katalyse"><a href="#Katalyse" class="headerlink" title="Katalyse"></a>Katalyse</h1><h1 id="Composite"><a href="#Composite" class="headerlink" title="Composite"></a>Composite</h1><h1 id="NP-im-Alltag"><a href="#NP-im-Alltag" class="headerlink" title="NP im Alltag"></a>NP im Alltag</h1><h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="right">Abkürzung</th>
-<th align="left">Völlständigen</th>
+<th style="text-align:right">Abkürzung</th>
+<th style="text-align:left">Völlständigen</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="right">FE-REM</td>
-<td align="left">Feldemitter-Rasterelektronenmikroskop</td>
+<tbody>
+<tr>
+<td style="text-align:right">FE-REM</td>
+<td style="text-align:left">Feldemitter-Rasterelektronenmikroskop</td>
 </tr>
 <tr>
-<td align="right">CNT</td>
-<td align="left">Carbon Nanotube</td>
+<td style="text-align:right">CNT</td>
+<td style="text-align:left"><em>Carbon Nanotube</em></td>
 </tr>
 <tr>
-<td align="right">MOSFET</td>
-<td align="left">Metal Oxide Semiconductor Field Effect Transistor</td>
+<td style="text-align:right">MOSFET</td>
+<td style="text-align:left">Metal Oxide Semiconductor Field Effect Transistor</td>
 </tr>
 <tr>
-<td align="right">CNTFET</td>
-<td align="left">Kohlenstoff-Nanoröhren-Feldeffekttransistor</td>
+<td style="text-align:right">CNTFET</td>
+<td style="text-align:left">Kohlenstoff-Nanoröhren-Feldeffekttransistor</td>
 </tr>
 <tr>
-<td align="right">SRAM-Geschwindigkeit</td>
-<td align="left">Static Random Access Memory</td>
+<td style="text-align:right">SRAM-Geschwindigkeit</td>
+<td style="text-align:left"><em>Static Random Access Memory</em></td>
 </tr>
 <tr>
-<td align="right">HOPG</td>
-<td align="left">Highly Oriented Graphitic Carbon</td>
+<td style="text-align:right">HOPG</td>
+<td style="text-align:left"><em>Highly Oriented Graphitic Carbon</em></td>
 </tr>
 <tr>
-<td align="right">MWCNT</td>
-<td align="left">Multi Wall CNT</td>
+<td style="text-align:right">MWCNT</td>
+<td style="text-align:left"><em>Multi Wall CNT</em></td>
 </tr>
 <tr>
-<td align="right">SWCNT</td>
-<td align="left">Single Wall CNT</td>
+<td style="text-align:right">SWCNT</td>
+<td style="text-align:left"><em>Single Wall CNT</em></td>
 </tr>
 <tr>
-<td align="right">WW</td>
-<td align="left">Wechselwirkung</td>
+<td style="text-align:right">WW</td>
+<td style="text-align:left">Wechselwirkung</td>
 </tr>
 <tr>
-<td align="right">HNP</td>
-<td align="left">Halbleiter-NP</td>
+<td style="text-align:right">HNP</td>
+<td style="text-align:left">Halbleiter-NP</td>
 </tr>
 <tr>
-<td align="right">ITO</td>
-<td align="left">Indium Tin Oxide: leitend&amp;transparent</td>
+<td style="text-align:right">ITO</td>
+<td style="text-align:left">Indium Tin Oxide: leitend&amp;transparent</td>
 </tr>
 <tr>
-<td align="right">OPV</td>
-<td align="left">Organische Solarzellen</td>
+<td style="text-align:right">OPV</td>
+<td style="text-align:left">Organische Solarzellen</td>
 </tr>
 <tr>
-<td align="right">DSC</td>
-<td align="left">dye Sensitized Cell - Farbstoffzelle - Grätzel-Zellen</td>
+<td style="text-align:right">DSC</td>
+<td style="text-align:left"><em>dye Sensitized Cell</em> - Farbstoffzelle - Grätzel-Zellen</td>
 </tr>
 <tr>
-<td align="right">NQDs</td>
-<td align="left">Nanokristalline Quantum Dots</td>
+<td style="text-align:right">NQDs</td>
+<td style="text-align:left">Nanokristalline Quantum Dots</td>
 </tr>
 <tr>
-<td align="right">FTO</td>
-<td align="left"><em>engl</em>=Fluorine doped（掺杂的） Tin Oxide, <em>dt</em>=Fluor-dotiertes Zinndioxid, SnO<sub>2</sub></td>
+<td style="text-align:right">FTO</td>
+<td style="text-align:left"><em>engl=Fluorine doped（掺杂的） Tin Oxide</em>, <em>dt</em>=Fluor-dotiertes Zinndioxid, SnO<sub>2</sub></td>
 </tr>
 <tr>
-<td align="right">TCO-Glas</td>
-<td align="left">Transparent Conductive Oxide</td>
+<td style="text-align:right">TCO-Glas</td>
+<td style="text-align:left"><em>Transparent Conductive Oxide</em></td>
 </tr>
 <tr>
-<td align="right">PES</td>
-<td align="left">PPhotoelektrochemische Solarzellen</td>
+<td style="text-align:right">PES</td>
+<td style="text-align:left">Photoelektrochemische Solarzellen</td>
 </tr>
 <tr>
-<td align="right">PC</td>
-<td align="left">Photonische Kristalle</td>
+<td style="text-align:right">PC</td>
+<td style="text-align:left">Photonische Kristalle</td>
 </tr>
 <tr>
-<td align="right">PS</td>
-<td align="left">Photonische Schwämme</td>
+<td style="text-align:right">PS</td>
+<td style="text-align:left">Photonische Schwämme</td>
 </tr>
 <tr>
-<td align="right">Pt-ECSA</td>
-<td align="left">Pt-Elektrochemical Surface Area</td>
+<td style="text-align:right">Pt-ECSA</td>
+<td style="text-align:left"><em>Pt-Elektrochemical Surface Area</em></td>
 </tr>
 <tr>
-<td align="right">RHE</td>
-<td align="left">reversible hydrogen Electrode</td>
+<td style="text-align:right">RHE</td>
+<td style="text-align:left"><em>reversible hydrogen Electrode</em></td>
 </tr>
 <tr>
-<td align="right">TOF</td>
-<td align="left">Turn Over Frequency</td>
+<td style="text-align:right">TOF</td>
+<td style="text-align:left"><em>Turn Over Frequency</em></td>
 </tr>
 <tr>
-<td align="right">BB</td>
-<td align="left">Biulding Blocks</td>
+<td style="text-align:right">BB</td>
+<td style="text-align:left"><em>Biulding Blocks</em></td>
 </tr>
-</tbody></table>
+<tr>
+<td style="text-align:right">SPR</td>
+<td style="text-align:left"><em>Surface Plasmon Resonance</em></td>
+</tr>
+</tbody>
+</table>
+</div>
 <h1 id="Chemikalien"><a href="#Chemikalien" class="headerlink" title="Chemikalien"></a>Chemikalien</h1><ol>
 <li><a href="https://en.wikipedia.org/wiki/Porphyrin">Porphyrin</a>: 卟啉(bulin) <img src="H2TPPsyn.png" alt="卟啉-Porphyrin"></li>
 <li><a href="https://de.wikipedia.org/wiki/Hydrazin">Hydrazin</a>: N<sub>2</sub>H<sub>4</sub>)</li>
 <li>Pd: Palladium, 钯</li>
 <li>Ru: Ruthenium, 钌(liǎo)</li>
+<li>PPA: Poly Phosphoric Acid</li>
+<li>PAA Poly Acrylic(丙烯酸) Acid</li>
+<li></li>
+<li></li>
 </ol>
 <h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><ol>
-<li><table>
-<thead>
-<tr>
-<th align="center">der Wafer</th>
-<th align="center">die Waffel</th>
-<th align="center">die Waffe</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">晶片；晶圆</td>
-<td align="center">华夫饼干</td>
-<td align="center">武器</td>
-</tr>
-</tbody></table>
+<li><p>|der Wafer      |die Waffel    |die Waffe<br>|:————:|:—-:|:—-:<br>|晶片；晶圆|华夫饼干|武器</p>
 </li>
-<li><p>transparen||durchsichtig</p>
-</li>
-<li><p>das Iod 碘; der Iodid 碘化物</p>
-</li>
-<li><p>Alkan, -e, 烷烃; Olefin, -e 烯烃</p>
-</li>
-<li><p>whenever y’all break up</p>
-</li>
+<li>transparen||durchsichtig</li>
+<li>das Iod 碘; der Iodid 碘化物</li>
+<li>Alkan, -e, 烷烃; Olefin, -e 烯烃</li>
+<li>fiancée: 未婚妻</li>
+<li>der Glimmer, 云母</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<ol>
+<li>whenever y’all break up</li>
 </ol>
 <blockquote>
-<p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr. Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische Universität Clausthal</em><br>[1]: <a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">https://de.wikipedia.org/wiki/Ostwald-Reifung</a><br>[2]: <a href="https://en.wikipedia.org/wiki/Coal">https://en.wikipedia.org/wiki/Coal</a></p>
+<p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr. Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische Universität Clausthal</em></p>
+<p>[1]: <a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">https://de.wikipedia.org/wiki/Ostwald-Reifung</a></p>
+<p>[2]: <a href="https://en.wikipedia.org/wiki/Coal">https://en.wikipedia.org/wiki/Coal</a></p>
 </blockquote>
 <script>
         document.querySelectorAll('.github-emoji')
