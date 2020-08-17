@@ -200,8 +200,7 @@
 <li></li>
 </ol>
 <h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><ol>
-<li><p>|der Wafer      |die Waffel    |die Waffe<br>|:————:|:—-:|:—-:<br>|晶片；晶圆|华夫饼干|武器</p>
-</li>
+<li>|der Wafer      |die Waffel    |die Waffe<br>|:————:|:—-:|:—-:<br>|晶片；晶圆|华夫饼干|武器</li>
 <li>transparen||durchsichtig</li>
 <li>das Iod 碘; der Iodid 碘化物</li>
 <li>Alkan, -e, 烷烃; Olefin, -e 烯烃</li>
@@ -512,8 +511,8 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
           });
       </script>]]></content>
       <tags>
-        <tag>工程制图</tag>
         <tag>Comsol</tag>
+        <tag>工程制图</tag>
       </tags>
   </entry>
   <entry>
@@ -558,8 +557,8 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
           });
       </script>]]></content>
       <tags>
-        <tag>Creo</tag>
         <tag>工程制图</tag>
+        <tag>Creo</tag>
       </tags>
   </entry>
   <entry>
@@ -638,14 +637,9 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
     <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf">Github官方教程superalsrk/hexo-pdf</a></p>
 <h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
 <h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
-<p>然后键入:</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>咦，怎么不行！？</p>
+<p>然后键入:<br></p><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure><br>咦，怎么不行！？<p></p>
 <a id="more"></a>
-
-<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure>
-<p>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。</p>
+<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用<br></p><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.pdf %}</span><br></pre></td></tr></tbody></table></figure><br>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="pdftag.png" alt=""><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。<p></p>
 <p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del></p>
 <p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
 <ul>
@@ -653,9 +647,7 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
 <li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="pdferror.png" alt=""></li>
 </ul>
 <hr>
-<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
-<figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-<p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
+<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：<br></p><figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure><br>html代码解决<br>object可换成embed, iframe<br>参考链接如下：<p></p>
 <blockquote>
 <p><a href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
 </blockquote>
