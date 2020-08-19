@@ -96,7 +96,7 @@
 <li>Thermoelektrische Eigenschaften von ND<ul>
 <li>Seebeck-Effekt</li>
 <li>Peltier-Effektes</li>
-<li>$$ZT = S^2<em>σ</em>T/(κ_e+κ_L)$$</li>
+<li>$ZT = \frac{S^{2}*σ*T}{κ_e+κ_L}$</li>
 <li>Die Leistung thermoelektrischer Materialien wird durch die so genannte Gütezahl ZT (<em>figure-of-merit</em>) dargestellt</li>
 </ul>
 </li>
@@ -128,7 +128,10 @@
 </li>
 <li></li>
 </ol>
-<h1 id="NP-im-Alltag"><a href="#NP-im-Alltag" class="headerlink" title="NP im Alltag"></a>NP im Alltag</h1><h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><table>
+<h1 id="NP-im-Alltag"><a href="#NP-im-Alltag" class="headerlink" title="NP im Alltag"></a>NP im Alltag</h1><ol>
+<li>Nicht-tropfende Wandfarbe, </li>
+</ol>
+<h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><table>
 <thead>
 <tr>
 <th align="right">Abkürzung</th>
