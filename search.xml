@@ -102,7 +102,29 @@
 <li>P25 ist ein kommerzieller Photokatalysator (TiO2)</li>
 <li>Ag/ZnO ND, g wirkt als Elektronenfänger und verbessert die Trennung von Elektron-Loch-Paaren</li>
 </ol>
-<h1 id="Katalyse"><a href="#Katalyse" class="headerlink" title="Katalyse"></a>Katalyse</h1><h1 id="Composite"><a href="#Composite" class="headerlink" title="Composite"></a>Composite</h1><h1 id="NP-im-Alltag"><a href="#NP-im-Alltag" class="headerlink" title="NP im Alltag"></a>NP im Alltag</h1><h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><div class="table-container">
+<h1 id="Katalyse"><a href="#Katalyse" class="headerlink" title="Katalyse"></a>Katalyse</h1><ol>
+<li><a href="https://de.wikipedia.org/wiki/Langmuir_(Einheit">Langmuir</a>): Bei einem Haftkoeffizienten von 1 entspricht 1 L etwa einer Bedeckung einer Oberfläche mit einer Monolage des Adsorbats.</li>
+<li><strong>Quantengrößeneffekt</strong>, der durch die Begrenzung der Elektronen auf ein kleines Volumen entsteht</li>
+<li>Je kleiner die Au-NP ist, desto aktiver ist die Au-NP</li>
+<li>100-Facetten haben höchste Aktivität, nämlich Kubisch</li>
+<li>Bedeutung des Substrates auf die erhöhte katalytische Aktivität sind uneinheitlich.</li>
+<li>Oberflächenrauigkeit: eine verstärkte Aktivität für gestufte im Vergleich zu glatten Goldoberflächen</li>
+<li>Langzeitstabilität: Offensichtlich führt die CO-Exposition zur Bildung einer mobilen Au-Spezies durch die Schwächung der Cluster-Support-Bindung. reaktive Kornvergrößerung und nachfolgende Desaktivierung am stärksten für die Probe mit den kleinsten interpartikulären Abständen</li>
+<li>Wassergas-Shift-Reaktion: <ul>
+<li>$CO + H_2O \leftrightarrows{} CO_2 + H_2$ </li>
+</ul>
+</li>
+<li>Geträgerte vs. ungeträgerte Katalysatoren bei der Methanbildung an Ni-NP</li>
+<li>Knallgasreaktion mit gasgetragene oder geträgte Pt-NP</li>
+</ol>
+<h1 id="Composite"><a href="#Composite" class="headerlink" title="Composite"></a>Composite</h1><ol>
+<li>Oberflächenmodifikation der NP<ul>
+<li>Chemische Oberflächenbehandlung<br>Anlagerung von Silan-Kopplungsmolekülen<br>Metallalkoxiden, -epoxiden, -alkylen oder arylisozyanaten</li>
+<li>Aufbringen synthetisccher Polymere, die kovalente Anbindung von Polymerketten: 1. endfuntionalisierte Polymere mit der Partikeloberfläche reagieren. 2. Polymerketten wachsen an einer Initiator-terminierten selbstorganisierten Oberflächenscchcicht. </li>
+</ul>
+</li>
+</ol>
+<h1 id="NP-im-Alltag"><a href="#NP-im-Alltag" class="headerlink" title="NP im Alltag"></a>NP im Alltag</h1><h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -207,6 +229,14 @@
 <td style="text-align:right">SPR</td>
 <td style="text-align:left"><em>Surface Plasmon Resonance</em></td>
 </tr>
+<tr>
+<td style="text-align:right">TPD-Versuchen</td>
+<td style="text-align:left">Temperatur-Programmierten-Desorptions-Versuchen</td>
+</tr>
+<tr>
+<td style="text-align:right">WGS</td>
+<td style="text-align:left">Wassergas-Shift-Reaktion</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -219,9 +249,12 @@
 <li>PAA Poly Acrylic(丙烯酸) Acid</li>
 <li>das Tellur，碲，der Tellurid，碲化物</li>
 <li>das Antimon, 锑</li>
+<li>Ceria, §CeO_2§</li>
+<li>der Silan, 硅烷</li>
+<li>(3-Methacryloxypropyl)trimethoxysilane, <img src="3-Methacryloxypropyl_trimethoxysilane.png" alt="(3-Methacryloxypropyl)trimethoxysilane"></li>
 </ol>
 <h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><ol>
-<li><p>|der Wafer      |die Waffel    |die Waffe<br>|:—-:|:—-:|:—-:<br>|晶片；晶圆|华夫饼干|武器</p>
+<li><p>|der Wafer  |die Waffel |die Waffe<br>|:—-:|:—-:|:—-:<br>|晶片；晶圆 |华夫饼干 |武器</p>
 </li>
 <li><p>transparen||durchsichtig</p>
 </li>
@@ -230,12 +263,33 @@
 <li>fiancée: 未婚妻</li>
 <li>der Glimmer, 云母</li>
 <li>autark, 自给自足的</li>
-<li></li>
-<li></li>
+<li>Exziton, 激子</li>
 <li></li>
 </ol>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Methyl</th>
+<th style="text-align:center">Ethyl</th>
+<th style="text-align:center">Propyl</th>
+<th style="text-align:center">Butyl</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">甲基</td>
+<td style="text-align:center">乙基</td>
+<td style="text-align:center">丙基</td>
+<td style="text-align:center">丁基</td>
+</tr>
+</tbody>
+</table>
+</div>
 <ol>
-<li>whenever y’all break up</li>
+<li></li>
+<li><p>whenever y’all break up</p>
+</li>
 </ol>
 <blockquote>
 <p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr. Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische Universität Clausthal</em></p>
