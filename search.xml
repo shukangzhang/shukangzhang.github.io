@@ -17,26 +17,44 @@
 <li>unspezifische Bremsstrahlung (Untergrund)</li>
 <li></li>
 </ol>
-<h1 id="Mobilitatanalyse"><a href="#Mobilitatanalyse" class="headerlink" title="Mobilitätanalyse"></a>Mobilitätanalyse</h1><h1 id="Tragheitsspektroskopie"><a href="#Tragheitsspektroskopie" class="headerlink" title="Trägheitsspektroskopie"></a>Trägheitsspektroskopie</h1><h1 id="Sorptionsanalyse"><a href="#Sorptionsanalyse" class="headerlink" title="Sorptionsanalyse"></a>Sorptionsanalyse</h1><h1 id="Wechselwirkung-mit-elektromagnetischer-Strahlung"><a href="#Wechselwirkung-mit-elektromagnetischer-Strahlung" class="headerlink" title="Wechselwirkung mit elektromagnetischer Strahlung"></a>Wechselwirkung mit elektromagnetischer Strahlung</h1><h1 id="Ultraschallextinktion"><a href="#Ultraschallextinktion" class="headerlink" title="Ultraschallextinktion"></a>Ultraschallextinktion</h1><h1 id="Thermogravimetrie-TGA"><a href="#Thermogravimetrie-TGA" class="headerlink" title="Thermogravimetrie (TGA)"></a>Thermogravimetrie (TGA)</h1><h1 id="Beispiel"><a href="#Beispiel" class="headerlink" title="Beispiel"></a>Beispiel</h1><h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><table>
+<h1 id="Mobilitatanalyse"><a href="#Mobilitatanalyse" class="headerlink" title="Mobilitätanalyse"></a>Mobilitätanalyse</h1><ol>
+<li>SMPS-System (Scanning Mobility Particle Sizer)<ul>
+<li>Aufladung<br>radioaktive Quelle —&gt; bipolare<br>Corona-Entladung —&gt; unipolare<br>Diffusionsaufladung<br>Feldaufladung</li>
+<li>DMA</li>
+<li>CPC: Condensation Particcle Counter<br>FCE: Faraday-Cup-Elektrometer</li>
+</ul>
+</li>
+<li>In Suspensionen<ul>
+<li>LDA: Laser-Dopppler-Anemometer(气流计)</li>
+<li>Zeta-Potential</li>
+<li>Elektroakustik</li>
+</ul>
+</li>
+</ol>
+<h1 id="Tragheitsspektroskopie"><a href="#Tragheitsspektroskopie" class="headerlink" title="Trägheitsspektroskopie"></a>Trägheitsspektroskopie</h1><h1 id="Sorptionsanalyse"><a href="#Sorptionsanalyse" class="headerlink" title="Sorptionsanalyse"></a>Sorptionsanalyse</h1><h1 id="Wechselwirkung-mit-elektromagnetischer-Strahlung"><a href="#Wechselwirkung-mit-elektromagnetischer-Strahlung" class="headerlink" title="Wechselwirkung mit elektromagnetischer Strahlung"></a>Wechselwirkung mit elektromagnetischer Strahlung</h1><h1 id="Ultraschallextinktion"><a href="#Ultraschallextinktion" class="headerlink" title="Ultraschallextinktion"></a>Ultraschallextinktion</h1><h1 id="Thermogravimetrie-TGA"><a href="#Thermogravimetrie-TGA" class="headerlink" title="Thermogravimetrie (TGA)"></a>Thermogravimetrie (TGA)</h1><h1 id="Beispiel"><a href="#Beispiel" class="headerlink" title="Beispiel"></a>Beispiel</h1><h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><div class="table-container">
+<table>
 <thead>
 <tr>
-<th align="right">Abkürzung</th>
-<th align="left">Völlständigen</th>
+<th style="text-align:right">Abkürzung</th>
+<th style="text-align:left">Völlständigen</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="right">DMA</td>
-<td align="left">Differential Mobility Analyzer</td>
+<tbody>
+<tr>
+<td style="text-align:right">DMA</td>
+<td style="text-align:left">Differential Mobility Analyzer</td>
 </tr>
 <tr>
-<td align="right">CPC</td>
-<td align="left">Condensation Particle Counter</td>
+<td style="text-align:right">CPC</td>
+<td style="text-align:left">Condensation Particle Counter</td>
 </tr>
 <tr>
-<td align="right">FCE</td>
-<td align="left">Farady Cup Electrometer</td>
+<td style="text-align:right">FCE</td>
+<td style="text-align:left">Farady Cup Electrometer</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
