@@ -136,12 +136,12 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">20</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">22</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">18</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">21</span></a>
 
   </li>
         <li class="menu-item menu-item-books">
@@ -283,6 +283,7 @@
 <p>尝试<code>$ npm intall -g --foece hexo-cli</code>成功, <code>--force</code> 可以暴力覆盖</p>
 <p>其实<code>$ hexo init</code>不需要重装hexo-cli服务</p>
 <a id="more"></a>
+
 <h1 id="重置链接"><a href="#重置链接" class="headerlink" title="重置链接"></a>重置链接</h1><p><code>npm set registry http://registry.npmjs.org/</code></p>
 <h1 id="Porkbun域名提供商DNS设置备份"><a href="#Porkbun域名提供商DNS设置备份" class="headerlink" title="Porkbun域名提供商DNS设置备份"></a>Porkbun域名提供商DNS设置备份</h1><p><a href="https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3">https://www.notion.so/7b7de4fac9224d1e9e95cec6e64855c3</a></p>
 <h1 id="一段插曲"><a href="#一段插曲" class="headerlink" title="一段插曲"></a>一段插曲</h1><p>Hi, sorry, i must hv done something wrong.<br>i tried to point <a href="http://shukangzhang.com/">shukangzhang.com</a>, which i hv just bought from you, to<a href="http://shukangzhang.github.io/">shukangzhang.github.io</a>. But now when i type <a href="http://shukangzhang.com/">shukangzhang.com</a>, the browser shows a</p>
@@ -293,10 +294,14 @@
 <h1 id="hexo-更改本地路径"><a href="#hexo-更改本地路径" class="headerlink" title="hexo-更改本地路径"></a>hexo-更改本地路径</h1><p>a. config.yml文件中配置如下：<br>b. hexo s -p 5000</p>
 <h1 id="添加gitalk"><a href="#添加gitalk" class="headerlink" title="添加gitalk"></a>添加gitalk</h1><p>我原来看的教程推荐的是gitment，结果gitment已经停止服务了，<code>NexT</code>也已经不再集成gitment服务，于是转为安装gitalk评论系统，基于github issues，这里就不过多介绍了，总之，每篇文章都会在你事先建好的Repository里添加一条issues用于保存与这篇文章有关的评论。</p>
 <p>真可谓一波三折，因为很多gitalk安装教程都已经是很旧的了，各种index.md文件找不到啦，comments.swig打开跟教程里不一样啦，comments.ejs语法略有不同啦，折腾来折腾去不知道怎么办。</p>
-<p>还好我有点html基础，发现主题配置文件里_config.yml里直接就有gitalk的相关配置，那我又已经<code>npm i --save gitalk</code>，建好OAuth apps以后，填好各项配置如下:<br></p><figure class="highlight"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  github_id: shukangzhang # GitHub repo owner</span><br><span class="line">  repo: pinglun # Repository name to store issues</span><br><span class="line">  client_id: 59xxxxxx # GitHub Application Client ID</span><br><span class="line">  client_secret: 81xxxxx # GitHub Application Client Secret</span><br><span class="line">  admin_user: shukangzhang # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br></pre></td></tr></tbody></table></figure><br>模块就添加成功啦<p></p>
-<p>这里必须得提一下我也遇到了老生常谈的<code>Error: Not found</code>的问题，但我的问题比较轻，是因为对别人教程的理解问题，我通过api.github.com查询了我的github_ID，我以为是要填写ID一栏显示的000000那串数字，结果一直Error: Not found，按F12审查元素:<br></p><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="comment">//api.github.com/repos/45145936/pinglun/issues?labels=Gitalk,cf1b9bedf8abfdc34802bcf9d9cde839&amp;t=1591326997341</span></span><br></pre></td></tr></tbody></table></figure><br>这个网址始终返回404 not found. 也就是说，程序找不到相应的Repostory来创建issues，仓库地址错误！那么我于此得来灵感，我建的新仓库<code>pinglun</code>不可能出错，只可能是前面的那串数字错了，但是api.github.com返回的ID也没有错，那我看了别人的设置，把自己的github_ID也换成名称串，跟owner一样，再试就成了<p></p>
+<p>还好我有点html基础，发现主题配置文件里_config.yml里直接就有gitalk的相关配置，那我又已经<code>npm i --save gitalk</code>，建好OAuth apps以后，填好各项配置如下:</p>
+<figure class="highlight"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  github_id: shukangzhang # GitHub repo owner</span><br><span class="line">  repo: pinglun # Repository name to store issues</span><br><span class="line">  client_id: 59xxxxxx # GitHub Application Client ID</span><br><span class="line">  client_secret: 81xxxxx # GitHub Application Client Secret</span><br><span class="line">  admin_user: shukangzhang # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br></pre></td></tr></tbody></table></figure>
+<p>模块就添加成功啦</p>
+<p>这里必须得提一下我也遇到了老生常谈的<code>Error: Not found</code>的问题，但我的问题比较轻，是因为对别人教程的理解问题，我通过api.github.com查询了我的github_ID，我以为是要填写ID一栏显示的000000那串数字，结果一直Error: Not found，按F12审查元素:</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="comment">//api.github.com/repos/45145936/pinglun/issues?labels=Gitalk,cf1b9bedf8abfdc34802bcf9d9cde839&amp;t=1591326997341</span></span><br></pre></td></tr></tbody></table></figure>
+<p>这个网址始终返回404 not found. 也就是说，程序找不到相应的Repostory来创建issues，仓库地址错误！那么我于此得来灵感，我建的新仓库<code>pinglun</code>不可能出错，只可能是前面的那串数字错了，但是api.github.com返回的ID也没有错，那我看了别人的设置，把自己的github_ID也换成名称串，跟owner一样，再试就成了</p>
 <h1 id="本地预览与线上结果不一样问题"><a href="#本地预览与线上结果不一样问题" class="headerlink" title="本地预览与线上结果不一样问题"></a>本地预览与线上结果不一样问题</h1><p>已解决，参考<a href="https://github.com/hexojs/hexo/issues/806">Github hexo issues #806</a></p>
-<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><p>xxx. 未完待续</p>
+<p>#xxx<br>xxx. 未完待续</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -446,7 +451,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-init-网络问题初始化失败"><span class="nav-number">1.</span> <span class="nav-text">$ hexo init 网络问题初始化失败</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#重置链接"><span class="nav-number">2.</span> <span class="nav-text">重置链接</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Porkbun域名提供商DNS设置备份"><span class="nav-number">3.</span> <span class="nav-text">Porkbun域名提供商DNS设置备份</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一段插曲"><span class="nav-number">4.</span> <span class="nav-text">一段插曲</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-deploy-not-found-git"><span class="nav-number">5.</span> <span class="nav-text">hexo deploy not found git</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#TypeError-Cannot-read-property-‘replace’-of-null"><span class="nav-number">6.</span> <span class="nav-text">TypeError Cannot read property ‘replace’ of null</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#FATAL-Cannot-read-property-‘replace’-of-null"><span class="nav-number">7.</span> <span class="nav-text">FATAL Cannot read property ‘replace’ of null</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-更改本地路径"><span class="nav-number">8.</span> <span class="nav-text">hexo-更改本地路径</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#添加gitalk"><span class="nav-number">9.</span> <span class="nav-text">添加gitalk</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#本地预览与线上结果不一样问题"><span class="nav-number">10.</span> <span class="nav-text">本地预览与线上结果不一样问题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#xxx"><span class="nav-number">11.</span> <span class="nav-text">xxx</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-init-网络问题初始化失败"><span class="nav-number">1.</span> <span class="nav-text">$ hexo init 网络问题初始化失败</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#重置链接"><span class="nav-number">2.</span> <span class="nav-text">重置链接</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Porkbun域名提供商DNS设置备份"><span class="nav-number">3.</span> <span class="nav-text">Porkbun域名提供商DNS设置备份</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一段插曲"><span class="nav-number">4.</span> <span class="nav-text">一段插曲</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-deploy-not-found-git"><span class="nav-number">5.</span> <span class="nav-text">hexo deploy not found git</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#TypeError-Cannot-read-property-‘replace’-of-null"><span class="nav-number">6.</span> <span class="nav-text">TypeError Cannot read property ‘replace’ of null</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#FATAL-Cannot-read-property-‘replace’-of-null"><span class="nav-number">7.</span> <span class="nav-text">FATAL Cannot read property ‘replace’ of null</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-更改本地路径"><span class="nav-number">8.</span> <span class="nav-text">hexo-更改本地路径</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#添加gitalk"><span class="nav-number">9.</span> <span class="nav-text">添加gitalk</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#本地预览与线上结果不一样问题"><span class="nav-number">10.</span> <span class="nav-text">本地预览与线上结果不一样问题</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -462,7 +467,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-count">21</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -474,7 +479,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">20</span>
+        <span class="site-state-item-count">22</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>

@@ -136,12 +136,12 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">20</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">22</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">18</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">21</span></a>
 
   </li>
         <li class="menu-item menu-item-books">
@@ -277,8 +277,15 @@
 <p> Below I will talk about the optimization of NexT</p>
 <p> 下面将讨论关于NexT主题的优化</p>
 <a id="more"></a>
-<h1 id="设置文章末尾”本文结束”标记"><a href="#设置文章末尾”本文结束”标记" class="headerlink" title="设置文章末尾”本文结束”标记"></a>设置文章末尾”本文结束”标记</h1><p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：<br></p><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">{% <span class="keyword">if</span> not is_index %}</span><br><span class="line">    &lt;div style=<span class="string">"text-align:center;color: #ccc;font-size:24px;"</span>&gt;-End-&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">{% endif %}</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></tbody></table></figure><br>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：<br><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">{% <span class="keyword">if</span> not is_index and theme.passage_end_tag.enabled %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include <span class="string">'passage-end-tag.swig'</span> %}</span><br><span class="line">   &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp"> {% endif %}</span></span><br></pre></td></tr></tbody></table></figure><br>然后打开主题配置文件（_config.yml)，在末尾添加：<br><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: <span class="literal">true</span><span class="string">`</span></span><br></pre></td></tr></tbody></table></figure><p></p>
-<ol>
+
+<h1 id="设置文章末尾”本文结束”标记"><a href="#设置文章末尾”本文结束”标记" class="headerlink" title="设置文章末尾”本文结束”标记"></a>设置文章末尾”本文结束”标记</h1><p>在路径/themes/next/layout/_macro 中新建 passage-end-tag.swig 文件,并添加以下内容：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">{% <span class="keyword">if</span> not is_index %}</span><br><span class="line">    &lt;div style=<span class="string">"text-align:center;color: #ccc;font-size:24px;"</span>&gt;-End-&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">{% endif %}</span></span><br><span class="line"><span class="regexp">&lt;/</span>div&gt;</span><br></pre></td></tr></tbody></table></figure>
+<p>接着打开/themes/next/layout/_macro/post.swig文件，在post-footer前添加代码：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">{% <span class="keyword">if</span> not is_index and theme.passage_end_tag.enabled %}</span><br><span class="line">   &lt;div&gt;</span><br><span class="line">     {% include <span class="string">'passage-end-tag.swig'</span> %}</span><br><span class="line">   &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp"> {% endif %}</span></span><br></pre></td></tr></tbody></table></figure>
+<p>然后打开主题配置文件（_config.yml)，在末尾添加：</p>
+<figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: <span class="literal">true</span><span class="string">`</span></span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="2">
 <li>xxx</li>
 </ol>
 <script>
@@ -449,7 +456,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-count">21</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -461,7 +468,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">20</span>
+        <span class="site-state-item-count">22</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
