@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>v085maplestory开服失败留恋</title>
+    <url>/v085maplestory-kai-fu-shi-bai-liu-lian/</url>
+    <content><![CDATA[<p>终于在刚刚看了腾讯云4 cores 8G RAM的法兰克福节点的云服务器的价格以后决定暂时认同放弃开服。<a href="preisofcloudserver.png">腾讯云4 cores 8G RAM的法兰克福节点的云服务器的价格</a><br>一直以来都太勉强了。这一周过的真的好累。</p>
+<ul>
+<li>要准备论文，没有时间</li>
+<li>没毕业没工作，所以没有充足的资金</li>
+<li>没有身份，无法承受开私服会带来的风险</li>
+<li>Java，php，mysql不会；html，javaskript入门级水平</li>
+<li>多级代理，反向代理一概不会，租大厂服务器风险大，租抗DMCA服务器又对网络攻击毫无防御力，对后门也毫无抵抗力</li>
+<li>动态网站也建不起来，虽然有信任的人可以外包，但是可能建起来我连维护能力都没有，太自大，以为用hexo架构+Github托管代码建了这个blog就以为自己有两下子了，在大佬面前其实什么都不是<br>最重要的几样东西，一样没有。全凭一腔热血和手里那一点微薄的小钱。完完全全的初生牛犊不怕虎。<br>哎，男人过了30该做有把握的事（虽然我还有两三年）。</li>
+</ul>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>个人心情</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>读后总结: Aqueous dispersion of nanobubbles: Generation, properties and features</title>
     <url>/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/</url>
-    <content><![CDATA[<p>[TOC]</p>
-<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><ul>
+    <content><![CDATA[<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><ul>
 <li>Nanobubbles: high stability, longevity and high surface area per volume，rapid attachment to hydrophobic surfaces</li>
 <li>150-200nm (mean diameter) NBs and MBs-microbubbles (about 70μm)</li>
 <li>The NBs mean diameter and concentration only slightly varied within 14 days.</li>
-<li>After the NBs were attached to the surface of a gain of <a href="#1">pyrite</a>, the NBs dramatically increased the population of MBs, which shows the enhancement of particle hydrophobicity due to NBs adhesion. 这里的描述有点像另一篇文献（Role of hydrodynamic cavitation in fine particle flotation）里的第二种气泡附着机理。<a href="schematic illustration.png">Schematic_illustration_of_possible_roles_of_hydrodynamic_cavitation_in_fine_particle_flotation</a></li>
+<li>After the NBs were attached to the surface of a gain of <a href="#1">pyrite</a>, the NBs dramatically increased the population of MBs, which shows the enhancement of particle hydrophobicity due to NBs adhesion. 这里的描述有点像另一篇文献（Role of hydrodynamic cavitation in fine particle flotation）里的第二种气泡附着机理。<a href="schematic_illustration.png">Schematic illustration of possible roles of hydrodynamic cavitation in fine particle flotation</a></li>
 <li>Experimental evidence of NBs was provided by Miller et al. (1999), who used <a href="#2">RTIR</a> spectroscopy to incestigate the n-butane-saturated water at a hydrophobic silicon solid. </li>
 <li>此文章中对NB的定义超过了100nm，<code>ten to hundreds of nanometers in radius</code></li>
 <li><a href="#3">AFM</a> images revealed that they form spherical caps, but the precise shape of the NBs remains unclear</li>
 <li><code>bulk NBs</code>到底什么意思？？？</li>
-<li><a href="#4">DI water</a> at $23℃±1$: $3μS<em>cm^(-1)$ conductivity, $72.5±0.1mN</em>m^(-1)$ surface tension, natural equilibrium pH of 5.5<a id="more"></a>
+<li><a href="#4">DI water</a> at 23℃±1: $3μS*cm^(-1)$ conductivity, $72.5±0.1mN*m^(-1)$ surface tension, natural equilibrium pH of 5.5<a id="more"></a>
 <h1 id="Chemikalien"><a href="#Chemikalien" class="headerlink" title="Chemikalien"></a>Chemikalien</h1></li>
 </ul>
 <ol>
@@ -34,6 +68,7 @@
 <li>Nanoparticle-tracking analysis: NTA</li>
 <li>ZetaSizer Nano ZS</li>
 </ol>
+<h1 id="Zusammenfassung"><a href="#Zusammenfassung" class="headerlink" title="Zusammenfassung"></a>Zusammenfassung</h1><p>Nanobubble非常稳定，而且NBs的存在会非常明显的提高Microbubble的附着能力，在flotation中很值得一用！</p>
 <h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><div class="table-container">
 <table>
 <thead>
