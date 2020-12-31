@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>母音无声化？浅谈日语学习中借鉴来的经验</title>
+    <url>/mu-yin-wu-sheng-hua/</url>
+    <content><![CDATA[<p>最近在重新开始好好学日语，发现语言的演变有惊人的相似性，都是趋向于越来越简单，越来越好念。好坏我无从判断，但是给语言学习者带来了很大的便利！</p>
+<p>比如：</p>
+<p>日语的「が」在单字第二个音以后的很多情况下要发鼻浊音，浊音本来就很难发，要震动喉咙，鼻浊音就更不好发，不过事实是虽然东京标准语还会发鼻浊音（这里包括了电台，广播，汽车地铁的报站），但是现在的日本年轻人越来越少的使用鼻浊音，所以sensei们虽然出于教学必须还得这么教，但是也明确的说了，你们完全可以不发，これは素晴らしいですね！</p>
+<p>同样的现象也发生在了德语里，那就是小舌音「r」，我发不出来，刚开始学德语的时候又没有用心去学，后来就直接放弃学小舌音了，再后来得知居然德国很多年轻人也发不出小舌音r，所以同鼻浊音「が」一样，小舌音也成了非必须学习项，super！</p>
+<p>虽然我生活的时代让我有诸多的不满，但是至少这两点是属于我这个时代往后才有的福利。</p>
+<p>回到主题，母音无声化<br><img src="%E6%97%A5%E8%AF%AD%E6%AF%8D%E9%9F%B3%E6%97%A0%E5%A3%B0%E5%8C%96.png" alt="何博士50音教学篇hobi.tw"><br>日语这里其实并不是完全的无声，而是要念的特别快特别轻，图片里的第一个例子きし，kishi，至少k的音保留下来了，念kshi就好。<br>对应的德语里的例子就是ein的各种词尾变形，我还记得差不多5年前年幼无知的我刚开始跟德国人一起做实验，在一个WhatsApp群组里，德国人各种简写聊天语看的我一愣一愣的，只好问他们，ne，nen是什么意思，哦，然后才知道，是eine和einen的缩写，而且后来发现，不只是缩写哦，念出来的时候真的就是念ne和nen，而不是念eine，einen，整句中也会有加一瞥的写法，’ne/‘nen。这还只是一部分省略。<br>再看最近youtube老是推给我的ebay的广告，kannst du haben完全念成了kanns haben，而且念的极快，我一开始完全听不懂在讲什么，听了好多遍才敢确定是kannst du haben. 我马上就想到母音无声化这个概念，但是学德语的时候并没有听过这个概念，我就想这里是不是跟日语的母音无声化是一样的现象呢？</p>
+<p>如果谁有经验，欢迎在下面留言讨论，谢谢~</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>语言学习</tag>
+        <tag>日本語</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>v085maplestory开服失败留恋</title>
     <url>/v085maplestory-kai-fu-shi-bai-liu-lian/</url>
     <content><![CDATA[<p>终于在刚刚看了腾讯云4 cores 8G RAM的法兰克福节点的云服务器的价格以后决定暂时放弃开服。<img src="preisofcloudserver.png" alt="腾讯云4 cores 8G RAM的法兰克福节点的云服务器的价格"><br>一直以来都太勉强了。这一周过的真的好累。</p>
