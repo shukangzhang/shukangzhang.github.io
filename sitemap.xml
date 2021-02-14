@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shukangzhang.com/wu-li/</loc>
+    
+    <lastmod>2021-02-14T20:00:03.490Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shukangzhang.com/about/index.html</loc>
+    
+    <lastmod>2021-02-05T02:38:56.829Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shukangzhang.com/si-chu-tou-lai-de-zhi-yan-pian-yu/</loc>
+    
+    <lastmod>2021-02-01T23:30:58.699Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shukangzhang.com/blog/</loc>
     
-    <lastmod>2021-01-03T16:57:18.369Z</lastmod>
+    <lastmod>2021-01-03T18:05:26.796Z</lastmod>
     
   </url>
   
@@ -86,13 +107,6 @@
   </url>
   
   <url>
-    <loc>https://shukangzhang.com/si-chu-tou-lai-de-zhi-yan-pian-yu/</loc>
-    
-    <lastmod>2020-07-28T00:34:44.437Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://shukangzhang.com/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze/</loc>
     
     <lastmod>2020-07-27T23:42:03.515Z</lastmod>
@@ -124,13 +138,6 @@
     <loc>https://shukangzhang.com/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi/</loc>
     
     <lastmod>2020-06-20T08:52:37.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shukangzhang.com/about/index.html</loc>
-    
-    <lastmod>2020-06-18T12:44:26.000Z</lastmod>
     
   </url>
   
