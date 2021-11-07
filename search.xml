@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>聊聊我看过的金庸武侠小说</title>
+    <url>/liao-liao-wo-kan-guo-de-jin-yong-wu-xia-xiao-shuo/</url>
+    <content><![CDATA[<p>最近</p>
+<a id="more"></a><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <tags>
+        <tag>个人心情</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>无力</title>
     <url>/wu-li/</url>
     <content><![CDATA[<p>今日好友推荐一书，曰「一课经济学」，不知为何，竟勾不起我阅读的兴致，非书名不够诱人耳，亦非质疑好友之判断。因其之前推荐之书目均为上上成，在我这里其实信誉极佳。日内三次念及此事，却都一闪而过，深夜再度想起，才若有所思。</p>
@@ -30,8 +57,8 @@
           });
       </script>]]></content>
       <tags>
-        <tag>个人心情</tag>
         <tag>文言写作尝试</tag>
+        <tag>个人心情</tag>
       </tags>
   </entry>
   <entry>
@@ -100,11 +127,13 @@
   <entry>
     <title>母音无声化？浅谈日语学习中借鉴来的经验</title>
     <url>/mu-yin-wu-sheng-hua/</url>
-    <content><![CDATA[<p>最近在重新开始好好学日语，发现语言的演变有惊人的相似性，都是趋向于越来越简单，越来越好念。好坏我无从判断，但是给语言学习者带来了很大的便利！<br><a id="more"></a><br>比如：</p>
+    <content><![CDATA[<p>最近在重新开始好好学日语，发现语言的演变有惊人的相似性，都是趋向于越来越简单，越来越好念。好坏我无从判断，但是给语言学习者带来了很大的便利！</p>
+<a id="more"></a>
+<p>比如：</p>
 <p>日语的「が」在单字第二个音以后的很多情况下要发鼻浊音，浊音本来就很难发，要震动喉咙，鼻浊音就更不好发，不过事实是虽然东京标准语还会发鼻浊音（这里包括了电台，广播，汽车地铁的报站），但是现在的日本年轻人越来越少的使用鼻浊音，所以sensei们虽然出于教学必须还得这么教，但是也明确的说了，你们完全可以不发，これは素晴らしいですね！</p>
 <p>同样的现象也发生在了德语里，那就是小舌音「r」，我发不出来，刚开始学德语的时候又没有用心去学，后来就直接放弃学小舌音了，再后来得知居然德国很多年轻人也发不出小舌音r，所以同鼻浊音「が」一样，小舌音也成了非必须学习项，super！</p>
 <p>虽然我生活的时代让我有诸多的不满，但是至少这两点是属于我这个时代往后才有的福利。</p>
-<p>回到主题，母音无声化<br><img src="日语母音无声化.png" alt="何博士50音教学篇hobi.tw"><br>日语这里其实并不是完全的无声，而是要念的特别快特别轻，图片里的第一个例子きし，kishi，至少k的音保留下来了，念kshi就好。<br>对应的德语里的例子就是ein的各种词尾变形，我还记得差不多5年前年幼无知的我刚开始跟德国人一起做实验，在一个WhatsApp群组里，德国人各种简写聊天语看的我一愣一愣的，只好问他们，ne，nen是什么意思，哦，然后才知道，是eine和einen的缩写，而且后来发现，不只是缩写哦，念出来的时候真的就是念ne和nen，而不是念eine，einen，整句中也会有加一瞥的写法，’ne/‘nen。这还只是一部分省略。<br>再看最近youtube老是推给我的ebay的广告，kannst du haben完全念成了kanns haben，而且念的极快，我一开始完全听不懂在讲什么，听了好多遍才敢确定是kannst du haben. 我马上就想到母音无声化这个概念，但是学德语的时候并没有听过这个概念，我就想这里是不是跟日语的母音无声化是一样的现象呢？</p>
+<p>回到主题，母音无声化<br><img src="%E6%97%A5%E8%AF%AD%E6%AF%8D%E9%9F%B3%E6%97%A0%E5%A3%B0%E5%8C%96.png" alt="何博士50音教学篇hobi.tw"><br>日语这里其实并不是完全的无声，而是要念的特别快特别轻，图片里的第一个例子きし，kishi，至少k的音保留下来了，念kshi就好。<br>对应的德语里的例子就是ein的各种词尾变形，我还记得差不多5年前年幼无知的我刚开始跟德国人一起做实验，在一个WhatsApp群组里，德国人各种简写聊天语看的我一愣一愣的，只好问他们，ne，nen是什么意思，哦，然后才知道，是eine和einen的缩写，而且后来发现，不只是缩写哦，念出来的时候真的就是念ne和nen，而不是念eine，einen，整句中也会有加一瞥的写法，’ne/‘nen。这还只是一部分省略。<br>再看最近youtube老是推给我的ebay的广告，kannst du haben完全念成了kanns haben，而且念的极快，我一开始完全听不懂在讲什么，听了好多遍才敢确定是kannst du haben. 我马上就想到母音无声化这个概念，但是学德语的时候并没有听过这个概念，我就想这里是不是跟日语的母音无声化是一样的现象呢？</p>
 <p>如果谁有经验，欢迎在下面留言讨论，谢谢~</p>
 <p>另外还有个小Tipp，也要感谢何博士，以前我都没思考过：不管是学什么语言，发音一定要标准！因为发音直接影响到你的听力！你念的如果跟磁带发音一样，你的听力就会很好，因为你听到的就是你平时念的样子啊！</p>
 <script>
@@ -204,146 +233,142 @@
 <li>ZetaSizer Nano ZS</li>
 </ol>
 <h1 id="Zusammenfassung"><a href="#Zusammenfassung" class="headerlink" title="Zusammenfassung"></a>Zusammenfassung</h1><p>Nanobubble非常稳定，而且NBs的存在会非常明显的提高Microbubble的附着能力，在flotation中很值得一用！</p>
-<h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><div class="table-container">
-<table>
+<h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><table>
 <thead>
 <tr>
-<th style="text-align:right">Vokabeln</th>
-<th style="text-align:left">Übersetzung</th>
+<th align="right">Vokabeln</th>
+<th align="left">Übersetzung</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td style="text-align:right">dramatically</td>
-<td style="text-align:left">引人注目地</td>
+<tbody><tr>
+<td align="right">dramatically</td>
+<td align="left">引人注目地</td>
 </tr>
 <tr>
-<td style="text-align:right">notably</td>
-<td style="text-align:left">显著地</td>
+<td align="right">notably</td>
+<td align="left">显著地</td>
 </tr>
 <tr>
-<td style="text-align:right">sustainable</td>
-<td style="text-align:left">可持续的；不破坏生态的</td>
+<td align="right">sustainable</td>
+<td align="left">可持续的；不破坏生态的</td>
 </tr>
 <tr>
-<td style="text-align:right">immerse</td>
-<td style="text-align:left">沉浸于</td>
+<td align="right">immerse</td>
+<td align="left">沉浸于</td>
 </tr>
 <tr>
-<td style="text-align:right">aqueous</td>
-<td style="text-align:left">水态的</td>
+<td align="right">aqueous</td>
+<td align="left">水态的</td>
 </tr>
 <tr>
-<td style="text-align:right">gaseous</td>
-<td style="text-align:left">气态的</td>
+<td align="right">gaseous</td>
+<td align="left">气态的</td>
 </tr>
 <tr>
-<td style="text-align:right">submerge</td>
-<td style="text-align:left">完全掩盖</td>
+<td align="right">submerge</td>
+<td align="left">完全掩盖</td>
 </tr>
 <tr>
-<td style="text-align:right">affinity</td>
-<td style="text-align:left">吸引力</td>
+<td align="right">affinity</td>
+<td align="left">吸引力</td>
 </tr>
 <tr>
-<td style="text-align:right">void</td>
-<td style="text-align:left">空间</td>
+<td align="right">void</td>
+<td align="left">空间</td>
 </tr>
 <tr>
-<td style="text-align:right">readily</td>
-<td style="text-align:left">容易地</td>
+<td align="right">readily</td>
+<td align="left">容易地</td>
 </tr>
 <tr>
-<td style="text-align:right">joint</td>
-<td style="text-align:left">连接</td>
+<td align="right">joint</td>
+<td align="left">连接</td>
 </tr>
 <tr>
-<td style="text-align:right">circumstance</td>
-<td style="text-align:left">环境</td>
+<td align="right">circumstance</td>
+<td align="left">环境</td>
 </tr>
 <tr>
-<td style="text-align:right">presumably</td>
-<td style="text-align:left">据推测</td>
+<td align="right">presumably</td>
+<td align="left">据推测</td>
 </tr>
 <tr>
-<td style="text-align:right">Deionized(DI) water</td>
-<td style="text-align:left">去离子水</td>
+<td align="right">Deionized(DI) water</td>
+<td align="left">去离子水</td>
 </tr>
 <tr>
-<td style="text-align:right">tap water</td>
-<td style="text-align:left">自来水</td>
+<td align="right">tap water</td>
+<td align="left">自来水</td>
 </tr>
 <tr>
-<td style="text-align:right">resin</td>
-<td style="text-align:left">树脂</td>
+<td align="right">resin</td>
+<td align="left">树脂</td>
 </tr>
 <tr>
-<td style="text-align:right">abundant</td>
-<td style="text-align:left">大量的，充足的</td>
+<td align="right">abundant</td>
+<td align="left">大量的，充足的</td>
 </tr>
 <tr>
-<td style="text-align:right">rinse</td>
-<td style="text-align:left">冲洗，漂洗</td>
+<td align="right">rinse</td>
+<td align="left">冲洗，漂洗</td>
 </tr>
 <tr>
-<td style="text-align:right">saline</td>
-<td style="text-align:left">含盐的</td>
+<td align="right">saline</td>
+<td align="left">含盐的</td>
 </tr>
 <tr>
-<td style="text-align:right">buoyancy</td>
-<td style="text-align:left">浮力</td>
+<td align="right">buoyancy</td>
+<td align="left">浮力</td>
 </tr>
 <tr>
-<td style="text-align:right">magnification</td>
-<td style="text-align:left">放大率</td>
+<td align="right">magnification</td>
+<td align="left">放大率</td>
 </tr>
 <tr>
-<td style="text-align:right">sterile syringe</td>
-<td style="text-align:left">无菌的 注射器</td>
+<td align="right">sterile syringe</td>
+<td align="left">无菌的 注射器</td>
 </tr>
 <tr>
-<td style="text-align:right">tip</td>
-<td style="text-align:left">尖端</td>
+<td align="right">tip</td>
+<td align="left">尖端</td>
 </tr>
 <tr>
-<td style="text-align:right">shutter</td>
-<td style="text-align:left">快门</td>
+<td align="right">shutter</td>
+<td align="left">快门</td>
 </tr>
 <tr>
-<td style="text-align:right">arithmetically</td>
-<td style="text-align:left">算术上的</td>
+<td align="right">arithmetically</td>
+<td align="left">算术上的</td>
 </tr>
 <tr>
-<td style="text-align:right">duplicate</td>
-<td style="text-align:left">两- （见下）</td>
+<td align="right">duplicate</td>
+<td align="left">两- （见下）</td>
 </tr>
 <tr>
-<td style="text-align:right">triplicate</td>
-<td style="text-align:left">三-（见下）</td>
+<td align="right">triplicate</td>
+<td align="left">三-（见下）</td>
 </tr>
 <tr>
-<td style="text-align:right">quadruplicates experiments</td>
-<td style="text-align:left">四组重复实验</td>
+<td align="right">quadruplicates experiments</td>
+<td align="left">四组重复实验</td>
 </tr>
 <tr>
-<td style="text-align:right">disposable</td>
-<td style="text-align:left">一次性的</td>
+<td align="right">disposable</td>
+<td align="left">一次性的</td>
 </tr>
 <tr>
-<td style="text-align:right">aforementioned</td>
-<td style="text-align:left">前面提到的</td>
+<td align="right">aforementioned</td>
+<td align="left">前面提到的</td>
 </tr>
 <tr>
-<td style="text-align:right">styrofoam</td>
-<td style="text-align:left">泡沫聚苯乙烯</td>
+<td align="right">styrofoam</td>
+<td align="left">泡沫聚苯乙烯</td>
 </tr>
 <tr>
-<td style="text-align:right">chronometer</td>
-<td style="text-align:left">精密计时器</td>
+<td align="right">chronometer</td>
+<td align="left">精密计时器</td>
 </tr>
-</tbody>
-</table>
-</div>
+</tbody></table>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1047,7 +1072,7 @@ st-&gt;op1(right)-&gt;op2(right)-&gt;op3(right)</textarea><textarea id="flowchar
     <title>lol冷知识</title>
     <url>/lol-leng-zhi-shi/</url>
     <content><![CDATA[<h1 id="Jax"><a href="#Jax" class="headerlink" title="Jax"></a>Jax</h1><p><img src="Jax.jpg" alt="Jax最爱吃鸡蛋，而且只吃恕瑞玛城市乌泽里斯流动市场的卖的那一种"></p>
-<h1 id="我参与举报被处理的账号数"><a href="#我参与举报被处理的账号数" class="headerlink" title="我参与举报被处理的账号数"></a>我参与举报被处理的账号数</h1><p>具体数量不记得了，从8开始算起吧<br><code>8</code><br>12.09.2020 +1</p>
+<h1 id="我参与举报被处理的账号数（EUW）"><a href="#我参与举报被处理的账号数（EUW）" class="headerlink" title="我参与举报被处理的账号数（EUW）"></a>我参与举报被处理的账号数（EUW）</h1><p>具体数量不记得了，从8开始算起吧<br><code>8</code><br>12.09.2020 +1<br>13.03.2021 +1<br>04.04.2021 +1<br><img src="lol+1_0.png" alt="+1"><br>20.04.2021 +1</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1136,8 +1161,8 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
           });
       </script>]]></content>
       <tags>
-        <tag>Comsol</tag>
         <tag>工程制图</tag>
+        <tag>Comsol</tag>
       </tags>
   </entry>
   <entry>
@@ -1184,8 +1209,8 @@ st-&gt;op3</textarea><textarea id="flowchart-1-options" style="display: none">{"
           });
       </script>]]></content>
       <tags>
-        <tag>工程制图</tag>
         <tag>Creo</tag>
+        <tag>工程制图</tag>
       </tags>
   </entry>
   <entry>
@@ -1502,11 +1527,13 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
     <url>/hexo-bi-ji/</url>
     <content><![CDATA[<p>本文对用Hexo进行创作过程中遇到的问题进行汇总，纯新手向</p>
 <a id="more"></a>
+
 <h1 id="添加整段代码块"><a href="#添加整段代码块" class="headerlink" title="添加整段代码块"></a>添加整段代码块</h1><ol>
 <li><p>单行代码，可以在文章任意位置插入，用``两个斜单引号包含语句，像这样：<br><code>$ npm install</code></p>
 </li>
 <li><p>整段用</p>
 <figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">···[相应的语言][title][url][url text]</span><br><span class="line">xxx</span><br><span class="line">···</span><br></pre></td></tr></tbody></table></figure>
+
 </li>
 </ol>
 <p>包裹住，我实在不会输出连续的三个反引号，只好这样打出来。。。TaT</p>
@@ -1514,17 +1541,23 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-0-options" style="display
 <p>参考<a href="http://yearito.cn/posts/hexo-writing-skills.html">代码块进阶用法</a></p>
 </blockquote>
 <h1 id="插入图片测试"><a href="#插入图片测试" class="headerlink" title="插入图片测试"></a>插入图片测试</h1><p><img src="/images/1.jpg" alt=""></p>
-<p>如果希望图片在文章和首页中同时显示，可以使用标签插件语法。<br></p><figure class="highlight html"><figcaption><span>_posts/post_name/image.jpg</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">{% asset_img 1.jpg This is an image %}</span><br></pre></td></tr></tbody></table></figure><p></p>
-<p>HTML语法引用<br></p><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">&lt;img src="xxx.png" width="50%" height="50%" title="xxx" alt="xxx"/&gt;</span><br></pre></td></tr></tbody></table></figure><p></p>
+<p>如果希望图片在文章和首页中同时显示，可以使用标签插件语法。</p>
+<figure class="highlight html"><figcaption><span>_posts/post_name/image.jpg</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">{% asset_img 1.jpg This is an image %}</span><br></pre></td></tr></tbody></table></figure>
+
+<p>HTML语法引用</p>
+<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">&lt;img src="xxx.png" width="50%" height="50%" title="xxx" alt="xxx"/&gt;</span><br></pre></td></tr></tbody></table></figure>
+
 <blockquote>
 <p>参考：</p>
+</blockquote>
 <ol>
 <li><a href="https://yanyinhong.github.io/2017/05/02/How-to-insert-image-in-hexo-post/">Hexo博客搭建之在文章中插入图片</a></li>
 <li><a href="http://yearito.cn/posts/hexo-writing-skills.html#%E4%BB%A3%E7%A0%81%E5%9D%97%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95">Hexo文章中插入图片的方法</a></li>
 <li><a href="https://fuhailin.github.io/Hexo-images/">在Hexo博客中插入图片的各种方式</a></li>
 </ol>
-</blockquote>
-<h1 id="更新core-js"><a href="#更新core-js" class="headerlink" title="更新core-js"></a>更新core-js</h1><p>您可以通过运行以下命令来更新core-js：<br></p><figure class="highlight bash"><figcaption><span>core-js@3</span><a href="https://mlog.club/article/2240076">引用</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">npm install --save core-js@3</span><br></pre></td></tr></tbody></table></figure><p></p>
+<h1 id="更新core-js"><a href="#更新core-js" class="headerlink" title="更新core-js"></a>更新core-js</h1><p>您可以通过运行以下命令来更新core-js：</p>
+<figure class="highlight bash"><figcaption><span>core-js@3</span><a href="https://mlog.club/article/2240076">引用</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">npm install --save core-js@3</span><br></pre></td></tr></tbody></table></figure>
+
 <h1 id="文内跳转（定义一个锚点和锚点目标）"><a href="#文内跳转（定义一个锚点和锚点目标）" class="headerlink" title="文内跳转（定义一个锚点和锚点目标）"></a>文内跳转（定义一个锚点和锚点目标）</h1><ol>
 <li>定义一个锚点<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">[点击时别人看到的内容](#锚点id(可以任意起，比如1，2，3))</span><br><span class="line">示例：[点击跳转](#1)</span><br></pre></td></tr></tbody></table></figure></li>
 <li>定义一个锚点目标（通过制作html标签实现）<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">&lt;a name="锚点id(可以任意起，比如1，2，3)"&gt;跳转到我这里（此处为跳转到的地方显示的内容，id必须要有，内容可以没有）&lt;/a&gt;</span><br><span class="line">示例：&lt;a name="1"&gt; &lt;/a&gt;</span><br></pre></td></tr></tbody></table></figure>
