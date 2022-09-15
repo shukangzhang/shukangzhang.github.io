@@ -165,13 +165,33 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">Um..! 2 posts in total. Keep on posting.</span>
+        <span class="collection-header">Um..! 18 posts in total. Keep on posting.</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2020</span>
     </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-07-28T01:28:53+02:00"
+              content="2020-07-28">
+          07-28
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/si-chu-tou-lai-de-zhi-yan-pian-yu.html" itemprop="url">
+            <span itemprop="name">四处偷来的只言片语</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -187,6 +207,46 @@
       <div class="post-title">
           <a class="post-title-link" href="/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze.html" itemprop="url">
             <span itemprop="name">浅谈自己的购车经历以及机油的选择</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-07-23T14:27:25+02:00"
+              content="2020-07-23">
+          07-23
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/yi-ge-nan-ren-de-zhi-yan-pian-yu.html" itemprop="url">
+            <span itemprop="name">一个男人的只言片语</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-07-05T02:14:00+02:00"
+              content="2020-07-05">
+          07-05
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/starccm.html" itemprop="url">
+            <span itemprop="name">star ccm+学习笔记</span>
           </a>
       </div>
 
@@ -265,12 +325,16 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">18</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">categories</span>
+      </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">22</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
@@ -349,6 +413,26 @@
 
 
 
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  let url = element.dataset.target;
+  let pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
 
 
 
