@@ -1,181 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>读后总结: Aqueous dispersion of nanobubbles: Generation, properties and features</title>
-    <url>/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie.html</url>
-    <content><![CDATA[<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><ul>
-<li>Nanobubbles: high stability, longevity and high surface area per volume，rapid attachment to hydrophobic surfaces</li>
-<li>150-200nm (mean diameter) NBs and MBs-microbubbles (about 70μm)</li>
-<li>The NBs mean diameter and concentration only slightly varied within 14 days.</li>
-<li>After the NBs were attached to the surface of a gain of <a href="#1">pyrite</a>, the NBs dramatically increased the population of MBs, which shows the enhancement of particle hydrophobicity due to NBs adhesion. 这里的描述有点像另一篇文献（Role of hydrodynamic cavitation in fine particle flotation）里的第二种气泡附着机理。<img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/schematic_illustration.png" alt="Schematic illustration of possible roles of hydrodynamic cavitation in fine particle flotation"></li>
-<li>Experimental evidence of NBs was provided by Miller et al. (1999), who used <a href="#2">RTIR</a> spectroscopy to incestigate the n-butane-saturated water at a hydrophobic silicon solid. </li>
-<li>此文章中对NB的定义超过了100nm，<code>ten to hundreds of nanometers in radius</code></li>
-<li><a href="#3">AFM</a> images revealed that they form spherical caps, but the precise shape of the NBs remains unclear</li>
-<li><code>bulk NBs</code>到底什么意思？？？</li>
-<li><a href="#4">DI water</a> at 23℃±1: $3μS*cm^(-1)$ conductivity, $72.5±0.1mN*m^(-1)$ surface tension, natural equilibrium pH of 5.5<span id="more"></span></li>
-</ul>
-<h1 id="Chemikalien"><a href="#Chemikalien" class="headerlink" title="Chemikalien"></a>Chemikalien</h1><ol>
-<li><a href="https://de.wikipedia.org/wiki/Methylenblau">blue methylene dye</a> as the contrast medium|亚甲蓝<br><img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/Methylene_blue.svg" alt="Strukturformel von Methylenblau"></li>
-<li><a href="https://en.wikipedia.org/wiki/Terpineol">α-Terpinol</a>|松油醇<br><img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/Terpineols.png" alt="α-, β-, γ-, 4-Terpinol"><br>(Hao的实验里用的是pine ole&#x2F;Pineöl，需要思考两种起泡剂的区别)</li>
-<li></li>
-</ol>
-<h1 id="Minerals"><a href="#Minerals" class="headerlink" title="Minerals"></a>Minerals</h1><ol>
-<li><a href="https://de.wikipedia.org/wiki/Pyrit">pyrite</a>(fairly hydrophobic mineral)|<a name="1"></a>黄铁矿</li>
-<li></li>
-</ol>
-<h1 id="Messtechnik-used-in-this-article"><a href="#Messtechnik-used-in-this-article" class="headerlink" title="Messtechnik used in this article"></a>Messtechnik used in this article</h1><ol>
-<li><a name="2"></a>Fourier transform infrared(FTIR)</li>
-<li><a name="3"></a>Atomic Force Microscope(AFM)</li>
-<li>Light scatting</li>
-<li>resonant mass mearsurement</li>
-<li>ZetaSizer Nano instrument, which uses Laser Doppler Micro-electrophoresis</li>
-<li>Nanoparticle-tracking analysis: NTA</li>
-<li>ZetaSizer Nano ZS</li>
-</ol>
-<h1 id="Zusammenfassung"><a href="#Zusammenfassung" class="headerlink" title="Zusammenfassung"></a>Zusammenfassung</h1><p>Nanobubble非常稳定，而且NBs的存在会非常明显的提高Microbubble的附着能力，在flotation中很值得一用！</p>
-<h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><table>
-<thead>
-<tr>
-<th align="right">Vokabeln</th>
-<th align="left">Übersetzung</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="right">dramatically</td>
-<td align="left">引人注目地</td>
-</tr>
-<tr>
-<td align="right">notably</td>
-<td align="left">显著地</td>
-</tr>
-<tr>
-<td align="right">sustainable</td>
-<td align="left">可持续的；不破坏生态的</td>
-</tr>
-<tr>
-<td align="right">immerse</td>
-<td align="left">沉浸于</td>
-</tr>
-<tr>
-<td align="right">aqueous</td>
-<td align="left">水态的</td>
-</tr>
-<tr>
-<td align="right">gaseous</td>
-<td align="left">气态的</td>
-</tr>
-<tr>
-<td align="right">submerge</td>
-<td align="left">完全掩盖</td>
-</tr>
-<tr>
-<td align="right">affinity</td>
-<td align="left">吸引力</td>
-</tr>
-<tr>
-<td align="right">void</td>
-<td align="left">空间</td>
-</tr>
-<tr>
-<td align="right">readily</td>
-<td align="left">容易地</td>
-</tr>
-<tr>
-<td align="right">joint</td>
-<td align="left">连接</td>
-</tr>
-<tr>
-<td align="right">circumstance</td>
-<td align="left">环境</td>
-</tr>
-<tr>
-<td align="right">presumably</td>
-<td align="left">据推测</td>
-</tr>
-<tr>
-<td align="right">Deionized(DI) water</td>
-<td align="left">去离子水</td>
-</tr>
-<tr>
-<td align="right">tap water</td>
-<td align="left">自来水</td>
-</tr>
-<tr>
-<td align="right">resin</td>
-<td align="left">树脂</td>
-</tr>
-<tr>
-<td align="right">abundant</td>
-<td align="left">大量的，充足的</td>
-</tr>
-<tr>
-<td align="right">rinse</td>
-<td align="left">冲洗，漂洗</td>
-</tr>
-<tr>
-<td align="right">saline</td>
-<td align="left">含盐的</td>
-</tr>
-<tr>
-<td align="right">buoyancy</td>
-<td align="left">浮力</td>
-</tr>
-<tr>
-<td align="right">magnification</td>
-<td align="left">放大率</td>
-</tr>
-<tr>
-<td align="right">sterile syringe</td>
-<td align="left">无菌的 注射器</td>
-</tr>
-<tr>
-<td align="right">tip</td>
-<td align="left">尖端</td>
-</tr>
-<tr>
-<td align="right">shutter</td>
-<td align="left">快门</td>
-</tr>
-<tr>
-<td align="right">arithmetically</td>
-<td align="left">算术上的</td>
-</tr>
-<tr>
-<td align="right">duplicate</td>
-<td align="left">两- （见下）</td>
-</tr>
-<tr>
-<td align="right">triplicate</td>
-<td align="left">三-（见下）</td>
-</tr>
-<tr>
-<td align="right">quadruplicates experiments</td>
-<td align="left">四组重复实验</td>
-</tr>
-<tr>
-<td align="right">disposable</td>
-<td align="left">一次性的</td>
-</tr>
-<tr>
-<td align="right">aforementioned</td>
-<td align="left">前面提到的</td>
-</tr>
-<tr>
-<td align="right">styrofoam</td>
-<td align="left">泡沫聚苯乙烯</td>
-</tr>
-<tr>
-<td align="right">chronometer</td>
-<td align="left">精密计时器</td>
-</tr>
-</tbody></table>
-]]></content>
-      <tags>
-        <tag>Literaturen</tag>
-        <tag>Masterarbeit</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Anwendungen nanoskaliger Pulver Zusammenfassungen</title>
     <url>/anwendung-nanoskaliger-pulver-zusammenfassungen.html</url>
     <content><![CDATA[<h1 id="Einfuhrung"><a href="#Einfuhrung" class="headerlink" title="Einführung"></a>Einführung</h1><ol>
@@ -662,6 +487,181 @@
       </tags>
   </entry>
   <entry>
+    <title>读后总结: Aqueous dispersion of nanobubbles: Generation, properties and features</title>
+    <url>/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie.html</url>
+    <content><![CDATA[<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><ul>
+<li>Nanobubbles: high stability, longevity and high surface area per volume，rapid attachment to hydrophobic surfaces</li>
+<li>150-200nm (mean diameter) NBs and MBs-microbubbles (about 70μm)</li>
+<li>The NBs mean diameter and concentration only slightly varied within 14 days.</li>
+<li>After the NBs were attached to the surface of a gain of <a href="#1">pyrite</a>, the NBs dramatically increased the population of MBs, which shows the enhancement of particle hydrophobicity due to NBs adhesion. 这里的描述有点像另一篇文献（Role of hydrodynamic cavitation in fine particle flotation）里的第二种气泡附着机理。<img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/schematic_illustration.png" alt="Schematic illustration of possible roles of hydrodynamic cavitation in fine particle flotation"></li>
+<li>Experimental evidence of NBs was provided by Miller et al. (1999), who used <a href="#2">RTIR</a> spectroscopy to incestigate the n-butane-saturated water at a hydrophobic silicon solid. </li>
+<li>此文章中对NB的定义超过了100nm，<code>ten to hundreds of nanometers in radius</code></li>
+<li><a href="#3">AFM</a> images revealed that they form spherical caps, but the precise shape of the NBs remains unclear</li>
+<li><code>bulk NBs</code>到底什么意思？？？</li>
+<li><a href="#4">DI water</a> at 23℃±1: $3μS*cm^(-1)$ conductivity, $72.5±0.1mN*m^(-1)$ surface tension, natural equilibrium pH of 5.5<span id="more"></span></li>
+</ul>
+<h1 id="Chemikalien"><a href="#Chemikalien" class="headerlink" title="Chemikalien"></a>Chemikalien</h1><ol>
+<li><a href="https://de.wikipedia.org/wiki/Methylenblau">blue methylene dye</a> as the contrast medium|亚甲蓝<br><img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/Methylene_blue.svg" alt="Strukturformel von Methylenblau"></li>
+<li><a href="https://en.wikipedia.org/wiki/Terpineol">α-Terpinol</a>|松油醇<br><img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/Terpineols.png" alt="α-, β-, γ-, 4-Terpinol"><br>(Hao的实验里用的是pine ole&#x2F;Pineöl，需要思考两种起泡剂的区别)</li>
+<li></li>
+</ol>
+<h1 id="Minerals"><a href="#Minerals" class="headerlink" title="Minerals"></a>Minerals</h1><ol>
+<li><a href="https://de.wikipedia.org/wiki/Pyrit">pyrite</a>(fairly hydrophobic mineral)|<a name="1"></a>黄铁矿</li>
+<li></li>
+</ol>
+<h1 id="Messtechnik-used-in-this-article"><a href="#Messtechnik-used-in-this-article" class="headerlink" title="Messtechnik used in this article"></a>Messtechnik used in this article</h1><ol>
+<li><a name="2"></a>Fourier transform infrared(FTIR)</li>
+<li><a name="3"></a>Atomic Force Microscope(AFM)</li>
+<li>Light scatting</li>
+<li>resonant mass mearsurement</li>
+<li>ZetaSizer Nano instrument, which uses Laser Doppler Micro-electrophoresis</li>
+<li>Nanoparticle-tracking analysis: NTA</li>
+<li>ZetaSizer Nano ZS</li>
+</ol>
+<h1 id="Zusammenfassung"><a href="#Zusammenfassung" class="headerlink" title="Zusammenfassung"></a>Zusammenfassung</h1><p>Nanobubble非常稳定，而且NBs的存在会非常明显的提高Microbubble的附着能力，在flotation中很值得一用！</p>
+<h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><table>
+<thead>
+<tr>
+<th align="right">Vokabeln</th>
+<th align="left">Übersetzung</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="right">dramatically</td>
+<td align="left">引人注目地</td>
+</tr>
+<tr>
+<td align="right">notably</td>
+<td align="left">显著地</td>
+</tr>
+<tr>
+<td align="right">sustainable</td>
+<td align="left">可持续的；不破坏生态的</td>
+</tr>
+<tr>
+<td align="right">immerse</td>
+<td align="left">沉浸于</td>
+</tr>
+<tr>
+<td align="right">aqueous</td>
+<td align="left">水态的</td>
+</tr>
+<tr>
+<td align="right">gaseous</td>
+<td align="left">气态的</td>
+</tr>
+<tr>
+<td align="right">submerge</td>
+<td align="left">完全掩盖</td>
+</tr>
+<tr>
+<td align="right">affinity</td>
+<td align="left">吸引力</td>
+</tr>
+<tr>
+<td align="right">void</td>
+<td align="left">空间</td>
+</tr>
+<tr>
+<td align="right">readily</td>
+<td align="left">容易地</td>
+</tr>
+<tr>
+<td align="right">joint</td>
+<td align="left">连接</td>
+</tr>
+<tr>
+<td align="right">circumstance</td>
+<td align="left">环境</td>
+</tr>
+<tr>
+<td align="right">presumably</td>
+<td align="left">据推测</td>
+</tr>
+<tr>
+<td align="right">Deionized(DI) water</td>
+<td align="left">去离子水</td>
+</tr>
+<tr>
+<td align="right">tap water</td>
+<td align="left">自来水</td>
+</tr>
+<tr>
+<td align="right">resin</td>
+<td align="left">树脂</td>
+</tr>
+<tr>
+<td align="right">abundant</td>
+<td align="left">大量的，充足的</td>
+</tr>
+<tr>
+<td align="right">rinse</td>
+<td align="left">冲洗，漂洗</td>
+</tr>
+<tr>
+<td align="right">saline</td>
+<td align="left">含盐的</td>
+</tr>
+<tr>
+<td align="right">buoyancy</td>
+<td align="left">浮力</td>
+</tr>
+<tr>
+<td align="right">magnification</td>
+<td align="left">放大率</td>
+</tr>
+<tr>
+<td align="right">sterile syringe</td>
+<td align="left">无菌的 注射器</td>
+</tr>
+<tr>
+<td align="right">tip</td>
+<td align="left">尖端</td>
+</tr>
+<tr>
+<td align="right">shutter</td>
+<td align="left">快门</td>
+</tr>
+<tr>
+<td align="right">arithmetically</td>
+<td align="left">算术上的</td>
+</tr>
+<tr>
+<td align="right">duplicate</td>
+<td align="left">两- （见下）</td>
+</tr>
+<tr>
+<td align="right">triplicate</td>
+<td align="left">三-（见下）</td>
+</tr>
+<tr>
+<td align="right">quadruplicates experiments</td>
+<td align="left">四组重复实验</td>
+</tr>
+<tr>
+<td align="right">disposable</td>
+<td align="left">一次性的</td>
+</tr>
+<tr>
+<td align="right">aforementioned</td>
+<td align="left">前面提到的</td>
+</tr>
+<tr>
+<td align="right">styrofoam</td>
+<td align="left">泡沫聚苯乙烯</td>
+</tr>
+<tr>
+<td align="right">chronometer</td>
+<td align="left">精密计时器</td>
+</tr>
+</tbody></table>
+]]></content>
+      <tags>
+        <tag>Literaturen</tag>
+        <tag>Masterarbeit</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Comsol学习笔记</title>
     <url>/comsol-xue-xi-bi-ji.html</url>
     <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><img src="/comsol-xue-xi-bi-ji/wg0.png" class title="网格划分示例">
@@ -837,11 +837,6 @@
       </tags>
   </entry>
   <entry>
-    <title>古文</title>
-    <url>/gu-wen.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>四处偷来的只言片语</title>
     <url>/si-chu-tou-lai-de-zhi-yan-pian-yu.html</url>
     <content><![CDATA[<h1 id="星际牛仔Cowboy-Bebop-第23集"><a href="#星际牛仔Cowboy-Bebop-第23集" class="headerlink" title="星际牛仔Cowboy Bebop_第23集"></a>星际牛仔Cowboy Bebop_第23集</h1><p>你知道人类发明的最好和最差的东西是什么吗？<br>就是电视。<br>电视用信息来控制人类，让人类失去现实感，对，现在电视才是宗教。电视利用无聊的连续剧，制造出了一群容易轻信妄想的人。</p>
@@ -868,20 +863,9 @@
       </tags>
   </entry>
   <entry>
-    <title>无力</title>
-    <url>/wu-li.html</url>
-    <content><![CDATA[<p>今日好友推荐一书，曰「一课经济学」，不知为何，竟勾不起我阅读的兴致，非书名不够诱人耳，亦非质疑好友之判断。因其之前推荐之书目均为上上成，在我这里其实信誉极佳。日内三次念及此事，却都一闪而过，深夜再度想起，才若有所思。</p>
-<p>我于三四年前，因这位好友，有幸拜读了「中国巨债」一书，彼时甚至动了妄念，想连同「国富论」一并读了，终因各种繁杂琐事，以及此书让人望而生怯的厚度，只好作罢。这些年，见证了不少历史，我仅凭自己幼稚的见解，不断做出荒谬的判断，说得夸张一点，这要是在玩梭哈，当真输到裤衩都没了。现实的走向一再打破我的幻想，把我狠狠的摔在地上。我一脸的败相，从此闭嘴，俨然一个良民。</p>
-<p>唯一的收获却是伴随着刻骨的痛苦的，那就是对人性的了解，对世界运行原理的了解，以及对经济活动真相的了解。</p>
-<p>这些才是我此番不愿再读经济学书籍的原因。看得越多，懂得就越多，懂得越多，越发觉得无力，现实承载不了一个普通人的理想。</p>
-<p>真是应了王小波的一席话：</p>
-<p>「活下去的秘诀就是保持愚蠢，又不能知道自己有多蠢。」</p>
-<p>我心里是不甘的。</p>
-]]></content>
-      <tags>
-        <tag>个人心情</tag>
-        <tag>文言写作尝试</tag>
-      </tags>
+    <title>古文</title>
+    <url>/gu-wen.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>母音无声化？浅谈日语学习中借鉴来的经验</title>
@@ -899,6 +883,23 @@
       <tags>
         <tag>语言学习</tag>
         <tag>日本語</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无力</title>
+    <url>/wu-li.html</url>
+    <content><![CDATA[<p>今日好友推荐一书，曰「一课经济学」，不知为何，竟勾不起我阅读的兴致，非书名不够诱人耳，亦非质疑好友之判断。因其之前推荐之书目均为上上成，在我这里其实信誉极佳。日内三次念及此事，却都一闪而过，深夜再度想起，才若有所思。</p>
+<span id="more"></span>
+<p>我于三四年前，因这位好友，有幸拜读了「中国巨债」一书，彼时甚至动了妄念，想连同「国富论」一并读了，终因各种繁杂琐事，以及此书让人望而生怯的厚度，只好作罢。这些年，见证了不少历史，我仅凭自己幼稚的见解，不断做出荒谬的判断，说得夸张一点，这要是在玩梭哈，当真输到裤衩都没了。现实的走向一再打破我的幻想，把我狠狠的摔在地上。我一脸的败相，从此闭嘴，俨然一个良民。</p>
+<p>唯一的收获却是伴随着刻骨的痛苦的，那就是对人性的了解，对世界运行原理的了解，以及对经济活动真相的了解。</p>
+<p>这些才是我此番不愿再读经济学书籍的原因。看得越多，懂得就越多，懂得越多，越发觉得无力，现实承载不了一个普通人的理想。</p>
+<p>真是应了王小波的一席话：</p>
+<p>「活下去的秘诀就是保持愚蠢，又不能知道自己有多蠢。」</p>
+<p>我心里是不甘的。</p>
+]]></content>
+      <tags>
+        <tag>个人心情</tag>
+        <tag>文言写作尝试</tag>
       </tags>
   </entry>
   <entry>
@@ -932,20 +933,6 @@
       <tags>
         <tag>汽车</tag>
         <tag>Auto</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玄学背后的一点点剖析</title>
-    <url>/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi.html</url>
-    <content><![CDATA[<p>和室友讨论得来的一点点启发</p>
-<span id="more"></span>
-
-<p>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。<br>我是挺无语的。<br>我觉得这是对现在科学的侮辱。<br>因为他说的这种首先取样就不严谨:<br><em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
-<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算99.999%的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
-<p>我不理解为什么会有这么大的思维差异！</p>
-]]></content>
-      <tags>
-        <tag>privat</tag>
       </tags>
   </entry>
   <entry>
@@ -998,6 +985,20 @@
 <h1 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h1><p>因为要录入这篇文章，我顺便把qq空间里以前发表的其他文章都看了遍，真是羞耻啊，以前怎么这么暴躁，而且中二TaT，哭了，太羞耻了，这篇的后记算好的，我也就直接ctrl+c过来吧，省事。</p>
 <p>~~~~后话（录入者）~~~~<br>首先我想说，你们不要转载，乱传，因为不是我写的文章，喜欢看看就是了，我也喜欢，我花了很长时间才全部录入。<br>她说出了我很多想说的话，但我完全做不到像她这样娓娓道来，She expresses herself  transparently which I admire.<br>生活真的不应该是这样，但我相信时间会解决一切，但也不能坐等，就算只有自己也要推动一切！<br>耗这么长时间打这篇文章，真是暴露了我人性里的弱点，以手抚膺长谘嗟。。。<br>我突然想起梁朝伟饰演的陈永仁在无间道里说的：“没事，过了明天就好了。”<br>呵！<br>时间不早了，如果想到什么我再来补充吧。<br>High pleasure，intelligence，civilization！<br>A head for business，a head for world.<br>~~~~Liebe~~~~</p>
 <p>哎，还是觉得羞耻啊aaaaaaaaaaaa</p>
+]]></content>
+      <tags>
+        <tag>privat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玄学背后的一点点剖析</title>
+    <url>/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi.html</url>
+    <content><![CDATA[<p>和室友讨论得来的一点点启发</p>
+<span id="more"></span>
+
+<p>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。<br>我是挺无语的。<br>我觉得这是对现在科学的侮辱。<br>因为他说的这种首先取样就不严谨:<br><em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
+<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算99.999%的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
+<p>我不理解为什么会有这么大的思维差异！</p>
 ]]></content>
       <tags>
         <tag>privat</tag>
