@@ -548,7 +548,7 @@
 </ol>
 <p>26.07.2020小mini记录补充:<br>右后轮产生规律性噪音，每转一圈就“哗”的响一下，不能确定是哪里有剐蹭，高速上的稳定性感觉也没有以前好，怀疑是换夏胎的时候，轮子没有做四轮定位，装得不够好。</p>
 <h1 id="浅谈机油的选择5w30-oder-5w40"><a href="#浅谈机油的选择5w30-oder-5w40" class="headerlink" title="浅谈机油的选择5w30 oder 5w40"></a>浅谈机油的选择5w30 oder 5w40</h1><p>接上面第四点，，谈谈机油的问题，机油真的很重要，最近车开起来又觉得阻力有点大，松油门以后的顿挫感很强，尝试性的把剩下的300ml机油加进去，有明显的好转。然后算了一下，我这个车烧机油情况现在基本在<code>0.1L/100km</code>，说实话，还是有点多的，1000km就是1L啊。<br><img src="/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze/motor%C3%B6l0.jpg" alt="5w40目前在用"><br>因为月底要送室友去机场回国，来回600多km，打算买桶新机油备着，就有稍微查了查机油的一些问题：</p>
-<figure class="highlight text"><figcaption><span>5w30 oder 5w40?</span><a href="https://praxistipps.chip.de/5w30-oder-5w40-motoroel-das-sind-die-unterschiede_100140">link</a></figcaption><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">5w40 Öl ist zähflüssiger und hat eine stabilere Konsistenz. Diese Öl-Variante sorgt für weniger Verschleiß am Motor und hat generell eine höhere Betriebssicherheit.</span><br><span class="line">5W30 Motoröl ist dünnflüssiger und sorgt somit für einen geringeren Widerstand im Motor. Das spart Kraftstoff.</span><br><span class="line">Verbraucht Ihr Motor relativ viel Öl, sind Sie mit 5w40 Öl in der Regel besser bedient.</span><br><span class="line">Wird Ihr Auto nur wenig genutzt oder ist der Öl-Verschleiß gering, genügt auch 5W30 Öl.</span><br><span class="line">Welches Öl besser geeignet ist, hängt stets vom Auto ab. Fragen Sie am besten bei Ihrer Werkstatt nach.</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight text"><figcaption><span>5w30 oder 5w40?</span><a href="https://praxistipps.chip.de/5w30-oder-5w40-motoroel-das-sind-die-unterschiede_100140">link</a></figcaption><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">5w40 Öl ist zähflüssiger und hat eine stabilere Konsistenz. Diese Öl-Variante sorgt für weniger Verschleiß am Motor und hat generell eine höhere Betriebssicherheit.</span><br><span class="line">5W30 Motoröl ist dünnflüssiger und sorgt somit für einen geringeren Widerstand im Motor. Das spart Kraftstoff.  </span><br><span class="line">Verbraucht Ihr Motor relativ viel Öl, sind Sie mit 5w40 Öl in der Regel besser bedient.  </span><br><span class="line">Wird Ihr Auto nur wenig genutzt oder ist der Öl-Verschleiß gering, genügt auch 5W30 Öl.  </span><br><span class="line">Welches Öl besser geeignet ist, hängt stets vom Auto ab. Fragen Sie am besten bei Ihrer Werkstatt nach.  </span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>大意就是说5w40比较稠，性质也更稳定，发动机磨损会更少，适合机油消耗量大的发动机；而5w30油膜比较薄，发动机阻力会比较小，节省燃料。<br>这里还要提一嘴，由于技术进步，发动机零件之间的配合度越来越高就不再适合使用粘稠的厚油膜机油了，反而需要使用低Viskosität的薄油膜机油，比如AHW7118官方建议0W-20的机油。</p>
 <blockquote>
 <p>参考: <a href="https://praxistipps.chip.de/5w30-oder-5w40-motoroel-das-sind-die-unterschiede_100140">5w30 oder 5w40 Motoröl: Das sind die Unterschiede</a></p>
@@ -565,6 +565,7 @@
 <li>“刹车盘&#x2F;片，电池，alle Flüssigkeit换新,刹车系统检查”</li>
 <li>机油使用0W-20</li>
 </ul>
+<h1 id="2024-01-22-换上了Mazda-3-Skyactive-X-Mild-Hybrid"><a href="#2024-01-22-换上了Mazda-3-Skyactive-X-Mild-Hybrid" class="headerlink" title="2024.01.22 换上了Mazda 3 Skyactive-X Mild Hybrid"></a>2024.01.22 换上了Mazda 3 Skyactive-X Mild Hybrid</h1><p>算是捡漏了，车身有小剐蹭，驾驶员后视镜开关偶尔会出问题，车顶有不少冰雹砸的小坑，其他目前很满意，就是Service太贵了，700，下次不去山下做了！</p>
 ]]></content>
       <tags>
         <tag>汽车</tag>
@@ -1058,23 +1059,5 @@
       <tags>
         <tag>原创</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>test-en</title>
-    <url>/en/index.html</url>
-    <content><![CDATA[<p>en</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>test-de</title>
-    <url>/de/index.html</url>
-    <content><![CDATA[<p>de</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>test-zh-cn</title>
-    <url>/zh-cn/index.html</url>
-    <content><![CDATA[<p>xxx</p>
-]]></content>
   </entry>
 </search>
