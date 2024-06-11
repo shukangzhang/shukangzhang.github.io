@@ -600,6 +600,44 @@
       </tags>
   </entry>
   <entry>
+    <title>Comsol学习笔记</title>
+    <url>/comsol-xue-xi-bi-ji.html</url>
+    <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><img src="/comsol-xue-xi-bi-ji/wg0.png" class title="网格划分示例">
+<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格</p>
+<blockquote>
+<p>参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn">建模流程概述</a></p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><p>切除，并集等操作在布尔运算选项下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: 构建体素对象</span><br><span class="line">e=&gt;end: 例如布尔运算</span><br><span class="line">op1=&gt;operation: 参数化编辑</span><br><span class="line">op2=&gt;operation: 完成设置后执行几何操作</span><br><span class="line"></span><br><span class="line">st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</span><br></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Copy操作可以复制二维图形</span><br><span class="line">Move操作可以复制几何体</span><br><span class="line">工作平面（Work plane)用以几何分割操作，可以简化模型，改进网格剖分</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="浅谈Comsol建模对比Creo建模"><a href="#浅谈Comsol建模对比Creo建模" class="headerlink" title="浅谈Comsol建模对比Creo建模"></a>浅谈Comsol建模对比Creo建模</h1><figure class="highlight text"><figcaption><span>经验尚浅，只能浅谈</span></figcaption><table><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></table></figure>
+
+<h1 id="CFD流体模拟总结"><a href="#CFD流体模拟总结" class="headerlink" title="CFD流体模拟总结"></a>CFD流体模拟总结</h1><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></table></figure>
+
+<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><p>曲率因子：边界单元尺寸和几何边界曲率之比<br>非结构化网格：一个点可以被任意数量的网格共用</p>
+<h1 id="Funtionsmodell"><a href="#Funtionsmodell" class="headerlink" title="Funtionsmodell"></a>Funtionsmodell</h1><p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im Rohr als laminare Strömung betrachtet werden. Dann ist die Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial homogene Tempeaturverteilung ist nämlich unmöglich.</p>
+<ol>
+<li>Um ein radial homogene Tempeaturverteilung zu bekommen, braucht eine turbulente Strömung<br>Dann haben wir 2 Auswahl:</li>
+</ol>
+<ul>
+<li>nicht-metalisch äußere Hülle + metalisch innere Struktur</li>
+<li>metalisch äußere Hülle + metalisch innere Struktur<br>Metalisch äußere Hülle hat hier zu gut Wärmeleitfähigkeit, führt durch natürliche Konvektion zu Kühlung.<br>Deswegen empfehle ich nicht-metalisch äußere Hülle + metalisch innere Struktur<br>Äußere Hülle soll ein schlechte Wärmeleitfähigkeit haben.</li>
+</ul>
+<p>Die Messung von Tempertaur –&gt; Berührungslos messende Thermometer?</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: Elektromagnetische Induktion</span><br><span class="line">op1=&gt;operation: nur metalisch äußere Hülle</span><br><span class="line">op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op4=&gt;operation:</span><br><span class="line"></span><br><span class="line">st-&gt;op1</span><br><span class="line">st-&gt;op2</span><br><span class="line">st-&gt;op3</span><br></pre></td></tr></table></figure>
+
+<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht. Dann ist ohne innere Struktur ein</p>
+]]></content>
+      <tags>
+        <tag>Comsol</tag>
+        <tag>工程制图</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Charaterisierung von Nanopartikeln</title>
     <url>/charaterisierung-von-nanopartikeln.html</url>
     <content><![CDATA[<h1 id="Einleitung"><a href="#Einleitung" class="headerlink" title="Einleitung"></a>Einleitung</h1><span id="more"></span>
@@ -662,44 +700,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Comsol学习笔记</title>
-    <url>/comsol-xue-xi-bi-ji.html</url>
-    <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><img src="/comsol-xue-xi-bi-ji/wg0.png" class title="网格划分示例">
-<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格</p>
-<blockquote>
-<p>参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn">建模流程概述</a></p>
-</blockquote>
-<span id="more"></span>
-
-<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><p>切除，并集等操作在布尔运算选项下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: 构建体素对象</span><br><span class="line">e=&gt;end: 例如布尔运算</span><br><span class="line">op1=&gt;operation: 参数化编辑</span><br><span class="line">op2=&gt;operation: 完成设置后执行几何操作</span><br><span class="line"></span><br><span class="line">st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</span><br></pre></td></tr></table></figure>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Copy操作可以复制二维图形</span><br><span class="line">Move操作可以复制几何体</span><br><span class="line">工作平面（Work plane)用以几何分割操作，可以简化模型，改进网格剖分</span><br></pre></td></tr></table></figure>
-
-
-<h1 id="浅谈Comsol建模对比Creo建模"><a href="#浅谈Comsol建模对比Creo建模" class="headerlink" title="浅谈Comsol建模对比Creo建模"></a>浅谈Comsol建模对比Creo建模</h1><figure class="highlight text"><figcaption><span>经验尚浅，只能浅谈</span></figcaption><table><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></table></figure>
-
-<h1 id="CFD流体模拟总结"><a href="#CFD流体模拟总结" class="headerlink" title="CFD流体模拟总结"></a>CFD流体模拟总结</h1><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></table></figure>
-
-<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><p>曲率因子：边界单元尺寸和几何边界曲率之比<br>非结构化网格：一个点可以被任意数量的网格共用</p>
-<h1 id="Funtionsmodell"><a href="#Funtionsmodell" class="headerlink" title="Funtionsmodell"></a>Funtionsmodell</h1><p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im Rohr als laminare Strömung betrachtet werden. Dann ist die Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial homogene Tempeaturverteilung ist nämlich unmöglich.</p>
-<ol>
-<li>Um ein radial homogene Tempeaturverteilung zu bekommen, braucht eine turbulente Strömung<br>Dann haben wir 2 Auswahl:</li>
-</ol>
-<ul>
-<li>nicht-metalisch äußere Hülle + metalisch innere Struktur</li>
-<li>metalisch äußere Hülle + metalisch innere Struktur<br>Metalisch äußere Hülle hat hier zu gut Wärmeleitfähigkeit, führt durch natürliche Konvektion zu Kühlung.<br>Deswegen empfehle ich nicht-metalisch äußere Hülle + metalisch innere Struktur<br>Äußere Hülle soll ein schlechte Wärmeleitfähigkeit haben.</li>
-</ul>
-<p>Die Messung von Tempertaur –&gt; Berührungslos messende Thermometer?</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: Elektromagnetische Induktion</span><br><span class="line">op1=&gt;operation: nur metalisch äußere Hülle</span><br><span class="line">op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op4=&gt;operation:</span><br><span class="line"></span><br><span class="line">st-&gt;op1</span><br><span class="line">st-&gt;op2</span><br><span class="line">st-&gt;op3</span><br></pre></td></tr></table></figure>
-
-<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht. Dann ist ohne innere Struktur ein</p>
-]]></content>
-      <tags>
-        <tag>Comsol</tag>
-        <tag>工程制图</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Creo学习笔记</title>
     <url>/creo-xue-xi-bi-ji.html</url>
     <content><![CDATA[<h1 id="修改语言出现的问题"><a href="#修改语言出现的问题" class="headerlink" title="修改语言出现的问题"></a>修改语言出现的问题</h1><p>我按网上的教程，通过改环境变量的方式添加中文操作界面，结果搞成了四不像，新开的文件一概英文界面，打开我保存关闭后的prt文件，一概显示中文界面。。。但是这个中文界面缺斤少两，模型里很多模块没了，得通过自定义的方式手动添加出来，<code>新建组</code><br>这一点上我真的要吹爆Comsol，安装界面第一项就让你选择语言，选好之后，后面从安装到软件实操界面一概是你选择好的语言，非常方便</p>
@@ -737,6 +737,27 @@
 ]]></content>
   </entry>
   <entry>
+    <title>node.js &amp; Hexo 更新记录</title>
+    <url>/hexo-geng-xin-ji-lu.html</url>
+    <content><![CDATA[<p>还是老样子，网上的教程都是能省就省，小白真的很累。</p>
+<h1 id="node-js-升级"><a href="#node-js-升级" class="headerlink" title="node.js 升级"></a>node.js 升级</h1><p>之前是手动下载安装包点鼠标安装的，这次升级发现以前为了避免c盘根目录权限问题装到了d盘，犹豫了半天还是卸载了，毕竟c盘和d盘做了彻底隔离，软件全装c盘，d盘只放静态文件，还留着一个会关联启动的node.js会很不爽，c盘根目录权限问题其实之前也已经解决了，就是找到git bash的快捷方式，打开属性，在兼容性一栏勾选上⌈以管理员身份启动⌋就好了。<br>找到的第一篇*<a href="https://leimingshan.com/posts/d9017f30/">升级指南</a>说他使用的nvm比较简单，我也不知道是啥，还跟npm搞混了，powershell直接键入</p>
+<figure class="highlight powershell"><figcaption><span>powershell</span></figcaption><table><tr><td class="code"><pre><span class="line">nvm <span class="literal">-v</span></span><br></pre></td></tr></table></figure>
+<p>结果unknown哈哈，不过正好node.js的软件选择界面有个选项让你选安装方式，下拉一看，真有nvm，再往下一看，咦！有chocolatery！这我不是刚装嘛，原来是包管理器啊，直接按照官网教程<code>choco install nodejs --version=&quot;22.3.0&quot;</code>，结果报错我日，说没有此版本，去掉版本号再试就行了，但是安装的是22.2.0版本，真的无语，node.js你这么专业的网站，22.3.0还没有在choco里通过，为什么官网安装代码要给22.3.0，对于普通小白又是一道坑。。。<br>装完以后尝试<code>node -v</code>, unknown命令，all right，环境变量里的node_path要改,改完有了。<br>尝试<code>npm -v</code>,⌈无法加载文件C:...\nodejs\npm.ps1,该文件未进行数字签名。。。⌋，吐了，我寻思，装choco的时候已经把执行策略改成Allsigned了呀，结果一搜，Allsigned的权限还是不够，需要改成remote，通过<code>set-ExecutionPolicy RemoteSigned</code>解决。<br>这里顺便Mark以下Powershell的执行策略:</p>
+<figure class="highlight text"><figcaption><span>Powershell执行策略</span><a href="https://blog.csdn.net/qq_46634307/article/details/122545353">参考出处</a></figcaption><table><tr><td class="code"><pre><span class="line">Restricted： 禁止运行任何脚本和配置文件。</span><br><span class="line">AllSigned ：可以运行脚本，但要求所有脚本和配置文件由可信发布者签名，包括在本地计算机上编写的脚本。</span><br><span class="line">RemoteSigned ：可以运行脚本，但要求从网络上下载的脚本和配置文件由可信发布者签名；不要求对已经运行和已在本地计算机编写的脚本进行数字签名。</span><br><span class="line">Unrestricted ：可以运行未签名脚本。（这个选项是非常危险的！！！非专业人士，请不要触碰哦！！！）</span><br></pre></td></tr></table></figure>
+<p>总算是正常了。。。<br>这里再推荐一篇*<a href="https://blog.csdn.net/antma/article/details/86104068">帖子</a>, 安装完不要忘了修改npm的cache目录以方便管理，需要在nodejs文件夹下新建两个文件夹node_global和node_cache,然后：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> prefix <span class="string">&quot;C:\Program Files\nodejs\node_global&quot;</span></span><br><span class="line">npm config <span class="built_in">set</span> cache <span class="string">&quot;C:\Program Files\nodejs\node_cache&quot;</span></span><br><span class="line">npm install webpack <span class="literal">-g</span> <span class="comment">#测试是否成功</span></span><br></pre></td></tr></table></figure>
+<h1 id="hexo更新"><a href="#hexo更新" class="headerlink" title="hexo更新"></a>hexo更新</h1><p>参考*<a href="https://novnan.github.io/Hexo/update_hexo/">此篇hexo同好的帖子</a><br>以下命令已经都可以在git bash里执行，我是进入到blog目录，然后右键打开git bash运行的命令，已经不再是powershell</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">hexo version </span><br><span class="line">npm i hexo<span class="literal">-cli</span> <span class="literal">-g</span> <span class="comment">#全局升级hexo-cli</span></span><br><span class="line">npm install <span class="literal">-g</span> npm<span class="literal">-check</span> </span><br><span class="line">npm<span class="literal">-check</span> <span class="comment">#检查系统插件是否需要升级</span></span><br><span class="line">npm install <span class="literal">-g</span> npm<span class="literal">-upgrade</span> </span><br><span class="line">npm<span class="literal">-upgrade</span> <span class="comment">#更新package.json</span></span><br><span class="line">npm update <span class="literal">-g</span> <span class="comment">#更新全局插件</span></span><br><span class="line">npm update <span class="literal">--save</span> <span class="comment">#更新系统插件</span></span><br><span class="line">hexo version</span><br></pre></td></tr></table></figure>
+<p>npm-upgrade这步把我恶心到了，弹出五行选项：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"> xxxxxxxxxxxxxxxxx*(use arrow keys)</span><br><span class="line">&gt;Yes</span><br><span class="line"> No</span><br><span class="line"> See Changelog</span><br><span class="line"> xxx</span><br><span class="line"> Finish <span class="keyword">process</span></span><br></pre></td></tr></table></figure>
+<p>我按上箭头把光标上移四行，然后按回车，结果tm的全部给我选了No，折腾半天，什么不动，直接回车，反而是Yes…<br>然后我以为<code>npm-upgrade</code>结束就好了呀，直接<code>hexo version</code>,还是没变！怎么都不行！又是折腾半天才搞懂，<code>npm-upgrade</code>只是更新package.json这个文件里的所有插件版本标识，并不是真的更新软件。。。还需要下面两行的<br><code>npm update -g</code>和<code>npm update --save</code>命令，执行完才算是全部更新完。。。<br>坑太多了呀！</p>
+<h1 id="尝试新版hexo里的multi-language功能"><a href="#尝试新版hexo里的multi-language功能" class="headerlink" title="尝试新版hexo里的multi-language功能"></a>尝试新版hexo里的multi-language功能</h1><p>按网上的教程直接给我整出了<code>FATAL: duplicated mapping key (37:1)</code>, 笑死，然后退回原设置，<code>hexo clean</code>都无法识别了，试了一下<code>hexo version</code>，欸，我hexo呢！哈哈哈笑死！什么离谱bug，下面一大串插件名称里只有hexo-cli了，hexo本体没了！<img src="/hexo-geng-xin-ji-lu/tom.GIF" alt="."> 关了git bash重启后在原来配置文件下hexo终于顺利运行，搞半天是因为以前的多语言教程老了，都是借助的第三方i18n那个国际化插件，跟新本hexo原生的multi-language配置方法不一样，导致冲突，但是新版的multi-language目前我也不是很会用，只是把按钮整出来了，然后也只能添加一个页面，难受。</p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>无聊过来写文章，本来是想弄个置顶的，挂上王小波的那段话:</p>
+<figure class="highlight text"><figcaption><span>王小波</span></figcaption><table><tr><td class="code"><pre><span class="line">⌈人在写作时，总是孤身一人，作品实际上是个人的独白，是一些发出的信。我觉得自己太缺少与人交流的机会---我相信，这是写严肃文学的人共同的体会。但是这个世界上除了有自己，还有别人，除了身边的人，还有整个人类。写作的意义，就在于与人交流。因为这个缘故，我一直在写。⌋  </span><br></pre></td></tr></table></figure>
+<p>我也写不出什么严肃文学或者伤痕文学，我只是太缺少与人交流的机会哈哈，所以，我也得写。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>hexo如何迁移blog到新电脑上</title>
     <url>/hexo-ru-he-qian-yi-blog-dao-xin-dian-nao-shang.html</url>
     <content><![CDATA[<p>2023.11.04<br>非常难得，又有闲心来重新弄这个blog，重做系统，或者换了新电脑，如何重新链接上这个blog一直是劝退我的一大因素，本来以为要一两天才能弄好，这次也是想着，再不济，那就再删一次blog文件夹呗，全部重头再来，没想到很简单就成功了，哈哈哈。</p>
@@ -746,7 +767,7 @@
 <li>安装<a href="Git" title="git-scm.com">Git</a></li>
 <li>绑定github：安装好Git后，桌面右键打开Git bash,然后键入ssh，查看本机是否安装ssh，然后键入ssh-keygen -t rsa生成密钥，登录github，在设置里找到ssh那一栏，用公钥 id_rsa.pub里的乱码添加ssh key，保存，教程在这里：<a href="https://zhuanlan.zhihu.com/p/103391101">个人博客第3篇——绑定GitHub并提交文件 - 知乎 (zhihu.com)</a>。验证是否成功，我们可以通过在 Git Bash 中输入 ssh -T <a href="mailto:git@github.com">git@github.com</a> 进行检验。</li>
 <li>注意，绑定完，第一次同步需要绑定用户信息：<blockquote>
-<p>$ git config–global user.name “shxxxxxang”<br>$ git config–global user.email “<a href="mailto:&#122;&#x68;&#97;&#110;&#x78;&#x78;&#x78;&#120;&#120;&#x40;&#120;&#120;&#x78;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">&#122;&#x68;&#97;&#110;&#x78;&#x78;&#x78;&#120;&#120;&#x40;&#120;&#120;&#x78;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a>“</p>
+<p>$ git config–global user.name “shxxxxxang”<br>$ git config–global user.email “<a href="mailto:&#x7a;&#x68;&#x61;&#110;&#120;&#x78;&#120;&#120;&#120;&#x40;&#120;&#x78;&#120;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">&#x7a;&#x68;&#x61;&#110;&#120;&#x78;&#120;&#120;&#120;&#x40;&#120;&#x78;&#120;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;</a>“</p>
 </blockquote>
 </li>
 <li><a href="https://zhuanlan.zhihu.com/p/105715224">个人博客第5篇——安装node.js和Hexo - 知乎 (zhihu.com)</a>，然后安装此教程安装node.js，添加环境变量，npm install webpack -g，在原来的blog文件夹下安装hexo，尝试hexo init,显示<code>xxx not empty, please run </code>hexo init<code> on an empty folder and then copy your files into it</code>，因为其实到这里就好啦，哈哈哈，尝试直接hexo s，居然一切正常！再也不用删除blog文件夹从头来过了，感动！呜呜呜</li>
@@ -898,23 +919,6 @@
       </tags>
   </entry>
   <entry>
-    <title>无力</title>
-    <url>/wu-li.html</url>
-    <content><![CDATA[<p>今日好友推荐一书，曰「一课经济学」，不知为何，竟勾不起我阅读的兴致，非书名不够诱人耳，亦非质疑好友之判断。因其之前推荐之书目均为上上成，在我这里其实信誉极佳。日内三次念及此事，却都一闪而过，深夜再度想起，才若有所思。</p>
-<span id="more"></span>
-<p>我于三四年前，因这位好友，有幸拜读了「中国巨债」一书，彼时甚至动了妄念，想连同「国富论」一并读了，终因各种繁杂琐事，以及此书让人望而生怯的厚度，只好作罢。这些年，见证了不少历史，我仅凭自己幼稚的见解，不断做出荒谬的判断，说得夸张一点，这要是在玩梭哈，当真输到裤衩都没了。现实的走向一再打破我的幻想，把我狠狠的摔在地上。我一脸的败相，从此闭嘴，俨然一个良民。</p>
-<p>唯一的收获却是伴随着刻骨的痛苦的，那就是对人性的了解，对世界运行原理的了解，以及对经济活动真相的了解。</p>
-<p>这些才是我此番不愿再读经济学书籍的原因。看得越多，懂得就越多，懂得越多，越发觉得无力，现实承载不了一个普通人的理想。</p>
-<p>真是应了王小波的一席话：</p>
-<p>「活下去的秘诀就是保持愚蠢，又不能知道自己有多蠢。」</p>
-<p>我心里是不甘的。</p>
-]]></content>
-      <tags>
-        <tag>文言写作尝试</tag>
-        <tag>一个男人的只言片语</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>母音无声化？浅谈日语学习中借鉴来的经验</title>
     <url>/mu-yin-wu-sheng-hua.html</url>
     <content><![CDATA[<p>最近在重新开始好好学日语，发现语言的演变有惊人的相似性，都是趋向于越来越简单，越来越好念。好坏我无从判断，但是给语言学习者带来了很大的便利！</p>
@@ -930,6 +934,23 @@
       <tags>
         <tag>语言学习</tag>
         <tag>日本語</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无力</title>
+    <url>/wu-li.html</url>
+    <content><![CDATA[<p>今日好友推荐一书，曰「一课经济学」，不知为何，竟勾不起我阅读的兴致，非书名不够诱人耳，亦非质疑好友之判断。因其之前推荐之书目均为上上成，在我这里其实信誉极佳。日内三次念及此事，却都一闪而过，深夜再度想起，才若有所思。</p>
+<span id="more"></span>
+<p>我于三四年前，因这位好友，有幸拜读了「中国巨债」一书，彼时甚至动了妄念，想连同「国富论」一并读了，终因各种繁杂琐事，以及此书让人望而生怯的厚度，只好作罢。这些年，见证了不少历史，我仅凭自己幼稚的见解，不断做出荒谬的判断，说得夸张一点，这要是在玩梭哈，当真输到裤衩都没了。现实的走向一再打破我的幻想，把我狠狠的摔在地上。我一脸的败相，从此闭嘴，俨然一个良民。</p>
+<p>唯一的收获却是伴随着刻骨的痛苦的，那就是对人性的了解，对世界运行原理的了解，以及对经济活动真相的了解。</p>
+<p>这些才是我此番不愿再读经济学书籍的原因。看得越多，懂得就越多，懂得越多，越发觉得无力，现实承载不了一个普通人的理想。</p>
+<p>真是应了王小波的一席话：</p>
+<p>「活下去的秘诀就是保持愚蠢，又不能知道自己有多蠢。」</p>
+<p>我心里是不甘的。</p>
+]]></content>
+      <tags>
+        <tag>文言写作尝试</tag>
+        <tag>一个男人的只言片语</tag>
       </tags>
   </entry>
   <entry>

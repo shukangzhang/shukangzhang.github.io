@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shukangzhang.com/hexo-geng-xin-ji-lu.html</loc>
+    
+    <lastmod>2024-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shukangzhang.com/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze.html</loc>
     
     <lastmod>2024-06-11</lastmod>
@@ -364,20 +373,6 @@
   </url>
   
   <url>
-    <loc>https://shukangzhang.com/tags/%E6%96%87%E8%A8%80%E5%86%99%E4%BD%9C%E5%B0%9D%E8%AF%95/</loc>
-    <lastmod>2024-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shukangzhang.com/tags/%E4%B8%80%E4%B8%AA%E7%94%B7%E4%BA%BA%E7%9A%84%E5%8F%AA%E8%A8%80%E7%89%87%E8%AF%AD/</loc>
-    <lastmod>2024-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://shukangzhang.com/tags/%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-06-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -386,6 +381,20 @@
   
   <url>
     <loc>https://shukangzhang.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
+    <lastmod>2024-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shukangzhang.com/tags/%E6%96%87%E8%A8%80%E5%86%99%E4%BD%9C%E5%B0%9D%E8%AF%95/</loc>
+    <lastmod>2024-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shukangzhang.com/tags/%E4%B8%80%E4%B8%AA%E7%94%B7%E4%BA%BA%E7%9A%84%E5%8F%AA%E8%A8%80%E7%89%87%E8%AF%AD/</loc>
     <lastmod>2024-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
