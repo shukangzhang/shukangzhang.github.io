@@ -1059,4 +1059,22 @@
         <tag>原创</tag>
       </tags>
   </entry>
+  <entry>
+    <title>test-en</title>
+    <url>/en/index.html</url>
+    <content><![CDATA[<p>en</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test-de</title>
+    <url>/de/index.html</url>
+    <content><![CDATA[<p>de</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test-zh-cn</title>
+    <url>/zh-cn/index.html</url>
+    <content><![CDATA[<p>xxx</p>
+]]></content>
+  </entry>
 </search>
