@@ -85,7 +85,7 @@
 <ol start="6">
 <li>Gibbs-Thomson-Effekt: Die Löslichkeit nimmt mit abnehmender Partikelgröße zu!</li>
 <li>Zwei Punkte, an denen intensiv geforscht wird, sind die Reduktion der Menge an teurem Pt entweder durch höhere Effizienz der Pt-NP oder durch Ersatzmaterialien und die Degradation des Graphitträgers mit der Betriebsdauer, speziell bei den An- und Abfahrprozessen (instationärer Betrieb) der BZ.</li>
-<li><a href="https://en.wikipedia.org/wiki/Coal">2</a> <img src="/anwendung-nanoskaliger-pulver-zusammenfassungen/Struktura_chemiczna_w%C4%99gla_kamiennego.svg" alt="Example chemical structure of coal &lt;sup&gt; [2] &lt;&#x2F;sup&gt;"></li>
+<li><a href="https://en.wikipedia.org/wiki/Coal">2</a> <img src="/anwendung-nanoskaliger-pulver-zusammenfassungen/Struktura_chemiczna_wegla_kamiennego.svg" alt="Example chemical structure of coal &lt;sup&gt; [2] &lt;&#x2F;sup&gt;"></li>
 <li>Turn Over Frequency (TOF): Dabei wird die Anzahl der Produktmoleküle pro Zeit auf die verfügbare Katalysatoroberfläche bezogen (genauer auf die „aktiven“ Zentren).</li>
 <li></li>
 </ol>
@@ -856,7 +856,7 @@
 <li>Perl直接google搜索，官网安装Strawberry Perl即可，需要注意的是，为了powershell里可以全局调用，需要进环境变量，在path里添加Strawberry Perl的安装目录。如果是用chocolatey包管理器安装的，大概率会自动添加进环境变量，因为家里网访问github突然有了问题，所以未作尝试。</li>
 </ol>
 <h1 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h1><ol>
-<li>把old.tex和new.tex放到一个文件夹里，在此文件夹内打开powershell，也可以通过cd命令进入此文件夹<br><img src="/how-to-use-latexdiff/example.png" alt="example"></li>
+<li>把old.tex和new.tex放到一个文件夹里，在此文件夹内打开powershell，也可以通过cd命令进入此文件夹<br><img src="/how-to-use-latexdiff/example.jpg" alt="example"></li>
 <li>运行代码调用latexdiff编译</li>
 </ol>
 <figure class="highlight powershell"><figcaption><span>example</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># general</span></span><br><span class="line">latexdiff [ <span class="type">OPTIONS</span> ] old.tex new.tex &gt; diff.tex</span><br><span class="line"></span><br><span class="line"><span class="comment"># example</span></span><br><span class="line">latexdiff <span class="literal">-c</span> ld.cfg <span class="literal">-t</span> UNDERLINE old.tex new.tex &gt;aipsamp.tex</span><br><span class="line"></span><br><span class="line"><span class="comment"># options</span></span><br><span class="line"><span class="comment"># 这里的-c lf.cfg意思是调用配置文件lf.cfg来进行配置，里面给了一句`PICTUREENV=(?:picture|DIFnomarkup|align)[\w\d*@]*`用来跳过图片的对比，但是好像没用？</span></span><br><span class="line"><span class="comment">#-t UNDERLINE是使用下划线，但是好像也没用？</span></span><br></pre></td></tr></table></figure>
@@ -872,8 +872,8 @@
 <h1 id="discussion"><a href="#discussion" class="headerlink" title="discussion"></a>discussion</h1><p>进 powershell 尝试latexdiff -v,首次运行会调用MiKTek安装latexdiff宏包，这样此处就有了个疑问，从github上下载的latexdiff是否真的有用到，而且我只是做了解压缩，并未添加环境变量，但是powershell却可以直接调用他！</p>
 ]]></content>
       <tags>
-        <tag>$&#92;LaTeX$</tag>
         <tag>外部记忆储存器</tag>
+        <tag>LaTeX</tag>
       </tags>
   </entry>
   <entry>
