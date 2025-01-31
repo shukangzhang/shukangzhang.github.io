@@ -269,9 +269,9 @@
 <p>ok,先描述一下我的情况。入职以后换了新电脑，blog文件夹是一直放在onedrive里的，所以直接就同步过来了，问题是，如何重新连接上Github，让我能正常管理文章。<br>很简单，按流程走一遍。</p>
 <ol>
 <li>安装<a href="Git" title="git-scm.com">Git</a></li>
-<li>绑定github：安装好Git后，桌面右键打开Git bash,然后键入ssh，查看本机是否安装ssh，然后键入ssh-keygen -t rsa生成密钥，登录github，在设置里找到ssh那一栏，用公钥 id_rsa.pub里的乱码添加ssh key，保存，教程在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/103391101">个人博客第3篇——绑定GitHub并提交文件 - 知乎 (zhihu.com)</a>。验证是否成功，我们可以通过在 Git Bash 中输入 ssh -T <a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#x68;&#117;&#x62;&#x2e;&#x63;&#x6f;&#x6d;">git@github.com</a> 进行检验。</li>
+<li>绑定github：安装好Git后，桌面右键打开Git bash,然后键入ssh，查看本机是否安装ssh，然后键入ssh-keygen -t rsa生成密钥，登录github，在设置里找到ssh那一栏，用公钥 id_rsa.pub里的乱码添加ssh key，保存，教程在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/103391101">个人博客第3篇——绑定GitHub并提交文件 - 知乎 (zhihu.com)</a>。验证是否成功，我们可以通过在 Git Bash 中输入 ssh -T <a href="mailto:&#103;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#104;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#109;">git@github.com</a> 进行检验。</li>
 <li>注意，绑定完，第一次同步需要绑定用户信息：<blockquote>
-<p>$ git config–global user.name “shxxxxxang”<br>$ git config–global user.email “<a href="mailto:&#x7a;&#x68;&#x61;&#x6e;&#x78;&#x78;&#120;&#120;&#120;&#64;&#x78;&#120;&#120;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">zhanxxxxx@xxxmail.com</a>“</p>
+<p>$ git config–global user.name “shxxxxxang”<br>$ git config–global user.email “<a href="mailto:&#122;&#104;&#x61;&#x6e;&#x78;&#x78;&#x78;&#x78;&#x78;&#64;&#x78;&#120;&#x78;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">zhanxxxxx@xxxmail.com</a>“</p>
 </blockquote>
 </li>
 <li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/105715224">个人博客第5篇——安装node.js和Hexo - 知乎 (zhihu.com)</a>，然后安装此教程安装node.js，添加环境变量，npm install webpack -g，在原来的blog文件夹下安装hexo，尝试hexo init,显示<code>xxx not empty, please run </code>hexo init<code> on an empty folder and then copy your files into it</code>，因为其实到这里就好啦，哈哈哈，尝试直接hexo s，居然一切正常！再也不用删除blog文件夹从头来过了，感动！呜呜呜</li>
