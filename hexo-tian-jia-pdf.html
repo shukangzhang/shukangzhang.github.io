@@ -20,7 +20,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"shukangzhang.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"shukangzhang.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="纠正现有教程遗漏的地方">
@@ -281,12 +281,12 @@
 <h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
 <h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
 <p>然后键入:</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf ./xxx.<span class="property">pdf</span> %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&#123;% pdf ./xxx.<span class="property">pdf</span> %&#125;</span><br></pre></td></tr></table></figure>
 <p>咦，怎么不行！？</p>
 <span id="more"></span>
 
 <p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf ./file/xxx.<span class="property">pdf</span> %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&#123;% pdf ./file/xxx.<span class="property">pdf</span> %&#125;</span><br></pre></td></tr></table></figure>
 <p>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="/hexo-tian-jia-pdf/pdftag.png"><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。</p>
 <p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del></p>
 <p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
@@ -296,12 +296,12 @@
 </ul>
 <hr>
 <h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">&quot;./xxx.pdf&quot;</span> <span class="attr">type</span>=<span class="string">&quot;application/pdf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;1000px&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">&quot;./xxx.pdf&quot;</span> <span class="attr">type</span>=<span class="string">&quot;application/pdf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;1000px&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
 <blockquote>
 <p><a target="_blank" rel="noopener" href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
 </blockquote>
-<h1 id="06-20-Upgrade"><a href="#06-20-Upgrade" class="headerlink" title="06.20 Upgrade"></a>06.20 Upgrade</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf ./file/xxx.<span class="property">pdf</span> %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="06-20-Upgrade"><a href="#06-20-Upgrade" class="headerlink" title="06.20 Upgrade"></a>06.20 Upgrade</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&#123;% pdf ./file/xxx.<span class="property">pdf</span> %&#125;</span><br></pre></td></tr></table></figure>
 <p>此方法在我的浏览器上现在可以正常显示了，不知道是不是因为更新浏览器清除了浏览器缓存</p>
 
     </div>
