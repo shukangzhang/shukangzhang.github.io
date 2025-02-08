@@ -3,7 +3,8 @@
   <entry>
     <title>Anwendungen nanoskaliger Pulver Zusammenfassungen</title>
     <url>/anwendung-nanoskaliger-pulver-zusammenfassungen.html</url>
-    <content><![CDATA[<h1 id="Einfuhrung"><a href="#Einfuhrung" class="headerlink" title="Einführung"></a>Einführung</h1><ol>
+    <content><![CDATA[<h1 id="einführung">Einführung</h1>
+<ol type="1">
 <li>mindestens eine Dimension kleiner als 100nm</li>
 <li>Herstellungsverfahren:</li>
 </ol>
@@ -11,391 +12,480 @@
 <li>Top-Down-Verfahren</li>
 <li>Bottom-Up-Verfahren</li>
 </ul>
-<ol start="3">
-<li>Volumeneffekt, <code>Bohrsche Atommodell</code>. Die Energiezustände sind diskret und wohl definiert. </li>
-<li>Halbleiter-NP–&gt;unterschidliche Fluorszenzlicht</li>
+<ol start="3" type="1">
+<li>Volumeneffekt, <code>Bohrsche Atommodell</code>. Die Energiezustände
+sind diskret und wohl definiert.</li>
+<li>Halbleiter-NP--&gt;unterschidliche Fluorszenzlicht</li>
 <li>Gold-NP von etwa 3nm als <em>oder eater</em> (Geruchsfresser)</li>
 <li>Aerosile (SiO<sub>2</sub>) und TiO<sub>2</sub></li>
-<li>bei der Herstellung von nanoskaligem TiO<sub>2</sub> der frühere Flüssigphasenprozess (Sulfat-Prozess) oft durch einen Gasphasenprozess (Chlorid-Prozess) ersetzt.</li>
-<li>Im Bereich Farben und Lacke werden NP als Zinkoxid und Titandioxid seit mehr als 30 Jahren eingesetzt. </li>
+<li>bei der Herstellung von nanoskaligem TiO<sub>2</sub> der frühere
+Flüssigphasenprozess (Sulfat-Prozess) oft durch einen Gasphasenprozess
+(Chlorid-Prozess) ersetzt.</li>
+<li>Im Bereich Farben und Lacke werden NP als Zinkoxid und Titandioxid
+seit mehr als 30 Jahren eingesetzt.</li>
 <li>Geschicht:</li>
 </ol>
 <ul>
-<li>1959 Richard Feynman, amerikanisch theoretischer Physiker, Nobelpreisträger</li>
+<li>1959 Richard Feynman, amerikanisch theoretischer Physiker,
+Nobelpreisträger</li>
 <li>1974 Der Japaner Taniguchi</li>
 </ul>
-<ol start="10">
+<ol start="10" type="1">
 <li>CNT:</li>
 </ol>
 <ul>
-<li>Leitbeständigkeit:  1000 mal mehr Strom leiten als Kupfer</li>
+<li>Leitbeständigkeit: 1000 mal mehr Strom leiten als Kupfer</li>
 <li>wärmebeständig</li>
-<li>als Display, eine Seite Spannung anlegen, als Elektronenrühren verwenden lassen, kalte Elektronenrühren, die man sehr Punkt genau auf Oberflächen aufbringen kann. 精确识别手指触摸</li>
+<li>als Display, eine Seite Spannung anlegen, als Elektronenrühren
+verwenden lassen, kalte Elektronenrühren, die man sehr Punkt genau auf
+Oberflächen aufbringen kann. 精确识别手指触摸</li>
 </ul>
 <span id="more"></span>
-
-<h1 id="Metall-NP"><a href="#Metall-NP" class="headerlink" title="Metall-NP"></a>Metall-NP</h1><ol>
-<li>traditionelle Methoden zur Herstellung von elektronischen Schaltungen:</li>
+<h1 id="metall-np">Metall-NP</h1>
+<ol type="1">
+<li>traditionelle Methoden zur Herstellung von elektronischen
+Schaltungen:</li>
 </ol>
 <ul>
 <li>Siebdruck</li>
 <li>Fotolithographie</li>
-<li>Galvanisieren<br>basieren auf selektivem Abdecken und Ätzen</li>
+<li>Galvanisieren basieren auf selektivem Abdecken und Ätzen</li>
 </ul>
-<ol start="2">
-<li>Tintenstrahldrucker: Ausstoß von kleinsten Tröpfchen füssiger Tinte mittels eines Piezokristalls. <code>Ag-NP-Tinten</code> sind für druckbare Elektronik geeignet.<br>Herstellung Ag-NP-Tinten:</li>
+<ol start="2" type="1">
+<li>Tintenstrahldrucker: Ausstoß von kleinsten Tröpfchen füssiger Tinte
+mittels eines Piezokristalls. <code>Ag-NP-Tinten</code> sind für
+druckbare Elektronik geeignet. Herstellung Ag-NP-Tinten:</li>
 </ol>
 <ul>
-<li>durch Reduktion eines Silberdiamin(银二胺)-Komplexes durch D-Glukose(葡萄糖) in Anwesenheit eines Dispergiermittels [Balantrapu et al., Clarkson University, 2008]</li>
+<li>durch Reduktion eines Silberdiamin (银二胺)-Komplexes durch
+D-Glukose (葡萄糖) in Anwesenheit eines Dispergiermittels [Balantrapu et
+al., Clarkson University, 2008]</li>
 </ul>
-<ol start="3">
-<li><code>Nanoröhren</code> in Schaltungen und Displays, als Bauteil für flache und selbstleuchtende Feldemissionsbildschirme: <strong>Dabei dienen die scharfen Spitzen der Nanoröhren als Quelle für Elektronen durch <em>Feldemission(场致发射)</em> (winzige Elektronenkanone, Kaltkathode schon bei relativ geringen Spannungen)</strong></li>
-<li><code>Graphen-Nanonetze</code>, 200 Mal fester als Stahl, leitet den elektrischen Strom besser als alle bisher bekannten Materialien.<br>Herstellung:</li>
+<ol start="3" type="1">
+<li><code>Nanoröhren</code> in Schaltungen und Displays, als Bauteil für
+flache und selbstleuchtende Feldemissionsbildschirme: <strong>Dabei
+dienen die scharfen Spitzen der Nanoröhren als Quelle für Elektronen
+durch <em>Feldemission (场致发射)</em> (winzige Elektronenkanone,
+Kaltkathode schon bei relativ geringen Spannungen)</strong></li>
+<li><code>Graphen-Nanonetze</code>, 200 Mal fester als Stahl, leitet den
+elektrischen Strom besser als alle bisher bekannten Materialien.
+Herstellung:</li>
 </ol>
 <ul>
-<li>Isolierung kleiner Monilafenflecken durch Abziehen von Lagen von Graphit</li>
-<li>durch Heizen eines Silizium-Wafers im Vakuum, wobei das Silizium verdampfte und eine Kohlenstoffschicht zurückließ</li>
-<li>CVD-Prozess: Graphen wird über die Zersetzung von heißen Kohlenwasserstoffgasen an einer reaktiven Metalloberflächen gebildet. Darauf wird ein Kunststofffilm aufgedrückt und das Metall wid mit einer Säure weggeätzt.  </li>
-<li>chemische Methoden: Graphit lässt sich leicht durch Säure oxidieren, so dass sich isolierende Grapphenoxidschichten bilden, die sich in Wasser trennen. Danach Reduktionsmittel wie Hydrazin geben. Leider führt die Methode zu eher porösen Filmen.  </li>
+<li>Isolierung kleiner Monilafenflecken durch Abziehen von Lagen von
+Graphit</li>
+<li>durch Heizen eines Silizium-Wafers im Vakuum, wobei das Silizium
+verdampfte und eine Kohlenstoffschicht zurückließ</li>
+<li>CVD-Prozess: Graphen wird über die Zersetzung von heißen
+Kohlenwasserstoffgasen an einer reaktiven Metalloberflächen gebildet.
+Darauf wird ein Kunststofffilm aufgedrückt und das Metall wid mit einer
+Säure weggeätzt.<br>
+</li>
+<li>chemische Methoden: Graphit lässt sich leicht durch Säure oxidieren,
+so dass sich isolierende Grapphenoxidschichten bilden, die sich in
+Wasser trennen. Danach Reduktionsmittel wie Hydrazin geben. Leider führt
+die Methode zu eher porösen Filmen.<br>
+</li>
 <li>in Lösungen mittels Ultraschall</li>
 <li>in spezielle Lösungsmittel wie ionische Flüssigkeiten</li>
-<li>CNTs mittels AFM aufgeschlitzt(aufschlitzen撕开), um Graphenschichten zu erhalten</li>
+<li>CNTs mittels AFM aufgeschlitzt (aufschlitzen 撕开), um
+Graphenschichten zu erhalten</li>
 </ul>
-<ol start="5">
+<ol start="5" type="1">
 <li>xxx</li>
 </ol>
-<h1 id="NP-in-der-Energiepproduktion"><a href="#NP-in-der-Energiepproduktion" class="headerlink" title="NP in der Energiepproduktion"></a>NP in der Energiepproduktion</h1><ol>
-<li>Titandioxid ist ein n-Halbleiter, n-Halbleiter类比掺杂了Phosphor,体系内多电子，p-Halbleiter类似掺杂了Bor，体系少电子。</li>
-<li>影响Wirkungsgrad der Solarzellen的几个因素：</li>
+<h1 id="np-in-der-energiepproduktion">NP in der Energiepproduktion</h1>
+<ol type="1">
+<li>Titandioxid ist ein n-Halbleiter,
+n-Halbleiter 类比掺杂了 Phosphor, 体系内多电子，p-Halbleiter 类似掺杂了 Bor，体系少电子。</li>
+<li>影响 Wirkungsgrad der Solarzellen 的几个因素：</li>
 </ol>
 <ul>
 <li>Breite des adsorb Spektrums</li>
 <li>Ausnetzen aller Photonen</li>
-<li>Geometrie der Solarzellen, eigentlich Geometrie der Elektrode, Beschicchtung von Halbleiter und Stromsammler.</li>
+<li>Geometrie der Solarzellen, eigentlich Geometrie der Elektrode,
+Beschicchtung von Halbleiter und Stromsammler.</li>
 </ul>
-<ol start="3">
-<li>Mesoporöse Festkörper [meso (griechisch) &#x3D; dazwischen, mittig] sind nach IUPAC-Definition poröse Materialien mit Porendurchmesser zwischen <strong>2 nm und 50 nm</strong>.</li>
+<ol start="3" type="1">
+<li>Mesoporöse Festkörper [meso (griechisch) = dazwischen, mittig] sind
+nach IUPAC-Definition poröse Materialien mit Porendurchmesser zwischen
+<strong>2 nm und 50 nm</strong>.</li>
 <li>Core-Shell-Partikel</li>
 <li>Die Mechanismus für den Verlust an Pt-ECSA:</li>
 </ol>
 <ul>
-<li>$C + H_2O \xrightarrow{} CO_2 + 4H^+ + 4e^-$</li>
-<li><a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">Ostwald-Reifung </a> <a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">1</a> <img src="/anwendung-nanoskaliger-pulver-zusammenfassungen/Ostwaldpic.png" alt="Ostwald-Reifung &lt;sup&gt; [1] &lt;&#x2F;sup&gt;"></li>
+<li><span class="math inline">\(C + H_2O \xrightarrow{} CO_2 + 4H^+ +
+4e^-\)</span></li>
+<li><a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">Ostwald-Reifung</a>
+<a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">1</a> <img src="/anwendung-nanoskaliger-pulver-zusammenfassungen/Ostwaldpic.png" alt="Ostwald-Reifung  1 "></li>
 </ul>
-<ol start="6">
-<li>Gibbs-Thomson-Effekt: Die Löslichkeit nimmt mit abnehmender Partikelgröße zu!</li>
-<li>Zwei Punkte, an denen intensiv geforscht wird, sind die Reduktion der Menge an teurem Pt entweder durch höhere Effizienz der Pt-NP oder durch Ersatzmaterialien und die Degradation des Graphitträgers mit der Betriebsdauer, speziell bei den An- und Abfahrprozessen (instationärer Betrieb) der BZ.</li>
-<li><a href="https://en.wikipedia.org/wiki/Coal">2</a> <img src="/anwendung-nanoskaliger-pulver-zusammenfassungen/Struktura_chemiczna_wegla_kamiennego.svg" alt="Example chemical structure of coal &lt;sup&gt; [2] &lt;&#x2F;sup&gt;"></li>
-<li>Turn Over Frequency (TOF): Dabei wird die Anzahl der Produktmoleküle pro Zeit auf die verfügbare Katalysatoroberfläche bezogen (genauer auf die „aktiven“ Zentren).</li>
+<ol start="6" type="1">
+<li>Gibbs-Thomson-Effekt: Die Löslichkeit nimmt mit abnehmender
+Partikelgröße zu!</li>
+<li>Zwei Punkte, an denen intensiv geforscht wird, sind die Reduktion
+der Menge an teurem Pt entweder durch höhere Effizienz der Pt-NP oder
+durch Ersatzmaterialien und die Degradation des Graphitträgers mit der
+Betriebsdauer, speziell bei den An- und Abfahrprozessen (instationärer
+Betrieb) der BZ.</li>
+<li><a href="https://en.wikipedia.org/wiki/Coal">2</a> <img src="/anwendung-nanoskaliger-pulver-zusammenfassungen/Struktura_chemiczna_wegla_kamiennego.svg" alt="Example chemical structure of coal  2 "></li>
+<li>Turn Over Frequency (TOF): Dabei wird die Anzahl der Produktmoleküle
+pro Zeit auf die verfügbare Katalysatoroberfläche bezogen (genauer auf
+die „aktiven“ Zentren).</li>
 <li></li>
 </ol>
-<h1 id="NP-fur-Beschichtungen"><a href="#NP-fur-Beschichtungen" class="headerlink" title="NP für Beschichtungen"></a>NP für Beschichtungen</h1><ol>
-<li>Bariumsulfat(硫酸钡) und Eisenoxid als farebgebende Pigmente oder pyrogene(火成的，焦化の，热解的) Kieselsäuren(硅酸，$H_2SiO_3$, <em>silicic acid</em>) zur Beeinflussung der Fließfähigkeit</li>
+<h1 id="np-für-beschichtungen">NP für Beschichtungen</h1>
+<ol type="1">
+<li>Bariumsulfat (硫酸钡) und Eisenoxid als farebgebende Pigmente oder
+pyrogene (火成的，焦化の，热解的) Kieselsäuren (硅酸，<span class="math inline">\(H_2SiO_3\)</span>, <em>silicic acid</em>) zur
+Beeinflussung der Fließfähigkeit</li>
 <li>Holzlasuren 木釉</li>
-<li>Petal-Effekt &amp; Lotus-Effekt</li>
-<li>Diese hierarchische Mikrometer-Nanometer-Rauigkeit ist die typische Struktur für superhydrophobe Oberflächen.</li>
-<li>NP + 4.5ml Ethanol + 0.5ml Trimethylsiloxysilicat(<em>TMSS</em>)&#x2F;Cyclopentasiloxan</li>
+<li> Petal-Effekt &amp; Lotus-Effekt</li>
+<li>Diese hierarchische Mikrometer-Nanometer-Rauigkeit ist die typische
+Struktur für superhydrophobe Oberflächen.</li>
+<li>NP + 4.5ml Ethanol + 0.5ml
+Trimethylsiloxysilicat(<em>TMSS</em>)/Cyclopentasiloxan</li>
 </ol>
-<h1 id="Nanodrahte"><a href="#Nanodrahte" class="headerlink" title="Nanodrähte"></a>Nanodrähte</h1><ol>
+<h1 id="nanodrähte">Nanodrähte</h1>
+<ol type="1">
 <li>Template-assistierte Synthese (TAS)</li>
 </ol>
 <ul>
-<li><strong>anodisches Aluminiuoxid</strong>: anodische Oxidation von Al-Filmen in saurer Elektrolyt-Lösung, Al-Plättchen mechanisch und elektrochemisch poliert, Die Poren enstehen infolge von zwei gekoppelten Prozessen, nämlich der <code>Porenbildung</code> und der <code>Porenanordnung</code>.</li>
-<li>Ionenbeschuss, track-etching method, Polymer-Membranen mit näherungsweise zylindrische Poren&#x2F;einkristalline Glimmerfilme Poren mit diamant-förmigem Querschnitt, die entlang der Ionenspur spitz zulaufen.</li>
+<li><strong>anodisches Aluminiuoxid</strong>: anodische Oxidation von
+Al-Filmen in saurer Elektrolyt-Lösung, Al-Plättchen mechanisch und
+elektrochemisch poliert, Die Poren enstehen infolge von zwei gekoppelten
+Prozessen, nämlich der <code>Porenbildung</code> und der
+<code>Porenanordnung</code>.</li>
+<li>Ionenbeschuss, track-etching method, Polymer-Membranen mit
+näherungsweise zylindrische Poren/einkristalline Glimmerfilme Poren mit
+diamant-förmigem Querschnitt, die entlang der Ionenspur spitz
+zulaufen.</li>
 <li><strong>Nanokanalglas</strong></li>
 <li>Druckeinspritzen</li>
 <li>elektrochemische Deposition</li>
 <li>Dampfdeposition</li>
 <li><em>Vapor-Liquid-Solid(VLS)</em>-Wachstum</li>
 </ul>
-<ol start="2">
+<ol start="2" type="1">
 <li>Thermoelektrische Eigenschaften von ND</li>
 </ol>
 <ul>
 <li>Seebeck-Effekt</li>
 <li>Peltier-Effektes</li>
-<li>$ZT &#x3D; \frac{S^{2}*σ*T}{κ_e+κ_L}$</li>
-<li>Die Leistung thermoelektrischer Materialien wird durch die so genannte Gütezahl ZT (<em>figure-of-merit</em>) dargestellt</li>
+<li><span class="math inline">\(ZT =
+\frac{S^{2}\*σ\*T}{κ_e+κ_L}\)</span></li>
+<li>Die Leistung thermoelektrischer Materialien wird durch die so
+genannte Gütezahl ZT (<em>figure-of-merit</em>) dargestellt</li>
 </ul>
-<ol start="3">
+<ol start="3" type="1">
 <li>P25 ist ein kommerzieller Photokatalysator (TiO2)</li>
-<li>Ag&#x2F;ZnO ND, g wirkt als Elektronenfänger und verbessert die Trennung von Elektron-Loch-Paaren</li>
+<li>Ag/ZnO ND, g wirkt als Elektronenfänger und verbessert die Trennung
+von Elektron-Loch-Paaren</li>
 </ol>
-<h1 id="Katalyse"><a href="#Katalyse" class="headerlink" title="Katalyse"></a>Katalyse</h1><ol>
-<li><a href="https://de.wikipedia.org/wiki/Langmuir_(Einheit)">Langmuir</a>: Bei einem Haftkoeffizienten von 1 entspricht 1 L etwa einer Bedeckung einer Oberfläche mit einer Monolage des Adsorbats.</li>
-<li><strong>Quantengrößeneffekt</strong>, der durch die Begrenzung der Elektronen auf ein kleines Volumen entsteht</li>
+<h1 id="katalyse">Katalyse</h1>
+<ol type="1">
+<li><a href="https://de.wikipedia.org/wiki/Langmuir_(Einheit)">Langmuir</a>:
+Bei einem Haftkoeffizienten von 1 entspricht 1 L etwa einer Bedeckung
+einer Oberfläche mit einer Monolage des Adsorbats.</li>
+<li><strong>Quantengrößeneffekt</strong>, der durch die Begrenzung der
+Elektronen auf ein kleines Volumen entsteht</li>
 <li>Je kleiner die Au-NP ist, desto aktiver ist die Au-NP</li>
 <li>100-Facetten haben höchste Aktivität, nämlich Kubisch</li>
-<li>Bedeutung des Substrates auf die erhöhte katalytische Aktivität sind uneinheitlich.</li>
-<li>Oberflächenrauigkeit: eine verstärkte Aktivität für gestufte im Vergleich zu glatten Goldoberflächen</li>
-<li>Langzeitstabilität: Offensichtlich führt die CO-Exposition zur Bildung einer mobilen Au-Spezies durch die Schwächung der Cluster-Support-Bindung. reaktive Kornvergrößerung und nachfolgende Desaktivierung am stärksten für die Probe mit den kleinsten interpartikulären Abständen</li>
+<li>Bedeutung des Substrates auf die erhöhte katalytische Aktivität sind
+uneinheitlich.</li>
+<li>Oberflächenrauigkeit: eine verstärkte Aktivität für gestufte im
+Vergleich zu glatten Goldoberflächen</li>
+<li>Langzeitstabilität: Offensichtlich führt die CO-Exposition zur
+Bildung einer mobilen Au-Spezies durch die Schwächung der
+Cluster-Support-Bindung. reaktive Kornvergrößerung und nachfolgende
+Desaktivierung am stärksten für die Probe mit den kleinsten
+interpartikulären Abständen</li>
 <li>Wassergas-Shift-Reaktion:</li>
 </ol>
 <ul>
-<li>$CO + H_2O \leftrightarrows{} CO_2 + H_2$</li>
+<li><span class="math inline">\(CO + H_2O \leftrightarrows{} CO_2 +
+H_2\)</span></li>
 </ul>
-<ol start="9">
-<li>Geträgerte vs. ungeträgerte Katalysatoren bei der Methanbildung an Ni-NP</li>
+<ol start="9" type="1">
+<li>Geträgerte vs. ungeträgerte Katalysatoren bei der Methanbildung an
+Ni-NP</li>
 <li>Knallgasreaktion mit gasgetragene oder geträgte Pt-NP</li>
 </ol>
-<h1 id="Composite"><a href="#Composite" class="headerlink" title="Composite"></a>Composite</h1><ol>
+<h1 id="composite">Composite</h1>
+<ol type="1">
 <li>Oberflächenmodifikation der NP</li>
 </ol>
 <ul>
-<li>Chemische Oberflächenbehandlung<br>Anlagerung von Silan-Kopplungsmolekülen<br>Metallalkoxiden, -epoxiden, -alkylen oder arylisozyanaten</li>
-<li>Aufbringen synthetisccher Polymere, die kovalente Anbindung von Polymerketten: 1. endfuntionalisierte Polymere mit der Partikeloberfläche reagieren. 2. Polymerketten wachsen an einer Initiator-terminierten selbstorganisierten Oberflächenscchcicht. </li>
+<li>Chemische Oberflächenbehandlung Anlagerung von
+Silan-Kopplungsmolekülen Metallalkoxiden, -epoxiden, -alkylen oder
+arylisozyanaten</li>
+<li>Aufbringen synthetisccher Polymere, die kovalente Anbindung von
+Polymerketten: 1. endfuntionalisierte Polymere mit der
+Partikeloberfläche reagieren. 2. Polymerketten wachsen an einer
+Initiator-terminierten selbstorganisierten Oberflächenscchcicht.</li>
 <li>Liganden-Austauschmethoden</li>
-<li>Die Flüssigphasesynthese von NP<br>Liganden –&gt; das Wachstum abbrechen können –&gt; Partikelgröße<br>die selektive Adhäsion an spezielle Kristallfacetten –&gt; das Wachstum kinetisch kontrollieren –&gt; Partikelform: Nanoplättchen,Nanostäbchen, nanoskalige Polyeder</li>
+<li>Die Flüssigphasesynthese von NP Liganden --&gt; das Wachstum
+abbrechen können --&gt; Partikelgröße die selektive Adhäsion an
+spezielle Kristallfacetten --&gt; das Wachstum kinetisch kontrollieren
+--&gt; Partikelform: Nanoplättchen,Nanostäbchen, nanoskalige
+Polyeder</li>
 </ul>
-<p>2. </p>
-<h1 id="NP-im-Alltag"><a href="#NP-im-Alltag" class="headerlink" title="NP im Alltag"></a>NP im Alltag</h1><ol>
+<ol start="2" type="1">
+<li></li>
+</ol>
+<h1 id="np-im-alltag">NP im Alltag</h1>
+<ol type="1">
 <li>Nicht-tropfende Wandfarbe</li>
 </ol>
 <ul>
-<li>Eine Dispersion aus z. B. bei $SiO_2$-Nanoteilchen in Größen von etwa 10 bis 30 nm. <code>Thixotropie</code></li>
+<li>Eine Dispersion aus z. B. bei <span class="math inline">\(SiO_2\)</span>-Nanoteilchen in Größen von etwa 10
+bis 30 nm. <code>Thixotropie</code></li>
 </ul>
-<ol start="2">
+<ol start="2" type="1">
 <li>Schonende und schaltbare Klebestoffe</li>
 </ol>
 <ul>
-<li>Mikrowellen-Verklebung, superparamagnetischen Eisenoxidkristallen etwa 5 bis 25 nm, die in eine Siliziumdioxidhülle eingebettet sind</li>
-<li>mit Zweikomponenten-Polyurethanklebern auf demselben Weg fest verbundene Bauteile wieder zu lösen</li>
+<li>Mikrowellen-Verklebung, superparamagnetischen Eisenoxidkristallen
+etwa 5 bis 25 nm, die in eine Siliziumdioxidhülle eingebettet sind</li>
+<li>mit Zweikomponenten-Polyurethanklebern auf demselben Weg fest
+verbundene Bauteile wieder zu lösen</li>
 </ul>
-<ol start="3">
+<ol start="3" type="1">
 <li>Klebefleisch</li>
 <li>Quantum Dots(QD) in Displays</li>
 </ol>
 <ul>
-<li>bei Anregung mit einer Lichtquelle Licht einer anderen Wellenlänge (Farbe) in einem sehr engen Spektralbereich zu emittieren</li>
-<li><strong>Quantum Confinement Effekt</strong>, d.h. die Aufspaltung der Energieniveaus</li>
+<li>bei Anregung mit einer Lichtquelle Licht einer anderen Wellenlänge
+(Farbe) in einem sehr engen Spektralbereich zu emittieren</li>
+<li><strong>Quantum Confinement Effekt</strong>, d.h. die Aufspaltung
+der Energieniveaus</li>
 </ul>
-<h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><table>
+<h1 id="abkürzung-zusammenfassungen">Abkürzung Zusammenfassungen</h1>
+<table>
+<colgroup>
+<col style="width: 69%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr>
-<th align="right">Abkürzung</th>
-<th align="left">Völlständigen</th>
+<th style="text-align: right;">Abkürzung</th>
+<th style="text-align: left;">Völlständigen</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="right">FE-REM</td>
-<td align="left">Feldemitter-Rasterelektronenmikroskop</td>
+<tbody>
+<tr>
+<td style="text-align: right;">FE-REM</td>
+<td style="text-align: left;">Feldemitter-Rasterelektronenmikroskop</td>
 </tr>
 <tr>
-<td align="right">CNT</td>
-<td align="left"><em>Carbon Nanotube</em></td>
+<td style="text-align: right;">CNT</td>
+<td style="text-align: left;"><em>Carbon Nanotube</em></td>
 </tr>
 <tr>
-<td align="right">MOSFET</td>
-<td align="left">Metal Oxide Semiconductor Field Effect Transistor</td>
+<td style="text-align: right;">MOSFET</td>
+<td style="text-align: left;">Metal Oxide Semiconductor Field Effect
+Transistor</td>
 </tr>
 <tr>
-<td align="right">CNTFET</td>
-<td align="left">Kohlenstoff-Nanoröhren-Feldeffekttransistor</td>
+<td style="text-align: right;">CNTFET</td>
+<td style="text-align: left;">Kohlenstoff-Nanoröhren-Feldeffekttransistor</td>
 </tr>
 <tr>
-<td align="right">SRAM-Geschwindigkeit</td>
-<td align="left"><em>Static Random Access Memory</em></td>
+<td style="text-align: right;">SRAM-Geschwindigkeit</td>
+<td style="text-align: left;"><em>Static Random Access Memory</em></td>
 </tr>
 <tr>
-<td align="right">HOPG</td>
-<td align="left"><em>Highly Oriented Graphitic Carbon</em></td>
+<td style="text-align: right;">HOPG</td>
+<td style="text-align: left;"><em>Highly Oriented Graphitic
+Carbon</em></td>
 </tr>
 <tr>
-<td align="right">MWCNT</td>
-<td align="left"><em>Multi Wall CNT</em></td>
+<td style="text-align: right;">MWCNT</td>
+<td style="text-align: left;"><em>Multi Wall CNT</em></td>
 </tr>
 <tr>
-<td align="right">SWCNT</td>
-<td align="left"><em>Single Wall CNT</em></td>
+<td style="text-align: right;">SWCNT</td>
+<td style="text-align: left;"><em>Single Wall CNT</em></td>
 </tr>
 <tr>
-<td align="right">WW</td>
-<td align="left">Wechselwirkung</td>
+<td style="text-align: right;">WW</td>
+<td style="text-align: left;">Wechselwirkung</td>
 </tr>
 <tr>
-<td align="right">HNP</td>
-<td align="left">Halbleiter-NP</td>
+<td style="text-align: right;">HNP</td>
+<td style="text-align: left;">Halbleiter-NP</td>
 </tr>
 <tr>
-<td align="right">ITO</td>
-<td align="left">Indium Tin Oxide: leitend&amp;transparent</td>
+<td style="text-align: right;">ITO</td>
+<td style="text-align: left;">Indium Tin Oxide:
+leitend&amp;transparent</td>
 </tr>
 <tr>
-<td align="right">OPV</td>
-<td align="left">Organische Solarzellen</td>
+<td style="text-align: right;">OPV</td>
+<td style="text-align: left;">Organische Solarzellen</td>
 </tr>
 <tr>
-<td align="right">DSC</td>
-<td align="left"><em>dye Sensitized Cell</em> - Farbstoffzelle - Grätzel-Zellen</td>
+<td style="text-align: right;">DSC</td>
+<td style="text-align: left;"><em>dye Sensitized Cell</em> -
+Farbstoffzelle - Grätzel-Zellen</td>
 </tr>
 <tr>
-<td align="right">NQDs</td>
-<td align="left">Nanokristalline Quantum Dots</td>
+<td style="text-align: right;">NQDs</td>
+<td style="text-align: left;">Nanokristalline Quantum Dots</td>
 </tr>
 <tr>
-<td align="right">FTO</td>
-<td align="left"><em>engl&#x3D;Fluorine doped（掺杂的） Tin Oxide</em>, <em>dt</em>&#x3D;Fluor-dotiertes Zinndioxid, SnO<sub>2</sub></td>
+<td style="text-align: right;">FTO</td>
+<td style="text-align: left;"><em>engl=Fluorine doped（掺杂的） Tin
+Oxide</em>, <em>dt</em>=Fluor-dotiertes Zinndioxid, SnO<sub>2</sub></td>
 </tr>
 <tr>
-<td align="right">TCO-Glas</td>
-<td align="left"><em>Transparent Conductive Oxide</em></td>
+<td style="text-align: right;">TCO-Glas</td>
+<td style="text-align: left;"><em>Transparent Conductive Oxide</em></td>
 </tr>
 <tr>
-<td align="right">PES</td>
-<td align="left">Photoelektrochemische Solarzellen</td>
+<td style="text-align: right;">PES</td>
+<td style="text-align: left;">Photoelektrochemische Solarzellen</td>
 </tr>
 <tr>
-<td align="right">PEC-System</td>
-<td align="left">Photoelektrochemische System</td>
+<td style="text-align: right;">PEC-System</td>
+<td style="text-align: left;">Photoelektrochemische System</td>
 </tr>
 <tr>
-<td align="right">PC</td>
-<td align="left">Photonische Kristalle</td>
+<td style="text-align: right;">PC</td>
+<td style="text-align: left;">Photonische Kristalle</td>
 </tr>
 <tr>
-<td align="right">PS</td>
-<td align="left">Photonische Schwämme</td>
+<td style="text-align: right;">PS</td>
+<td style="text-align: left;">Photonische Schwämme</td>
 </tr>
 <tr>
-<td align="right">Pt-ECSA</td>
-<td align="left"><em>Pt-Elektrochemical Surface Area</em></td>
+<td style="text-align: right;">Pt-ECSA</td>
+<td style="text-align: left;"><em>Pt-Elektrochemical Surface
+Area</em></td>
 </tr>
 <tr>
-<td align="right">RHE</td>
-<td align="left"><em>reversible hydrogen Electrode</em></td>
+<td style="text-align: right;">RHE</td>
+<td style="text-align: left;"><em>reversible hydrogen
+Electrode</em></td>
 </tr>
 <tr>
-<td align="right">TOF</td>
-<td align="left"><em>Turn Over Frequency</em></td>
+<td style="text-align: right;">TOF</td>
+<td style="text-align: left;"><em>Turn Over Frequency</em></td>
 </tr>
 <tr>
-<td align="right">BB</td>
-<td align="left"><em>Biulding Blocks</em></td>
+<td style="text-align: right;">BB</td>
+<td style="text-align: left;"><em>Biulding Blocks</em></td>
 </tr>
 <tr>
-<td align="right">SPR</td>
-<td align="left"><em>Surface Plasmon Resonance</em></td>
+<td style="text-align: right;">SPR</td>
+<td style="text-align: left;"><em>Surface Plasmon Resonance</em></td>
 </tr>
 <tr>
-<td align="right">TPD-Versuchen</td>
-<td align="left">Temperatur-Programmierten-Desorptions-Versuchen</td>
+<td style="text-align: right;">TPD-Versuchen</td>
+<td style="text-align: left;">Temperatur-Programmierten-Desorptions-Versuchen</td>
 </tr>
 <tr>
-<td align="right">WGS</td>
-<td align="left">Wassergas-Shift-Reaktion</td>
+<td style="text-align: right;">WGS</td>
+<td style="text-align: left;">Wassergas-Shift-Reaktion</td>
 </tr>
-</tbody></table>
-<h1 id="Chemikalien"><a href="#Chemikalien" class="headerlink" title="Chemikalien"></a>Chemikalien</h1><ol>
-<li><a href="https://en.wikipedia.org/wiki/Porphyrin">Porphyrin</a>: 卟啉(bulin) <img src="/anwendung-nanoskaliger-pulver-zusammenfassungen/H2TPPsyn.png" alt="卟啉-Porphyrin"></li>
-<li><a href="https://de.wikipedia.org/wiki/Hydrazin">Hydrazin</a>: N<sub>2</sub>H<sub>4</sub></li>
+</tbody>
+</table>
+<h1 id="chemikalien">Chemikalien</h1>
+<ol type="1">
+<li><a href="https://en.wikipedia.org/wiki/Porphyrin">Porphyrin</a>:
+卟啉 (bulin) <img src="/anwendung-nanoskaliger-pulver-zusammenfassungen/H2TPPsyn.png" alt="卟啉-Porphyrin"></li>
+<li><a href="https://de.wikipedia.org/wiki/Hydrazin">Hydrazin</a>:
+N<sub>2</sub>H<sub>4</sub></li>
 <li>Pd: Palladium, 钯</li>
-<li>Ru: Ruthenium, 钌(liǎo)</li>
+<li> Ru: Ruthenium, 钌 (liǎo)</li>
 <li>PPA: Poly Phosphoric Acid</li>
-<li>PAA Poly Acrylic(丙烯酸) Acid</li>
+<li>PAA Poly Acrylic (丙烯酸) Acid</li>
 <li>das Tellur，碲，der Tellurid，碲化物</li>
-<li>das Antimon, 锑</li>
-<li>Ceria, $CeO_2$</li>
+<li> das Antimon, 锑</li>
+<li> Ceria, <span class="math inline">\(CeO_2\)</span></li>
 <li>der Silan, 硅烷</li>
-<li>(3-Methacryloxypropyl)trimethoxysilane <img src="/anwendung-nanoskaliger-pulver-zusammenfassungen/3-Methacryloxypropyl_trimethoxysilane.png" alt="(3-Methacryloxypropyl)trimethoxysilane"></li>
+<li> (3-Methacryloxypropyl)trimethoxysilane <img src="/anwendung-nanoskaliger-pulver-zusammenfassungen/3-Methacryloxypropyl_trimethoxysilane.png" alt="(3-Methacryloxypropyl)trimethoxysilane"></li>
 <li>Pyridin, 吡啶</li>
-<li>der Tetrahzdrofuran, 四氢呋喃</li>
-<li>das Tetrachlorethen, 四氯乙烯，<code>Per</code></li>
+<li> der Tetrahzdrofuran, 四氢呋喃</li>
+<li> das Tetrachlorethen, 四氯乙烯，<code>Per</code></li>
 </ol>
-<h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><p>1. </p>
+<h1 id="vokabeln">Vokabeln</h1>
+<ol type="1">
+<li></li>
+</ol>
 <table>
 <thead>
 <tr>
-<th align="center">der Wafer</th>
-<th align="center">die Waffel</th>
-<th align="center">die Waffe</th>
+<th style="text-align: center;">der Wafer</th>
+<th style="text-align: center;">die Waffel</th>
+<th style="text-align: center;">die Waffe</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">晶片；晶圆</td>
-<td align="center">华夫饼干</td>
-<td align="center">武器</td>
+<tbody>
+<tr>
+<td style="text-align: center;"> 晶片；晶圆</td>
+<td style="text-align: center;">华夫饼干</td>
+<td style="text-align: center;">武器</td>
 </tr>
 <tr>
-<td align="center">2. transparen</td>
-<td align="center"></td>
-<td align="center">durchsichtig</td>
+<td style="text-align: center;"> 2. transparen</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">durchsichtig</td>
+</tr>
+</tbody>
+</table>
+<ol start="3" type="1">
+<li><p>das Iod 碘；der Iodid 碘化物</p></li>
+<li><p> Alkan, -e, 烷烃；Olefin, -e 烯烃</p></li>
+<li><p> fiancée: 未婚妻</p></li>
+<li><p> der Glimmer, 云母</p></li>
+<li><p> autark, 自给自足的</p></li>
+<li><p> Exziton, 激子</p></li>
+<li><table>
+<thead>
+<tr>
+<th style="text-align: center;"> Methyl</th>
+<th style="text-align: center;">Ethyl</th>
+<th style="text-align: center;">Propyl</th>
+<th style="text-align: center;">Butyl</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"> 甲基</td>
+<td style="text-align: center;">乙基</td>
+<td style="text-align: center;">丙基</td>
+<td style="text-align: center;">丁基</td>
 </tr>
 <tr>
-<td align="center">3. das Iod 碘; der Iodid 碘化物</td>
-<td align="center"></td>
-<td align="center"></td>
+<td style="text-align: center;"> mono-</td>
+<td style="text-align: center;">di-</td>
+<td style="text-align: center;">tri-</td>
+<td style="text-align: center;">tetra-</td>
 </tr>
 <tr>
-<td align="center">4. Alkan, -e, 烷烃; Olefin, -e 烯烃</td>
-<td align="center"></td>
-<td align="center"></td>
+<td style="text-align: center;"> 单 -</td>
+<td style="text-align: center;"> 二 -</td>
+<td style="text-align: center;"> 三 -</td>
+<td style="text-align: center;"> 四 -</td>
 </tr>
 <tr>
-<td align="center">5. fiancée: 未婚妻</td>
-<td align="center"></td>
-<td align="center"></td>
+<td style="text-align: center;">Methan/Methanol</td>
+<td style="text-align: center;">Ethan/Ethanol</td>
+<td style="text-align: center;">Propan/Propanol</td>
+<td style="text-align: center;">Butan/Butanol</td>
 </tr>
-<tr>
-<td align="center">6. der Glimmer, 云母</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">7. autark, 自给自足的</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">8. Exziton, 激子</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">9.</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">Methyl</td>
-<td align="center">Ethyl</td>
-<td align="center">Propyl</td>
-</tr>
-<tr>
-<td align="center">:—:</td>
-<td align="center">:—:</td>
-<td align="center">:—:</td>
-</tr>
-<tr>
-<td align="center">甲基</td>
-<td align="center">乙基</td>
-<td align="center">丙基</td>
-</tr>
-<tr>
-<td align="center">mono-</td>
-<td align="center">di-</td>
-<td align="center">tri-</td>
-</tr>
-<tr>
-<td align="center">单-</td>
-<td align="center">二-</td>
-<td align="center">三-</td>
-</tr>
-<tr>
-<td align="center">Methan&#x2F;Methanol</td>
-<td align="center">Ethan&#x2F;Ethanol</td>
-<td align="center">Propan&#x2F;Propanol</td>
-</tr>
-</tbody></table>
-<ol start="10">
-<li><p>übelriechend, 难闻的，发臭的</p>
-</li>
-<li><p>xxx</p>
-</li>
-<li><p>whenever y’all break up</p>
-</li>
+</tbody>
+</table></li>
+<li><p>übelriechend, 难闻的，发臭的</p></li>
+<li><p> xxx</p></li>
+<li><p>whenever y'all break up</p></li>
 </ol>
 <blockquote>
-<p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr. Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische Universität Clausthal</em><br><a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">1</a>: <a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">https://de.wikipedia.org/wiki/Ostwald-Reifung</a><br><a href="https://en.wikipedia.org/wiki/Coal">2</a>: <a href="https://en.wikipedia.org/wiki/Coal">https://en.wikipedia.org/wiki/Coal</a></p>
+<p><em>Anwendungen nanoskaliger Pulver, Skriptum SS2018, Prof. Dr.
+Alfred Weber, Institut für Mechanische Verfahrenstechnik, Teschnische
+Universität Clausthal</em> <a href="https://de.wikipedia.org/wiki/Ostwald-Reifung">1</a>:
+https://de.wikipedia.org/wiki/Ostwald-Reifung <a href="https://en.wikipedia.org/wiki/Coal">2</a>:
+https://en.wikipedia.org/wiki/Coal</p>
 </blockquote>
 ]]></content>
       <tags>
@@ -404,19 +494,238 @@
       </tags>
   </entry>
   <entry>
+    <title>读后总结: Aqueous dispersion of nanobubbles: Generation, properties and features</title>
+    <url>/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie.html</url>
+    <content><![CDATA[<h1 id="xxx">xxx</h1>
+<ul>
+<li>Nanobubbles: high stability, longevity and high surface area per
+volume，rapid attachment to hydrophobic surfaces</li>
+<li>150-200nm (mean diameter) NBs and MBs-microbubbles (about 70μm)</li>
+<li>The NBs mean diameter and concentration only slightly varied within
+14 days.</li>
+<li>After the NBs were attached to the surface of a gain of <a href="#1">pyrite</a>, the NBs dramatically increased the population of
+MBs, which shows the enhancement of particle hydrophobicity due to NBs
+adhesion. 这里的描述有点像另一篇文献（Role of hydrodynamic cavitation in
+fine particle flotation）里的第二种气泡附着机理。<img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/schematic_illustration.png" alt="Schematic illustration of possible roles of hydrodynamic cavitation in fine particle flotation"></li>
+<li>Experimental evidence of NBs was provided by Miller et al. (1999),
+who used <a href="#2">RTIR</a> spectroscopy to incestigate the
+n-butane-saturated water at a hydrophobic silicon solid.</li>
+<li> 此文章中对 NB 的定义超过了 100nm，<code>ten to hundreds of nanometers in radius</code></li>
+<li><a href="#3">AFM</a> images revealed that they form spherical caps,
+but the precise shape of the NBs remains unclear</li>
+<li><code>bulk NBs</code> 到底什么意思？？？</li>
+<li><a href="#4">DI water</a> at 23℃±1: <span class="math inline">\(3μS\*cm^(-1)\)</span> conductivity, <span class="math inline">\(72.5±0.1mN\*m^(-1)\)</span> surface tension,
+natural equilibrium pH of 5.5 <span id="more"></span> # Chemikalien</li>
+</ul>
+<ol type="1">
+<li><a href="https://de.wikipedia.org/wiki/Methylenblau">blue methylene
+dye</a> as the contrast medium | 亚甲蓝 <img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/Methylene_blue.svg" alt="Strukturformel von Methylenblau"></li>
+<li><a href="https://en.wikipedia.org/wiki/Terpineol">α-Terpinol</a>| 松油醇
+<img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/Terpineols.png" alt="α-, β-, γ-, 4-Terpinol">
+(Hao 的实验里用的是 pine ole/Pineöl，需要思考两种起泡剂的区别)</li>
+<li></li>
+</ol>
+<h1 id="minerals">Minerals</h1>
+<ol type="1">
+<li><a href="https://de.wikipedia.org/wiki/Pyrit">pyrite</a>(fairly
+hydrophobic mineral)|<a name="1"></a> 黄铁矿</li>
+<li></li>
+</ol>
+<h1 id="messtechnik-used-in-this-article">Messtechnik used in this
+article</h1>
+<ol type="1">
+<li><a name="2"></a>Fourier transform infrared(FTIR)</li>
+<li><a name="3"></a>Atomic Force Microscope(AFM)</li>
+<li>Light scatting</li>
+<li>resonant mass mearsurement</li>
+<li>ZetaSizer Nano instrument, which uses Laser Doppler
+Micro-electrophoresis</li>
+<li>Nanoparticle-tracking analysis: NTA</li>
+<li>ZetaSizer Nano ZS</li>
+</ol>
+<h1 id="zusammenfassung">Zusammenfassung</h1>
+<p>Nanobubble 非常稳定，而且 NBs 的存在会非常明显的提高 Microbubble 的附着能力，在 flotation 中很值得一用！</p>
+<h1 id="vokabeln">Vokabeln</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Vokabeln</th>
+<th style="text-align: left;">Übersetzung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">dramatically</td>
+<td style="text-align: left;"> 引人注目地</td>
+</tr>
+<tr>
+<td style="text-align: right;"> notably</td>
+<td style="text-align: left;"> 显著地</td>
+</tr>
+<tr>
+<td style="text-align: right;"> sustainable</td>
+<td style="text-align: left;"> 可持续的；不破坏生态的</td>
+</tr>
+<tr>
+<td style="text-align: right;"> immerse</td>
+<td style="text-align: left;"> 沉浸于</td>
+</tr>
+<tr>
+<td style="text-align: right;"> aqueous</td>
+<td style="text-align: left;"> 水态的</td>
+</tr>
+<tr>
+<td style="text-align: right;"> gaseous</td>
+<td style="text-align: left;"> 气态的</td>
+</tr>
+<tr>
+<td style="text-align: right;"> submerge</td>
+<td style="text-align: left;"> 完全掩盖</td>
+</tr>
+<tr>
+<td style="text-align: right;"> affinity</td>
+<td style="text-align: left;"> 吸引力</td>
+</tr>
+<tr>
+<td style="text-align: right;"> void</td>
+<td style="text-align: left;"> 空间</td>
+</tr>
+<tr>
+<td style="text-align: right;"> readily</td>
+<td style="text-align: left;"> 容易地</td>
+</tr>
+<tr>
+<td style="text-align: right;"> joint</td>
+<td style="text-align: left;"> 连接</td>
+</tr>
+<tr>
+<td style="text-align: right;"> circumstance</td>
+<td style="text-align: left;"> 环境</td>
+</tr>
+<tr>
+<td style="text-align: right;"> presumably</td>
+<td style="text-align: left;"> 据推测</td>
+</tr>
+<tr>
+<td style="text-align: right;"> Deionized(DI) water</td>
+<td style="text-align: left;"> 去离子水</td>
+</tr>
+<tr>
+<td style="text-align: right;"> tap water</td>
+<td style="text-align: left;"> 自来水</td>
+</tr>
+<tr>
+<td style="text-align: right;"> resin</td>
+<td style="text-align: left;"> 树脂</td>
+</tr>
+<tr>
+<td style="text-align: right;"> abundant</td>
+<td style="text-align: left;"> 大量的，充足的</td>
+</tr>
+<tr>
+<td style="text-align: right;"> rinse</td>
+<td style="text-align: left;"> 冲洗，漂洗</td>
+</tr>
+<tr>
+<td style="text-align: right;"> saline</td>
+<td style="text-align: left;"> 含盐的</td>
+</tr>
+<tr>
+<td style="text-align: right;"> buoyancy</td>
+<td style="text-align: left;"> 浮力</td>
+</tr>
+<tr>
+<td style="text-align: right;"> magnification</td>
+<td style="text-align: left;"> 放大率</td>
+</tr>
+<tr>
+<td style="text-align: right;"> sterile syringe</td>
+<td style="text-align: left;"> 无菌的 注射器</td>
+</tr>
+<tr>
+<td style="text-align: right;"> tip</td>
+<td style="text-align: left;"> 尖端</td>
+</tr>
+<tr>
+<td style="text-align: right;"> shutter</td>
+<td style="text-align: left;"> 快门</td>
+</tr>
+<tr>
+<td style="text-align: right;"> arithmetically</td>
+<td style="text-align: left;"> 算术上的</td>
+</tr>
+<tr>
+<td style="text-align: right;"> duplicate</td>
+<td style="text-align: left;"> 两 - （见下）</td>
+</tr>
+<tr>
+<td style="text-align: right;">triplicate</td>
+<td style="text-align: left;"> 三 -（见下）</td>
+</tr>
+<tr>
+<td style="text-align: right;">quadruplicates experiments</td>
+<td style="text-align: left;"> 四组重复实验</td>
+</tr>
+<tr>
+<td style="text-align: right;"> disposable</td>
+<td style="text-align: left;"> 一次性的</td>
+</tr>
+<tr>
+<td style="text-align: right;"> aforementioned</td>
+<td style="text-align: left;"> 前面提到的</td>
+</tr>
+<tr>
+<td style="text-align: right;"> styrofoam</td>
+<td style="text-align: left;"> 泡沫聚苯乙烯</td>
+</tr>
+<tr>
+<td style="text-align: right;"> chronometer</td>
+<td style="text-align: left;"> 精密计时器</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <tags>
+        <tag>Literaturen</tag>
+        <tag>Masterarbeit</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Brennstoffzelle 2 Notizen</title>
     <url>/brennstoffzelle-2-notizen.html</url>
-    <content><![CDATA[<p>Damit dieser Polymerelektrolytmembran hier ein gute Ionnenleitfähigkeit haben ein gute Protonleitfähigkeit aufweisen müssen dieser Membran <strong>feucht</strong> gehalt werden. Sie brauchen bestimmter Wassergehalt um ein hohe Ionenleitfähigkeit zu erreichen. Und das impliziert dann eben, dass man bei diesem PEMFC relativ aufwändiges Wassermanagement benötigt, wo man typische Weise eben die Brenngase sowohl auf die Anodeseite aber auch dei Kathodeluft voeher aktiv befeuchtet um eben sicher zu stellen dass hier das Wassergehalt in der Membran ausreichen genug ist um diese gute Ionenleitfähigkeit sicher zu stellen.</p>
+    <content><![CDATA[<p>Damit dieser Polymerelektrolytmembran hier ein gute
+Ionnenleitfähigkeit haben ein gute Protonleitfähigkeit aufweisen müssen
+dieser Membran <strong>feucht</strong> gehalt werden. Sie brauchen
+bestimmter Wassergehalt um ein hohe Ionenleitfähigkeit zu erreichen. Und
+das impliziert dann eben, dass man bei diesem PEMFC relativ aufwändiges
+Wassermanagement benötigt, wo man typische Weise eben die Brenngase
+sowohl auf die Anodeseite aber auch dei Kathodeluft voeher aktiv
+befeuchtet um eben sicher zu stellen dass hier das Wassergehalt in der
+Membran ausreichen genug ist um diese gute Ionenleitfähigkeit sicher zu
+stellen.</p>
 <p>Kaltstart</p>
-<p>Ein entscheidenes Charateristikum, gilt auch für die andere niedrige T Brennstoffzelle, ist eben, dass sie auf beider Elektroden in diesem Fall als Katalysator eben hier <strong>Pt</strong> typische Weise einsetzen. Pt ist jetzt nicht gerade die günstige Rohstoff. Ein groß Teil der Kosten wird nach wie vor durch die Kosten für die Pt-Katalysator versursacht. 2 Nachteile:</p>
-<ul>
-<li>teure Matrial</li>
-<li>CO (Kohlenmonoxid) in geringen Mengen (ppm) sehr giftig für die Pt, irreversible!</li>
-</ul>
-<p><strong>poröse Gasdiffusionsschicht</strong> aus Kohlenstoffpartikel, Ruße, Rußmaterialien bilden poröse Schicht. Keine besondere Funktionen für die elektrochemische Umsetzung. Aber dient dazu, die Eduktgase möglichst gleichmäßig hier über die Elektrodenflächen zu verteilen. Mehr oder wenig als ein Stofftransportschicht. Reaktionswasser auf die Kathodeseite H<del>2</del>O ableiten.</p>
-<p><strong>Nafion&reg;, sulfoniertes Tetrafluorethylen-Polymer (PTFE Teflon&reg;)</strong> erlaubt gute Ionenleitfähigkeit und gleichzeitig geringe Elektronen-Leitfähigkeit. Besser ein Dicke unter 100$\mu$m für Protonleitung</p>
+<p>Ein entscheidenes Charateristikum, gilt auch für die andere niedrige
+T Brennstoffzelle, ist eben, dass sie auf beider Elektroden in diesem
+Fall als Katalysator eben hier <strong>Pt</strong> typische Weise
+einsetzen. Pt ist jetzt nicht gerade die günstige Rohstoff. Ein groß
+Teil der Kosten wird nach wie vor durch die Kosten für die
+Pt-Katalysator versursacht. 2 Nachteile: - teure Matrial - CO
+(Kohlenmonoxid) in geringen Mengen (ppm) sehr giftig für die Pt,
+irreversible!</p>
+<p><strong>poröse Gasdiffusionsschicht</strong> aus Kohlenstoffpartikel,
+Ruße, Rußmaterialien bilden poröse Schicht. Keine besondere Funktionen
+für die elektrochemische Umsetzung. Aber dient dazu, die Eduktgase
+möglichst gleichmäßig hier über die Elektrodenflächen zu verteilen. Mehr
+oder wenig als ein Stofftransportschicht. Reaktionswasser auf die
+Kathodeseite H<sub>2</sub>O ableiten.</p>
+<p><strong>Nafion®, sulfoniertes Tetrafluorethylen-Polymer (PTFE
+Teflon®)</strong> erlaubt gute Ionenleitfähigkeit und gleichzeitig
+geringe Elektronen-Leitfähigkeit. Besser ein Dicke unter 100<span class="math inline">\(\mu\)</span>m für Protonleitung</p>
 <blockquote>
-<p>Vorlesung, Brennstoffzelle 2, <strong>Prof. Dr. Andreas Lindermeir</strong>, CUTEC@teschnische Universität Clausthal<br>Zusammengefasst durch <strong>Shukang Zhang</strong>, Master@teschnische Universität Clausthal</p>
+<p>Vorlesung, Brennstoffzelle 2, <strong>Prof. Dr. Andreas
+Lindermeir</strong>, CUTEC@teschnische Universität Clausthal
+Zusammengefasst durch <strong>Shukang Zhang</strong>, Master@teschnische
+Universität Clausthal</p>
 </blockquote>
 ]]></content>
       <tags>
@@ -425,209 +734,13 @@
       </tags>
   </entry>
   <entry>
-    <title>读后总结: Aqueous dispersion of nanobubbles: Generation, properties and features</title>
-    <url>/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie.html</url>
-    <content><![CDATA[<h1 id="xxx"><a href="#xxx" class="headerlink" title="xxx"></a>xxx</h1><ul>
-<li>Nanobubbles: high stability, longevity and high surface area per volume，rapid attachment to hydrophobic surfaces</li>
-<li>150-200nm (mean diameter) NBs and MBs-microbubbles (about 70μm)</li>
-<li>The NBs mean diameter and concentration only slightly varied within 14 days.</li>
-<li>After the NBs were attached to the surface of a gain of <a href="#1">pyrite</a>, the NBs dramatically increased the population of MBs, which shows the enhancement of particle hydrophobicity due to NBs adhesion. 这里的描述有点像另一篇文献（Role of hydrodynamic cavitation in fine particle flotation）里的第二种气泡附着机理。<img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/schematic_illustration.png" alt="Schematic illustration of possible roles of hydrodynamic cavitation in fine particle flotation"></li>
-<li>Experimental evidence of NBs was provided by Miller et al. (1999), who used <a href="#2">RTIR</a> spectroscopy to incestigate the n-butane-saturated water at a hydrophobic silicon solid. </li>
-<li>此文章中对NB的定义超过了100nm，<code>ten to hundreds of nanometers in radius</code></li>
-<li><a href="#3">AFM</a> images revealed that they form spherical caps, but the precise shape of the NBs remains unclear</li>
-<li><code>bulk NBs</code>到底什么意思？？？</li>
-<li><a href="#4">DI water</a> at 23℃±1: $3μS*cm^(-1)$ conductivity, $72.5±0.1mN*m^(-1)$ surface tension, natural equilibrium pH of 5.5</li>
-</ul>
-<span id="more"></span>
-<h1 id="Chemikalien"><a href="#Chemikalien" class="headerlink" title="Chemikalien"></a>Chemikalien</h1><ol>
-<li><a href="https://de.wikipedia.org/wiki/Methylenblau">blue methylene dye</a> as the contrast medium|亚甲蓝<br><img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/Methylene_blue.svg" alt="Strukturformel von Methylenblau"></li>
-<li><a href="https://en.wikipedia.org/wiki/Terpineol">α-Terpinol</a>|松油醇<br><img src="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie/Terpineols.png" alt="α-, β-, γ-, 4-Terpinol"><br>(Hao的实验里用的是pine ole&#x2F;Pineöl，需要思考两种起泡剂的区别)</li>
-<li></li>
-</ol>
-<h1 id="Minerals"><a href="#Minerals" class="headerlink" title="Minerals"></a>Minerals</h1><ol>
-<li><a href="https://de.wikipedia.org/wiki/Pyrit">pyrite</a>(fairly hydrophobic mineral)|<a name="1"></a>黄铁矿</li>
-<li></li>
-</ol>
-<h1 id="Messtechnik-used-in-this-article"><a href="#Messtechnik-used-in-this-article" class="headerlink" title="Messtechnik used in this article"></a>Messtechnik used in this article</h1><ol>
-<li><a name="2"></a>Fourier transform infrared(FTIR)</li>
-<li><a name="3"></a>Atomic Force Microscope(AFM)</li>
-<li>Light scatting</li>
-<li>resonant mass mearsurement</li>
-<li>ZetaSizer Nano instrument, which uses Laser Doppler Micro-electrophoresis</li>
-<li>Nanoparticle-tracking analysis: NTA</li>
-<li>ZetaSizer Nano ZS</li>
-</ol>
-<h1 id="Zusammenfassung"><a href="#Zusammenfassung" class="headerlink" title="Zusammenfassung"></a>Zusammenfassung</h1><p>Nanobubble非常稳定，而且NBs的存在会非常明显的提高Microbubble的附着能力，在flotation中很值得一用！</p>
-<h1 id="Vokabeln"><a href="#Vokabeln" class="headerlink" title="Vokabeln"></a>Vokabeln</h1><table>
-<thead>
-<tr>
-<th align="right">Vokabeln</th>
-<th align="left">Übersetzung</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="right">dramatically</td>
-<td align="left">引人注目地</td>
-</tr>
-<tr>
-<td align="right">notably</td>
-<td align="left">显著地</td>
-</tr>
-<tr>
-<td align="right">sustainable</td>
-<td align="left">可持续的；不破坏生态的</td>
-</tr>
-<tr>
-<td align="right">immerse</td>
-<td align="left">沉浸于</td>
-</tr>
-<tr>
-<td align="right">aqueous</td>
-<td align="left">水态的</td>
-</tr>
-<tr>
-<td align="right">gaseous</td>
-<td align="left">气态的</td>
-</tr>
-<tr>
-<td align="right">submerge</td>
-<td align="left">完全掩盖</td>
-</tr>
-<tr>
-<td align="right">affinity</td>
-<td align="left">吸引力</td>
-</tr>
-<tr>
-<td align="right">void</td>
-<td align="left">空间</td>
-</tr>
-<tr>
-<td align="right">readily</td>
-<td align="left">容易地</td>
-</tr>
-<tr>
-<td align="right">joint</td>
-<td align="left">连接</td>
-</tr>
-<tr>
-<td align="right">circumstance</td>
-<td align="left">环境</td>
-</tr>
-<tr>
-<td align="right">presumably</td>
-<td align="left">据推测</td>
-</tr>
-<tr>
-<td align="right">Deionized(DI) water</td>
-<td align="left">去离子水</td>
-</tr>
-<tr>
-<td align="right">tap water</td>
-<td align="left">自来水</td>
-</tr>
-<tr>
-<td align="right">resin</td>
-<td align="left">树脂</td>
-</tr>
-<tr>
-<td align="right">abundant</td>
-<td align="left">大量的，充足的</td>
-</tr>
-<tr>
-<td align="right">rinse</td>
-<td align="left">冲洗，漂洗</td>
-</tr>
-<tr>
-<td align="right">saline</td>
-<td align="left">含盐的</td>
-</tr>
-<tr>
-<td align="right">buoyancy</td>
-<td align="left">浮力</td>
-</tr>
-<tr>
-<td align="right">magnification</td>
-<td align="left">放大率</td>
-</tr>
-<tr>
-<td align="right">sterile syringe</td>
-<td align="left">无菌的 注射器</td>
-</tr>
-<tr>
-<td align="right">tip</td>
-<td align="left">尖端</td>
-</tr>
-<tr>
-<td align="right">shutter</td>
-<td align="left">快门</td>
-</tr>
-<tr>
-<td align="right">arithmetically</td>
-<td align="left">算术上的</td>
-</tr>
-<tr>
-<td align="right">duplicate</td>
-<td align="left">两- （见下）</td>
-</tr>
-<tr>
-<td align="right">triplicate</td>
-<td align="left">三-（见下）</td>
-</tr>
-<tr>
-<td align="right">quadruplicates experiments</td>
-<td align="left">四组重复实验</td>
-</tr>
-<tr>
-<td align="right">disposable</td>
-<td align="left">一次性的</td>
-</tr>
-<tr>
-<td align="right">aforementioned</td>
-<td align="left">前面提到的</td>
-</tr>
-<tr>
-<td align="right">styrofoam</td>
-<td align="left">泡沫聚苯乙烯</td>
-</tr>
-<tr>
-<td align="right">chronometer</td>
-<td align="left">精密计时器</td>
-</tr>
-</tbody></table>
-]]></content>
-      <tags>
-        <tag>Literaturen</tag>
-        <tag>Masterarbeit</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>node.js &amp; Hexo 更新记录</title>
-    <url>/hexo-geng-xin-ji-lu.html</url>
-    <content><![CDATA[<p>还是老样子，网上的教程都是能省就省，小白真的很累。</p>
-<h1 id="node-js-升级"><a href="#node-js-升级" class="headerlink" title="node.js 升级"></a>node.js 升级</h1><p>之前是手动下载安装包点鼠标安装的，这次升级发现以前为了避免c盘根目录权限问题装到了d盘，犹豫了半天还是卸载了，毕竟c盘和d盘做了彻底隔离，软件全装c盘，d盘只放静态文件，还留着一个会关联启动的node.js会很不爽，c盘根目录权限问题其实之前也已经解决了，就是找到git bash的快捷方式，打开属性，在兼容性一栏勾选上⌈以管理员身份启动⌋就好了。<br>找到的第一篇*<a href="https://leimingshan.com/posts/d9017f30/">升级指南</a>说他使用的nvm比较简单，我也不知道是啥，还跟npm搞混了，powershell直接键入</p>
-<figure class="highlight powershell"><figcaption><span>powershell</span></figcaption><table><tr><td class="code"><pre><span class="line">nvm <span class="literal">-v</span></span><br></pre></td></tr></table></figure>
-<p>结果unknown哈哈，不过正好node.js的软件选择界面有个选项让你选安装方式，下拉一看，真有nvm，再往下一看，咦！有chocolatery！这我不是刚装嘛，原来是包管理器啊，直接按照官网教程<code>choco install nodejs --version=&quot;22.3.0&quot;</code>，结果报错我日，说没有此版本，去掉版本号再试就行了，但是安装的是22.2.0版本，真的无语，node.js你这么专业的网站，22.3.0还没有在choco里通过，为什么官网安装代码要给22.3.0，对于普通小白又是一道坑。。。<br>装完以后尝试<code>node -v</code>, unknown命令，all right，环境变量里的node_path要改,改完有了。<br>尝试<code>npm -v</code>, 显示⌈无法加载文件C:...\nodejs\npm.ps1,该文件未进行数字签名⌋，吐了，我寻思，装choco的时候已经把执行策略改成Allsigned了呀，结果一搜，Allsigned的权限还是不够，需要改成remote，通过<code>set-ExecutionPolicy RemoteSigned</code>解决。<br>这里顺便Mark以下Powershell的执行策略:</p>
-<figure class="highlight text"><figcaption><span>Powershell执行策略</span><a href="https://blog.csdn.net/qq_46634307/article/details/122545353">参考出处</a></figcaption><table><tr><td class="code"><pre><span class="line">Restricted： 禁止运行任何脚本和配置文件。  </span><br><span class="line">AllSigned ：可以运行脚本，但要求所有脚本和配置文件由可信发布者签名，包括在本地计算机上编写的脚本。  </span><br><span class="line">RemoteSigned ：可以运行脚本，但要求从网络上下载的脚本和配置文件由可信发布者签名；不要求对已经运行和已在本地计算机编写的脚本进行数字签名。  </span><br><span class="line">Unrestricted ：可以运行未签名脚本。（这个选项是非常危险的！！！非专业人士，请不要触碰哦！！！）  </span><br></pre></td></tr></table></figure>
-<p>总算是正常了。。。<br>这里再推荐一篇*<a href="https://blog.csdn.net/antma/article/details/86104068">帖子</a>, 安装完不要忘了修改npm的cache目录以方便管理，需要在nodejs文件夹下新建两个文件夹node_global和node_cache,然后：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> prefix <span class="string">&quot;C:\Program Files\nodejs\node_global&quot;</span></span><br><span class="line">npm config <span class="built_in">set</span> cache <span class="string">&quot;C:\Program Files\nodejs\node_cache&quot;</span></span><br><span class="line">npm install webpack <span class="literal">-g</span> <span class="comment">#测试是否成功</span></span><br></pre></td></tr></table></figure>
-<h1 id="hexo更新"><a href="#hexo更新" class="headerlink" title="hexo更新"></a>hexo更新</h1><p>参考*<a href="https://novnan.github.io/Hexo/update_hexo/">此篇hexo同好的帖子</a><br>以下命令已经都可以在git bash里执行，我是进入到blog目录，然后右键打开git bash运行的命令，已经不再是powershell</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">hexo version </span><br><span class="line">npm i hexo<span class="literal">-cli</span> <span class="literal">-g</span> <span class="comment">#全局升级hexo-cli</span></span><br><span class="line">npm install <span class="literal">-g</span> npm<span class="literal">-check</span> </span><br><span class="line">npm<span class="literal">-check</span> <span class="comment">#检查系统插件是否需要升级</span></span><br><span class="line">npm install <span class="literal">-g</span> npm<span class="literal">-upgrade</span> </span><br><span class="line">npm<span class="literal">-upgrade</span> <span class="comment">#更新package.json</span></span><br><span class="line">npm update <span class="literal">-g</span> <span class="comment">#更新全局插件</span></span><br><span class="line">npm update <span class="literal">--save</span> <span class="comment">#更新系统插件</span></span><br><span class="line">hexo version</span><br></pre></td></tr></table></figure>
-<p>npm-upgrade这步把我恶心到了，弹出五行选项：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"> xxxxxxxxxxxxxxxxx*(use arrow keys)</span><br><span class="line">&gt;Yes</span><br><span class="line"> No</span><br><span class="line"> See Changelog</span><br><span class="line"> xxx</span><br><span class="line"> Finish <span class="keyword">process</span></span><br></pre></td></tr></table></figure>
-<p>我按上箭头把光标上移四行，然后按回车，结果tm的全部给我选了No，折腾半天，什么不动，直接回车，反而是Yes…<br>然后我以为<code>npm-upgrade</code>结束就好了呀，直接<code>hexo version</code>,还是没变！怎么都不行！又是折腾半天才搞懂，<code>npm-upgrade</code>只是更新package.json这个文件里的所有插件版本标识，并不是真的更新软件。。。还需要下面两行的<code>npm update -g</code>和<code>npm update --save</code>命令，执行完才算是全部更新完。。。<br>坑太多了呀！</p>
-<h1 id="尝试新版hexo里的multi-language功能"><a href="#尝试新版hexo里的multi-language功能" class="headerlink" title="尝试新版hexo里的multi-language功能"></a>尝试新版hexo里的multi-language功能</h1><p>按网上的教程直接给我整出了<code>FATAL: duplicated mapping key (37:1)</code>, 笑死，然后退回原设置，<code>hexo clean</code>都无法识别了，试了一下<code>hexo version</code>，欸，我hexo呢！哈哈哈笑死！什么离谱bug，下面一大串插件名称里只有hexo-cli了，hexo本体没了！<img src="/hexo-geng-xin-ji-lu/tom.GIF" alt="."> 关了git bash重启后在原来配置文件下hexo终于顺利运行，搞半天是因为以前的多语言教程老了，都是借助的第三方i18n那个国际化插件，跟新本hexo原生的multi-language配置方法不一样，导致冲突，但是新版的multi-language目前我也不是很会用，只是把按钮整出来了，然后也只能添加一个页面，难受。</p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>无聊过来写文章，本来是想弄个置顶的，挂上王小波的那段话:<br>⌈人在写作时，总是孤身一人，作品实际上是个人的独白，是一些发出的信。我觉得自己太缺少与人交流的机会—我相信，这是写严肃文学的人共同的体会。但是这个世界上除了有自己，还有别人，除了身边的人，还有整个人类。写作的意义，就在于与人交流。因为这个缘故，我一直在写。⌋<br>我也写不出什么严肃文学或者伤痕文学，我只是太缺少与人交流的机会哈哈，所以，我也得写。</p>
-]]></content>
-      <tags>
-        <tag>个人心情</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Charaterisierung von Nanopartikeln</title>
     <url>/charaterisierung-von-nanopartikeln.html</url>
-    <content><![CDATA[<h1 id="Einleitung"><a href="#Einleitung" class="headerlink" title="Einleitung"></a>Einleitung</h1><span id="more"></span>
-<h1 id="Elektronenmikroskopie-und-Rastersondentechniken"><a href="#Elektronenmikroskopie-und-Rastersondentechniken" class="headerlink" title="Elektronenmikroskopie und Rastersondentechniken"></a>Elektronenmikroskopie und Rastersondentechniken</h1><ol>
+    <content><![CDATA[<h1 id="einleitung">Einleitung</h1>
+<span id="more"></span>
+<h1 id="elektronenmikroskopie-und-rastersondentechniken">Elektronenmikroskopie
+und Rastersondentechniken</h1>
+<ol type="1">
 <li>TEM</li>
 <li>REM, <em>engl. SEM</em></li>
 <li>STM</li>
@@ -635,48 +748,70 @@
 <li>ESEM: <em>Environmental Scanning Electron Microscope</em></li>
 <li>FIB: <em>Focused Ion Beam</em></li>
 <li>Cryo-REM</li>
-<li>HR-REM: Hechauflösungselektronenmikroskopie, ermöglicht die atomare Abbildung von Probendetails, wie Gitterabbildung und Defekte, und über Elektronenbeugung (ED) kann die Kristallstruktur mit hoher lateraler Auflösung ermittelt werden. Die atomare Auflösung der TEM-Bilder beruht auf dem Phasenkontrast und ist nicht etwa durch Materialunterschiede oder unterschiedlich dicke Probenbereich (Massenkontrast) bedingt.</li>
-<li><code>EDXS</code> im Bereich der Elemente <strong>mittlerer und hoher Ordnungszahlen</strong> liegt, und <code>EELS</code> die <strong>leichten Elemente</strong> abdeckt und zusätzliche Information zur chemischen Bindung der Atome in der Probe liefert</li>
+<li>HR-REM: Hechauflösungselektronenmikroskopie, ermöglicht die atomare
+Abbildung von Probendetails, wie Gitterabbildung und Defekte, und über
+Elektronenbeugung (ED) kann die Kristallstruktur mit hoher lateraler
+Auflösung ermittelt werden. Die atomare Auflösung der TEM-Bilder beruht
+auf dem Phasenkontrast und ist nicht etwa durch Materialunterschiede
+oder unterschiedlich dicke Probenbereich (Massenkontrast) bedingt.</li>
+<li><code>EDXS</code> im Bereich der Elemente <strong>mittlerer und
+hoher Ordnungszahlen</strong> liegt, und <code>EELS</code> die
+<strong>leichten Elemente</strong> abdeckt und zusätzliche Information
+zur chemischen Bindung der Atome in der Probe liefert</li>
 <li>unspezifische Bremsstrahlung (Untergrund)</li>
 <li></li>
 </ol>
-<h1 id="Mobilitatanalyse"><a href="#Mobilitatanalyse" class="headerlink" title="Mobilitätanalyse"></a>Mobilitätanalyse</h1><ol>
+<h1 id="mobilitätanalyse">Mobilitätanalyse</h1>
+<ol type="1">
 <li>SMPS-System (Scanning Mobility Particle Sizer)</li>
 </ol>
 <ul>
-<li>Aufladung<br>radioaktive Quelle –&gt; bipolare<br>Corona-Entladung –&gt; unipolare<br>Diffusionsaufladung<br>Feldaufladung</li>
+<li>Aufladung radioaktive Quelle --&gt; bipolare Corona-Entladung --&gt;
+unipolare Diffusionsaufladung Feldaufladung</li>
 <li>DMA</li>
-<li>CPC: Condensation Particcle Counter<br>FCE: Faraday-Cup-Elektrometer</li>
+<li>CPC: Condensation Particcle Counter FCE:
+Faraday-Cup-Elektrometer</li>
 </ul>
-<ol start="2">
+<ol start="2" type="1">
 <li>In Suspensionen</li>
 </ol>
 <ul>
-<li>LDA: Laser-Dopppler-Anemometer(气流计)</li>
+<li>LDA: Laser-Dopppler-Anemometer (气流计)</li>
 <li>Zeta-Potential</li>
 <li>Elektroakustik</li>
 </ul>
-<h1 id="Tragheitsspektroskopie"><a href="#Tragheitsspektroskopie" class="headerlink" title="Trägheitsspektroskopie"></a>Trägheitsspektroskopie</h1><h1 id="Sorptionsanalyse"><a href="#Sorptionsanalyse" class="headerlink" title="Sorptionsanalyse"></a>Sorptionsanalyse</h1><h1 id="Wechselwirkung-mit-elektromagnetischer-Strahlung"><a href="#Wechselwirkung-mit-elektromagnetischer-Strahlung" class="headerlink" title="Wechselwirkung mit elektromagnetischer Strahlung"></a>Wechselwirkung mit elektromagnetischer Strahlung</h1><h1 id="Ultraschallextinktion"><a href="#Ultraschallextinktion" class="headerlink" title="Ultraschallextinktion"></a>Ultraschallextinktion</h1><h1 id="Thermogravimetrie-TGA"><a href="#Thermogravimetrie-TGA" class="headerlink" title="Thermogravimetrie (TGA)"></a>Thermogravimetrie (TGA)</h1><h1 id="Beispiel"><a href="#Beispiel" class="headerlink" title="Beispiel"></a>Beispiel</h1><h1 id="Abkurzung-Zusammenfassungen"><a href="#Abkurzung-Zusammenfassungen" class="headerlink" title="Abkürzung Zusammenfassungen"></a>Abkürzung Zusammenfassungen</h1><table>
+<h1 id="trägheitsspektroskopie">Trägheitsspektroskopie</h1>
+<h1 id="sorptionsanalyse">Sorptionsanalyse</h1>
+<h1 id="wechselwirkung-mit-elektromagnetischer-strahlung">Wechselwirkung
+mit elektromagnetischer Strahlung</h1>
+<h1 id="ultraschallextinktion">Ultraschallextinktion</h1>
+<h1 id="thermogravimetrie-tga">Thermogravimetrie (TGA)</h1>
+<h1 id="beispiel">Beispiel</h1>
+<h1 id="abkürzung-zusammenfassungen">Abkürzung Zusammenfassungen</h1>
+<table>
 <thead>
 <tr>
-<th align="right">Abkürzung</th>
-<th align="left">Völlständigen</th>
+<th style="text-align: right;">Abkürzung</th>
+<th style="text-align: left;">Völlständigen</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="right">DMA</td>
-<td align="left">Differential Mobility Analyzer</td>
+<tbody>
+<tr>
+<td style="text-align: right;">DMA</td>
+<td style="text-align: left;">Differential Mobility Analyzer</td>
 </tr>
 <tr>
-<td align="right">CPC</td>
-<td align="left">Condensation Particle Counter</td>
+<td style="text-align: right;">CPC</td>
+<td style="text-align: left;">Condensation Particle Counter</td>
 </tr>
 <tr>
-<td align="right">FCE</td>
-<td align="left">Farady Cup Electrometer</td>
+<td style="text-align: right;">FCE</td>
+<td style="text-align: left;">Farady Cup Electrometer</td>
 </tr>
-</tbody></table>
-<h1 id="Vokablen"><a href="#Vokablen" class="headerlink" title="Vokablen"></a>Vokablen</h1><ol>
+</tbody>
+</table>
+<h1 id="vokablen">Vokablen</h1>
+<ol type="1">
 <li>sonochemisch 声化学的</li>
 </ol>
 ]]></content>
@@ -686,37 +821,39 @@
       </tags>
   </entry>
   <entry>
-    <title>Comsol学习笔记</title>
+    <title>Comsol 学习笔记</title>
     <url>/comsol-xue-xi-bi-ji.html</url>
-    <content><![CDATA[<h1 id="网格划分"><a href="#网格划分" class="headerlink" title="网格划分"></a>网格划分</h1><img src="/comsol-xue-xi-bi-ji/wg0.png" class title="网格划分示例">
-<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格</p>
-<blockquote>
-<p>参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn">建模流程概述</a></p>
-</blockquote>
+    <content><![CDATA[<h1 id="网格划分">网格划分</h1>
+<img src="/comsol-xue-xi-bi-ji/wg0.png" class title="网格划分示例">
+<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格
+&gt; 参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn">建模流程概述</a></p>
 <span id="more"></span>
-
-<h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><p>切除，并集等操作在布尔运算选项下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: 构建体素对象</span><br><span class="line">e=&gt;end: 例如布尔运算</span><br><span class="line">op1=&gt;operation: 参数化编辑</span><br><span class="line">op2=&gt;operation: 完成设置后执行几何操作</span><br><span class="line"></span><br><span class="line">st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</span><br></pre></td></tr></table></figure>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Copy操作可以复制二维图形</span><br><span class="line">Move操作可以复制几何体</span><br><span class="line">工作平面（Work plane)用以几何分割操作，可以简化模型，改进网格剖分</span><br></pre></td></tr></table></figure>
-
-
-<h1 id="浅谈Comsol建模对比Creo建模"><a href="#浅谈Comsol建模对比Creo建模" class="headerlink" title="浅谈Comsol建模对比Creo建模"></a>浅谈Comsol建模对比Creo建模</h1><figure class="highlight text"><figcaption><span>经验尚浅，只能浅谈</span></figcaption><table><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></table></figure>
-
-<h1 id="CFD流体模拟总结"><a href="#CFD流体模拟总结" class="headerlink" title="CFD流体模拟总结"></a>CFD流体模拟总结</h1><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></table></figure>
-
-<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><p>曲率因子：边界单元尺寸和几何边界曲率之比<br>非结构化网格：一个点可以被任意数量的网格共用</p>
-<h1 id="Funtionsmodell"><a href="#Funtionsmodell" class="headerlink" title="Funtionsmodell"></a>Funtionsmodell</h1><p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im Rohr als laminare Strömung betrachtet werden. Dann ist die Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial homogene Tempeaturverteilung ist nämlich unmöglich.</p>
-<ol>
-<li>Um ein radial homogene Tempeaturverteilung zu bekommen, braucht eine turbulente Strömung<br>Dann haben wir 2 Auswahl:</li>
-</ol>
-<ul>
-<li>nicht-metalisch äußere Hülle + metalisch innere Struktur</li>
-<li>metalisch äußere Hülle + metalisch innere Struktur<br>Metalisch äußere Hülle hat hier zu gut Wärmeleitfähigkeit, führt durch natürliche Konvektion zu Kühlung.<br>Deswegen empfehle ich nicht-metalisch äußere Hülle + metalisch innere Struktur<br>Äußere Hülle soll ein schlechte Wärmeleitfähigkeit haben.</li>
-</ul>
-<p>Die Messung von Tempertaur –&gt; Berührungslos messende Thermometer?</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: Elektromagnetische Induktion</span><br><span class="line">op1=&gt;operation: nur metalisch äußere Hülle</span><br><span class="line">op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op4=&gt;operation:</span><br><span class="line"></span><br><span class="line">st-&gt;op1</span><br><span class="line">st-&gt;op2</span><br><span class="line">st-&gt;op3</span><br></pre></td></tr></table></figure>
-
-<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht. Dann ist ohne innere Struktur ein</p>
+<h1 id="基本操作">基本操作</h1>
+<p>切除，并集等操作在布尔运算选项下 </p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: 构建体素对象</span><br><span class="line">e=&gt;end: 例如布尔运算</span><br><span class="line">op1=&gt;operation: 参数化编辑</span><br><span class="line">op2=&gt;operation: 完成设置后执行几何操作</span><br><span class="line"></span><br><span class="line">st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</span><br></pre></td></tr></tbody></table></figure> <figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">Copy操作可以复制二维图形</span><br><span class="line">Move操作可以复制几何体</span><br><span class="line">工作平面（Work plane)用以几何分割操作，可以简化模型，改进网格剖分</span><br></pre></td></tr></tbody></table></figure><p></p>
+<h1 id="浅谈comsol建模对比creo建模">浅谈 Comsol 建模对比 Creo 建模</h1>
+<figure class="highlight text"><figcaption><span>经验尚浅，只能浅谈 </span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="cfd流体模拟总结">CFD 流体模拟总结</h1>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="tipps">Tipps</h1>
+<p>曲率因子：边界单元尺寸和几何边界曲率之比
+非结构化网格：一个点可以被任意数量的网格共用</p>
+<h1 id="funtionsmodell">Funtionsmodell</h1>
+<p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im
+Rohr als laminare Strömung betrachtet werden. Dann ist die
+Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial
+homogene Tempeaturverteilung ist nämlich unmöglich. 1. Um ein radial
+homogene Tempeaturverteilung zu bekommen, braucht eine turbulente
+Strömung Dann haben wir 2 Auswahl: - nicht-metalisch äußere Hülle +
+metalisch innere Struktur - metalisch äußere Hülle + metalisch innere
+Struktur Metalisch äußere Hülle hat hier zu gut Wärmeleitfähigkeit,
+führt durch natürliche Konvektion zu Kühlung. Deswegen empfehle ich
+nicht-metalisch äußere Hülle + metalisch innere Struktur Äußere Hülle
+soll ein schlechte Wärmeleitfähigkeit haben.</p>
+<p>Die Messung von Tempertaur --&gt; Berührungslos messende
+Thermometer?</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: Elektromagnetische Induktion</span><br><span class="line">op1=&gt;operation: nur metalisch äußere Hülle</span><br><span class="line">op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op4=&gt;operation:</span><br><span class="line"></span><br><span class="line">st-&gt;op1</span><br><span class="line">st-&gt;op2</span><br><span class="line">st-&gt;op3</span><br></pre></td></tr></tbody></table></figure>
+<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht.
+Dann ist ohne innere Struktur ein</p>
 ]]></content>
       <tags>
         <tag>Comsol</tag>
@@ -724,29 +861,73 @@
       </tags>
   </entry>
   <entry>
-    <title>Creo学习笔记</title>
+    <title>node.js &amp; Hexo 更新记录</title>
+    <url>/hexo-geng-xin-ji-lu.html</url>
+    <content><![CDATA[<p>还是老样子，网上的教程都是能省就省，小白真的很累。 # node.js 升级
+之前是手动下载安装包点鼠标安装的，这次升级发现以前为了避免 c 盘根目录权限问题装到了 d 盘，犹豫了半天还是卸载了，毕竟 c 盘和 d 盘做了彻底隔离，软件全装 c 盘，d 盘只放静态文件，还留着一个会关联启动的 node.js 会很不爽，c 盘根目录权限问题其实之前也已经解决了，就是找到 git
+bash 的快捷方式，打开属性，在兼容性一栏勾选上⌈以管理员身份启动⌋就好了。
+找到的第一篇<em><a href="https://leimingshan.com/posts/d9017f30/">升级指南</a>说他使用的 nvm 比较简单，我也不知道是啥，还跟 npm 搞混了，powershell 直接键入
+</em></p><figure class="highlight powershell"><figcaption><em><span>powershell</span></em></figcaption><table><tbody><tr><td class="code"><pre><span class="line">nvm <span class="literal">-v</span></span><br></pre></td></tr></tbody></table></figure><em>
+结果 unknown 哈哈，不过正好 node.js 的软件选择界面有个选项让你选安装方式，下拉一看，真有 nvm，再往下一看，咦！有 chocolatery！这我不是刚装嘛，原来是包管理器啊，直接按照官网教程 <code>choco install nodejs --version="22.3.0"</code>，结果报错我日，说没有此版本，去掉版本号再试就行了，但是安装的是 22.2.0 版本，真的无语，node.js 你这么专业的网站，22.3.0 还没有在 choco 里通过，为什么官网安装代码要给 22.3.0，对于普通小白又是一道坑。。。
+装完以后尝试 <code>node -v</code>, unknown 命令，all
+right，环境变量里的 node_path 要改，改完有了。 尝试 <code>npm -v</code>,
+显示⌈无法加载文件 C:....ps1, 该文件未进行数字签名⌋，吐了，我寻思，装 choco 的时候已经把执行策略改成 Allsigned 了呀，结果一搜，Allsigned 的权限还是不够，需要改成 remote，通过 <code>set-ExecutionPolicy RemoteSigned</code> 解决。
+这里顺便 Mark 以下 Powershell 的执行策略: <figure class="highlight text"><figcaption><span>Powershell 执行策略</span><a href="https://blog.csdn.net/qq_46634307/article/details/122545353">参考出处</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">Restricted： 禁止运行任何脚本和配置文件。  </span><br><span class="line">AllSigned ：可以运行脚本，但要求所有脚本和配置文件由可信发布者签名，包括在本地计算机上编写的脚本。  </span><br><span class="line">RemoteSigned ：可以运行脚本，但要求从网络上下载的脚本和配置文件由可信发布者签名；不要求对已经运行和已在本地计算机编写的脚本进行数字签名。  </span><br><span class="line">Unrestricted ：可以运行未签名脚本。（这个选项是非常危险的！！！非专业人士，请不要触碰哦！！！）  </span><br></pre></td></tr></tbody></table></figure> 总算是正常了。。。
+这里再推荐一篇</em><a href="https://blog.csdn.net/antma/article/details/86104068">帖子</a>,
+安装完不要忘了修改npm的cache目录以方便管理，需要在nodejs文件夹下新建两个文件夹node_global和node_cache,然后：
+<figure class="highlight powershell"><table><tbody><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> prefix <span class="string">"C:\Program Files\nodejs\node_global"</span></span><br><span class="line">npm config <span class="built_in">set</span> cache <span class="string">"C:\Program Files\nodejs\node_cache"</span></span><br><span class="line">npm install webpack <span class="literal">-g</span> <span class="comment">#测试是否成功</span></span><br></pre></td></tr></tbody></table></figure> # hexo更新 参考*<a href="https://novnan.github.io/Hexo/update_hexo/">此篇 hexo 同好的帖子</a>
+以下命令已经都可以在git bash里执行，我是进入到blog目录，然后右键打开git
+bash运行的命令，已经不再是powershell <figure class="highlight powershell"><table><tbody><tr><td class="code"><pre><span class="line">hexo version </span><br><span class="line">npm i hexo<span class="literal">-cli</span> <span class="literal">-g</span> <span class="comment">#全局升级hexo-cli</span></span><br><span class="line">npm install <span class="literal">-g</span> npm<span class="literal">-check</span> </span><br><span class="line">npm<span class="literal">-check</span> <span class="comment">#检查系统插件是否需要升级</span></span><br><span class="line">npm install <span class="literal">-g</span> npm<span class="literal">-upgrade</span> </span><br><span class="line">npm<span class="literal">-upgrade</span> <span class="comment">#更新package.json</span></span><br><span class="line">npm update <span class="literal">-g</span> <span class="comment">#更新全局插件</span></span><br><span class="line">npm update <span class="literal">--save</span> <span class="comment">#更新系统插件</span></span><br><span class="line">hexo version</span><br></pre></td></tr></tbody></table></figure>
+npm-upgrade这步把我恶心到了，弹出五行选项： <figure class="highlight powershell"><table><tbody><tr><td class="code"><pre><span class="line"> xxxxxxxxxxxxxxxxx*(use arrow keys)</span><br><span class="line">&gt;Yes</span><br><span class="line"> No</span><br><span class="line"> See Changelog</span><br><span class="line"> xxx</span><br><span class="line"> Finish <span class="keyword">process</span></span><br></pre></td></tr></tbody></table></figure>
+我按上箭头把光标上移四行，然后按回车，结果tm的全部给我选了No，折腾半天，什么不动，直接回车，反而是Yes...
+然后我以为 <code>npm-upgrade</code> 结束就好了呀，直接 <code>hexo version</code>,还是没变！怎么都不行！又是折腾半天才搞懂，<code>npm-upgrade</code> 只是更新package.json这个文件里的所有插件版本标识，并不是真的更新软件。。。还需要下面两行的 <code>npm update -g</code> 和 <code>npm update --save</code> 命令，执行完才算是全部更新完。。。
+坑太多了呀！<p></p>
+<h1 id="尝试新版hexo里的multi-language功能">尝试新版 hexo 里的 multi-language 功能</h1>
+<p>按网上的教程直接给我整出了 <code>FATAL: duplicated mapping key (37:1)</code>,
+笑死，然后退回原设置，<code>hexo clean</code> 都无法识别了，试了一下 <code>hexo version</code>，欸，我 hexo 呢！哈哈哈笑死！什么离谱 bug，下面一大串插件名称里只有 hexo-cli 了，hexo 本体没了！<img src="/hexo-geng-xin-ji-lu/tom.GIF" alt="."> 关了 git
+bash 重启后在原来配置文件下 hexo 终于顺利运行，搞半天是因为以前的多语言教程老了，都是借助的第三方 i18n 那个国际化插件，跟新本 hexo 原生的 multi-language 配置方法不一样，导致冲突，但是新版的 multi-language 目前我也不是很会用，只是把按钮整出来了，然后也只能添加一个页面，难受。</p>
+<h1 id="后记">后记</h1>
+<p>无聊过来写文章，本来是想弄个置顶的，挂上王小波的那段话:
+⌈人在写作时，总是孤身一人，作品实际上是个人的独白，是一些发出的信。我觉得自己太缺少与人交流的机会 --- 我相信，这是写严肃文学的人共同的体会。但是这个世界上除了有自己，还有别人，除了身边的人，还有整个人类。写作的意义，就在于与人交流。因为这个缘故，我一直在写。⌋<br>
+我也写不出什么严肃文学或者伤痕文学，我只是太缺少与人交流的机会哈哈，所以，我也得写。</p>
+]]></content>
+      <tags>
+        <tag>个人心情</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Creo 学习笔记</title>
     <url>/creo-xue-xi-bi-ji.html</url>
-    <content><![CDATA[<h1 id="修改语言出现的问题"><a href="#修改语言出现的问题" class="headerlink" title="修改语言出现的问题"></a>修改语言出现的问题</h1><p>我按网上的教程，通过改环境变量的方式添加中文操作界面，结果搞成了四不像，新开的文件一概英文界面，打开我保存关闭后的prt文件，一概显示中文界面。。。但是这个中文界面缺斤少两，模型里很多模块没了，得通过自定义的方式手动添加出来，<code>新建组</code><br>这一点上我真的要吹爆Comsol，安装界面第一项就让你选择语言，选好之后，后面从安装到软件实操界面一概是你选择好的语言，非常方便</p>
-<h1 id="在此插入的用法"><a href="#在此插入的用法" class="headerlink" title="在此插入的用法"></a>在此插入的用法</h1><img src="/creo-xue-xi-bi-ji/%E5%9C%A8%E6%AD%A4%E6%8F%92%E5%85%A5%E7%9A%84%E7%94%A8%E6%B3%95.png" class title="在此插入的用法">
+    <content><![CDATA[<h1 id="修改语言出现的问题">修改语言出现的问题</h1>
+<p>我按网上的教程，通过改环境变量的方式添加中文操作界面，结果搞成了四不像，新开的文件一概英文界面，打开我保存关闭后的 prt 文件，一概显示中文界面。。。但是这个中文界面缺斤少两，模型里很多模块没了，得通过自定义的方式手动添加出来，<code>新建组</code>
+这一点上我真的要吹爆 Comsol，安装界面第一项就让你选择语言，选好之后，后面从安装到软件实操界面一概是你选择好的语言，非常方便</p>
+<h1 id="在此插入的用法">在此插入的用法</h1>
+<img src="/creo-xue-xi-bi-ji/%E5%9C%A8%E6%AD%A4%E6%8F%92%E5%85%A5%E7%9A%84%E7%94%A8%E6%B3%95.png" class title="在此插入的用法">
 <p>通过拖拽此选项到任意步骤下方，可以查看该步骤具体做了那些东西，非常实用</p>
-<h1 id="底部消息区是你最好的老师"><a href="#底部消息区是你最好的老师" class="headerlink" title="底部消息区是你最好的老师"></a>底部消息区是你最好的老师</h1><h1 id="键鼠操作汇总"><a href="#键鼠操作汇总" class="headerlink" title="键鼠操作汇总"></a>键鼠操作汇总</h1><figure class="highlight text"><figcaption><span>Text代码块</span><a href="https://shukangzhang.com">测试链接勿点</a></figcaption><table><tr><td class="code"><pre><span class="line">按住中键可以旋转</span><br><span class="line">按住Ctrl + 中键沿固定轴旋转</span><br><span class="line">按住Shift + 中键实现平移</span><br><span class="line">滚轮可以缩放</span><br><span class="line">所有正在执行操作的取消都可以通过ESC键</span><br><span class="line">界面上的缩小按钮可以直接缩小，单击放大按钮后需要选择想放大的区域</span><br></pre></td></tr></table></figure>
-
-<h1 id="常用操作汇总"><a href="#常用操作汇总" class="headerlink" title="常用操作汇总"></a>常用操作汇总</h1><ul>
+<h1 id="底部消息区是你最好的老师">底部消息区是你最好的老师</h1>
+<h1 id="键鼠操作汇总">键鼠操作汇总</h1>
+<figure class="highlight text"><figcaption><span>Text 代码块</span><a href="https://shukangzhang.com">测试链接勿点</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">按住中键可以旋转</span><br><span class="line">按住Ctrl + 中键沿固定轴旋转</span><br><span class="line">按住Shift + 中键实现平移</span><br><span class="line">滚轮可以缩放</span><br><span class="line">所有正在执行操作的取消都可以通过ESC键</span><br><span class="line">界面上的缩小按钮可以直接缩小，单击放大按钮后需要选择想放大的区域</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="常用操作汇总">常用操作汇总</h1>
+<ul>
 <li>设置选项卡下的草绘视图可以把定义好的面平铺到屏幕中央</li>
 </ul>
-<h1 id="取消使用系统默认模板"><a href="#取消使用系统默认模板" class="headerlink" title="取消使用系统默认模板"></a>取消使用系统默认模板</h1><p>为什么要取消默认模板，因为默认模板无法满足国家标准的要求。。。。。。<br>mmns_part_solid最常用</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">mm表示毫米</span><br><span class="line">n表示力</span><br><span class="line">s时间单位</span><br><span class="line">part_solid实体模型</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>参考链接：<a href="https://www.eduartisan.com/course/851/lesson/4218">CREO快速入门（4.0版）试听课 1-4模型设计的一般过程</a></p>
-</blockquote>
-<h1 id="疑似bug"><a href="#疑似bug" class="headerlink" title="疑似bug"></a>疑似bug</h1><p>个人发现，单击保存，每一次都会保存一个新的prt文件，，末尾会以123…n自动排序，而不是保存到原文件，不知道为什么</p>
-<h1 id="拉伸操作入门"><a href="#拉伸操作入门" class="headerlink" title="拉伸操作入门"></a>拉伸操作入门</h1><p>拉伸–&gt;放置–&gt;定义–&gt;选择草绘面–&gt;画图–&gt;画完确定重回拉伸界面–&gt;确定拉伸参数–&gt;拉伸–&gt;finish<br>拉伸的方向可以通过两种方式更改：</p>
-<ul>
-<li>点击拉伸面的法向箭头</li>
-<li>拉伸菜单下，详细参数部分，具体拉伸数值的右边第一个选项<br>拉伸同时可以做除料</li>
-</ul>
-<h1 id="关于草绘"><a href="#关于草绘" class="headerlink" title="关于草绘"></a>关于草绘</h1><p>样条命令在实体模型中用的不是非常多，但是做曲面一定要掌握<br>若想绘制多边形，请单击草绘选项卡里的选项板</p>
-<h1 id="Tipps汇总"><a href="#Tipps汇总" class="headerlink" title="Tipps汇总"></a>Tipps汇总</h1><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">工作目录的选择很重要</span><br></pre></td></tr></table></figure>
+<h1 id="取消使用系统默认模板">取消使用系统默认模板</h1>
+<p>为什么要取消默认模板，因为默认模板无法满足国家标准的要求。。。。。。
+mmns_part_solid 最常用 </p><figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">mm表示毫米</span><br><span class="line">n表示力</span><br><span class="line">s时间单位</span><br><span class="line">part_solid实体模型</span><br></pre></td></tr></tbody></table></figure> &gt;参考链接：<a href="https://www.eduartisan.com/course/851/lesson/4218">CREO 快速入门（4.0 版）试听课
+1-4 模型设计的一般过程</a><p></p>
+<h1 id="疑似bug">疑似 bug</h1>
+<p>个人发现，单击保存，每一次都会保存一个新的 prt 文件，，末尾会以 123...n 自动排序，而不是保存到原文件，不知道为什么</p>
+<h1 id="拉伸操作入门">拉伸操作入门</h1>
+<p>拉伸 --&gt; 放置 --&gt; 定义 --&gt; 选择草绘面 --&gt; 画图 --&gt; 画完确定重回拉伸界面 --&gt; 确定拉伸参数 --&gt; 拉伸 --&gt;finish
+拉伸的方向可以通过两种方式更改： - 点击拉伸面的法向箭头 -
+拉伸菜单下，详细参数部分，具体拉伸数值的右边第一个选项
+拉伸同时可以做除料</p>
+<h1 id="关于草绘">关于草绘</h1>
+<p>样条命令在实体模型中用的不是非常多，但是做曲面一定要掌握
+若想绘制多边形，请单击草绘选项卡里的选项板</p>
+<h1 id="tipps汇总">Tipps 汇总</h1>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">工作目录的选择很重要</span><br></pre></td></tr></tbody></table></figure>
 ]]></content>
       <tags>
         <tag>工程制图</tag>
@@ -754,60 +935,38 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo如何迁移blog到新电脑上</title>
-    <url>/hexo-ru-he-qian-yi-blog-dao-xin-dian-nao-shang.html</url>
-    <content><![CDATA[<p>2023.11.04<br>非常难得，又有闲心来重新弄这个blog，重做系统，或者换了新电脑，如何重新链接上这个blog一直是劝退我的一大因素，本来以为要一两天才能弄好，这次也是想着，再不济，那就再删一次blog文件夹呗，全部重头再来，没想到很简单就成功了，哈哈哈。</p>
-<span id="more"></span>
-<p>ok,先描述一下我的情况。入职以后换了新电脑，blog文件夹是一直放在onedrive里的，所以直接就同步过来了，问题是，如何重新连接上Github，让我能正常管理文章。<br>很简单，按流程走一遍。</p>
-<ol>
-<li>安装<a href="Git" title="git-scm.com">Git</a></li>
-<li>绑定github：安装好Git后，桌面右键打开Git bash,然后键入ssh，查看本机是否安装ssh，然后键入ssh-keygen -t rsa生成密钥，登录github，在设置里找到ssh那一栏，用公钥 id_rsa.pub里的乱码添加ssh key，保存，教程在这里：<a href="https://zhuanlan.zhihu.com/p/103391101">个人博客第3篇——绑定GitHub并提交文件 - 知乎 (zhihu.com)</a>。验证是否成功，我们可以通过在 Git Bash 中输入 ssh -T <a href="mailto:&#103;&#105;&#116;&#x40;&#x67;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;">git@github.com</a> 进行检验。</li>
-<li>注意，绑定完，第一次同步需要绑定用户信息：<blockquote>
-<p>$ git config–global user.name “shxxxxxang”<br>$ git config–global user.email “<a href="mailto:&#122;&#104;&#x61;&#110;&#120;&#120;&#x78;&#x78;&#x78;&#64;&#x78;&#x78;&#120;&#x6d;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;">zhanxxxxx@xxxmail.com</a>“</p>
-</blockquote>
-</li>
-<li><a href="https://zhuanlan.zhihu.com/p/105715224">个人博客第5篇——安装node.js和Hexo - 知乎 (zhihu.com)</a>，然后安装此教程安装node.js，添加环境变量，npm install webpack -g，在原来的blog文件夹下安装hexo，尝试hexo init,显示<code>xxx not empty, please run </code>hexo init<code> on an empty folder and then copy your files into it</code>，因为其实到这里就好啦，哈哈哈，尝试直接hexo s，居然一切正常！再也不用删除blog文件夹从头来过了，感动！呜呜呜</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Teigtasche von Marktkauf in Clausthal</title>
     <url>/teigtasche-von-marktkauf-in-clausthal.html</url>
-    <content><![CDATA[<p>test</p>
-<span id="more"></span>
+    <content><![CDATA[<p>test <span id="more"></span></p>
 ]]></content>
   </entry>
   <entry>
-    <title>hexo添加pdf预览-谈谈现有教程遗漏的地方</title>
+    <title>hexo 添加 pdf 预览 - 谈谈现有教程遗漏的地方</title>
     <url>/hexo-tian-jia-pdf.html</url>
-    <content><![CDATA[<p>首先请参考<a href="https://github.com/superalsrk/hexo-pdf">Github官方教程superalsrk&#x2F;hexo-pdf</a></p>
-<h1 id="Install-hexo-dependency"><a href="#Install-hexo-dependency" class="headerlink" title="Install hexo dependency"></a>Install hexo dependency</h1><p><code>$ npm install --save hexo-pdf</code></p>
-<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和pdf文件啦</p>
-<p>然后键入:</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&#123;% pdf ./xxx.<span class="property">pdf</span> %&#125;</span><br></pre></td></tr></table></figure>
-<p>咦，怎么不行！？</p>
+    <content><![CDATA[<p>首先请参考 <a href="https://github.com/superalsrk/hexo-pdf">Github 官方教程 superalsrk/hexo-pdf</a></p>
+<h1 id="install-hexo-dependency">Install hexo dependency</h1>
+<p><code>$ npm install --save hexo-pdf</code></p>
+<h1 id="usage">Usage</h1>
+<p>在 <code>post_asset_folder: true</code> 的情况下你就可以在 <code>/source/_posts</code> 目录下用和 <code>xxx.md</code> 同名的文件夹保存图片和 pdf 文件啦</p>
+<p>然后键入: </p><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.<span class="property">pdf</span> %}</span><br></pre></td></tr></tbody></table></figure> 咦，怎么不行！？<p></p>
 <span id="more"></span>
-
-<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于pdf路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&#123;% pdf ./file/xxx.<span class="property">pdf</span> %&#125;</span><br></pre></td></tr></table></figure>
-<p>结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：<br><img src="/hexo-tian-jia-pdf/pdftag.png"><br>这里一直是<code>enable: false</code>怎么显示的出来pdf啊。</p>
-<p>默认只有height设置，<del>width设置是我自己加上去的，实测没用</del></p>
-<p>另外下图给出我添加pdf过程中出现的错误，大家可以参考一下，比如</p>
-<ul>
-<li>域名是https的话http开头的图床是会被block掉的</li>
-<li>google和onedrive的pdf读不出来我是真的不知道为什么<br><img src="/hexo-tian-jia-pdf/pdferror.png"></li>
-</ul>
+<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于 pdf 路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐 <code>theme/next/souce</code> 目录下建一个 <code>file</code> 文件夹，然后用
+</p><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.<span class="property">pdf</span> %}</span><br></pre></td></tr></tbody></table></figure>
+结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：
+<img src="/hexo-tian-jia-pdf/pdftag.png">
+这里一直是 <code>enable: false</code> 怎么显示的出来pdf啊。<p></p>
+<p>默认只有 height 设置，<del>width 设置是我自己加上去的，实测没用</del></p>
+<p>另外下图给出我添加 pdf 过程中出现的错误，大家可以参考一下，比如 +
+域名是 https 的话 http 开头的图床是会被 block 掉的 +
+google 和 onedrive 的 pdf 读不出来我是真的不知道为什么 <img src="/hexo-tian-jia-pdf/pdferror.png"></p>
 <hr>
-<h1 id="06-15-Upgrade"><a href="#06-15-Upgrade" class="headerlink" title="06.15 Upgrade"></a>06.15 Upgrade</h1><p>以上方法显示出来的PDF不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">&quot;./xxx.pdf&quot;</span> <span class="attr">type</span>=<span class="string">&quot;application/pdf&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;1000px&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>html代码解决<br>object可换成embed, iframe<br>参考链接如下：</p>
-<blockquote>
-<p><a href="http://miracle778.site/pdf-test/pdf-test.html">hexo中插入pdf解决方法</a><br><a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览PDF总结：iframe、embed、PDFObject、PDF.js</a></p>
-</blockquote>
-<h1 id="06-20-Upgrade"><a href="#06-20-Upgrade" class="headerlink" title="06.20 Upgrade"></a>06.20 Upgrade</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&#123;% pdf ./file/xxx.<span class="property">pdf</span> %&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="upgrade">06.15 Upgrade</h1>
+<p>以上方法显示出来的 PDF 不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：
+</p><figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure> html代码解决 object可换成embed, iframe 参考链接如下：
+&gt;<a href="http://miracle778.site/pdf-test/pdf-test.html">hexo 中插入 pdf 解决方法</a>
+&gt;<a href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览 PDF 总结：iframe、embed、PDFObject、PDF.js</a><p></p>
+<h1 id="upgrade-1">06.20 Upgrade</h1>
+<figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.<span class="property">pdf</span> %}</span><br></pre></td></tr></tbody></table></figure>
 <p>此方法在我的浏览器上现在可以正常显示了，不知道是不是因为更新浏览器清除了浏览器缓存</p>
 ]]></content>
       <categories>
@@ -818,27 +977,60 @@
       </tags>
   </entry>
   <entry>
-    <title>如何使用latexdiff生成marked-up manuscript</title>
+    <title>hexo 如何迁移 blog 到新电脑上</title>
+    <url>/hexo-ru-he-qian-yi-blog-dao-xin-dian-nao-shang.html</url>
+    <content><![CDATA[<p>2023.11.04
+非常难得，又有闲心来重新弄这个 blog，重做系统，或者换了新电脑，如何重新链接上这个 blog 一直是劝退我的一大因素，本来以为要一两天才能弄好，这次也是想着，再不济，那就再删一次 blog 文件夹呗，全部重头再来，没想到很简单就成功了，哈哈哈。
+<span id="more"></span>
+ok, 先描述一下我的情况。入职以后换了新电脑，blog 文件夹是一直放在 onedrive 里的，所以直接就同步过来了，问题是，如何重新连接上 Github，让我能正常管理文章。
+很简单，按流程走一遍。 1. 安装 <a href="Git%20(git-scm.com)">Git</a> 2.
+绑定 github：安装好 Git 后，桌面右键打开 Git
+bash, 然后键入 ssh，查看本机是否安装 ssh，然后键入 ssh-keygen -t
+rsa 生成密钥，登录 github，在设置里找到 ssh 那一栏，用公钥
+id_rsa.pub 里的乱码添加 ssh key，保存，教程在这里：<a href="https://zhuanlan.zhihu.com/p/103391101">个人博客第 3 篇 —— 绑定 GitHub 并提交文件
+- 知乎 (zhihu.com)</a>。验证是否成功，我们可以通过在 Git Bash 中输入 ssh
+-T&nbsp;<a href="mailto:git@github.com">git@github.com</a>&nbsp;进行检验。 3.
+注意，绑定完，第一次同步需要绑定用户信息： &gt; $ git config--global
+user.name "shxxxxxang" &gt; $ git config--global user.email
+"zhanxxxxx@xxxmail.com" 4. <a href="https://zhuanlan.zhihu.com/p/105715224">个人博客第 5 篇 —— 安装 node.js 和 Hexo
+- 知乎 (zhihu.com)</a>，然后安装此教程安装 node.js，添加环境变量，npm
+install webpack -g，在原来的 blog 文件夹下安装 hexo，尝试 hexo
+init, 显示 <code>xxx not empty, please run</code>hexo
+init<code>on an empty folder and then copy your files into it</code>，因为其实到这里就好啦，哈哈哈，尝试直接 hexo
+s，居然一切正常！再也不用删除 blog 文件夹从头来过了，感动！呜呜呜</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何使用 latexdiff 生成 marked-up manuscript</title>
     <url>/how-to-use-latexdiff.html</url>
-    <content><![CDATA[<h1 id="latexdiff-Perl-安装"><a href="#latexdiff-Perl-安装" class="headerlink" title="latexdiff &amp; Perl 安装"></a>latexdiff &amp; Perl 安装</h1><ol>
-<li><a href="https://github.com/ftilmann/latexdiff">github仓库</a>进release下载，然后存放任意位置解压缩即可</li>
-<li>Perl直接google搜索，官网安装Strawberry Perl即可，需要注意的是，为了powershell里可以全局调用，需要进环境变量，在path里添加Strawberry Perl的安装目录。如果是用chocolatey包管理器安装的，大概率会自动添加进环境变量，因为家里网访问github突然有了问题，所以未作尝试。</li>
+    <content><![CDATA[<h1 id="latexdiff-perl-安装">latexdiff &amp; Perl 安装</h1>
+<ol type="1">
+<li><a href="https://github.com/ftilmann/latexdiff">github 仓库</a>进 release 下载，然后存放任意位置解压缩即可</li>
+<li> Perl 直接 google 搜索，官网安装 Strawberry
+Perl 即可，需要注意的是，为了 powershell 里可以全局调用，需要进环境变量，在 path 里添加 Strawberry
+Perl 的安装目录。如果是用 chocolatey 包管理器安装的，大概率会自动添加进环境变量，因为家里网访问 github 突然有了问题，所以未作尝试。</li>
 </ol>
-<h1 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h1><ol>
-<li>把old.tex和new.tex放到一个文件夹里，在此文件夹内打开powershell，也可以通过cd命令进入此文件夹<br><img src="/how-to-use-latexdiff/example.jpg" alt="example"></li>
-<li>运行代码调用latexdiff编译</li>
+<h1 id="运行">运行</h1>
+<ol type="1">
+<li>把 old.tex 和 new.tex 放到一个文件夹里，在此文件夹内打开 powershell，也可以通过 cd 命令进入此文件夹
+<img src="/how-to-use-latexdiff/example.jpg" alt="example"></li>
+<li>运行代码调用 latexdiff 编译 <figure class="highlight powershell"><figcaption><span>example</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment"># general</span></span><br><span class="line">latexdiff [ <span class="type">OPTIONS</span> ] old.tex new.tex &gt; diff.tex</span><br><span class="line"></span><br><span class="line"><span class="comment"># example</span></span><br><span class="line">latexdiff <span class="literal">-c</span> ld.cfg <span class="literal">-t</span> UNDERLINE old.tex new.tex &gt;aipsamp.tex</span><br><span class="line"></span><br><span class="line"><span class="comment"># options</span></span><br><span class="line"><span class="comment"># 这里的-c lf.cfg意思是调用配置文件lf.cfg来进行配置，里面给了一句`PICTUREENV=(?:picture|DIFnomarkup|align)[\w\d*@]*`用来跳过图片的对比，但是好像没用？</span></span><br><span class="line"><span class="comment">#-t UNDERLINE是使用下划线，但是好像也没用？</span></span><br></pre></td></tr></tbody></table></figure></li>
 </ol>
-<figure class="highlight powershell"><figcaption><span>example</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># general</span></span><br><span class="line">latexdiff [ <span class="type">OPTIONS</span> ] old.tex new.tex &gt; diff.tex</span><br><span class="line"></span><br><span class="line"><span class="comment"># example</span></span><br><span class="line">latexdiff <span class="literal">-c</span> ld.cfg <span class="literal">-t</span> UNDERLINE old.tex new.tex &gt;aipsamp.tex</span><br><span class="line"></span><br><span class="line"><span class="comment"># options</span></span><br><span class="line"><span class="comment"># 这里的-c lf.cfg意思是调用配置文件lf.cfg来进行配置，里面给了一句`PICTUREENV=(?:picture|DIFnomarkup|align)[\w\d*@]*`用来跳过图片的对比，但是好像没用？</span></span><br><span class="line"><span class="comment">#-t UNDERLINE是使用下划线，但是好像也没用？</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="OPTIONS"><a href="#OPTIONS" class="headerlink" title="OPTIONS"></a>OPTIONS</h1><ul>
-<li>根据官方文档，如果想要跳过某一个特定段落的对比，需要在old.tex和new.tex的相应段落前后添加上\begin{DIFnomarkup} and \end{DIFnomarkup}, 除此之外，You must define the environment in the preambles of both old and new documents, <code>\newenvironment&#123;DIFnomarkup&#125;&#123;&#125;&#123;&#125;</code> is a good choice to define it as a null-environment. 以下为示例：</li>
-</ul>
-<figure class="highlight latex"><figcaption><span>example</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">\newenvironment</span>&#123;DIFnomarkup&#125;&#123;&#125;&#123;&#125;</span><br><span class="line"><span class="keyword">\begin</span>&#123;document&#125;</span><br><span class="line">    <span class="keyword">\begin</span>&#123;DIFnomarkup&#125;</span><br><span class="line">    此处内容会被排除对比</span><br><span class="line">    <span class="keyword">\end</span>&#123;DIFnomarkup&#125;</span><br><span class="line"><span class="keyword">\end</span>&#123;document&#125;</span><br></pre></td></tr></table></figure>
-<p>测试很好用</p>
+<h1 id="options">OPTIONS</h1>
 <ul>
-<li>configration一如既往是个巨大的议题，太难了，<code>latexdiff -h</code>可以查看帮助文件，但是不管是官方文档还是帮助文件，都太过简略了。</li>
+<li>根据官方文档，如果想要跳过某一个特定段落的对比，需要在 old.tex 和 new.tex 的相应段落前后添加上
+, 除此之外，You must define the environment in the preambles of both old
+and new documents, <code>\newenvironment{DIFnomarkup}{}{}</code> is a
+good choice to define it as a null-environment. 以下为示例：
+<figure class="highlight latex"><figcaption><span>example</span></figcaption><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">\newenvironment</span>{DIFnomarkup}{}{}</span><br><span class="line"><span class="keyword">\begin</span>{document}</span><br><span class="line">    <span class="keyword">\begin</span>{DIFnomarkup}</span><br><span class="line">    此处内容会被排除对比</span><br><span class="line">    <span class="keyword">\end</span>{DIFnomarkup}</span><br><span class="line"><span class="keyword">\end</span>{document}</span><br></pre></td></tr></tbody></table></figure> 测试很好用</li>
+<li> configration 一如既往是个巨大的议题，太难了，<code>latexdiff -h</code> 可以查看帮助文件，但是不管是官方文档还是帮助文件，都太过简略了。</li>
 </ul>
-<h1 id="discussion"><a href="#discussion" class="headerlink" title="discussion"></a>discussion</h1><p>进 powershell 尝试latexdiff -v,首次运行会调用MiKTek安装latexdiff宏包，这样此处就有了个疑问，从github上下载的latexdiff是否真的有用到，而且我只是做了解压缩，并未添加环境变量，但是powershell却可以直接调用他！</p>
+<h1 id="discussion">discussion</h1>
+<p>进 powershell 尝试 latexdiff
+-v, 首次运行会调用 MiKTek 安装 latexdiff 宏包，这样此处就有了个疑问，从 github 上下载的 latexdiff 是否真的有用到，而且我只是做了解压缩，并未添加环境变量，但是 powershell 却可以直接调用他！</p>
 ]]></content>
       <tags>
         <tag>LaTeX</tag>
@@ -846,61 +1038,57 @@
       </tags>
   </entry>
   <entry>
-    <title>lol冷知识</title>
+    <title>lol 冷知识</title>
     <url>/lol-leng-zhi-shi.html</url>
-    <content><![CDATA[<h1 id="Jax"><a href="#Jax" class="headerlink" title="Jax"></a>Jax</h1><p><img src="/lol-leng-zhi-shi/Jax.jpg" alt="Jax最爱吃鸡蛋，而且只吃恕瑞玛城市乌泽里斯流动市场的卖的那一种"></p>
-<h1 id="我参与举报被处理的账号数（EUW）"><a href="#我参与举报被处理的账号数（EUW）" class="headerlink" title="我参与举报被处理的账号数（EUW）"></a>我参与举报被处理的账号数（EUW）</h1><p>具体数量不记得了，从8开始算起吧<br><code>8</code><br>12.09.2020 +1<br>13.03.2021 +1<br>04.04.2021 +1<br><img src="/lol-leng-zhi-shi/lol+1_0.png" alt="+1"><br>20.04.2021 +1</p>
+    <content><![CDATA[<h1 id="jax">Jax</h1>
+<figure>
+<img src="/lol-leng-zhi-shi/Jax.jpg" alt="Jax最爱吃鸡蛋，而且只吃恕瑞玛城市乌泽里斯流动市场的卖的那一种">
+<figcaption aria-hidden="true">Jax 最爱吃鸡蛋，而且只吃恕瑞玛城市乌泽里斯流动市场的卖的那一种</figcaption>
+</figure>
+<h1 id="我参与举报被处理的账号数euw">我参与举报被处理的账号数（EUW）</h1>
+<p>具体数量不记得了，从 8 开始算起吧 <code>8</code> 12.09.2020 +1
+13.03.2021 +1 04.04.2021 +1 <img src="/lol-leng-zhi-shi/lol+1_0.png" alt="+1">
+20.04.2021 +1</p>
 ]]></content>
       <tags>
         <tag>lol</tag>
       </tags>
   </entry>
   <entry>
-    <title>v085maplestory开服失败留恋</title>
-    <url>/v085maplestory-kai-fu-shi-bai-liu-lian.html</url>
-    <content><![CDATA[<p>终于在刚刚看了腾讯云4 cores 8G RAM的法兰克福节点的云服务器的价格以后决定暂时放弃开服。</p>
-<span id="more"></span>
-<p><img src="/v085maplestory-kai-fu-shi-bai-liu-lian/preisofcloudserver.png" alt="腾讯云4 cores 8G RAM的法兰克福节点的云服务器的价格"><br>一直以来都太勉强了。这一周过的真的好累。</p>
-<ul>
-<li>要准备论文，没有时间</li>
-<li>没毕业没工作，所以没有充足的资金</li>
-<li>没有身份，无法承受开私服会带来的风险</li>
-<li>Java，php，mysql不会；html，javaskript入门级水平</li>
-<li>多级代理，反向代理一概不会，租大厂服务器风险大，租抗DMCA服务器又对网络攻击毫无防御力，对后门也毫无抵抗力</li>
-<li>动态网站也建不起来，虽然有信任的人可以外包，但是可能建起来我连维护能力都没有，太自大，以为用hexo架构+Github托管代码建了这个blog就以为自己有两下子了，在大佬面前其实什么都不是</li>
-</ul>
-<p>最重要的几样东西，一样没有。全凭一腔热血和手里那一点微薄的小钱。完完全全的初生牛犊不怕虎。</p>
-<p>哎，男人过了30该做有把握的事（虽然我还有两三年）。</p>
-]]></content>
-      <tags>
-        <tag>个人心情</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>star ccm+学习笔记</title>
+    <title>star ccm + 学习笔记</title>
     <url>/starccm.html</url>
-    <content><![CDATA[<h1 id="Split功能汇总"><a href="#Split功能汇总" class="headerlink" title="Split功能汇总"></a>Split功能汇总</h1><ul>
-<li><code>Split Non-Contigous (分离非接触面)</code><br>导入的Geometry里的surface可能是一个整体，需要用此命令制作不同的Boundary</li>
+    <content><![CDATA[<h1 id="split功能汇总">Split 功能汇总</h1>
+<ul>
+<li><code>Split Non-Contigous (分离非接触面)</code>
+导入的 Geometry 里的 surface 可能是一个整体，需要用此命令制作不同的 Boundary</li>
 <li>Split by Patch</li>
 </ul>
-<h1 id="Mesh"><a href="#Mesh" class="headerlink" title="Mesh"></a>Mesh</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: Operations</span><br><span class="line">op1=&gt;operation: New</span><br><span class="line">op2=&gt;operation: Mesh</span><br><span class="line">op3=&gt;operation: Automated Mesh or others</span><br><span class="line"></span><br><span class="line">st-&gt;op1(right)-&gt;op2(right)-&gt;op3(right)</span><br></pre></td></tr></table></figure>
-
-<p>导入模型<a href="https://video.tu-clausthal.de/film/computational-fluid-dynamics-cfd-fuer-verfahrenstechnik.html">这里</a>选的Import Surface Mesh，<br><strong>后面还需要思考为什么</strong></p>
-<h1 id="Base-Sice"><a href="#Base-Sice" class="headerlink" title="Base Sice"></a>Base Sice</h1><p><code>Base Sice</code> is a very specific size in meshing operation<br><code>minimal size</code>设置的procent是基于<code>Base Sice</code>的<br><code>Prism layer number</code>设置的是界面附近网格的细密程度，比如3，在流体和Pellet接触的地方就就会额外生成三层</p>
+<h1 id="mesh">Mesh</h1>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: Operations</span><br><span class="line">op1=&gt;operation: New</span><br><span class="line">op2=&gt;operation: Mesh</span><br><span class="line">op3=&gt;operation: Automated Mesh or others</span><br><span class="line"></span><br><span class="line">st-&gt;op1(right)-&gt;op2(right)-&gt;op3(right)</span><br></pre></td></tr></tbody></table></figure>
+<p>导入模型<a href="https://video.tu-clausthal.de/film/computational-fluid-dynamics-cfd-fuer-verfahrenstechnik.html">这里</a>选的 Import
+Surface Mesh， <strong>后面还需要思考为什么</strong></p>
+<h1 id="base-sice">Base Sice</h1>
+<p><code>Base Sice</code> is a very specific size in meshing operation
+<code>minimal size</code> 设置的 procent 是基于 <code>Base Sice</code> 的
+<code>Prism layer number</code> 设置的是界面附近网格的细密程度，比如 3，在流体和 Pellet 接触的地方就就会额外生成三层</p>
 <span id="more"></span>
-
-<h1 id="Tipps"><a href="#Tipps" class="headerlink" title="Tipps"></a>Tipps</h1><ul>
-<li>Apply Radius Dimension(右键单击草绘)，然后勾选<code>Expose Parameter</code>可以在图上显示出Dimension信息</li>
-<li>Duplicate Sketch Primitive(右键单击草绘)，然后设置圆心坐标，即可复制草绘</li>
-<li>3D-CAD Models里面建好的模型可以Export到Parts里，然后拖拽到右边视图框，选择<code>Add to Geometry1</code>，想到移动模型的位置，右键<code>Parts</code>下已经exported模型，选择<code>Transform</code>–&gt;<code>Translate</code></li>
-<li>Boolean运算subtract时，没有保留原Model选项，所以是所有操作默认保留原几何？</li>
-<li>Boolean后的整体需要<code>Assign Parts to Regions</code>–&gt;<code>Create a Boundary for Each Part Surface</code></li>
-<li>continua下分Mesh Continuum和Physics Continuum</li>
+<h1 id="tipps">Tipps</h1>
+<ul>
+<li>Apply Radius
+Dimension (右键单击草绘)，然后勾选 <code>Expose Parameter</code> 可以在图上显示出 Dimension 信息</li>
+<li> Duplicate Sketch
+Primitive (右键单击草绘)，然后设置圆心坐标，即可复制草绘</li>
+<li> 3D-CAD
+Models 里面建好的模型可以 Export 到 Parts 里，然后拖拽到右边视图框，选择 <code>Add to Geometry1</code>，想到移动模型的位置，右键 <code>Parts</code> 下已经 exported 模型，选择 <code>Transform</code>--&gt;<code>Translate</code></li>
+<li>Boolean 运算 subtract 时，没有保留原 Model 选项，所以是所有操作默认保留原几何？</li>
+<li>Boolean 后的整体需要 <code>Assign Parts to Regions</code>--&gt;<code>Create a Boundary for Each Part Surface</code></li>
+<li>continua 下分 Mesh Continuum 和 Physics Continuum</li>
 <li></li>
 </ul>
-<h1 id="疑问汇总"><a href="#疑问汇总" class="headerlink" title="疑问汇总"></a>疑问汇总</h1><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">导入模型选的Import Surface Mesh，然后自动出现在parts里，而不是3D-CAD Models, **后面还需要思考为什么**</span><br></pre></td></tr></table></figure>
-
-<h1 id="单词汇总"><a href="#单词汇总" class="headerlink" title="单词汇总"></a>单词汇总</h1><p>polyhedral多面体<br>segregated(分开，隔离) flow<br>continua连续体</p>
+<h1 id="疑问汇总">疑问汇总</h1>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">导入模型选的Import Surface Mesh，然后自动出现在parts里，而不是3D-CAD Models, **后面还需要思考为什么**</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="单词汇总">单词汇总</h1>
+<p>polyhedral 多面体 segregated (分开，隔离) flow continua 连续体</p>
 ]]></content>
       <tags>
         <tag>engineer software</tag>
@@ -908,37 +1096,70 @@
       </tags>
   </entry>
   <entry>
+    <title>一个男人的只言片语</title>
+    <url>/yi-ge-nan-ren-de-zhi-yan-pian-yu.html</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>原创</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>v085maplestory 开服失败留恋</title>
+    <url>/v085maplestory-kai-fu-shi-bai-liu-lian.html</url>
+    <content><![CDATA[<p>终于在刚刚看了腾讯云 4 cores 8G
+RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服。 <span id="more"></span> <img src="/v085maplestory-kai-fu-shi-bai-liu-lian/preisofcloudserver.png" alt="腾讯云4 cores 8G RAM的法兰克福节点的云服务器的价格">
+一直以来都太勉强了。这一周过的真的好累。 - 要准备论文，没有时间 -
+没毕业没工作，所以没有充足的资金 - 没有身份，无法承受开私服会带来的风险
+- Java，php，mysql 不会；html，javaskript 入门级水平 -
+多级代理，反向代理一概不会，租大厂服务器风险大，租抗 DMCA 服务器又对网络攻击毫无防御力，对后门也毫无抵抗力
+-
+动态网站也建不起来，虽然有信任的人可以外包，但是可能建起来我连维护能力都没有，太自大，以为用 hexo 架构 + Github 托管代码建了这个 blog 就以为自己有两下子了，在大佬面前其实什么都不是</p>
+<p>最重要的几样东西，一样没有。全凭一腔热血和手里那一点微薄的小钱。完完全全的初生牛犊不怕虎。</p>
+<p>哎，男人过了 30 该做有把握的事（虽然我还有两三年）。</p>
+]]></content>
+      <tags>
+        <tag>个人心情</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>古文</title>
     <url>/gu-wen.html</url>
-    <content><![CDATA[<ol>
-<li>禽兽之变诈几何哉？止增笑耳。                ———-（清）蒲松龄「聊斋志异 · 狼三则」</li>
+    <content><![CDATA[<ol type="1">
+<li>禽兽之变诈几何哉？止增笑耳。 ----------（清）蒲松龄「聊斋志异・
+狼三则」</li>
 </ol>
 ]]></content>
   </entry>
   <entry>
-    <title>一个男人的只言片语</title>
-    <url>/yi-ge-nan-ren-de-zhi-yan-pian-yu.html</url>
-    <content><![CDATA[]]></content>
+    <title>入籍还是长居</title>
+    <url>/ru-ji-huan-shi-chang-ju.html</url>
+    <content><![CDATA[
+]]></content>
       <tags>
+        <tag>个人心情</tag>
         <tag>原创</tag>
       </tags>
   </entry>
   <entry>
     <title>⌈我在那一角落患过伤风⌋</title>
     <url>/wo-zai-na-yi-jiao-luo-huan-guo-shang-feng.html</url>
-    <content><![CDATA[<p>第一次听到⌈我在那一角落患过伤风⌋这首歌大约是高二的那个夏天，步步高音乐手机的广告打满了电视和街头，很多年里（jahreslang）我都不知道这首歌的名字，就像我不知道天龙八部黄日华版的主题曲叫⌈难念的经⌋，那是个网络还不发达的年代，甚至还没有3G，99.9%的学生都没有手机。但是好听的旋律不会被忘记。后来网络越来越发达，某天搜起这首曲子，才知道原来是小说⌈只能谈情不能说爱⌋的其中一首配乐，一本有配乐的小说，真是少见。更巧的是，这首配乐的演唱者冯曦妤，居然同时是⌈无间道⌋那首经典配乐⌈再见警察…⌋的演唱者，也是一部能让人哭出来的电影。</p>
+    <content><![CDATA[<p>第一次听到⌈我在那一角落患过伤风⌋这首歌大约是高二的那个夏天，步步高音乐手机的广告打满了电视和街头，很多年里（jahreslang）我都不知道这首歌的名字，就像我不知道天龙八部黄日华版的主题曲叫⌈难念的经⌋，那是个网络还不发达的年代，甚至还没有 3G，99.9% 的学生都没有手机。但是好听的旋律不会被忘记。后来网络越来越发达，某天搜起这首曲子，才知道原来是小说⌈只能谈情不能说爱⌋的其中一首配乐，一本有配乐的小说，真是少见。更巧的是，这首配乐的演唱者冯曦妤，居然同时是⌈无间道⌋那首经典配乐⌈再见警察...⌋的演唱者，也是一部能让人哭出来的电影。</p>
 <p>依稀记得看这本小说⌈只能谈情不能说爱⌋是我来德国的第一年，书籍介绍部分就让我痛得体无完肤，这本小说这样写道：</p>
-<center>曾经恋爱过的人都明白，最爱的，总是得不到的。
+<center>
+曾经恋爱过的人都明白，最爱的，总是得不到的。
 得与失，得当然喜；得而复失、患得患失、乍得还失，更悲！
 曾经恋爱过的都明白，童话式的天长地久只属于童话，属于现实，难得，所以可贵，所以童话！现实中的爱情，最爱的，总是得不到的。
 伤风，能够用药治好，中药太慢，西药太伤身体，所以，我总是选择自然好。
 我的伤风断断续续，蔓延开来，咳嗽，头痛。然而，反反复复，讳疾忌医。
 我害怕中药太苦，从来不喝。害怕西药伤身，尽量少吃。终于，还是有那么一天，我发现我的伤风好了，以前痛苦挣扎，以为就这样一辈子沉重地背着伤风病。一瞬间，却发现早已全愈。
-爱情，也不过如此。</center><br>
-哎。我也知道我有天会好，第一段十年，第二段四年，那这段呢？我不知道，恋爱脑是绝症，而且没得治。
-
-<p>我一直认为自己对孤独有很强的抵抗力，到29岁都是，我也一直引以为傲。上一段恋情结束后，我先是做了两年噩梦，然后之后两年困于学业，无心交友，master毕业后第一次真正被孤独击垮。8月30号答辩完，9月14号把最后一个朋友送回国，回到学校，百无聊奈，手足无措，从宿舍走到食堂，又从食堂走到宿舍，在街上徘徊，生活一下子失去了中心，连游戏都不想玩了。不过一个月没到就收到了工作邀约，工作半年后开始感觉到强烈的孤独感，每个月都有大约一周情绪会低落到喘不上气，这是我从来没有过的，⌈春光乍泄⌋里黎耀辉说过：⌈我以为我跟何宝荣不一样，原来，寂寞的时候，大家都一样⌋，难道真的我也是吗，或者每个人都是？笑，又是个没有答案的问题。 </p>
-<p>我决定还是找一些别的平台po一po自己的心情，有主播说：⌈在公开领域发表观点，面对非特定大众，底层逻辑，都是为了流量⌋，我并不完全赞同，王小波说他太缺少与人交流的机会，写作就在于与人交流。因为这个缘故，他一直在写。我觉得我也是。我不想继续困在自己的主页里只是想与人交流罢了。攝影師洪磊接受採訪时说：⌈我的那种旧文人左派，等于抛弃了这个世界。⌋ 我如果继续把自己锁在主页里，那我也抛弃了这个世界。我不要。</p>
+爱情，也不过如此。
+</center>
+<p><br>
+哎。我也知道我有天会好，第一段十年，第二段四年，那这段呢？我不知道，恋爱脑是绝症，而且没得治。</p>
+<p>我一直认为自己对孤独有很强的抵抗力，到 29 岁都是，我也一直引以为傲。上一段恋情结束后，我先是做了两年噩梦，然后之后两年困于学业，无心交友，master 毕业后第一次真正被孤独击垮。8 月 30 号答辩完，9 月 14 号把最后一个朋友送回国，回到学校，百无聊奈，手足无措，从宿舍走到食堂，又从食堂走到宿舍，在街上徘徊，生活一下子失去了中心，连游戏都不想玩了。不过一个月没到就收到了工作邀约，工作半年后开始感觉到强烈的孤独感，每个月都有大约一周情绪会低落到喘不上气，这是我从来没有过的，⌈春光乍泄⌋里黎耀辉说过：⌈我以为我跟何宝荣不一样，原来，寂寞的时候，大家都一样⌋，难道真的我也是吗，或者每个人都是？笑，又是个没有答案的问题。</p>
+<p>我决定还是找一些别的平台 po 一 po 自己的心情，有主播说：⌈在公开领域发表观点，面对非特定大众，底层逻辑，都是为了流量⌋，我并不完全赞同，王小波说他太缺少与人交流的机会，写作就在于与人交流。因为这个缘故，他一直在写。我觉得我也是。我不想继续困在自己的主页里只是想与人交流罢了。攝影師洪磊接受採訪时说：⌈我的那种旧文人左派，等于抛弃了这个世界。⌋
+我如果继续把自己锁在主页里，那我也抛弃了这个世界。我不要。</p>
 ]]></content>
       <tags>
         <tag>个人心情</tag>
@@ -946,54 +1167,11 @@
       </tags>
   </entry>
   <entry>
-    <title>四处偷来的只言片语</title>
-    <url>/si-chu-tou-lai-de-zhi-yan-pian-yu.html</url>
-    <content><![CDATA[<p>收录我看过的书里，电影里，动画里，等等里我在意的片段。提高语言表达能力。</p>
-<h1 id="星际牛仔Cowboy-Bebop-第23集"><a href="#星际牛仔Cowboy-Bebop-第23集" class="headerlink" title="星际牛仔Cowboy Bebop_第23集"></a>星际牛仔Cowboy Bebop_第23集</h1><p>你知道人类发明的最好和最差的东西是什么吗？<br>就是电视。<br>电视用信息来控制人类，让人类失去现实感，对，现在电视才是宗教。电视利用无聊的连续剧，制造出了一群容易轻信妄想的人。</p>
-<h1 id="人间·小团圆（又名香港仔）"><a href="#人间·小团圆（又名香港仔）" class="headerlink" title="人间·小团圆（又名香港仔）"></a>人间·小团圆（又名香港仔）</h1><p>众生，总是颠妄不断，观身不净，观受是苦，观心无常，观法无我，我们努力遗忘，我们努力埋藏……</p>
-<h1 id="我的团长我的团"><a href="#我的团长我的团" class="headerlink" title="我的团长我的团"></a>我的团长我的团</h1><ol>
-<li>初从文，三年不中；后习武，校场发一矢，中鼓吏，逐之出；遂学医，有所成。自撰一良方，服之，卒。</li>
-<li>我知道那又是一个小圈套，从小便宜着手，让你步步失据，最后忘掉原本要坚持的是个什么，但虞啸卿可不知道 </li>
-<li>但是我的脸我自己知道，很多的戾气，太多的愤憎。我很想做——但我从来不是一个会用眼睛微笑的男人。</li>
-<li>北平的爆肚涮肉皇城根、南京的干丝烧卖。还有销金的秦淮风月。上海的润饼蚵仔煎，看得我直瞪眼的花花世界，天津麻花狗不理，广州艇仔粥和肠粉，旅顺口的咸鱼饼子和炮台，东北地三鲜、狗肉汤、酸菜白肉炖粉条，苦哈哈找活路的老林子，火宫殿的鸭血汤，还有臭豆腐和已经打成粉了的长沙城。 ​​​​</li>
-<li>好大的河山，好些地方我也没去过，但是去没去过铁骊、扶余、呼伦池、海拉尔河、贝尔池、长白山、大兴安、小兴安、营口、安东、老哈河、承德、郭家屯、万全、滦河、白河、桑乾河、北平天津、济苑、绥归、镇头包、历城、道口、阳曲、开封、郾城….三两字就是一方水土一方人 ​​​​</li>
-<li>卢沟桥响枪时我弃学，徐州会战时我从军，四年来败战无数却屡屡逃生，逃到后来我很愤怒，飞机坦克没有咱不说它，对方步兵战术的僵化死板像是得了阿译的亲传。一万年不变的三角队形在丛林和大雾中居然照用，火力兵力都被分散，打过半年仗的中国兵都会说找死了。但败的仍然是我们。直败到有一天，我只好想，是我们自己出了问题。</li>
-<li>永远是这样的。一群你看不上，也看不上你的粗人一再挫折你的希望，最后他们和你的希望一起成为泡影流沙。</li>
-</ol>
-<h1 id="共识网（已死，遗憾！）"><a href="#共识网（已死，遗憾！）" class="headerlink" title="共识网（已死，遗憾！）"></a>共识网（已死，遗憾！）</h1><p>2009年9月开通<br>致力于在大变革时代寻找共识，在社会各群体间搭桥建路，为弥合社会裂痕、增进朝野共识贡献力量</p>
-<h1 id="禅与摩托车维修艺术"><a href="#禅与摩托车维修艺术" class="headerlink" title="禅与摩托车维修艺术"></a>禅与摩托车维修艺术</h1><ol>
-<li>又钻进死胡同了，如果有人不懂心存感激，而你当面告诉他，就等于是在骂他，这样你什么问题都解决不了。</li>
-</ol>
-<h1 id="王小波"><a href="#王小波" class="headerlink" title="王小波"></a>王小波</h1><ol>
-<li>人在写作时，总是孤身一人，作品实际上是个人的独白，是一些发出的信。我觉得自己太缺少与人交流的机会—我相信，这是写严肃文学的人共同的体会。但是这个世界上除了有自己，还有别人，除了身边的人，还有整个人类。写作的意义，就在于与人交流。因为这个缘故，我一直在写。</li>
-</ol>
-<h1 id="贴吧"><a href="#贴吧" class="headerlink" title="贴吧"></a>贴吧</h1><ol>
-<li>若皆效层主之举，积弊日盛，经年累日，孙吧恐无御敌之兵，鼠鼠恐手不能缚鸡，思今日之大势，虽身居厕室，亦当洁身自好，静伏养精以待天时，某年不足当立，犹尝恨少不知事，遇戒色吧贤人乃知其害，今睹新人步旧轨，乃告与吧中诸君，勿怪语之不顺，岂不闻忠言良药之理？</li>
-<li></li>
-</ol>
-<h1 id="徒花（有花无实）"><a href="#徒花（有花无实）" class="headerlink" title="徒花（有花无实）"></a>徒花（有花无实）</h1><p>如果这个世界充满了虚妄的谎言，那么我愿活在名为纯粹的原罪里</p>
-<h1 id="木心"><a href="#木心" class="headerlink" title="木心"></a>木心</h1><p>一天比一天百转柔肠地冷酷起来</p>
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><ol>
-<li>天下熙熙攘攘，皆为利往</li>
-<li>欲买桂花同载酒，终不似，少年游</li>
-<li>欲将心事付瑶琴。知音少，弦断有谁听？</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>收录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的markdown笔记</title>
-    <url>/wo-de-markdown-bi-ji.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>无力</title>
     <url>/wu-li.html</url>
-    <content><![CDATA[<p>今日好友推荐一书，曰「一课经济学」，不知为何，竟勾不起我阅读的兴致，非书名不够诱人耳，亦非质疑好友之判断。因其之前推荐之书目均为上上成，在我这里其实信誉极佳。日内三次念及此事，却都一闪而过，深夜再度想起，才若有所思。</p>
+    <content><![CDATA[<p>今日好友推荐一书，曰「一课经济学」，不知为何，竟勾不起我阅读的兴致，非书名不够诱人耳，亦非质疑好友之判断。因其之前推荐之书目均为上上成，在我这里其实信誉极佳。日内三次念及此事，却都一闪而过，深夜再度想起，才若有所思。
 <span id="more"></span>
-<p>我于三四年前，因这位好友，有幸拜读了「中国巨债」一书，彼时甚至动了妄念，想连同「国富论」一并读了，终因各种繁杂琐事，以及此书让人望而生怯的厚度，只好作罢。这些年，见证了不少历史，我仅凭自己幼稚的见解，不断做出荒谬的判断，说得夸张一点，这要是在玩梭哈，当真输到裤衩都没了。现实的走向一再打破我的幻想，把我狠狠的摔在地上。我一脸的败相，从此闭嘴，俨然一个良民。</p>
+我于三四年前，因这位好友，有幸拜读了「中国巨债」一书，彼时甚至动了妄念，想连同「国富论」一并读了，终因各种繁杂琐事，以及此书让人望而生怯的厚度，只好作罢。这些年，见证了不少历史，我仅凭自己幼稚的见解，不断做出荒谬的判断，说得夸张一点，这要是在玩梭哈，当真输到裤衩都没了。现实的走向一再打破我的幻想，把我狠狠的摔在地上。我一脸的败相，从此闭嘴，俨然一个良民。</p>
 <p>唯一的收获却是伴随着刻骨的痛苦的，那就是对人性的了解，对世界运行原理的了解，以及对经济活动真相的了解。</p>
 <p>这些才是我此番不愿再读经济学书籍的原因。看得越多，懂得就越多，懂得越多，越发觉得无力，现实承载不了一个普通人的理想。</p>
 <p>真是应了王小波的一席话：</p>
@@ -1006,17 +1184,80 @@
       </tags>
   </entry>
   <entry>
+    <title>四处偷来的只言片语</title>
+    <url>/si-chu-tou-lai-de-zhi-yan-pian-yu.html</url>
+    <content><![CDATA[<p>收录我看过的书里，电影里，动画里，等等里我在意的片段。提高语言表达能力。
+# 星际牛仔 Cowboy Bebop_第 23 集 你知道人类发明的最好和最差的东西是什么吗？
+就是电视。
+电视用信息来控制人类，让人类失去现实感，对，现在电视才是宗教。电视利用无聊的连续剧，制造出了一群容易轻信妄想的人。</p>
+<h1 id="人间小团圆又名香港仔">人间・小团圆（又名香港仔）</h1>
+<p>众生，总是颠妄不断，观身不净，观受是苦，观心无常，观法无我，我们努力遗忘，我们努力埋藏……</p>
+<h1 id="我的团长我的团">我的团长我的团</h1>
+<ol type="1">
+<li>初从文，三年不中；后习武，校场发一矢，中鼓吏，逐之出；遂学医，有所成。自撰一良方，服之，卒。</li>
+<li>我知道那又是一个小圈套，从小便宜着手，让你步步失据，最后忘掉原本要坚持的是个什么，但虞啸卿可不知道</li>
+<li>但是我的脸我自己知道，很多的戾气，太多的愤憎。我很想做 —— 但我从来不是一个会用眼睛微笑的男人。</li>
+<li>北平的爆肚涮肉皇城根、南京的干丝烧卖。还有销金的秦淮风月。上海的润饼蚵仔煎，看得我直瞪眼的花花世界，天津麻花狗不理，广州艇仔粥和肠粉，旅顺口的咸鱼饼子和炮台，东北地三鲜、狗肉汤、酸菜白肉炖粉条，苦哈哈找活路的老林子，火宫殿的鸭血汤，还有臭豆腐和已经打成粉了的长沙城。
+​​​​</li>
+<li>好大的河山，好些地方我也没去过，但是去没去过铁骊、扶余、呼伦池、海拉尔河、贝尔池、长白山、大兴安、小兴安、营口、安东、老哈河、承德、郭家屯、万全、滦河、白河、桑乾河、北平天津、济苑、绥归、镇头包、历城、道口、阳曲、开封、郾城…. 三两字就是一方水土一方人
+​​​​</li>
+<li>卢沟桥响枪时我弃学，徐州会战时我从军，四年来败战无数却屡屡逃生，逃到后来我很愤怒，飞机坦克没有咱不说它，对方步兵战术的僵化死板像是得了阿译的亲传。一万年不变的三角队形在丛林和大雾中居然照用，火力兵力都被分散，打过半年仗的中国兵都会说找死了。但败的仍然是我们。直败到有一天，我只好想，是我们自己出了问题。</li>
+<li>永远是这样的。一群你看不上，也看不上你的粗人一再挫折你的希望，最后他们和你的希望一起成为泡影流沙。</li>
+</ol>
+<h1 id="共识网已死遗憾">共识网（已死，遗憾！）</h1>
+<p>2009 年 9 月开通
+致力于在大变革时代寻找共识，在社会各群体间搭桥建路，为弥合社会裂痕、增进朝野共识贡献力量</p>
+<h1 id="禅与摩托车维修艺术">禅与摩托车维修艺术</h1>
+<ol type="1">
+<li>又钻进死胡同了，如果有人不懂心存感激，而你当面告诉他，就等于是在骂他，这样你什么问题都解决不了。</li>
+</ol>
+<h1 id="王小波">王小波</h1>
+<ol type="1">
+<li>人在写作时，总是孤身一人，作品实际上是个人的独白，是一些发出的信。我觉得自己太缺少与人交流的机会 --- 我相信，这是写严肃文学的人共同的体会。但是这个世界上除了有自己，还有别人，除了身边的人，还有整个人类。写作的意义，就在于与人交流。因为这个缘故，我一直在写。</li>
+</ol>
+<h1 id="贴吧">贴吧</h1>
+<ol type="1">
+<li>若皆效层主之举，积弊日盛，经年累日，孙吧恐无御敌之兵，鼠鼠恐手不能缚鸡，思今日之大势，虽身居厕室，亦当洁身自好，静伏养精以待天时，某年不足当立，犹尝恨少不知事，遇戒色吧贤人乃知其害，今睹新人步旧轨，乃告与吧中诸君，勿怪语之不顺，岂不闻忠言良药之理？</li>
+<li></li>
+</ol>
+<h1 id="徒花有花无实">徒花（有花无实）</h1>
+<p>如果这个世界充满了虚妄的谎言，那么我愿活在名为纯粹的原罪里</p>
+<h1 id="木心">木心</h1>
+<p>一天比一天百转柔肠地冷酷起来</p>
+<h1 id="其他">其他</h1>
+<ol type="1">
+<li>天下熙熙攘攘，皆为利往</li>
+<li>欲买桂花同载酒，终不似，少年游</li>
+<li>欲将心事付瑶琴。知音少，弦断有谁听？</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>收录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的 markdown 笔记</title>
+    <url>/wo-de-markdown-bi-ji.html</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
     <title>母音无声化？浅谈日语学习中借鉴来的经验</title>
     <url>/mu-yin-wu-sheng-hua.html</url>
-    <content><![CDATA[<p>最近在重新开始好好学日语，发现语言的演变有惊人的相似性，都是趋向于越来越简单，越来越好念。好坏我无从判断，但是给语言学习者带来了很大的便利！</p>
-<span id="more"></span>
-<p>比如：</p>
-<p>日语的「が」在单字第二个音以后的很多情况下要发鼻浊音，浊音本来就很难发，要震动喉咙，鼻浊音就更不好发，不过事实是虽然东京标准语还会发鼻浊音（这里包括了电台，广播，汽车地铁的报站），但是现在的日本年轻人越来越少的使用鼻浊音，所以sensei们虽然出于教学必须还得这么教，但是也明确的说了，你们完全可以不发，これは素晴らしいですね！</p>
-<p>同样的现象也发生在了德语里，那就是小舌音「r」，我发不出来，刚开始学德语的时候又没有用心去学，后来就直接放弃学小舌音了，再后来得知居然德国很多年轻人也发不出小舌音r，所以同鼻浊音「が」一样，小舌音也成了非必须学习项，super！</p>
+    <content><![CDATA[<p>最近在重新开始好好学日语，发现语言的演变有惊人的相似性，都是趋向于越来越简单，越来越好念。好坏我无从判断，但是给语言学习者带来了很大的便利！
+<span id="more"></span> 比如：</p>
+<p>日语的「が」在单字第二个音以后的很多情况下要发鼻浊音，浊音本来就很难发，要震动喉咙，鼻浊音就更不好发，不过事实是虽然东京标准语还会发鼻浊音（这里包括了电台，广播，汽车地铁的报站），但是现在的日本年轻人越来越少的使用鼻浊音，所以 sensei 们虽然出于教学必须还得这么教，但是也明确的说了，你们完全可以不发，これは素晴らしいですね！</p>
+<p>同样的现象也发生在了德语里，那就是小舌音「r」，我发不出来，刚开始学德语的时候又没有用心去学，后来就直接放弃学小舌音了，再后来得知居然德国很多年轻人也发不出小舌音 r，所以同鼻浊音「が」一样，小舌音也成了非必须学习项，super！</p>
 <p>虽然我生活的时代让我有诸多的不满，但是至少这两点是属于我这个时代往后才有的福利。</p>
-<p>回到主题，母音无声化<br><img src="/mu-yin-wu-sheng-hua/%E6%97%A5%E8%AF%AD%E6%AF%8D%E9%9F%B3%E6%97%A0%E5%A3%B0%E5%8C%96.png" alt="何博士50音教学篇hobi.tw"><br>日语这里其实并不是完全的无声，而是要念的特别快特别轻，图片里的第一个例子きし，kishi，至少k的音保留下来了，念kshi就好。<br>对应的德语里的例子就是ein的各种词尾变形，我还记得差不多5年前年幼无知的我刚开始跟德国人一起做实验，在一个WhatsApp群组里，德国人各种简写聊天语看的我一愣一愣的，只好问他们，ne，nen是什么意思，哦，然后才知道，是eine和einen的缩写，而且后来发现，不只是缩写哦，念出来的时候真的就是念ne和nen，而不是念eine，einen，整句中也会有加一瞥的写法，’ne&#x2F;‘nen。这还只是一部分省略。<br>再看最近youtube老是推给我的ebay的广告，kannst du haben完全念成了kanns haben，而且念的极快，我一开始完全听不懂在讲什么，听了好多遍才敢确定是kannst du haben. 我马上就想到母音无声化这个概念，但是学德语的时候并没有听过这个概念，我就想这里是不是跟日语的母音无声化是一样的现象呢？</p>
-<p>如果谁有经验，欢迎在下面留言讨论，谢谢~</p>
-<p>另外还有个小Tipp，也要感谢何博士，以前我都没思考过：不管是学什么语言，发音一定要标准！因为发音直接影响到你的听力！你念的如果跟磁带发音一样，你的听力就会很好，因为你听到的就是你平时念的样子啊！</p>
+<p>回到主题，母音无声化 <img src="/mu-yin-wu-sheng-hua/日语母音无声化.png" alt="何博士50音教学篇hobi.tw">
+日语这里其实并不是完全的无声，而是要念的特别快特别轻，图片里的第一个例子きし，kishi，至少 k 的音保留下来了，念 kshi 就好。
+对应的德语里的例子就是 ein 的各种词尾变形，我还记得差不多 5 年前年幼无知的我刚开始跟德国人一起做实验，在一个 WhatsApp 群组里，德国人各种简写聊天语看的我一愣一愣的，只好问他们，ne，nen 是什么意思，哦，然后才知道，是 eine 和 einen 的缩写，而且后来发现，不只是缩写哦，念出来的时候真的就是念 ne 和 nen，而不是念 eine，einen，整句中也会有加一瞥的写法，'ne/'nen。这还只是一部分省略。
+再看最近 youtube 老是推给我的 ebay 的广告，kannst du haben 完全念成了 kanns
+haben，而且念的极快，我一开始完全听不懂在讲什么，听了好多遍才敢确定是 kannst
+du haben.
+我马上就想到母音无声化这个概念，但是学德语的时候并没有听过这个概念，我就想这里是不是跟日语的母音无声化是一样的现象呢？</p>
+<p>如果谁有经验，欢迎在下面留言讨论，谢谢～</p>
+<p>另外还有个小 Tipp，也要感谢何博士，以前我都没思考过：不管是学什么语言，发音一定要标准！因为发音直接影响到你的听力！你念的如果跟磁带发音一样，你的听力就会很好，因为你听到的就是你平时念的样子啊！</p>
 ]]></content>
       <tags>
         <tag>语言学习</tag>
@@ -1026,43 +1267,59 @@
   <entry>
     <title>浅谈自己的购车经历以及机油的选择</title>
     <url>/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze.html</url>
-    <content><![CDATA[<h1 id="BMW-320ci"><a href="#BMW-320ci" class="headerlink" title="BMW 320ci"></a>BMW 320ci</h1><p>先说自己拥有过的两辆车，BMW 320ci和BMW 523i touring<br><img src="/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze/bmw320ci%E9%81%97%E7%85%A70.jpg" alt="bmw320ci遗照"></p>
-<p>BMW 320ci是2014年底买的，车是2004年的。我是2014年11月27号拿到的驾照，因为拿到驾照前就在看车了，第一次路考没过，错过了之前心心恋恋的那辆车主自改油气混动320，甚是可惜，车主自己在后备箱装了个气罐，烧CNG（压缩天然气：compressed natural gas），价格也很诱人，当时5800€左右，Erstzulassung差不多也是2004年。大哥是学车辆工程的，着急回国，为了稳妥交接，等我顺利拿到驾照，拿到车，也是推迟了回国，当年年轻不觉得，现在觉得真是多大情面啊，这样的好人已经很少了。考虑到他只能陪我看车，取车得我自己去，以及二手车怕遇到大坑，最后选择了加钱。。。在离我比较近的Bremen（不来梅）一家BMW Niederlassung（BMW官方4S店）以比市场均价高了不少的7700€入了这一辆。再次给跪，为自己的年轻吐了。完全低估了修车的成本。。。当那天我睡得懵懵懂懂，4s店打电话给我说：“我们检查了一圈，一共修下来要2k出头，确实有点贵，你看看要不要修。”的时候有点头皮发麻。当初想要好的，灯也是选了Xenon（氙气）的，结果就凉凉了。因为不是5块钱换个灯泡就了事了。Report上写着Erzündungsgerät kaputt…也就是那个产生高压击穿稀有气体的东西坏了，只能整体换，1300€…Yikes!!!TaT</p>
+    <content><![CDATA[<h1 id="bmw-320ci">BMW 320ci</h1>
+<p>先说自己拥有过的两辆车，BMW 320ci 和 BMW 523i touring <img src="/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze/bmw320ci遗照0.jpg" alt="bmw320ci遗照"></p>
+<p>BMW
+320ci 是 2014 年底买的，车是 2004 年的。我是 2014 年 11 月 27 号拿到的驾照，因为拿到驾照前就在看车了，第一次路考没过，错过了之前心心恋恋的那辆车主自改油气混动 320，甚是可惜，车主自己在后备箱装了个气罐，烧 CNG（压缩天然气：compressed
+natural
+gas），价格也很诱人，当时 5800€左右，Erstzulassung 差不多也是 2004 年。大哥是学车辆工程的，着急回国，为了稳妥交接，等我顺利拿到驾照，拿到车，也是推迟了回国，当年年轻不觉得，现在觉得真是多大情面啊，这样的好人已经很少了。考虑到他只能陪我看车，取车得我自己去，以及二手车怕遇到大坑，最后选择了加钱。。。在离我比较近的 Bremen（不来梅）一家 BMW
+Niederlassung（BMW 官方 4S 店）以比市场均价高了不少的 7700€入了这一辆。再次给跪，为自己的年轻吐了。完全低估了修车的成本。。。当那天我睡得懵懵懂懂，4s 店打电话给我说：“我们检查了一圈，一共修下来要 2k 出头，确实有点贵，你看看要不要修。” 的时候有点头皮发麻。当初想要好的，灯也是选了 Xenon（氙气）的，结果就凉凉了。因为不是 5 块钱换个灯泡就了事了。Report 上写着 Erzündungsgerät
+kaputt... 也就是那个产生高压击穿稀有气体的东西坏了，只能整体换，1300€...Yikes!!!TaT</p>
 <p>最后还是决定了卖车。</p>
 <p>除此之外这辆车确实没有出过其他问题</p>
-<h1 id="BMW-523i-touring"><a href="#BMW-523i-touring" class="headerlink" title="BMW 523i touring"></a>BMW 523i touring</h1><p><img src="/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze/BMW523itouring%E9%81%97%E7%85%A70.jpg" alt="BMW523itouring遗照0"><br>这辆车是我亏的最少的，因为总价就3000€，最多亏3000€…&#x3D;。&#x3D;<br>最后死于Getriebe漏油</p>
-<h1 id="开过的车"><a href="#开过的车" class="headerlink" title="开过的车"></a>开过的车</h1><p>开过的车其实挺多的</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">室友的BMW 116i和BMW X3 </span><br><span class="line">同学的Audi A3 2002年</span><br><span class="line">同学的VW EOS 2005年前后不记得了，机械蓬</span><br><span class="line">驾校的Ford特别像Fista（嘉年华）那一款，很小</span><br><span class="line">朋友的SEAT运动款小车，150PS？</span><br><span class="line">朋友的的Skoda，1000块垃圾车，型号不知道</span><br><span class="line">朋友的的VW golf</span><br><span class="line">Opel的Ast什么什么的1.6也很垃圾</span><br></pre></td></tr></table></figure>
-<h1 id="现在开的Mini-one，95PS（AHS-0005）"><a href="#现在开的Mini-one，95PS（AHS-0005）" class="headerlink" title="现在开的Mini one，95PS（AHS 0005）"></a>现在开的Mini one，95PS（AHS 0005）</h1><p>2008年的Modell，2009年第一次上牌，标价4790，4500拿下，还是被大坑了，有人跟我说是事故车，是谁不重要，这点上我还是相信他的判断，要看翼子板的Schrauben的喷漆情况，要注意不对劲的锈迹</p>
-<p>低转速有“喀拉，克拉”的声音，高转速没有了，Steuerketten故障，被拉长了，再长就会损坏发动机 PS：事实证明我觉得发动机声音不对是对的！</p>
-<p><strong>下次要注意问Steuerketter的使用时间</strong></p>
-<p>29.12.2019小mini记录补充: </p>
-<ol>
-<li>Getrieb漏油，因为一个Dichtung老化，Dichtung不贵，拆变速箱花了不少钱 </li>
-<li>现在低档位仍然是“克拉克拉”的声音 </li>
-<li>换了冬胎以后油耗上升了0.2L&#x2F;100km </li>
-<li>机油！！机油问题！！！（换了机油以后好多了）</li>
-</ol>
-<p>26.07.2020小mini记录补充:<br>右后轮产生规律性噪音，每转一圈就“哗”的响一下，不能确定是哪里有剐蹭，高速上的稳定性感觉也没有以前好，怀疑是换夏胎的时候，轮子没有做四轮定位，装得不够好。</p>
-<h1 id="浅谈机油的选择5w30-oder-5w40"><a href="#浅谈机油的选择5w30-oder-5w40" class="headerlink" title="浅谈机油的选择5w30 oder 5w40"></a>浅谈机油的选择5w30 oder 5w40</h1><p>接上面第四点，，谈谈机油的问题，机油真的很重要，最近车开起来又觉得阻力有点大，松油门以后的顿挫感很强，尝试性的把剩下的300ml机油加进去，有明显的好转。然后算了一下，我这个车烧机油情况现在基本在<code>0.1L/100km</code>，说实话，还是有点多的，1000km就是1L啊。<br><img src="/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze/motor%C3%B6l0.jpg" alt="5w40目前在用"><br>因为月底要送室友去机场回国，来回600多km，打算买桶新机油备着，就有稍微查了查机油的一些问题：</p>
-<figure class="highlight text"><figcaption><span>5w30 oder 5w40?</span><a href="https://praxistipps.chip.de/5w30-oder-5w40-motoroel-das-sind-die-unterschiede_100140">link</a></figcaption><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">5w40 Öl ist zähflüssiger und hat eine stabilere Konsistenz. Diese Öl-Variante sorgt für weniger Verschleiß am Motor und hat generell eine höhere Betriebssicherheit.</span><br><span class="line">5W30 Motoröl ist dünnflüssiger und sorgt somit für einen geringeren Widerstand im Motor. Das spart Kraftstoff.  </span><br><span class="line">Verbraucht Ihr Motor relativ viel Öl, sind Sie mit 5w40 Öl in der Regel besser bedient.  </span><br><span class="line">Wird Ihr Auto nur wenig genutzt oder ist der Öl-Verschleiß gering, genügt auch 5W30 Öl.  </span><br><span class="line">Welches Öl besser geeignet ist, hängt stets vom Auto ab. Fragen Sie am besten bei Ihrer Werkstatt nach.  </span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>大意就是说5w40比较稠，性质也更稳定，发动机磨损会更少，适合机油消耗量大的发动机；而5w30油膜比较薄，发动机阻力会比较小，节省燃料。<br>这里还要提一嘴，由于技术进步，发动机零件之间的配合度越来越高就不再适合使用粘稠的厚油膜机油了，反而需要使用低Viskosität的薄油膜机油，比如AHW7118官方建议0W-20的机油。</p>
-<blockquote>
-<p>参考: <a href="https://praxistipps.chip.de/5w30-oder-5w40-motoroel-das-sind-die-unterschiede_100140">5w30 oder 5w40 Motoröl: Das sind die Unterschiede</a></p>
-</blockquote>
-<h1 id="other-Tipps"><a href="#other-Tipps" class="headerlink" title="other Tipps"></a>other Tipps</h1><ul>
-<li>每次换完冬胎和夏胎，修理厂都会告诉我，50-100km以后再来一次，帮你检查一下螺丝有没有松动，这次又问了一下，他说只是出于安全考虑，多开一次再来也没关系，根据他职业生涯的经验，大概只有1%的情况会出现松动的意外。。。哈哈哈，真是让人安心的情报呢</li>
+<h1 id="bmw-523i-touring">BMW 523i touring</h1>
+<p><img src="/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze/BMW523itouring遗照0.jpg" alt="BMW523itouring遗照0">
+这辆车是我亏的最少的，因为总价就 3000€，最多亏 3000€...=。=
+最后死于 Getriebe 漏油</p>
+<h1 id="开过的车">开过的车</h1>
+<p>开过的车其实挺多的 </p><figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">室友的BMW 116i和BMW X3 </span><br><span class="line">同学的Audi A3 2002年</span><br><span class="line">同学的VW EOS 2005年前后不记得了，机械蓬</span><br><span class="line">驾校的Ford特别像Fista（嘉年华）那一款，很小</span><br><span class="line">朋友的SEAT运动款小车，150PS？</span><br><span class="line">朋友的的Skoda，1000块垃圾车，型号不知道</span><br><span class="line">朋友的的VW golf</span><br><span class="line">Opel的Ast什么什么的1.6也很垃圾</span><br></pre></td></tr></tbody></table></figure> # 现在开的Mini one，95PS（AHS
+0005）<p></p>
+<p>2008 年的 Modell，2009 年第一次上牌，标价 4790，4500 拿下，还是被大坑了，有人跟我说是事故车，是谁不重要，这点上我还是相信他的判断，要看翼子板的 Schrauben 的喷漆情况，要注意不对劲的锈迹</p>
+<p>低转速有 “喀拉，克拉” 的声音，高转速没有了，Steuerketten 故障，被拉长了，再长就会损坏发动机
+PS：事实证明我觉得发动机声音不对是对的！</p>
+<p><strong>下次要注意问 Steuerketter 的使用时间</strong></p>
+<p>29.12.2019 小 mini 记录补充: 1.
+Getrieb 漏油，因为一个 Dichtung 老化，Dichtung 不贵，拆变速箱花了不少钱 2.
+现在低档位仍然是 “克拉克拉” 的声音 3. 换了冬胎以后油耗上升了 0.2L/100km 4.
+机油！！机油问题！！！（换了机油以后好多了）</p>
+<p>26.07.2020 小 mini 记录补充:
+右后轮产生规律性噪音，每转一圈就 “哗” 的响一下，不能确定是哪里有剐蹭，高速上的稳定性感觉也没有以前好，怀疑是换夏胎的时候，轮子没有做四轮定位，装得不够好。</p>
+<h1 id="浅谈机油的选择5w30-oder-5w40">浅谈机油的选择 5w30 oder 5w40</h1>
+<p>接上面第四点，，谈谈机油的问题，机油真的很重要，最近车开起来又觉得阻力有点大，松油门以后的顿挫感很强，尝试性的把剩下的 300ml 机油加进去，有明显的好转。然后算了一下，我这个车烧机油情况现在基本在 <code>0.1L/100km</code>，说实话，还是有点多的，1000km 就是 1L 啊。
+<img src="/qian-tan-zi-ji-de-gou-che-jing-li-yi-ji-ji-you-de-xuan-ze/motoröl0.jpg" alt="5w40目前在用">
+因为月底要送室友去机场回国，来回 600 多 km，打算买桶新机油备着，就有稍微查了查机油的一些问题：
+</p><figure class="highlight text"><figcaption><span>5w30 oder 5w40?</span><a href="https://praxistipps.chip.de/5w30-oder-5w40-motoroel-das-sind-die-unterschiede_100140">link</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line">5w40 Öl ist zähflüssiger und hat eine stabilere Konsistenz. Diese Öl-Variante sorgt für weniger Verschleiß am Motor und hat generell eine höhere Betriebssicherheit.</span><br><span class="line">5W30 Motoröl ist dünnflüssiger und sorgt somit für einen geringeren Widerstand im Motor. Das spart Kraftstoff.  </span><br><span class="line">Verbraucht Ihr Motor relativ viel Öl, sind Sie mit 5w40 Öl in der Regel besser bedient.  </span><br><span class="line">Wird Ihr Auto nur wenig genutzt oder ist der Öl-Verschleiß gering, genügt auch 5W30 Öl.  </span><br><span class="line">Welches Öl besser geeignet ist, hängt stets vom Auto ab. Fragen Sie am besten bei Ihrer Werkstatt nach.  </span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+大意就是说5w40比较稠，性质也更稳定，发动机磨损会更少，适合机油消耗量大的发动机；而5w30油膜比较薄，发动机阻力会比较小，节省燃料。
+这里还要提一嘴，由于技术进步，发动机零件之间的配合度越来越高就不再适合使用粘稠的厚油膜机油了，反而需要使用低Viskosität的薄油膜机油，比如AHW7118官方建议0W-20的机油。
+&gt;参考: <a href="https://praxistipps.chip.de/5w30-oder-5w40-motoroel-das-sind-die-unterschiede_100140">5w30
+oder 5w40 Motoröl: Das sind die Unterschiede</a><p></p>
+<h1 id="other-tipps">other Tipps</h1>
+<ul>
+<li>每次换完冬胎和夏胎，修理厂都会告诉我，50-100km 以后再来一次，帮你检查一下螺丝有没有松动，这次又问了一下，他说只是出于安全考虑，多开一次再来也没关系，根据他职业生涯的经验，大概只有 1% 的情况会出现松动的意外。。。哈哈哈，真是让人安心的情报呢</li>
 </ul>
-<h1 id="AHW-7118"><a href="#AHW-7118" class="headerlink" title="AHW 7118"></a>AHW 7118</h1><ul>
+<h1 id="ahw-7118">AHW 7118</h1>
+<ul>
 <li>冬胎螺丝少一个</li>
 <li>左后视镜锁车时无法完全合起来</li>
 <li>车顶与后备箱盖上有冰雹砸出的小坑</li>
 <li>千斤顶被拿走了</li>
-<li>Navigation文件被删无法使用</li>
-<li>“刹车盘&#x2F;片，电池，alle Flüssigkeit换新,刹车系统检查”</li>
-<li>机油使用0W-20</li>
+<li> Navigation 文件被删无法使用</li>
+<li> “刹车盘 / 片，电池，alle Flüssigkeit 换新，刹车系统检查”</li>
+<li> 机油使用 0W-20</li>
 </ul>
-<h1 id="2024-01-22-换上了Mazda-3-Skyactive-X-Mild-Hybrid"><a href="#2024-01-22-换上了Mazda-3-Skyactive-X-Mild-Hybrid" class="headerlink" title="2024.01.22 换上了Mazda 3 Skyactive-X Mild Hybrid"></a>2024.01.22 换上了Mazda 3 Skyactive-X Mild Hybrid</h1><p>算是捡漏了，车身有小剐蹭，驾驶员后视镜开关偶尔会出问题，车顶有不少冰雹砸的小坑，其他目前很满意，就是Service太贵了，700，下次不去山下做了！</p>
+<h1 id="换上了mazda-3-skyactive-x-mild-hybrid">2024.01.22 换上了 Mazda 3
+Skyactive-X Mild Hybrid</h1>
+<p>算是捡漏了，车身有小剐蹭，驾驶员后视镜开关偶尔会出问题，车顶有不少冰雹砸的小坑，其他目前很满意，就是 Service 太贵了，700，下次不去山下做了！</p>
 ]]></content>
       <tags>
         <tag>汽车</tag>
@@ -1074,9 +1331,11 @@
     <url>/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi.html</url>
     <content><![CDATA[<p>和室友讨论得来的一点点启发</p>
 <span id="more"></span>
-
-<p>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。<br>我是挺无语的。<br>我觉得这是对现在科学的侮辱。<br>因为他说的这种首先取样就不严谨:<br><em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
-<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算99.999%的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
+<p>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。
+我是挺无语的。 我觉得这是对现在科学的侮辱。
+因为他说的这种首先取样就不严谨:
+<em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
+<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算 99.999% 的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
 <p>我不理解为什么会有这么大的思维差异！</p>
 ]]></content>
       <tags>
@@ -1084,20 +1343,22 @@
       </tags>
   </entry>
   <entry>
-    <title>破事儿2020</title>
+    <title>破事儿 2020</title>
     <url>/po-shi-er-2020.html</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>想了一下想po到blog的第一篇文章，马上就想到以前我在qq空间的这篇置顶，看了下抬头，发现我11年就想要个个人主页啦，哈哈，时至今日，我还是很喜欢这篇文章，语言是温柔的，我已经不记得当时花了几个小时把这篇文章打进去的了，只记得因为网络问题和页面刷新问题，中途有过大篇幅的丢失，很气，至少有重新打，现在有了自己的网站，各种网络基础设施又这么好，基本不会再出现这种情况了，当初的挫败反而成了回味时的情趣。</p>
-<p>高二时去了实验班，班级组织了一次去中科大的参观活动，在校内书店买了两本书，一本<code>电影画刊</code>，一本<code>禅宗</code>,禅宗自然是佛学书籍，被仇日保守的老爷子大骂，他骂任他骂，我自看我的，所以不提也罢。另一本<code>电影画刊</code>不知道还能不能找到了，毕竟留德7年了，通篇内容已然忘却，只有这篇文章我是花了心血的。想来当年真是幼稚，不管是男性朋友还是女性朋友，我都统统推荐，然后感慨说，哎呀，这真是我理想中的女性形象啊，真是tm傻子，跟男性朋友说还好，跟女生说却是几个意思？别人会怎么想？&gt;_&lt;</p>
-<p><del>当然时至今日我还是有点想见见这位姑娘，看看到底怎么样一个人，当初就那么成熟，那现在是在过什么样的生活。</del> 已找到作者，目前是授权转载，大我一轮哈哈，跟我说了一些当年电影画刊拖稿费的轶事，还有很多读者的来信都没有转到她手里种种。而且姐姐居然是跟初恋结婚了。哎，不胜感慨，感觉像是一个时代的结束，尤其是在纸质书低迷，社交手段极其丰富的现在，那还有什么读者来信这种说法。</p>
+    <content><![CDATA[<h1 id="引子">引子</h1>
+<p>想了一下想 po 到 blog 的第一篇文章，马上就想到以前我在 qq 空间的这篇置顶，看了下抬头，发现我 11 年就想要个个人主页啦，哈哈，时至今日，我还是很喜欢这篇文章，语言是温柔的，我已经不记得当时花了几个小时把这篇文章打进去的了，只记得因为网络问题和页面刷新问题，中途有过大篇幅的丢失，很气，至少有重新打，现在有了自己的网站，各种网络基础设施又这么好，基本不会再出现这种情况了，当初的挫败反而成了回味时的情趣。</p>
+<p>高二时去了实验班，班级组织了一次去中科大的参观活动，在校内书店买了两本书，一本<code>电影画刊</code>，一本<code>禅宗</code> , 禅宗自然是佛学书籍，被仇日保守的老爷子大骂，他骂任他骂，我自看我的，所以不提也罢。另一本<code>电影画刊</code>不知道还能不能找到了，毕竟留德 7 年了，通篇内容已然忘却，只有这篇文章我是花了心血的。想来当年真是幼稚，不管是男性朋友还是女性朋友，我都统统推荐，然后感慨说，哎呀，这真是我理想中的女性形象啊，真是 tm 傻子，跟男性朋友说还好，跟女生说却是几个意思？别人会怎么想？&gt;_&lt;</p>
+<p><del>当然时至今日我还是有点想见见这位姑娘，看看到底怎么样一个人，当初就那么成熟，那现在是在过什么样的生活。</del>
+已找到作者，目前是授权转载，大我一轮哈哈，跟我说了一些当年电影画刊拖稿费的轶事，还有很多读者的来信都没有转到她手里种种。而且姐姐居然是跟初恋结婚了。哎，不胜感慨，感觉像是一个时代的结束，尤其是在纸质书低迷，社交手段极其丰富的现在，那还有什么读者来信这种说法。</p>
 <span id="more"></span>
-
-<h1 id="文-付玲（来自《电影画刊》2009-11）"><a href="#文-付玲（来自《电影画刊》2009-11）" class="headerlink" title="&lt;破事儿&gt;文&#x3D;付玲（来自《电影画刊》2009-11）"></a>&lt;破事儿&gt;文&#x3D;付玲（来自《电影画刊》2009-11）</h1><p>有天学校停电了，没有办法继续做电学实验。我背好包从实验楼里走出来去对面楼的图书馆自习室准备考试，前天还放了满满一桌英语资料占着位置。自习室很热，坐下来却还不想看书，在桌子对面趴着睡觉的女孩不一会缓缓醒过来问我停电多久了。我笑笑摇了摇头表示自己也是刚到。她睡眼惺松的拿起本子扇风，过了会说：“唉，注意你很久了。”</p>
+<h1 id="文付玲来自电影画刊2009-11">&lt;破事儿&gt; 文 = 付玲（来自《电影画刊》2009-11）</h1>
+<p>有天学校停电了，没有办法继续做电学实验。我背好包从实验楼里走出来去对面楼的图书馆自习室准备考试，前天还放了满满一桌英语资料占着位置。自习室很热，坐下来却还不想看书，在桌子对面趴着睡觉的女孩不一会缓缓醒过来问我停电多久了。我笑笑摇了摇头表示自己也是刚到。她睡眼惺松的拿起本子扇风，过了会说：“唉，注意你很久了。”</p>
 <p>我愣愣的不知道如何回答她。她到是很大方的样子，说趁我不在的时候翻过桌上的资料，上面勾勾画画的都是记号，觉得算是性格认真的人。也观察过，发现我常常自己来这边学习，倒是有个年纪小一点的室友偶尔陪着。</p>
 <p>我拧开瓶盖开始喝水，微笑着看着她。这样的小艳遇太像村上春树小说的剧情了，如果我是个男的话。</p>
-<p>“只是因为彼此长得像，不过现在做了挑染和卷发不大看得出来了。”她捋了捋头发，声音清淡的说，“所以今天特地选了你对面的位置，想看能不能遇上，然后随便聊点什么都好。”</p>
-<p>她的气质非常平和，声音也是温柔的。我当时甚至没有觉得不自在。反而当真聊了很多，想起什么说什么，都是有一搭没一搭的闲话。比如学校课程安排的不合理或者太多无聊透顶的活动。直到我不小心看到她手指上的戒指，然后随口问：“是章子怡代言的那一款吗，应该很贵吧？”她侧了侧左手，然后用右手手指轻轻地抚摸过去。“是其中一个男朋友送的，送过三次，前两次洗衣服的时候不小心掉了。”见我没有说话便接着说，“你会不会觉得奇怪，其实也没有很多，只有两个而已，彼此也都知道对方，但也还是继续对我好，像是竞争的意思。也奇怪，自从这样的三角关系以来，再也没有和送戒指的男朋友吵过架。因为心里总像是对不起他，一般他有什么做的不妥当的，也都没往心里去。况且就算一旦吵起来，和另一个出去逛街散心基本也就淡忘了。”见我脸上诧异的表情，她忽然笑起来。那种笑容是倦怠的，并没有掺杂任何炫耀货鄙夷的成分，是清清淡淡的倦怠表情。顿了顿看着窗外逐渐暗淡的天空，“总有一天你会明白的，这就是生活，和小说或者电影里描述的完美爱情都是不一样的。”随即她低下了头，长长的头发垂下来挡住了那张和我颇为相似的脸。</p>
+<p>“只是因为彼此长得像，不过现在做了挑染和卷发不大看得出来了。” 她捋了捋头发，声音清淡的说，“所以今天特地选了你对面的位置，想看能不能遇上，然后随便聊点什么都好。”</p>
+<p>她的气质非常平和，声音也是温柔的。我当时甚至没有觉得不自在。反而当真聊了很多，想起什么说什么，都是有一搭没一搭的闲话。比如学校课程安排的不合理或者太多无聊透顶的活动。直到我不小心看到她手指上的戒指，然后随口问：“是章子怡代言的那一款吗，应该很贵吧？” 她侧了侧左手，然后用右手手指轻轻地抚摸过去。“是其中一个男朋友送的，送过三次，前两次洗衣服的时候不小心掉了。” 见我没有说话便接着说，“你会不会觉得奇怪，其实也没有很多，只有两个而已，彼此也都知道对方，但也还是继续对我好，像是竞争的意思。也奇怪，自从这样的三角关系以来，再也没有和送戒指的男朋友吵过架。因为心里总像是对不起他，一般他有什么做的不妥当的，也都没往心里去。况且就算一旦吵起来，和另一个出去逛街散心基本也就淡忘了。” 见我脸上诧异的表情，她忽然笑起来。那种笑容是倦怠的，并没有掺杂任何炫耀货鄙夷的成分，是清清淡淡的倦怠表情。顿了顿看着窗外逐渐暗淡的天空，“总有一天你会明白的，这就是生活，和小说或者电影里描述的完美爱情都是不一样的。” 随即她低下了头，长长的头发垂下来挡住了那张和我颇为相似的脸。</p>
 <p>之后过了不久就来电了，大约是修好了电线。一盏盏日光灯闪了闪都亮了起来，电扇也开始发出呼啦呼啦的声响。自习室倏忽安静了，我们随即停止了话题低头做起各自的复习资料。临走的时候她邀请我下周三去看他们的专业汇报演出，我说有时间的话回去的。几天以后我当真看到了宣传的海报，上面也贴有她的照片，和众多同学站在一起。那张脸与我是相似的，我看了会，心里是莫名的感觉。她汇报演出的那天我刚好有事情，没有去。之后也没有再见过这个人，任何地方都没有。就好像凭空消失了一样。</p>
-<p>其实在这期间我也做了笔糊涂事,才经常不在学校，而是辗转坐车见缝插针的住在家里。当时宿舍里同住的另一个女生经常与男友吵架，吵到后来双方动手的地步，她挨揍的样子，我着实看不过去，劝了几句。结果反而惹祸上身，弄了个挑拨离间的罪名，室友游说男友，扬言要收拾我。才没有办法，打不起躲得起。近期末那一周多时间，根本不在学校。</p>
+<p>其实在这期间我也做了笔糊涂事，才经常不在学校，而是辗转坐车见缝插针的住在家里。当时宿舍里同住的另一个女生经常与男友吵架，吵到后来双方动手的地步，她挨揍的样子，我着实看不过去，劝了几句。结果反而惹祸上身，弄了个挑拨离间的罪名，室友游说男友，扬言要收拾我。才没有办法，打不起躲得起。近期末那一周多时间，根本不在学校。</p>
 <p>然后才空余出很多时间，看了彭浩祥的那部《破事儿》。</p>
 <p>香港有几个比较喜欢的导演，刚开始是王家卫和关锦鹏。再后来人慢慢性情有了些改变，开始喜欢比较怪诞的韦家辉和彭浩翔。第一次接触彭浩翔导演的电影就是那部风格较为接近王家卫的《伊莎贝拉》。电影里墨绿色笼罩的的澳门像是永远大雨滂沱的城市，湿漉漉的街道和人们的眼睛。那时候的梁洛施好看的如同嘹亮的风声，穿梭在永远看不到尽头的回忆里。</p>
 <p>倒是有一场戏，她坐在桌前和马振成一起吃饭。他说起年轻时候和她母亲的往事。还是学生的马振成在知道女朋友怀孕以后手足无措，去翻那些吸毒者藏在花棚里的毒品，找到拿去卖，还是穷。他说，在澳门没有金表不行的，不是别人看不起你，而是别人看不到你。</p>
@@ -1105,7 +1366,7 @@
 <p>再之后陆陆续续的看了《公主复仇记》，《青春梦工场》，还有处女作《买凶拍人》。我是更喜欢《出埃及记》的，那么淡然的气氛，从未见过如此落寞的任达华，在影影绰绰的餐桌上尽享一个人的沉默。后来他在电影里对他的情人说，原来有些事情离奇到一定程度就没有人相信，但是不代表那不是真的。说的是警察局里的警察假扮成蛙人殴打犯人的事。他的语气确实颓废的。片子播到末尾，他也毋庸置疑的成了自己所厌恶生活的一部分，是毫不突兀的向生活妥协。当然还有《大丈夫》，黑色幽默版的《无间道》。一群男人想尽办法避开女友和妻子用辛苦攒下的私房钱嫖妓，中途一波三折最后败兴而归的故事。本来该是喜剧的，但彭浩翔把片名起作大丈夫，我才为这些情欲难过起来。中间陈小春饰演的角色说过一段话，他满是诚恳的交心，说如果不是这些年的偷腥所带来的愧疚感，或许和妻子的婚姻早就破裂了。</p>
 <p>语气和神态都很像我在开头提到的那位只有一面之缘的朋友。当时我看电影，只不过笑笑了事，当是喜剧荒诞的桥段。但听到身边人郑重其事的这样说，却是完全不同的感受。兴许生活得久了，见到的人也自然而然的多起来，难免遇到各式各样的人。随着年龄的增长，人也越来越有复杂的资本了。仿佛不复杂就提不起生活的趣味，也少了点矫揉造作的沧桑感。我常常觉得，人之所以为人应该有更高尚点的追求。虽然也可以说生活的真相就是虚无，但我也希望能够虚无的更加坦荡些。</p>
 <p>原来以为贫穷是能够带来朴实的。刚读大学的时候，就觉察出了和高中时候不同的风气。当然很可能是读的学校称不上重点的原因。开学刚一周，班上就出了好几件事。先是女生间的聚众斗殴，再又是男生追求不得闹出来的冲突。让刚入学的自己非常懊恼，觉得学习环境实在有些糟糕。后来军训结束开始上课，屡屡听说班上男生如何在学校同时交几个女朋友而不被发现的高超技巧。又或者是女朋友数次怀孕没有钱做手术，就骗家里说是出了水痘要住院。当然这都是些有钱的纨绔子弟，家里当然是可以花大笔钱到城市读书而不求什么成效的。如果放着大把的时间和金钱不用来玩乐，也是可疑的吧。</p>
-<p>除此之外也是有些默默无闻的人。衣着很朴素，说话的口音也大多是城郊的，班上开会或者选举往往插不上嘴。最是那么三三两两的几个人往来于宿舍和教室，看起来是有些贫寒的样子。那时候班上有个同学临时决定要去新加坡念工科，刚好和那几个男生是同寝。于是约着一起玩玩当时告别，选了学校附近的KTV。解释说没有女生同去的话，在别人面前没有面子，就约了我和另外的同学。我想这不答应可能有点伤自尊，就劝着对方一起去了。当时是晚上，他们到宿舍楼下面来接的。沿路同我打听班上还有几个女生是没有男朋友的，我当是开玩笑，但后来才发现他们是当真的。并且颇为认真的各自划分了几个作为后备选项，还嘲弄的同我说起其中一个男生追求老乡未果的事，还是一点便宜没有占到的遗憾口气。之后在KTV，气氛也没有让我觉得愉快，于是就谎称家里会打电话查寝不能太晚回去早早退出了聚会。夜里竟然还收到发来的暧昧短信，虽然后来道歉说是喝醉了之后的玩笑话，也是足足倒了我的胃口。</p>
+<p>除此之外也是有些默默无闻的人。衣着很朴素，说话的口音也大多是城郊的，班上开会或者选举往往插不上嘴。最是那么三三两两的几个人往来于宿舍和教室，看起来是有些贫寒的样子。那时候班上有个同学临时决定要去新加坡念工科，刚好和那几个男生是同寝。于是约着一起玩玩当时告别，选了学校附近的 KTV。解释说没有女生同去的话，在别人面前没有面子，就约了我和另外的同学。我想这不答应可能有点伤自尊，就劝着对方一起去了。当时是晚上，他们到宿舍楼下面来接的。沿路同我打听班上还有几个女生是没有男朋友的，我当是开玩笑，但后来才发现他们是当真的。并且颇为认真的各自划分了几个作为后备选项，还嘲弄的同我说起其中一个男生追求老乡未果的事，还是一点便宜没有占到的遗憾口气。之后在 KTV，气氛也没有让我觉得愉快，于是就谎称家里会打电话查寝不能太晚回去早早退出了聚会。夜里竟然还收到发来的暧昧短信，虽然后来道歉说是喝醉了之后的玩笑话，也是足足倒了我的胃口。</p>
 <p>原来一直是想错了。</p>
 <p>徐静蕾最早当导演的那部作品《我和爸爸》里，叶大鹰说，男人，不要以为家境贫寒就朴实，长得拧巴就不花。原来是这样字字珠玑。我原以为挥金如土的纨绔子弟们沉迷于声色或者分分合合的男女关系是他们太过空虚了，没有发泄的渠道，也没有静下来好好生活的心思。来自城郊苦读上来的人相反能够更加珍惜生活本身，对浮华也能够相对看得透彻。到头来也只不过是我又一次一厢情愿的想法。不接触不了解，就总能够当对方是童话。能想得多完美，就想得多完美。他们安静，他们看起来与世无争倒并不是思想能够多么高尚，想法能够怎样透彻，﻿而只是没有这个资本而已。</p>
 <p>一旦某天，他们发达了，有了这个资本。不见得没有现在他们所回避的这帮人玩得更过分，更没有章法。相反压抑的心态可能让行为更激进。</p>
@@ -1116,7 +1377,7 @@
 <p>﻿后来我劝他，爱情这事情得将缘分。网上有句话挺流行，说恋爱这事就跟做菜一样，你喜欢的人爱吃川菜，你把粤菜做得再好也没用。这也怪不得你自己。他当时木讷的回答我，说他愿意做厨子，人家爱吃什么他都能学，都能做。</p>
 <p>我也是破涕为笑了起来。</p>
 <p>他是自然没有和她在一起。就这么掉着单的过了四年﻿，说最不愿意在学校看到她和别人谈恋爱，却总是每每看见。也都没有办法。</p>
-<p>前几天我在网上又碰见他，聊起他推荐我看的美剧，说觉得没意思。﻿﻿﻿不知道问什么谈起了想要的下辈子,我还未开口,他说他下辈子要做一个专骗女人的坏男人。</p>
+<p>前几天我在网上又碰见他，聊起他推荐我看的美剧，说觉得没意思。﻿﻿﻿不知道问什么谈起了想要的下辈子，我还未开口，他说他下辈子要做一个专骗女人的坏男人。</p>
 <p>我当时吓了一跳，问他为什么。他只推脱说不过是另一种人格。</p>
 <p>越来越不懂。</p>
 <p>那次去武汉大学还吉他给以前的高中同学。她对我说，如果朋友不常常见面，有天突然说起话来，聊起一些看法，你会觉得根本不认识那个人，不知道他怎么就一步步走到了今天。变成了现在的模样。</p>
@@ -1129,9 +1390,19 @@
 <p>时间总是这样短，又这样迅速，究竟可以再做些什么才能不沦为破事儿的集合，我也不得其解。</p>
 <p>但不要忘记年轻时间点亮的那盏灯，那就总不至于走得太远。</p>
 <p>就总能走向通往光明的道路。</p>
-<h1 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h1><p>因为要录入这篇文章，我顺便把qq空间里以前发表的其他文章都看了遍，真是羞耻啊，以前怎么这么暴躁，而且中二TaT，哭了，太羞耻了，这篇的后记算好的，我也就直接ctrl+c过来吧，省事。</p>
-<p>~~~~后话（录入者）~~~~<br>首先我想说，你们不要转载，乱传，因为不是我写的文章，喜欢看看就是了，我也喜欢，我花了很长时间才全部录入。<br>她说出了我很多想说的话，但我完全做不到像她这样娓娓道来，She expresses herself  transparently which I admire.<br>生活真的不应该是这样，但我相信时间会解决一切，但也不能坐等，就算只有自己也要推动一切！<br>耗这么长时间打这篇文章，真是暴露了我人性里的弱点，以手抚膺长谘嗟。。。<br>我突然想起梁朝伟饰演的陈永仁在无间道里说的：“没事，过了明天就好了。”<br>呵！<br>时间不早了，如果想到什么我再来补充吧。<br>High pleasure，intelligence，civilization！<br>A head for business，a head for world.<br>~~~~Liebe~~~~</p>
-<p>哎，还是觉得羞耻啊aaaaaaaaaaaa</p>
+<h1 id="后话">后话</h1>
+<p>因为要录入这篇文章，我顺便把 qq 空间里以前发表的其他文章都看了遍，真是羞耻啊，以前怎么这么暴躁，而且中二 TaT，哭了，太羞耻了，这篇的后记算好的，我也就直接 ctrl+c 过来吧，省事。</p>
+<p>~~ <del>后话（录入者）</del>~~
+首先我想说，你们不要转载，乱传，因为不是我写的文章，喜欢看看就是了，我也喜欢，我花了很长时间才全部录入。
+她说出了我很多想说的话，但我完全做不到像她这样娓娓道来，She expresses
+herself transparently which I admire.
+生活真的不应该是这样，但我相信时间会解决一切，但也不能坐等，就算只有自己也要推动一切！
+耗这么长时间打这篇文章，真是暴露了我人性里的弱点，以手抚膺长谘嗟。。。
+我突然想起梁朝伟饰演的陈永仁在无间道里说的：“没事，过了明天就好了。”
+呵！ 时间不早了，如果想到什么我再来补充吧。 High
+pleasure，intelligence，civilization！ A head for business，a head for
+world. ~~<del>Liebe</del>~~</p>
+<p>哎，还是觉得羞耻啊 aaaaaaaaaaaa</p>
 ]]></content>
       <tags>
         <tag>privat</tag>
@@ -1140,11 +1411,14 @@
   <entry>
     <title>要多久才能解决一个问题</title>
     <url>/yao-duo-jiu-cai-neng-jie-jue-yi-ge-wen-ti.html</url>
-    <content><![CDATA[<h2 id="今天是2024年6月18号，我不想做实验，我有两篇paper要写，8月14号前还提交一份Poster，给明年的250年校庆填柴火。想着今天就给paper起头吧！反正都是些，先把这篇文章补完，练练手。"><a href="#今天是2024年6月18号，我不想做实验，我有两篇paper要写，8月14号前还提交一份Poster，给明年的250年校庆填柴火。想着今天就给paper起头吧！反正都是些，先把这篇文章补完，练练手。" class="headerlink" title="今天是2024年6月18号，我不想做实验，我有两篇paper要写，8月14号前还提交一份Poster，给明年的250年校庆填柴火。想着今天就给paper起头吧！反正都是些，先把这篇文章补完，练练手。"></a>今天是2024年6月18号，我不想做实验，我有两篇paper要写，8月14号前还提交一份Poster，给明年的250年校庆填柴火。想着今天就给paper起头吧！反正都是些，先把这篇文章补完，练练手。</h2><p>去年配电脑的时候入了LG的那块新面板，240Hz的OLED屏，型号27GR95QE，在部分场景有严重的屏幕闪烁问题，比如说：</p>
-<ol>
-<li>WOT刚进游戏时的加载界面，以及在车库挂机时，整个背景一直在闪</li>
-<li>玩死亡搁浅的时候只要切换场景开始读进度条，读条载入界面就一直在闪<br>神奇的是会闪的都是这些挂机界面，只要真正进入到游戏界面，或者说战斗界面，就不会有这种闪烁了，一直百思不得其解，尝试了各种办法都解决不了，有朋友说可能是因为自动调光的控制软件导致的，这个咱也没法修，反正就是在过去小一年的使用中，就这么忍过来了。<br>不过其实这里面有个小细节被我忽略了，这个电竞显示器，是兼容G-Sync的，但是在Nvidia的控制面板并没有显示为G-Sync兼容Monitor，而是显示为未识别，但是我的另一个技嘉的显示屏就可以正确的识别为⌈认证的xxx⌋，<img src="/yao-duo-jiu-cai-neng-jie-jue-yi-ge-wen-ti/" alt="Nvidia Control Panel"></li>
-</ol>
+    <content><![CDATA[<p>今天是 2024 年 6 月 18 号，我不想做实验，我有两篇 paper 要写，8 月 14 号前还提交一份 Poster，给明年的 250 年校庆填柴火。想着今天就给 paper 起头吧！反正都是些，先把这篇文章补完，练练手。</p>
+<p>去年配电脑的时候入了 LG 的那块新面板，240Hz 的 OLED 屏，型号 27GR95QE，在部分场景有严重的屏幕闪烁问题，比如说：
+1. WOT 刚进游戏时的加载界面，以及在车库挂机时，整个背景一直在闪 2.
+玩死亡搁浅的时候只要切换场景开始读进度条，读条载入界面就一直在闪
+神奇的是会闪的都是这些挂机界面，只要真正进入到游戏界面，或者说战斗界面，就不会有这种闪烁了，一直百思不得其解，尝试了各种办法都解决不了，有朋友说可能是因为自动调光的控制软件导致的，这个咱也没法修，反正就是在过去小一年的使用中，就这么忍过来了。
+不过其实这里面有个小细节被我忽略了，这个电竞显示器，是兼容 G-Sync 的，但是在 Nvidia 的控制面板并没有显示为 G-Sync 兼容 Monitor，而是显示为未识别，但是我的另一个技嘉的显示屏就可以正确的识别为⌈认证的 xxx⌋，<img src alt="Nvidia Control Panel"></p>
+<p>---2025.2.8---
+问题基本确定，当屏幕开启了 Adaptive-Sync 以后，一旦屏幕的刷新率发生变化，就会发生闪烁。无解。</p>
 ]]></content>
       <tags>
         <tag>一个男人的只言片语</tag>
@@ -1153,6 +1427,7 @@
   <entry>
     <title>论低代码开发的必要性</title>
     <url>/lun-di-dai-ma-kai-fa-de-bi-yao-xing.html</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[
+]]></content>
   </entry>
 </search>
