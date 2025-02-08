@@ -734,6 +734,46 @@ Universität Clausthal</p>
       </tags>
   </entry>
   <entry>
+    <title>Comsol 学习笔记</title>
+    <url>/comsol-xue-xi-bi-ji.html</url>
+    <content><![CDATA[<h1 id="网格划分">网格划分</h1>
+<img src="/comsol-xue-xi-bi-ji/wg0.png" class title="网格划分示例">
+<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格
+&gt; 参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn">建模流程概述</a></p>
+<span id="more"></span>
+<h1 id="基本操作">基本操作</h1>
+<p>切除，并集等操作在布尔运算选项下 </p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: 构建体素对象</span><br><span class="line">e=&gt;end: 例如布尔运算</span><br><span class="line">op1=&gt;operation: 参数化编辑</span><br><span class="line">op2=&gt;operation: 完成设置后执行几何操作</span><br><span class="line"></span><br><span class="line">st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</span><br></pre></td></tr></tbody></table></figure> <figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">Copy操作可以复制二维图形</span><br><span class="line">Move操作可以复制几何体</span><br><span class="line">工作平面（Work plane)用以几何分割操作，可以简化模型，改进网格剖分</span><br></pre></td></tr></tbody></table></figure><p></p>
+<h1 id="浅谈comsol建模对比creo建模">浅谈 Comsol 建模对比 Creo 建模</h1>
+<figure class="highlight text"><figcaption><span>经验尚浅，只能浅谈 </span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="cfd流体模拟总结">CFD 流体模拟总结</h1>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="tipps">Tipps</h1>
+<p>曲率因子：边界单元尺寸和几何边界曲率之比
+非结构化网格：一个点可以被任意数量的网格共用</p>
+<h1 id="funtionsmodell">Funtionsmodell</h1>
+<p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im
+Rohr als laminare Strömung betrachtet werden. Dann ist die
+Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial
+homogene Tempeaturverteilung ist nämlich unmöglich. 1. Um ein radial
+homogene Tempeaturverteilung zu bekommen, braucht eine turbulente
+Strömung Dann haben wir 2 Auswahl: - nicht-metalisch äußere Hülle +
+metalisch innere Struktur - metalisch äußere Hülle + metalisch innere
+Struktur Metalisch äußere Hülle hat hier zu gut Wärmeleitfähigkeit,
+führt durch natürliche Konvektion zu Kühlung. Deswegen empfehle ich
+nicht-metalisch äußere Hülle + metalisch innere Struktur Äußere Hülle
+soll ein schlechte Wärmeleitfähigkeit haben.</p>
+<p>Die Messung von Tempertaur --&gt; Berührungslos messende
+Thermometer?</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: Elektromagnetische Induktion</span><br><span class="line">op1=&gt;operation: nur metalisch äußere Hülle</span><br><span class="line">op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op4=&gt;operation:</span><br><span class="line"></span><br><span class="line">st-&gt;op1</span><br><span class="line">st-&gt;op2</span><br><span class="line">st-&gt;op3</span><br></pre></td></tr></tbody></table></figure>
+<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht.
+Dann ist ohne innere Struktur ein</p>
+]]></content>
+      <tags>
+        <tag>Comsol</tag>
+        <tag>工程制图</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Charaterisierung von Nanopartikeln</title>
     <url>/charaterisierung-von-nanopartikeln.html</url>
     <content><![CDATA[<h1 id="einleitung">Einleitung</h1>
@@ -821,43 +861,41 @@ mit elektromagnetischer Strahlung</h1>
       </tags>
   </entry>
   <entry>
-    <title>Comsol 学习笔记</title>
-    <url>/comsol-xue-xi-bi-ji.html</url>
-    <content><![CDATA[<h1 id="网格划分">网格划分</h1>
-<img src="/comsol-xue-xi-bi-ji/wg0.png" class title="网格划分示例">
-<p>螺栓周围和弯曲处网格比较细密，这是因为在这些地方解的梯度比较大，所以自动加密了这些网格
-&gt; 参考：<a href="https://cn.comsol.com/video/intro-to-comsol-multiphysics-modeling-process-tutorial-cn">建模流程概述</a></p>
-<span id="more"></span>
-<h1 id="基本操作">基本操作</h1>
-<p>切除，并集等操作在布尔运算选项下 </p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: 构建体素对象</span><br><span class="line">e=&gt;end: 例如布尔运算</span><br><span class="line">op1=&gt;operation: 参数化编辑</span><br><span class="line">op2=&gt;operation: 完成设置后执行几何操作</span><br><span class="line"></span><br><span class="line">st(right)-&gt;op1(right)-&gt;op2(right)-&gt;e</span><br></pre></td></tr></tbody></table></figure> <figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">Copy操作可以复制二维图形</span><br><span class="line">Move操作可以复制几何体</span><br><span class="line">工作平面（Work plane)用以几何分割操作，可以简化模型，改进网格剖分</span><br></pre></td></tr></tbody></table></figure><p></p>
-<h1 id="浅谈comsol建模对比creo建模">浅谈 Comsol 建模对比 Creo 建模</h1>
-<figure class="highlight text"><figcaption><span>经验尚浅，只能浅谈 </span></figcaption><table><tbody><tr><td class="code"><pre><span class="line">Comsol参数化建模基因更浓</span><br><span class="line">Comsol建模思路是从内而外，这是它的特色，而Creo是传统CAD建模思路。从外而内，先拉伸，后切除</span><br><span class="line">就目前三天的学习体验来说，Comsol在建模上感觉一定没有Creo高效，因为参数化要消耗大量的工作步骤，而creo简单粗暴</span><br></pre></td></tr></tbody></table></figure>
-<h1 id="cfd流体模拟总结">CFD 流体模拟总结</h1>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">管道流是简化成1D来模拟</span><br><span class="line">猜测：单模块层流或者湍流模拟只能建一整块流体团来进行模拟，如果用固体壳包裹流体块，必须要**两项流固耦合**！</span><br></pre></td></tr></tbody></table></figure>
-<h1 id="tipps">Tipps</h1>
-<p>曲率因子：边界单元尺寸和几何边界曲率之比
-非结构化网格：一个点可以被任意数量的网格共用</p>
-<h1 id="funtionsmodell">Funtionsmodell</h1>
-<p>Laut der Berechnung von Re (von 750 bis 2750) kann der Vorgang im
-Rohr als laminare Strömung betrachtet werden. Dann ist die
-Tempeaturverteilung ein Funktion von Abstand von Rohrwand. Ein radial
-homogene Tempeaturverteilung ist nämlich unmöglich. 1. Um ein radial
-homogene Tempeaturverteilung zu bekommen, braucht eine turbulente
-Strömung Dann haben wir 2 Auswahl: - nicht-metalisch äußere Hülle +
-metalisch innere Struktur - metalisch äußere Hülle + metalisch innere
-Struktur Metalisch äußere Hülle hat hier zu gut Wärmeleitfähigkeit,
-führt durch natürliche Konvektion zu Kühlung. Deswegen empfehle ich
-nicht-metalisch äußere Hülle + metalisch innere Struktur Äußere Hülle
-soll ein schlechte Wärmeleitfähigkeit haben.</p>
-<p>Die Messung von Tempertaur --&gt; Berührungslos messende
-Thermometer?</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">st=&gt;start: Elektromagnetische Induktion</span><br><span class="line">op1=&gt;operation: nur metalisch äußere Hülle</span><br><span class="line">op2=&gt;operation: nicht-metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op3=&gt;operation: metalisch äußere Hülle + metalisch innere Struktur</span><br><span class="line">op4=&gt;operation:</span><br><span class="line"></span><br><span class="line">st-&gt;op1</span><br><span class="line">st-&gt;op2</span><br><span class="line">st-&gt;op3</span><br></pre></td></tr></tbody></table></figure>
-<p>Denken Wi dran, dass das Wasser am Ende des Rohr 80 grad erreicht.
-Dann ist ohne innere Struktur ein</p>
+    <title>Creo 学习笔记</title>
+    <url>/creo-xue-xi-bi-ji.html</url>
+    <content><![CDATA[<h1 id="修改语言出现的问题">修改语言出现的问题</h1>
+<p>我按网上的教程，通过改环境变量的方式添加中文操作界面，结果搞成了四不像，新开的文件一概英文界面，打开我保存关闭后的 prt 文件，一概显示中文界面。。。但是这个中文界面缺斤少两，模型里很多模块没了，得通过自定义的方式手动添加出来，<code>新建组</code>
+这一点上我真的要吹爆 Comsol，安装界面第一项就让你选择语言，选好之后，后面从安装到软件实操界面一概是你选择好的语言，非常方便</p>
+<h1 id="在此插入的用法">在此插入的用法</h1>
+<img src="/creo-xue-xi-bi-ji/%E5%9C%A8%E6%AD%A4%E6%8F%92%E5%85%A5%E7%9A%84%E7%94%A8%E6%B3%95.png" class title="在此插入的用法">
+<p>通过拖拽此选项到任意步骤下方，可以查看该步骤具体做了那些东西，非常实用</p>
+<h1 id="底部消息区是你最好的老师">底部消息区是你最好的老师</h1>
+<h1 id="键鼠操作汇总">键鼠操作汇总</h1>
+<figure class="highlight text"><figcaption><span>Text 代码块</span><a href="https://shukangzhang.com">测试链接勿点</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">按住中键可以旋转</span><br><span class="line">按住Ctrl + 中键沿固定轴旋转</span><br><span class="line">按住Shift + 中键实现平移</span><br><span class="line">滚轮可以缩放</span><br><span class="line">所有正在执行操作的取消都可以通过ESC键</span><br><span class="line">界面上的缩小按钮可以直接缩小，单击放大按钮后需要选择想放大的区域</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="常用操作汇总">常用操作汇总</h1>
+<ul>
+<li>设置选项卡下的草绘视图可以把定义好的面平铺到屏幕中央</li>
+</ul>
+<h1 id="取消使用系统默认模板">取消使用系统默认模板</h1>
+<p>为什么要取消默认模板，因为默认模板无法满足国家标准的要求。。。。。。
+mmns_part_solid 最常用 </p><figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">mm表示毫米</span><br><span class="line">n表示力</span><br><span class="line">s时间单位</span><br><span class="line">part_solid实体模型</span><br></pre></td></tr></tbody></table></figure> &gt;参考链接：<a href="https://www.eduartisan.com/course/851/lesson/4218">CREO 快速入门（4.0 版）试听课
+1-4 模型设计的一般过程</a><p></p>
+<h1 id="疑似bug">疑似 bug</h1>
+<p>个人发现，单击保存，每一次都会保存一个新的 prt 文件，，末尾会以 123...n 自动排序，而不是保存到原文件，不知道为什么</p>
+<h1 id="拉伸操作入门">拉伸操作入门</h1>
+<p>拉伸 --&gt; 放置 --&gt; 定义 --&gt; 选择草绘面 --&gt; 画图 --&gt; 画完确定重回拉伸界面 --&gt; 确定拉伸参数 --&gt; 拉伸 --&gt;finish
+拉伸的方向可以通过两种方式更改： - 点击拉伸面的法向箭头 -
+拉伸菜单下，详细参数部分，具体拉伸数值的右边第一个选项
+拉伸同时可以做除料</p>
+<h1 id="关于草绘">关于草绘</h1>
+<p>样条命令在实体模型中用的不是非常多，但是做曲面一定要掌握
+若想绘制多边形，请单击草绘选项卡里的选项板</p>
+<h1 id="tipps汇总">Tipps 汇总</h1>
+<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">工作目录的选择很重要</span><br></pre></td></tr></tbody></table></figure>
 ]]></content>
       <tags>
-        <tag>Comsol</tag>
         <tag>工程制图</tag>
+        <tag>Creo</tag>
       </tags>
   </entry>
   <entry>
@@ -897,48 +935,37 @@ bash 重启后在原来配置文件下 hexo 终于顺利运行，搞半天是因
       </tags>
   </entry>
   <entry>
-    <title>Creo 学习笔记</title>
-    <url>/creo-xue-xi-bi-ji.html</url>
-    <content><![CDATA[<h1 id="修改语言出现的问题">修改语言出现的问题</h1>
-<p>我按网上的教程，通过改环境变量的方式添加中文操作界面，结果搞成了四不像，新开的文件一概英文界面，打开我保存关闭后的 prt 文件，一概显示中文界面。。。但是这个中文界面缺斤少两，模型里很多模块没了，得通过自定义的方式手动添加出来，<code>新建组</code>
-这一点上我真的要吹爆 Comsol，安装界面第一项就让你选择语言，选好之后，后面从安装到软件实操界面一概是你选择好的语言，非常方便</p>
-<h1 id="在此插入的用法">在此插入的用法</h1>
-<img src="/creo-xue-xi-bi-ji/%E5%9C%A8%E6%AD%A4%E6%8F%92%E5%85%A5%E7%9A%84%E7%94%A8%E6%B3%95.png" class title="在此插入的用法">
-<p>通过拖拽此选项到任意步骤下方，可以查看该步骤具体做了那些东西，非常实用</p>
-<h1 id="底部消息区是你最好的老师">底部消息区是你最好的老师</h1>
-<h1 id="键鼠操作汇总">键鼠操作汇总</h1>
-<figure class="highlight text"><figcaption><span>Text 代码块</span><a href="https://shukangzhang.com">测试链接勿点</a></figcaption><table><tbody><tr><td class="code"><pre><span class="line">按住中键可以旋转</span><br><span class="line">按住Ctrl + 中键沿固定轴旋转</span><br><span class="line">按住Shift + 中键实现平移</span><br><span class="line">滚轮可以缩放</span><br><span class="line">所有正在执行操作的取消都可以通过ESC键</span><br><span class="line">界面上的缩小按钮可以直接缩小，单击放大按钮后需要选择想放大的区域</span><br></pre></td></tr></tbody></table></figure>
-<h1 id="常用操作汇总">常用操作汇总</h1>
-<ul>
-<li>设置选项卡下的草绘视图可以把定义好的面平铺到屏幕中央</li>
-</ul>
-<h1 id="取消使用系统默认模板">取消使用系统默认模板</h1>
-<p>为什么要取消默认模板，因为默认模板无法满足国家标准的要求。。。。。。
-mmns_part_solid 最常用 </p><figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">mm表示毫米</span><br><span class="line">n表示力</span><br><span class="line">s时间单位</span><br><span class="line">part_solid实体模型</span><br></pre></td></tr></tbody></table></figure> &gt;参考链接：<a href="https://www.eduartisan.com/course/851/lesson/4218">CREO 快速入门（4.0 版）试听课
-1-4 模型设计的一般过程</a><p></p>
-<h1 id="疑似bug">疑似 bug</h1>
-<p>个人发现，单击保存，每一次都会保存一个新的 prt 文件，，末尾会以 123...n 自动排序，而不是保存到原文件，不知道为什么</p>
-<h1 id="拉伸操作入门">拉伸操作入门</h1>
-<p>拉伸 --&gt; 放置 --&gt; 定义 --&gt; 选择草绘面 --&gt; 画图 --&gt; 画完确定重回拉伸界面 --&gt; 确定拉伸参数 --&gt; 拉伸 --&gt;finish
-拉伸的方向可以通过两种方式更改： - 点击拉伸面的法向箭头 -
-拉伸菜单下，详细参数部分，具体拉伸数值的右边第一个选项
-拉伸同时可以做除料</p>
-<h1 id="关于草绘">关于草绘</h1>
-<p>样条命令在实体模型中用的不是非常多，但是做曲面一定要掌握
-若想绘制多边形，请单击草绘选项卡里的选项板</p>
-<h1 id="tipps汇总">Tipps 汇总</h1>
-<figure class="highlight text"><table><tbody><tr><td class="code"><pre><span class="line">工作目录的选择很重要</span><br></pre></td></tr></tbody></table></figure>
-]]></content>
-      <tags>
-        <tag>工程制图</tag>
-        <tag>Creo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Teigtasche von Marktkauf in Clausthal</title>
     <url>/teigtasche-von-marktkauf-in-clausthal.html</url>
     <content><![CDATA[<p>test <span id="more"></span></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>hexo 如何迁移 blog 到新电脑上</title>
+    <url>/hexo-ru-he-qian-yi-blog-dao-xin-dian-nao-shang.html</url>
+    <content><![CDATA[<p>2023.11.04
+非常难得，又有闲心来重新弄这个 blog，重做系统，或者换了新电脑，如何重新链接上这个 blog 一直是劝退我的一大因素，本来以为要一两天才能弄好，这次也是想着，再不济，那就再删一次 blog 文件夹呗，全部重头再来，没想到很简单就成功了，哈哈哈。
+<span id="more"></span>
+ok, 先描述一下我的情况。入职以后换了新电脑，blog 文件夹是一直放在 onedrive 里的，所以直接就同步过来了，问题是，如何重新连接上 Github，让我能正常管理文章。
+很简单，按流程走一遍。 1. 安装 <a href="Git%20(git-scm.com)">Git</a> 2.
+绑定 github：安装好 Git 后，桌面右键打开 Git
+bash, 然后键入 ssh，查看本机是否安装 ssh，然后键入 ssh-keygen -t
+rsa 生成密钥，登录 github，在设置里找到 ssh 那一栏，用公钥
+id_rsa.pub 里的乱码添加 ssh key，保存，教程在这里：<a href="https://zhuanlan.zhihu.com/p/103391101">个人博客第 3 篇 —— 绑定 GitHub 并提交文件
+- 知乎 (zhihu.com)</a>。验证是否成功，我们可以通过在 Git Bash 中输入 ssh
+-T&nbsp;<a href="mailto:git@github.com">git@github.com</a>&nbsp;进行检验。 3.
+注意，绑定完，第一次同步需要绑定用户信息： &gt; $ git config--global
+user.name "shxxxxxang" &gt; $ git config--global user.email
+"zhanxxxxx@xxxmail.com" 4. <a href="https://zhuanlan.zhihu.com/p/105715224">个人博客第 5 篇 —— 安装 node.js 和 Hexo
+- 知乎 (zhihu.com)</a>，然后安装此教程安装 node.js，添加环境变量，npm
+install webpack -g，在原来的 blog 文件夹下安装 hexo，尝试 hexo
+init, 显示 <code>xxx not empty, please run</code>hexo
+init<code>on an empty folder and then copy your files into it</code>，因为其实到这里就好啦，哈哈哈，尝试直接 hexo
+s，居然一切正常！再也不用删除 blog 文件夹从头来过了，感动！呜呜呜</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>hexo 添加 pdf 预览 - 谈谈现有教程遗漏的地方</title>
@@ -974,33 +1001,6 @@ google 和 onedrive 的 pdf 读不出来我是真的不知道为什么 <img src=
       </categories>
       <tags>
         <tag>pdf</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo 如何迁移 blog 到新电脑上</title>
-    <url>/hexo-ru-he-qian-yi-blog-dao-xin-dian-nao-shang.html</url>
-    <content><![CDATA[<p>2023.11.04
-非常难得，又有闲心来重新弄这个 blog，重做系统，或者换了新电脑，如何重新链接上这个 blog 一直是劝退我的一大因素，本来以为要一两天才能弄好，这次也是想着，再不济，那就再删一次 blog 文件夹呗，全部重头再来，没想到很简单就成功了，哈哈哈。
-<span id="more"></span>
-ok, 先描述一下我的情况。入职以后换了新电脑，blog 文件夹是一直放在 onedrive 里的，所以直接就同步过来了，问题是，如何重新连接上 Github，让我能正常管理文章。
-很简单，按流程走一遍。 1. 安装 <a href="Git%20(git-scm.com)">Git</a> 2.
-绑定 github：安装好 Git 后，桌面右键打开 Git
-bash, 然后键入 ssh，查看本机是否安装 ssh，然后键入 ssh-keygen -t
-rsa 生成密钥，登录 github，在设置里找到 ssh 那一栏，用公钥
-id_rsa.pub 里的乱码添加 ssh key，保存，教程在这里：<a href="https://zhuanlan.zhihu.com/p/103391101">个人博客第 3 篇 —— 绑定 GitHub 并提交文件
-- 知乎 (zhihu.com)</a>。验证是否成功，我们可以通过在 Git Bash 中输入 ssh
--T&nbsp;<a href="mailto:git@github.com">git@github.com</a>&nbsp;进行检验。 3.
-注意，绑定完，第一次同步需要绑定用户信息： &gt; $ git config--global
-user.name "shxxxxxang" &gt; $ git config--global user.email
-"zhanxxxxx@xxxmail.com" 4. <a href="https://zhuanlan.zhihu.com/p/105715224">个人博客第 5 篇 —— 安装 node.js 和 Hexo
-- 知乎 (zhihu.com)</a>，然后安装此教程安装 node.js，添加环境变量，npm
-install webpack -g，在原来的 blog 文件夹下安装 hexo，尝试 hexo
-init, 显示 <code>xxx not empty, please run</code>hexo
-init<code>on an empty folder and then copy your files into it</code>，因为其实到这里就好啦，哈哈哈，尝试直接 hexo
-s，居然一切正常！再也不用删除 blog 文件夹从头来过了，感动！呜呜呜</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -1096,15 +1096,6 @@ Models 里面建好的模型可以 Export 到 Parts 里，然后拖拽到右边�
       </tags>
   </entry>
   <entry>
-    <title>一个男人的只言片语</title>
-    <url>/yi-ge-nan-ren-de-zhi-yan-pian-yu.html</url>
-    <content><![CDATA[
-]]></content>
-      <tags>
-        <tag>原创</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>v085maplestory 开服失败留恋</title>
     <url>/v085maplestory-kai-fu-shi-bai-liu-lian.html</url>
     <content><![CDATA[<p>终于在刚刚看了腾讯云 4 cores 8G
@@ -1123,15 +1114,6 @@ RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服�
       </tags>
   </entry>
   <entry>
-    <title>古文</title>
-    <url>/gu-wen.html</url>
-    <content><![CDATA[<ol type="1">
-<li>禽兽之变诈几何哉？止增笑耳。 ----------（清）蒲松龄「聊斋志异・
-狼三则」</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
     <title>入籍还是长居</title>
     <url>/ru-ji-huan-shi-chang-ju.html</url>
     <content><![CDATA[
@@ -1142,45 +1124,21 @@ RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服�
       </tags>
   </entry>
   <entry>
-    <title>⌈我在那一角落患过伤风⌋</title>
-    <url>/wo-zai-na-yi-jiao-luo-huan-guo-shang-feng.html</url>
-    <content><![CDATA[<p>第一次听到⌈我在那一角落患过伤风⌋这首歌大约是高二的那个夏天，步步高音乐手机的广告打满了电视和街头，很多年里（jahreslang）我都不知道这首歌的名字，就像我不知道天龙八部黄日华版的主题曲叫⌈难念的经⌋，那是个网络还不发达的年代，甚至还没有 3G，99.9% 的学生都没有手机。但是好听的旋律不会被忘记。后来网络越来越发达，某天搜起这首曲子，才知道原来是小说⌈只能谈情不能说爱⌋的其中一首配乐，一本有配乐的小说，真是少见。更巧的是，这首配乐的演唱者冯曦妤，居然同时是⌈无间道⌋那首经典配乐⌈再见警察...⌋的演唱者，也是一部能让人哭出来的电影。</p>
-<p>依稀记得看这本小说⌈只能谈情不能说爱⌋是我来德国的第一年，书籍介绍部分就让我痛得体无完肤，这本小说这样写道：</p>
-<center>
-曾经恋爱过的人都明白，最爱的，总是得不到的。
-得与失，得当然喜；得而复失、患得患失、乍得还失，更悲！
-曾经恋爱过的都明白，童话式的天长地久只属于童话，属于现实，难得，所以可贵，所以童话！现实中的爱情，最爱的，总是得不到的。
-伤风，能够用药治好，中药太慢，西药太伤身体，所以，我总是选择自然好。
-我的伤风断断续续，蔓延开来，咳嗽，头痛。然而，反反复复，讳疾忌医。
-我害怕中药太苦，从来不喝。害怕西药伤身，尽量少吃。终于，还是有那么一天，我发现我的伤风好了，以前痛苦挣扎，以为就这样一辈子沉重地背着伤风病。一瞬间，却发现早已全愈。
-爱情，也不过如此。
-</center>
-<p><br>
-哎。我也知道我有天会好，第一段十年，第二段四年，那这段呢？我不知道，恋爱脑是绝症，而且没得治。</p>
-<p>我一直认为自己对孤独有很强的抵抗力，到 29 岁都是，我也一直引以为傲。上一段恋情结束后，我先是做了两年噩梦，然后之后两年困于学业，无心交友，master 毕业后第一次真正被孤独击垮。8 月 30 号答辩完，9 月 14 号把最后一个朋友送回国，回到学校，百无聊奈，手足无措，从宿舍走到食堂，又从食堂走到宿舍，在街上徘徊，生活一下子失去了中心，连游戏都不想玩了。不过一个月没到就收到了工作邀约，工作半年后开始感觉到强烈的孤独感，每个月都有大约一周情绪会低落到喘不上气，这是我从来没有过的，⌈春光乍泄⌋里黎耀辉说过：⌈我以为我跟何宝荣不一样，原来，寂寞的时候，大家都一样⌋，难道真的我也是吗，或者每个人都是？笑，又是个没有答案的问题。</p>
-<p>我决定还是找一些别的平台 po 一 po 自己的心情，有主播说：⌈在公开领域发表观点，面对非特定大众，底层逻辑，都是为了流量⌋，我并不完全赞同，王小波说他太缺少与人交流的机会，写作就在于与人交流。因为这个缘故，他一直在写。我觉得我也是。我不想继续困在自己的主页里只是想与人交流罢了。攝影師洪磊接受採訪时说：⌈我的那种旧文人左派，等于抛弃了这个世界。⌋
-我如果继续把自己锁在主页里，那我也抛弃了这个世界。我不要。</p>
+    <title>古文</title>
+    <url>/gu-wen.html</url>
+    <content><![CDATA[<ol type="1">
+<li>禽兽之变诈几何哉？止增笑耳。 ----------（清）蒲松龄「聊斋志异・
+狼三则」</li>
+</ol>
 ]]></content>
-      <tags>
-        <tag>个人心情</tag>
-        <tag>一个男人的只言片语</tag>
-      </tags>
   </entry>
   <entry>
-    <title>无力</title>
-    <url>/wu-li.html</url>
-    <content><![CDATA[<p>今日好友推荐一书，曰「一课经济学」，不知为何，竟勾不起我阅读的兴致，非书名不够诱人耳，亦非质疑好友之判断。因其之前推荐之书目均为上上成，在我这里其实信誉极佳。日内三次念及此事，却都一闪而过，深夜再度想起，才若有所思。
-<span id="more"></span>
-我于三四年前，因这位好友，有幸拜读了「中国巨债」一书，彼时甚至动了妄念，想连同「国富论」一并读了，终因各种繁杂琐事，以及此书让人望而生怯的厚度，只好作罢。这些年，见证了不少历史，我仅凭自己幼稚的见解，不断做出荒谬的判断，说得夸张一点，这要是在玩梭哈，当真输到裤衩都没了。现实的走向一再打破我的幻想，把我狠狠的摔在地上。我一脸的败相，从此闭嘴，俨然一个良民。</p>
-<p>唯一的收获却是伴随着刻骨的痛苦的，那就是对人性的了解，对世界运行原理的了解，以及对经济活动真相的了解。</p>
-<p>这些才是我此番不愿再读经济学书籍的原因。看得越多，懂得就越多，懂得越多，越发觉得无力，现实承载不了一个普通人的理想。</p>
-<p>真是应了王小波的一席话：</p>
-<p>「活下去的秘诀就是保持愚蠢，又不能知道自己有多蠢。」</p>
-<p>我心里是不甘的。</p>
+    <title>一个男人的只言片语</title>
+    <url>/yi-ge-nan-ren-de-zhi-yan-pian-yu.html</url>
+    <content><![CDATA[
 ]]></content>
       <tags>
-        <tag>一个男人的只言片语</tag>
-        <tag>文言写作尝试</tag>
+        <tag>原创</tag>
       </tags>
   </entry>
   <entry>
@@ -1236,10 +1194,52 @@ RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服�
       </tags>
   </entry>
   <entry>
+    <title>⌈我在那一角落患过伤风⌋</title>
+    <url>/wo-zai-na-yi-jiao-luo-huan-guo-shang-feng.html</url>
+    <content><![CDATA[<p>第一次听到⌈我在那一角落患过伤风⌋这首歌大约是高二的那个夏天，步步高音乐手机的广告打满了电视和街头，很多年里（jahreslang）我都不知道这首歌的名字，就像我不知道天龙八部黄日华版的主题曲叫⌈难念的经⌋，那是个网络还不发达的年代，甚至还没有 3G，99.9% 的学生都没有手机。但是好听的旋律不会被忘记。后来网络越来越发达，某天搜起这首曲子，才知道原来是小说⌈只能谈情不能说爱⌋的其中一首配乐，一本有配乐的小说，真是少见。更巧的是，这首配乐的演唱者冯曦妤，居然同时是⌈无间道⌋那首经典配乐⌈再见警察...⌋的演唱者，也是一部能让人哭出来的电影。</p>
+<p>依稀记得看这本小说⌈只能谈情不能说爱⌋是我来德国的第一年，书籍介绍部分就让我痛得体无完肤，这本小说这样写道：</p>
+<center>
+曾经恋爱过的人都明白，最爱的，总是得不到的。
+得与失，得当然喜；得而复失、患得患失、乍得还失，更悲！
+曾经恋爱过的都明白，童话式的天长地久只属于童话，属于现实，难得，所以可贵，所以童话！现实中的爱情，最爱的，总是得不到的。
+伤风，能够用药治好，中药太慢，西药太伤身体，所以，我总是选择自然好。
+我的伤风断断续续，蔓延开来，咳嗽，头痛。然而，反反复复，讳疾忌医。
+我害怕中药太苦，从来不喝。害怕西药伤身，尽量少吃。终于，还是有那么一天，我发现我的伤风好了，以前痛苦挣扎，以为就这样一辈子沉重地背着伤风病。一瞬间，却发现早已全愈。
+爱情，也不过如此。
+</center>
+<p><br>
+哎。我也知道我有天会好，第一段十年，第二段四年，那这段呢？我不知道，恋爱脑是绝症，而且没得治。</p>
+<p>我一直认为自己对孤独有很强的抵抗力，到 29 岁都是，我也一直引以为傲。上一段恋情结束后，我先是做了两年噩梦，然后之后两年困于学业，无心交友，master 毕业后第一次真正被孤独击垮。8 月 30 号答辩完，9 月 14 号把最后一个朋友送回国，回到学校，百无聊奈，手足无措，从宿舍走到食堂，又从食堂走到宿舍，在街上徘徊，生活一下子失去了中心，连游戏都不想玩了。不过一个月没到就收到了工作邀约，工作半年后开始感觉到强烈的孤独感，每个月都有大约一周情绪会低落到喘不上气，这是我从来没有过的，⌈春光乍泄⌋里黎耀辉说过：⌈我以为我跟何宝荣不一样，原来，寂寞的时候，大家都一样⌋，难道真的我也是吗，或者每个人都是？笑，又是个没有答案的问题。</p>
+<p>我决定还是找一些别的平台 po 一 po 自己的心情，有主播说：⌈在公开领域发表观点，面对非特定大众，底层逻辑，都是为了流量⌋，我并不完全赞同，王小波说他太缺少与人交流的机会，写作就在于与人交流。因为这个缘故，他一直在写。我觉得我也是。我不想继续困在自己的主页里只是想与人交流罢了。攝影師洪磊接受採訪时说：⌈我的那种旧文人左派，等于抛弃了这个世界。⌋
+我如果继续把自己锁在主页里，那我也抛弃了这个世界。我不要。</p>
+]]></content>
+      <tags>
+        <tag>个人心情</tag>
+        <tag>一个男人的只言片语</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的 markdown 笔记</title>
     <url>/wo-de-markdown-bi-ji.html</url>
     <content><![CDATA[
 ]]></content>
+  </entry>
+  <entry>
+    <title>无力</title>
+    <url>/wu-li.html</url>
+    <content><![CDATA[<p>今日好友推荐一书，曰「一课经济学」，不知为何，竟勾不起我阅读的兴致，非书名不够诱人耳，亦非质疑好友之判断。因其之前推荐之书目均为上上成，在我这里其实信誉极佳。日内三次念及此事，却都一闪而过，深夜再度想起，才若有所思。
+<span id="more"></span>
+我于三四年前，因这位好友，有幸拜读了「中国巨债」一书，彼时甚至动了妄念，想连同「国富论」一并读了，终因各种繁杂琐事，以及此书让人望而生怯的厚度，只好作罢。这些年，见证了不少历史，我仅凭自己幼稚的见解，不断做出荒谬的判断，说得夸张一点，这要是在玩梭哈，当真输到裤衩都没了。现实的走向一再打破我的幻想，把我狠狠的摔在地上。我一脸的败相，从此闭嘴，俨然一个良民。</p>
+<p>唯一的收获却是伴随着刻骨的痛苦的，那就是对人性的了解，对世界运行原理的了解，以及对经济活动真相的了解。</p>
+<p>这些才是我此番不愿再读经济学书籍的原因。看得越多，懂得就越多，懂得越多，越发觉得无力，现实承载不了一个普通人的理想。</p>
+<p>真是应了王小波的一席话：</p>
+<p>「活下去的秘诀就是保持愚蠢，又不能知道自己有多蠢。」</p>
+<p>我心里是不甘的。</p>
+]]></content>
+      <tags>
+        <tag>一个男人的只言片语</tag>
+        <tag>文言写作尝试</tag>
+      </tags>
   </entry>
   <entry>
     <title>母音无声化？浅谈日语学习中借鉴来的经验</title>
@@ -1262,6 +1262,22 @@ du haben.
       <tags>
         <tag>语言学习</tag>
         <tag>日本語</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>玄学背后的一点点剖析</title>
+    <url>/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi.html</url>
+    <content><![CDATA[<p>和室友讨论得来的一点点启发</p>
+<span id="more"></span>
+<p>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。
+我是挺无语的。 我觉得这是对现在科学的侮辱。
+因为他说的这种首先取样就不严谨:
+<em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
+<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算 99.999% 的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
+<p>我不理解为什么会有这么大的思维差异！</p>
+]]></content>
+      <tags>
+        <tag>一个男人的只言片语</tag>
       </tags>
   </entry>
   <entry>
@@ -1324,22 +1340,6 @@ Skyactive-X Mild Hybrid</h1>
       <tags>
         <tag>汽车</tag>
         <tag>Auto</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>玄学背后的一点点剖析</title>
-    <url>/xuan-xue-bei-hou-de-yi-dian-dian-pou-xi.html</url>
-    <content><![CDATA[<p>和室友讨论得来的一点点启发</p>
-<span id="more"></span>
-<p>室友他老爷子是老中医，又是农村长大，家里人也信算命的，他虽然读到了机械专业研究生毕业，但还是很信算命的，理由是，他家那边几个算命的算得很准，说出来的很多东西都说中了，让人不由得不信。而且他自己有过一次经验，说是看到村里有个人，与其在街上交错而过时，下意识的觉得此人印堂发黑，当时没在意，后来两三个月左右，那个人就死了。。。
-我是挺无语的。 我觉得这是对现在科学的侮辱。
-因为他说的这种首先取样就不严谨:
-<em>没有把他们请的算命师傅说的所有的话都将记录下来，跟我们说的都是说中了的事，如果全部记录下来一条一条对比，可能有很多说的不准呢</em></p>
-<p>其次我最不能容忍的一点，现代物理学家秉着严谨的态度，就算 99.999% 的实验数据复合预测，但是如果有一个数据不对，他们都不会妄下定论。但是在中国这事就变了，他们不管取样的多少，统计数据完不完善，只要有一个数据对上了，就对预测盲信到不信。</p>
-<p>我不理解为什么会有这么大的思维差异！</p>
-]]></content>
-      <tags>
-        <tag>一个男人的只言片语</tag>
       </tags>
   </entry>
   <entry>
