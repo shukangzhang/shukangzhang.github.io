@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"shukangzhang.com","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"shukangzhang.com","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="2023.11.04 非常难得，又有闲心来重新弄这个 blog，重做系统，或者换了新电脑，如何重新链接上这个 blog 一直是劝退我的一大因素，本来以为要一两天才能弄好，这次也是想着，再不济，那就再删一次 blog 文件夹呗，全部重头再来，没想到很简单就成功了，哈哈哈。">
 <meta property="og:type" content="article">
@@ -31,7 +31,7 @@
 <meta property="og:description" content="2023.11.04 非常难得，又有闲心来重新弄这个 blog，重做系统，或者换了新电脑，如何重新链接上这个 blog 一直是劝退我的一大因素，本来以为要一两天才能弄好，这次也是想着，再不济，那就再删一次 blog 文件夹呗，全部重头再来，没想到很简单就成功了，哈哈哈。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-11-04T21:52:35.000Z">
-<meta property="article:modified_time" content="2023-11-05T00:50:40.760Z">
+<meta property="article:modified_time" content="2023-11-05T00:50:40.000Z">
 <meta property="article:author" content="Shukang Zhang">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -75,6 +75,7 @@
   </div>
 
   <div class="site-meta">
+      <img class="custom-logo-image" src="/uploads/custom_logo_shukang.png" alt="Shukang's Blog">
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
@@ -158,7 +159,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">27</span>
+          <span class="site-state-item-count">28</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -306,9 +307,9 @@ rsa 生成密钥，登录 github，在设置里找到 ssh 那一栏，用公钥
 id_rsa.pub 里的乱码添加 ssh key，保存，教程在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/103391101">个人博客第 3 篇 —— 绑定 GitHub 并提交文件
 - 知乎 (zhihu.com)</a>。验证是否成功，我们可以通过在 Git Bash 中输入 ssh
 -T&nbsp;<a href="mailto:git@github.com">git@github.com</a>&nbsp;进行检验。 3.
-注意，绑定完，第一次同步需要绑定用户信息： &gt; $ git config--global
-user.name "shxxxxxang" &gt; $ git config--global user.email
-"zhanxxxxx@xxxmail.com" 4. <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/105715224">个人博客第 5 篇 —— 安装 node.js 和 Hexo
+注意，绑定完，第一次同步需要绑定用户信息： &gt; $ git config–global
+user.name “shxxxxxang” &gt; $ git config–global user.email
+“zhanxxxxx@xxxmail.com” 4. <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/105715224">个人博客第 5 篇 —— 安装 node.js 和 Hexo
 - 知乎 (zhihu.com)</a>，然后安装此教程安装 node.js，添加环境变量，npm
 install webpack -g，在原来的 blog 文件夹下安装 hexo，尝试 hexo
 init, 显示 <code>xxx not empty, please run</code>hexo

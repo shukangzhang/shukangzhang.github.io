@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"shukangzhang.com","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"shukangzhang.com","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="Split 功能汇总  Split Non-Contigous (分离非接触面) 导入的 Geometry 里的 surface 可能是一个整体，需要用此命令制作不同的 Boundary Split by Patch  Mesh st&#x3D;&gt;start: Operationsop1&#x3D;&gt;operation: Newop2&#x3D;&gt;operation: Meshop3&#x3D;&gt;operatio">
 <meta property="og:type" content="article">
@@ -76,6 +76,7 @@
   </div>
 
   <div class="site-meta">
+      <img class="custom-logo-image" src="/uploads/custom_logo_shukang.png" alt="Shukang's Blog">
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
@@ -160,7 +161,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">27</span>
+          <span class="site-state-item-count">28</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -319,9 +320,9 @@ Dimension (右键单击草绘)，然后勾选 <code>Expose Parameter</code> 可�
 <li> Duplicate Sketch
 Primitive (右键单击草绘)，然后设置圆心坐标，即可复制草绘</li>
 <li> 3D-CAD
-Models 里面建好的模型可以 Export 到 Parts 里，然后拖拽到右边视图框，选择 <code>Add to Geometry1</code>，想到移动模型的位置，右键 <code>Parts</code> 下已经 exported 模型，选择 <code>Transform</code>--&gt;<code>Translate</code></li>
+Models 里面建好的模型可以 Export 到 Parts 里，然后拖拽到右边视图框，选择 <code>Add to Geometry1</code>，想到移动模型的位置，右键 <code>Parts</code> 下已经 exported 模型，选择 <code>Transform</code>–&gt;<code>Translate</code></li>
 <li>Boolean 运算 subtract 时，没有保留原 Model 选项，所以是所有操作默认保留原几何？</li>
-<li>Boolean 后的整体需要 <code>Assign Parts to Regions</code>--&gt;<code>Create a Boundary for Each Part Surface</code></li>
+<li>Boolean 后的整体需要 <code>Assign Parts to Regions</code>–&gt;<code>Create a Boundary for Each Part Surface</code></li>
 <li>continua 下分 Mesh Continuum 和 Physics Continuum</li>
 <li></li>
 </ul>
