@@ -23,29 +23,33 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"shukangzhang.com","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"flat"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="终于在刚刚看了腾讯云 4 cores 8G RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服。">
+    <meta name="description" content="最近要给反应器做优化，想做一个流体的模拟，初试Comsol，失败，转而Ansys CFX，大呼绝绝子。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="v085maplestory 开服失败留恋">
-<meta property="og:url" content="https://shukangzhang.com/v085maplestory-kai-fu-shi-bai-liu-lian.html">
+<meta property="og:title" content="Ansys and Comsol 踩坑实录">
+<meta property="og:url" content="https://shukangzhang.com/using-ansys-and-comsol.html">
 <meta property="og:site_name" content="Shukang&#39;s Blog">
-<meta property="og:description" content="终于在刚刚看了腾讯云 4 cores 8G RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服。">
+<meta property="og:description" content="最近要给反应器做优化，想做一个流体的模拟，初试Comsol，失败，转而Ansys CFX，大呼绝绝子。">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://shukangzhang.com/v085maplestory-kai-fu-shi-bai-liu-lian/preisofcloudserver.png">
-<meta property="article:published_time" content="2020-12-17T18:33:39.000Z">
-<meta property="article:modified_time" content="2022-09-17T22:17:43.000Z">
+<meta property="og:image" content="https://shukangzhang.com/using-ansys-and-comsol/The%20solution%20did%20not%20converge.png">
+<meta property="og:image" content="https://shukangzhang.com/using-ansys-and-comsol/CAD%20Configuration%20Manager.png">
+<meta property="og:image" content="https://shukangzhang.com/using-ansys-and-comsol/error.png">
+<meta property="article:published_time" content="2025-06-08T19:17:24.000Z">
+<meta property="article:modified_time" content="2025-06-08T23:56:23.242Z">
 <meta property="article:author" content="Shukang Zhang">
-<meta property="article:tag" content="个人心情">
+<meta property="article:tag" content="Comsol">
+<meta property="article:tag" content="Ansys">
+<meta property="article:tag" content="tech">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://shukangzhang.com/v085maplestory-kai-fu-shi-bai-liu-lian/preisofcloudserver.png">
+<meta name="twitter:image" content="https://shukangzhang.com/using-ansys-and-comsol/The%20solution%20did%20not%20converge.png">
 
 
-<link rel="canonical" href="https://shukangzhang.com/v085maplestory-kai-fu-shi-bai-liu-lian.html">
+<link rel="canonical" href="https://shukangzhang.com/using-ansys-and-comsol.html">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://shukangzhang.com/v085maplestory-kai-fu-shi-bai-liu-lian.html","path":"v085maplestory-kai-fu-shi-bai-liu-lian.html","title":"v085maplestory 开服失败留恋"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://shukangzhang.com/using-ansys-and-comsol.html","path":"using-ansys-and-comsol.html","title":"Ansys and Comsol 踩坑实录"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>v085maplestory 开服失败留恋 | Shukang's Blog</title>
+<title>Ansys and Comsol 踩坑实录 | Shukang's Blog</title>
   
 
 
@@ -134,7 +138,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -147,6 +151,10 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#comsol"><span class="nav-number">1.</span> <span class="nav-text">Comsol</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ansys"><span class="nav-number">2.</span> <span class="nav-text">Ansys</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ansys-qa"><span class="nav-number">3.</span> <span class="nav-text">Ansys QA ⌈⌋</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#q-%E6%B7%BB%E5%8A%A0creo%E7%94%9F%E6%88%90%E7%9A%84prt%E6%A8%A1%E5%9E%8B%E6%8A%A5%E9%94%99%E6%98%BE%E7%A4%BA%E9%80%89%E5%AE%9A%E6%96%87%E4%BB%B6%E7%9A%84%E7%B1%BB%E5%9E%8B%E4%B8%8D%E5%8F%97%E6%94%AF%E6%8C%81%E6%88%96%E6%9C%AA%E9%85%8D%E7%BD%AE%E5%87%A0%E4%BD%95%E7%BB%93%E6%9E%84"><span class="nav-number">3.1.</span> <span class="nav-text">Q:
+添加 Creo 生成的 prt 模型报错，显示⌈选定文件的类型不受支持或未配置几何结构⌋</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#q-%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E7%94%A8primemesh"><span class="nav-number">3.2.</span> <span class="nav-text">Q: 什么时候用 primemesh</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#q-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%BB%84%E4%BB%B6%E7%9A%84%E6%9B%B4%E6%96%B0%E5%A4%B1%E8%B4%A5the-solver-failed-woth-a-non-zero-exit-code-of-2"><span class="nav-number">3.3.</span> <span class="nav-text">Q:
+解决方案组件的更新失败，the solver failed woth a non-zero exit code of
+2</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -235,7 +243,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://shukangzhang.com/v085maplestory-kai-fu-shi-bai-liu-lian.html">
+    <link itemprop="mainEntityOfPage" href="https://shukangzhang.com/using-ansys-and-comsol.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -248,12 +256,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="v085maplestory 开服失败留恋 | Shukang's Blog">
-      <meta itemprop="description" content="">
+      <meta itemprop="name" content="Ansys and Comsol 踩坑实录 | Shukang's Blog">
+      <meta itemprop="description" content="最近要给反应器做优化，想做一个流体的模拟，初试Comsol，失败，转而Ansys CFX，大呼绝绝子。">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          v085maplestory 开服失败留恋
+          Ansys and Comsol 踩坑实录
         </h1>
 
         <div class="post-meta-container">
@@ -264,14 +272,14 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2020-12-17 19:33:39" itemprop="dateCreated datePublished" datetime="2020-12-17T19:33:39+01:00">2020-12-17</time>
+      <time title="Created: 2025-06-08 21:17:24" itemprop="dateCreated datePublished" datetime="2025-06-08T21:17:24+02:00">2025-06-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-09-18 00:17:43" itemprop="dateModified" datetime="2022-09-18T00:17:43+02:00">2022-09-18</time>
+      <time title="Modified: 2025-06-09 01:56:23" itemprop="dateModified" datetime="2025-06-09T01:56:23+02:00">2025-06-09</time>
     </span>
 
   
@@ -281,33 +289,73 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>319</span>
+      <span>1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>4 mins.</span>
     </span>
 </div>
 
+            <div class="post-description">最近要给反应器做优化，想做一个流体的模拟，初试Comsol，失败，转而Ansys CFX，大呼绝绝子。</div>
         </div>
       </header>
 
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>终于在刚刚看了腾讯云 4 cores 8G
-RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服。 <span id="more"></span> <img src="/v085maplestory-kai-fu-shi-bai-liu-lian/preisofcloudserver.png" alt="腾讯云4 cores 8G RAM的法兰克福节点的云服务器的价格">
-一直以来都太勉强了。这一周过的真的好累。 - 要准备论文，没有时间 -
-没毕业没工作，所以没有充足的资金 - 没有身份，无法承受开私服会带来的风险
-- Java，php，mysql 不会；html，javaskript 入门级水平 -
-多级代理，反向代理一概不会，租大厂服务器风险大，租抗 DMCA 服务器又对网络攻击毫无防御力，对后门也毫无抵抗力
--
-动态网站也建不起来，虽然有信任的人可以外包，但是可能建起来我连维护能力都没有，太自大，以为用 hexo 架构 + Github 托管代码建了这个 blog 就以为自己有两下子了，在大佬面前其实什么都不是</p>
-<p>最重要的几样东西，一样没有。全凭一腔热血和手里那一点微薄的小钱。完完全全的初生牛犊不怕虎。</p>
-<p>哎，男人过了 30 该做有把握的事（虽然我还有两三年）。</p>
+    <div class="post-body" itemprop="articleBody"><h1 id="comsol">Comsol</h1>
+<p>模型不复杂，前后左右四进口，气体从中央的穿孔铜片处出来，孔比较小而已。设置也比较简单：
+- 单向流，层流 (进出口 Re 都很小)，稳态，只有一个 Fluid Domain，没有流固耦合
+- 定义 inlet + velocity - 定义 outlet + 0 Pa pressure -
+定义对称面，为了减小计算量，模型从中间切了一刀，左右对称 -
+剩下的全部作为 wall - mesh 是自动生成的，我反正也不会改</p>
+<p>然后开始计算，Comsol 怎么都不收敛，一开始是一直在计算，但是进度怎么都到不了 100%，求解器进度进进退退，最后甚至退到了 7%，残差从第二次迭代开始就飙升到了 10 的 6 次方。。。跑了三个多小时都跑不完，显然不对，然后我把出口的孔从 0.5
+mm 加到 2 mm，然后又加到 4
+mm，网格精度选了最粗，好家伙，网格从 500 多万 elements 降到了 50w 个 elements，计算确实快了很多，让我可以更快的收到报错了。
+<img src="/using-ansys-and-comsol/The%20solution%20did%20not%20converge.png" alt="The solution did not converg">
+好事，总比跑了 10 个小时才报错好，最粗的网格 + 这么大的 outlet 都无法计算，我作为小白，完全摸不着头脑，折腾两天，思来想去，只好换平台</p>
+<h1 id="ansys">Ansys</h1>
+<p>我们学校跟 Ansys 有合作，所以本科学校教了 Ansys 一些基本用法，包括传热，流体，应力分析，共振频率等等，最后的结业课题项目是做锂电池的散热，经典的流固耦合案例，固体 + 流体 + 传热，所以其实是有不少经验的。后来 Master 有门选修是 3D 打印，让我们用的是 siemens
+starccm+，后来经同学介绍才知道，他们的自己搞了个多面体网格，说是立体模拟上有优势，这些算法上的东西我就不懂了。</p>
+<p>后来一直想转 Comsol 是出于以下几点： 1.
+Comsol 至少有当下 App 该有的 UI 设计语言，没有那么强的年代感。 2.
+Comsol 会给出他求解用的方程组，而不是黑箱。 3.
+Comsol 可以快速的出二次开发 App，把自己的模拟制作成 App 发行，这样别人也可以微调参数自己跑着玩了，这点很吸引我。</p>
+<p>结果这次被狠狠打脸了。</p>
+<p>同样是自动化网格，Ansys 会让你选择应用场景，mechnical 还是 CFD 还是什么的，然后每个选项他有自己的预设，小白也可以输出比较看得过去的网格质量。然后发现层流稳态还可以添加 turbulence 的分量，默认是 5%</p>
+<p>上了 CFX，用了上面一样的进出口定义，一次就出了结果，开心坏了。但是总觉得模拟结果有点不太对，出口的流线分布很奇怪，检查 CFX
+Solver Manager 的日志发现如下报错：</p>
+<p><code>ˋ</code>text A wall has been placed at portion(s) of an OUTLET
+| | boundary condition (at 82.6% of the faces, 82.8% of the area) | | to
+prevent fluid from flowing into the domain. | | The boundary condition
+name is: outlet. | | The fluid name is: Fluid 1. | | If this situation
+persists, consider switching | | to an Opening type boundary condition
+instead. <code>ˋ</code> <code>ˋ</code>text An error has occurred in
+cfx5solve: | | | | After 3 attempts: Unable to remove working directory:
+Permission | | denied <code>ˋ</code></p>
+<p>自带材料库没有 Argon，上网找了些物料属性，添加了进去</p>
+<h1 id="ansys-qa">Ansys QA ⌈⌋</h1>
+<h2 id="q-添加creo生成的prt模型报错显示选定文件的类型不受支持或未配置几何结构">Q:
+添加 Creo 生成的 prt 模型报错，显示⌈选定文件的类型不受支持或未配置几何结构⌋</h2>
+<p>A: (感谢 Copilot 提供帮助) 1. 打开 CAD Configuration
+Manager（在⌈所有应用⌋中搜索）。 2. 右键以管理员身份运行。 3.
+在列表中选择你使用的 CAD 软件（如 NX、Creo、SolidWorks 等）。 <img src="/using-ansys-and-comsol/CAD%20Configuration%20Manager.png" alt="CAD Configuration Manager"> 4. 勾选⌈使用阅读器（无需安装
+CAD）⌋选项。安装了的话，要选下面一个 Workbench 关联，然后下一步 5.
+填好 Creo parametric 的安装路径和 bat 文件路径，继续下一步 6.
+点击⌈配置选定的 CAD 接口⌋，直到提示⌈配置成功⌋。 7. 关闭配置器并重新启动
+ANSYS Workbench。</p>
+<h2 id="q-什么时候用primemesh">Q: 什么时候用 primemesh</h2>
+<h2 id="q-解决方案组件的更新失败the-solver-failed-woth-a-non-zero-exit-code-of-2">Q:
+解决方案组件的更新失败，the solver failed woth a non-zero exit code of
+2</h2>
+<figure>
+<img src="/using-ansys-and-comsol/error.png" alt="error">
+<figcaption aria-hidden="true">error</figcaption>
+</figure>
 
     </div>
 
@@ -347,7 +395,7 @@ RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服�
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="https://shukangzhang.com/v085maplestory-kai-fu-shi-bai-liu-lian.html" title="v085maplestory 开服失败留恋">https://shukangzhang.com/v085maplestory-kai-fu-shi-bai-liu-lian.html</a>
+      <a href="https://shukangzhang.com/using-ansys-and-comsol.html" title="Ansys and Comsol 踩坑实录">https://shukangzhang.com/using-ansys-and-comsol.html</a>
   </li>
   <li class="post-copyright-license">
       <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
@@ -356,7 +404,9 @@ RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服�
 </div>
 
           <div class="post-tags">
-              <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%BF%83%E6%83%85/" rel="tag"><i class="fa fa-tag"></i> 个人心情</a>
+              <a href="/tags/Comsol/" rel="tag"><i class="fa fa-tag"></i> Comsol</a>
+              <a href="/tags/Ansys/" rel="tag"><i class="fa fa-tag"></i> Ansys</a>
+              <a href="/tags/tech/" rel="tag"><i class="fa fa-tag"></i> tech</a>
           </div>
 
         
@@ -371,14 +421,11 @@ RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服�
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/aqueous-dispersion-of-nanobubbles-generation-properties-and-features-du-hou-zong-jie.html" rel="prev" title="读后总结: Aqueous dispersion of nanobubbles: Generation, properties and features">
-                  <i class="fa fa-angle-left"></i> 读后总结: Aqueous dispersion of nanobubbles: Generation, properties and features
+                <a href="/eataly.html" rel="prev" title="Eataly">
+                  <i class="fa fa-angle-left"></i> Eataly
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/mu-yin-wu-sheng-hua.html" rel="next" title="母音无声化？浅谈日语学习中借鉴来的经验">
-                  母音无声化？浅谈日语学习中借鉴来的经验 <i class="fa fa-angle-right"></i>
-                </a>
             </div>
           </div>
     </footer>
@@ -478,11 +525,11 @@ RAM 的法兰克福节点的云服务器的价格以后决定暂时放弃开服�
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js" integrity="sha256-yvJQOINiH9fWemHn0vCA5lsHWJaHs6/ZmO+1Ft04SvM=" crossorigin="anonymous"></script>
-  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://shukangzhang.com/v085maplestory-kai-fu-shi-bai-liu-lian.html"}</script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://shukangzhang.com/using-ansys-and-comsol.html"}</script>
   <script src="/js/third-party/quicklink.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"shukangzhang","repo":"pinglun","client_id":"595131d2425f3629ee3e","client_secret":"86b938ff4bd44687f7f5943856f6dcc1b60b626a","admin_user":"shukangzhang","distraction_free_mode":true,"language":null,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"8687332dac2a591aa4d6771cb8dd84ab"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"shukangzhang","repo":"pinglun","client_id":"595131d2425f3629ee3e","client_secret":"86b938ff4bd44687f7f5943856f6dcc1b60b626a","admin_user":"shukangzhang","distraction_free_mode":true,"language":null,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"ff642f5fbc166ea37f21db946a0ec08b"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
 
 </body>
