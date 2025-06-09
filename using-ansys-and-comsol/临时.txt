@@ -1,0 +1,7 @@
+A wall has been placed at portion(s) of an OUTLET                 |
+ |  boundary condition (at  82.6% of the faces,  82.8% of the area)   |
+ |  to prevent fluid from flowing into the domain.                    |
+ |  The boundary condition name is: outlet.                           |
+ |  The fluid name is: Fluid 1.                                       |
+ |  If this situation persists, consider switching                    |
+ |  to an Opening type boundary condition instead.
