@@ -97,7 +97,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">28</span></a></li><li class="menu-item menu-item-test"><a href="/test/" rel="section"><i class="fa fa-book fa-fw"></i>test</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">30</span></a></li><li class="menu-item menu-item-test"><a href="/test/" rel="section"><i class="fa fa-book fa-fw"></i>test</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
         </a>
@@ -163,7 +163,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">31</span>
+          <span class="site-state-item-count">37</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -173,7 +173,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">28</span>
+        <span class="site-state-item-count">30</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -314,14 +314,14 @@
 <h1 id="install-hexo-dependency">Install hexo dependency</h1>
 <p><code>$ npm install --save hexo-pdf</code></p>
 <h1 id="usage">Usage</h1>
-<p>在 <code>post_asset_folder: true</code> 的情况下你就可以在 <code>/source/_posts</code> 目录下用和 <code>xxx.md</code> 同名的文件夹保存图片和 pdf 文件啦</p>
+<p>在<code>post_asset_folder: true</code>的情况下你就可以在<code>/source/_posts</code>目录下用和<code>xxx.md</code>同名的文件夹保存图片和 pdf 文件啦</p>
 <p>然后键入: </p><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./xxx.<span class="property">pdf</span> %}</span><br></pre></td></tr></tbody></table></figure> 咦，怎么不行！？<p></p>
 <span id="more"></span>
-<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于 pdf 路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐 <code>theme/next/souce</code> 目录下建一个 <code>file</code> 文件夹，然后用
+<p>我在这里卡了一整天，看了好多人的教程，大部分无外乎直接把官网的教程粘贴复制来，对于 pdf 路径一概不解释，好的教程会解释一下，分两种，一种是上面我提到的路径，另一种一种是推荐<code>theme/next/souce</code>目录下建一个<code>file</code>文件夹，然后用
 </p><figure class="highlight javascript"><table><tbody><tr><td class="code"><pre><span class="line">{% pdf ./file/xxx.<span class="property">pdf</span> %}</span><br></pre></td></tr></tbody></table></figure>
-结果还是不行，我都放弃了，出去wandern了10km，吃了Döner回来，又玩了会游戏，突然想到，看看_config.yml文件里有没有关于pdf的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：
+结果还是不行，我都放弃了，出去 wandern 了 10km，吃了 Döner 回来，又玩了会游戏，突然想到，看看_config.yml 文件里有没有关于 pdf 的配置，果然！！！在<strong>主题配置文件</strong>里看到了下面的：
 <img src="/hexo-tian-jia-pdf/pdftag.png">
-这里一直是 <code>enable: false</code> 怎么显示的出来pdf啊。<p></p>
+这里一直是<code>enable: false</code>怎么显示的出来 pdf 啊。<p></p>
 <p>默认只有 height 设置，<del>width 设置是我自己加上去的，实测没用</del></p>
 <p>另外下图给出我添加 pdf 过程中出现的错误，大家可以参考一下，比如 +
 域名是 https 的话 http 开头的图床是会被 block 掉的 +
@@ -329,7 +329,7 @@ google 和 onedrive 的 pdf 读不出来我是真的不知道为什么 <img src=
 <hr>
 <h1 id="upgrade">06.15 Upgrade</h1>
 <p>以上方法显示出来的 PDF 不知道为什么宽度不可调，我怎么都弄不好，放弃了，改用：
-</p><figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure> html代码解决 object可换成embed, iframe 参考链接如下：
+</p><figure class="highlight html"><table><tbody><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"./xxx.pdf"</span> <span class="attr">type</span>=<span class="string">"application/pdf"</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">height</span>=<span class="string">"1000px"</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure> html 代码解决 object 可换成 embed, iframe 参考链接如下：
 &gt;<a target="_blank" rel="noopener" href="http://miracle778.site/pdf-test/pdf-test.html">hexo 中插入 pdf 解决方法</a>
 &gt;<a target="_blank" rel="noopener" href="https://blog.csdn.net/qappleh/article/details/80250492">前端预览 PDF 总结：iframe、embed、PDFObject、PDF.js</a><p></p>
 <h1 id="upgrade-1">06.20 Upgrade</h1>
@@ -437,13 +437,13 @@ google 和 onedrive 的 pdf 读不出来我是真的不知道为什么 <img src=
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">18k</span>
+    <span title="Word count total">19k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">1:06</span>
+    <span title="Reading time total">1:10</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
